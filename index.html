@@ -4,13 +4,8 @@ title: 主页
 ---
 <h2>{{ page.title }}</h2>
 <p>最新文章</p>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2084450"></script>
 <ul>
 	{% for post in site.posts %}
-		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <h4>（
-		<!-- UYAN COUNT BEGIN -->
-		<a href="{{ site.baseurl }}{{ post.url }}" id="uyan_count_unit">0条评论</a>
-		<!-- UYAN COUNT END -->
-		）</h4></li>
+		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
