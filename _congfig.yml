@@ -1,3 +1,4 @@
 baseurl: /ZJZBlog
 gems:
   - jekyll-sitemap
+timezone: China/Beijing
