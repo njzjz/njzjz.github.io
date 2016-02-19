@@ -11,6 +11,9 @@
 	
     <section class="main-content">
 		<h2>{{ page.title }}</h2>
+		{% if page.share != false %}
+		{% include share.html %}
+		{% endif %}
 		{{ content }}
 		<footer class="site-footer">
 		{% if page.comments != false %}
