@@ -4,7 +4,7 @@ url:location.href,
 showcount:'1',
 desc:'',
 summary:'',/*分享摘要(可选)*/
-title:'{{ page.title }}',
+title:'',
 site:'曾晋哲的Blog',
 pics:'', 
 style:'202',
