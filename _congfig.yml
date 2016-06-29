@@ -1,4 +1,23 @@
+title: 曾晋哲的Blog
+description: ZJZ's Blog
 baseurl: /ZJZBlog
+wner:
+  name:           曾晋哲
+  avatar:         
+  bio:            
+  email:          njzjz@msn.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        njzjz
+  facebook:       
+  github:         njzjz
+  stackexchange:  
+  linkedin:       
+  instagram:      
+  flickr:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    
 gems:
   - jekyll-sitemap
   - jekyll-feed
