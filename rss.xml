@@ -1,0 +1,25 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0">
+    <channel>
+        <title>曾晋哲的Blog</title>
+        <description>曾晋哲的Blog</description>
+        <link>http://www.njzjz.top/</link>
+        <generator>曾晋哲</generator>
+        <language>zh-CN</language>
+        <image>
+            <link>http://www.njzjz.top/</link>
+            <url>https://pbs.twimg.com/profile_images/636466421245997056/wOF6q5ch.jpg</url>
+            <title>曾晋哲</title>
+        </image>
+		{% for post in site.posts %}
+		<item>
+			<title>{{ post.title }}</title>
+			<link>{{ site.baseurl }}{{ post.url }}</link>
+			<pubDate>{{ post.date | date_to_string }} </pubDate>
+			<guid>{{ site.baseurl }}{{ post.url }}</guid>
+		</item>
+		{% endfor %}
+	</channel>
+</rss>
