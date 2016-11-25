@@ -1,11 +1,9 @@
 ---
 layout: default
-title: 主页
+title: 站点导航
 comments: false
 ---
-<p>最新文章</p>
-<ul>
-	{% for post in site.posts %}
-		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
-</ul>
+<h2><a href="http://chemapp.njzjz.win/">化学e+ Web版</a></h2>
+<h2><a href="http://chem.njzjz.win/">化学e+ 下载</a></h2>
+<h2><a href="/blog.html">曾晋哲的Blog</a></h2>
+<h2><a href="http://tieba.njzjz.win/">贴吧云签到</a></h2>
