@@ -11,17 +11,8 @@
 	
     <section class="main-content">
 		<h2>{{ page.title }}</h2>
-		{% if page.share != false %}
-		<p>{% include share.html %}</p>
-		{% endif %}
 		{{ content }}
 		<footer class="site-footer">
-		{% if page.comments != false %}
-		<!-- UY BEGIN -->
-		<div id="uyan_frame"></div>
-		<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2084450"></script>
-		<!-- UY END -->
-		{% endif %}
         <a href="/index.html">站点导航</a>|<a href="https://github.com/njzjz">Github</a>
 		</footer>
     </section>
