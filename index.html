@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="shortcut icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/9496702?v=4">
+<link rel="stylesheet" type="text/css" href="stylesheets/navbar.css" media="screen">
 <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
 <title> Loading... </title>
 <script>
@@ -17,7 +18,7 @@
 **
 */
 
-window.config = {"organization":false,"order":"CREATED_AT","title":"曾晋哲的博客","user":"njzjz","repository":"njzjz.github.io","authors":"","ignores":"","token":"4#ff94bc9d81347c8d566f32bf2aebb8c99e48977","perpage":20}
+window.config = {"organization":false,"order":"CREATED_AT","title":"Jinzhe Zeng's Blog","user":"njzjz","repository":"njzjz.github.io","authors":"","ignores":"","token":"4#ff94bc9d81347c8d566f32bf2aebb8c99e48977","perpage":20}
 </script>
 
 <script>
@@ -34,9 +35,10 @@ if (ua.indexOf('MSIE') > -1 || ua.match(/Trident\/7\./)) {
 <style>.error,.loading,.transition{height:100%}.error body,.loading body,.transition body{height:100%}#loader{text-align:center;position:fixed;z-index:3;left:0;top:0;height:100%;width:100%;opacity:0;visibility:hidden;-webkit-transition:all .3s ease;transition:all .3s ease;background-color:rgba(255,255,255,.95)}.loading #loader{opacity:1;visibility:visible}.loading #loader div{display:inline-block;width:50px;height:50px;vertical-align:middle;-webkit-border-radius:3px;border-radius:3px;background-color:#fff;-webkit-box-shadow:0 0 3px rgba(0,0,0,.15);box-shadow:0 0 3px rgba(0,0,0,.15)}.loading #loader div:before{content:'';width:26px;height:26px;display:block;margin:8px auto 0;-webkit-border-radius:20px;border-radius:20px;-webkit-animation:loading .5s linear forwards infinite;animation:loading .5s linear forwards infinite;border-top:4px solid #0089fa;border-right:4px solid #ff002b;border-bottom:4px solid #ffa900;border-left:4px solid #00a753}.loading #loader:after{content:'';display:inline-block;height:100%;vertical-align:middle}@keyframes loading{100%{transform:rotate(360deg)}}@-webkit-keyframes loading{100%{-webkit-transform:rotate(360deg)}}</style>
 </head>
 <body>
+   <div id="map" class="navbar"><ul><li><div><a href="http://t.njzjz.win/r">Rearch Group<!--{cn}课题组--></a></div></li><li><a href="https://reacnetgenerator.njzjz.win/">ReacNetGenerator</a></li><li><a href="https://chem.njzjz.win/">Chemical Tools<!--{cn}化学e+--></a></li><li><a href="https://chemicaltools.njzjz.win/">Chemical Tools Web<!--{cn}化学e+网页版--></a></li><li><a href="https://tieba.njzjz.win/">Tieba Sign<!--{cn}贴吧云签--></a></li><li>
+  <div><a href="javascript:if(tran.getLang()==='default'){tran.setLang('cn');}else {tran.setLang('default');}">中文<!--{cn}English--></a></div></li></div>
   <div class="page home">
     <div id="user"></div>
-    <div id="map" style="text-align: center;"><a href="http://computchem.cn/">课题组</a> · <a href="https://reacnetgenerator.njzjz.win/">ReacNetGenerator</a> · <img src="https://chem.njzjz.win/images/ic_launcher.png" width="20" height="20"/><a href="https://chem.njzjz.win/">化学e+</a>（<a href="https://chemicaltools.njzjz.win/">网页版</a>） · <img src="http://pic.uzzf.com/up/2016-4/2016428171222421.png" width="20" height="20" /><a href="https://tieba.njzjz.win/">贴吧云签</a></div>
     <div id="posts"></div>
   </div>
   <div class="page single">
@@ -45,4 +47,8 @@ if (ua.indexOf('MSIE') > -1 || ua.match(/Trident\/7\./)) {
   </div>
   <div id="loader"><div></div></div>
 <script type="text/javascript" src="build.a0a61a10.js"></script></body>
+<script type="text/javascript" src="translater.min.js"></script>
+<script type="text/javascript">
+  var tran = new Translater();
+</script>
 </html>
