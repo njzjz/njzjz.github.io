@@ -28,6 +28,8 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+	display: inline-block;
+	float: none;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
