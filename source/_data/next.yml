@@ -139,14 +139,13 @@ exturl: true
 menu:
   home: / || home
   CV: https://cv.njzjz.win/ || user
-  softwares: /softwares/ || app-store-ios
+  Softwares: /softwares/ || app-store
   #tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
-  ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || researchgate
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -178,11 +177,12 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 #social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
-  #Weibo: https://weibo.com/yourname || weibo
-  #Google: https://plus.google.com/yourname || google
-  #Twitter: https://twitter.com/yourname || twitter
+  GitHub: https://github.com/njzjz || github
+  E-Mail: mailto:jzzeng@stu.ecnu.edu.cn || envelope
+  Weibo: https://weibo.com/njzjz || weibo
+  Google Scholar: https://scholar.google.com/citations?user=P7gRtg4AAAAJ || google
+  ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || researchgate
+  Twitter: https://twitter.com/njzjz || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -554,7 +554,7 @@ valine:
 # Gitment
 # Introduction: https://github.com/imsun/gitment
 gitment:
-  enable: true
+  enable: false
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
@@ -572,11 +572,11 @@ gitment:
 # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.top/2018/8/10/gitalk-error/
 gitalk:
   enable: false
-  github_id:  # Github repo owner
-  repo:  # Repository name to store issues.
-  client_id:  # Github Application Client ID
-  client_secret:  # Github Application Client Secret
-  admin_user:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  github_id: njzjz  # Github repo owner
+  repo: njzjz.github.io # Repository name to store issues.
+  client_id: 88da8a24e98af8c2e558 # Github Application Client ID
+  client_secret: 50a685ee108b4b436466cfcb57446ec5c2dc9466 # Github Application Client Secret
+  admin_user: njzjz # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
 
 # Baidu Share
