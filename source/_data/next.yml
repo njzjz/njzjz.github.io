@@ -139,7 +139,7 @@ exturl: true
 menu:
   home: / || home
   CV: https://cv.njzjz.win/ || user
-  Softwares: /softwares/ || app-store
+  Softwares: /softwares/ || server
   #tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
@@ -176,12 +176,12 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
+social:
   GitHub: https://github.com/njzjz || github
   E-Mail: mailto:jzzeng@stu.ecnu.edu.cn || envelope
   Weibo: https://weibo.com/njzjz || weibo
   Google Scholar: https://scholar.google.com/citations?user=P7gRtg4AAAAJ || google
-  ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || researchgate
+  ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || graduation-cap
   Twitter: https://twitter.com/njzjz || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
@@ -571,7 +571,7 @@ gitment:
 # Demo: https://gitalk.github.io
 # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.top/2018/8/10/gitalk-error/
 gitalk:
-  enable: false
+  enable: true
   github_id: njzjz  # Github repo owner
   repo: njzjz.github.io # Repository name to store issues.
   client_id: 88da8a24e98af8c2e558 # Github Application Client ID
@@ -949,9 +949,9 @@ vendors:
   # Internal version: 4.6.2
   # See: https://fontawesome.com
   # Example:
-  # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
-  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css
   fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css
+  # fontawesome: //cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.7.1/css/fontawesome.min.css
 
   # Internal version: 2.4.1
   # See: https://www.algolia.com
