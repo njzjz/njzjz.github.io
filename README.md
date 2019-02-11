@@ -15,3 +15,4 @@ Merged reposititories are deleted.
 * Merged from njzjz/Internship-Daily, which records my internship diary during intership at Shanghai Qiaokun Chemical Technology Co., LTD. from Sept 2018 to Oct 2018.
 * Merged from njzjz/ProxyShare, which shares my proxy with others, helping them using Google Scholar and so on.
 * Merged from njzjz/ECNU-Chemistry-Learning-materials, which provides learning materials for chemistry students at East China Normal Unversity.
+* Merged from njzjz/CV, my CV.
