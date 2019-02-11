@@ -1,0 +1,2 @@
+type: "categories"
+layout: "categories"

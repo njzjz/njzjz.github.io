@@ -1,0 +1,2 @@
+type: "tags"
+layout: "tags"
