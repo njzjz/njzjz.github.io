@@ -60,7 +60,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2016
 
   # Icon between year and copyright info.
   icon:
@@ -313,9 +313,9 @@ codeblock:
   border_radius:
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result
-    show_result: false
+    show_result: true
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -336,7 +336,7 @@ reward:
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
 related_posts:
-  enable: false
+  enable: true
   title: # custom header, leave empty to use the default one
   display_in_home: false
   params:
@@ -349,8 +349,8 @@ related_posts:
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
-  enable: false
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source.
+  enable: true
+  url: https://github.com/njzjz/njzjz.github.io/tree/hexo/source # Link for view source.
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit.
 
 
@@ -599,7 +599,7 @@ gitalk:
 # Weibo,Wechat,Douban,QQZone,Twitter,Linkedin,Mailto,Reddit,Delicious,StumbleUpon,Pinterest,Facebook,GooglePlus,
 # Slashdot,Technorati,Posterous,Tumblr,GoogleBookmarks,Newsvine,Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
 needmoreshare2:
-  enable: false
+  enable: true
   postbottom:
     enable: false
     options:
@@ -608,7 +608,7 @@ needmoreshare2:
       position: bottomCenter
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
   float:
-    enable: false
+    enable: true
     options:
       iconStyle: box
       boxForm: horizontal
@@ -752,7 +752,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -764,7 +764,7 @@ local_search:
 # Bookmark Support
 # Dependencies: https://github.com/theme-next/theme-next-bookmark
 bookmark:
-  enable: false
+  enable: true
   # if auto
   #  - save the reading position when closing the page
   #  - or clicking the bookmark-icon
@@ -805,7 +805,7 @@ tabs:
 # Reading progress bar
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
-  enable: false
+  enable: true
   color: "#37c6c0"
   height: 2px
 
