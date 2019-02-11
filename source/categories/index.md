@@ -1,2 +1,3 @@
-type: "categories"
-layout: "categories"
+title: Categories
+type: categories
+---
