@@ -8,7 +8,9 @@ subtitle: 苟利国家生死以，岂因祸福避趋之
 description: Undergraduate, East China Normal University
 keywords: Jinzhe Zeng Blog
 author: Jinzhe Zeng
-language: en
+language: 
+   - en
+   - zh-CN
 timezone: Asia/Shanghai
 
 # URL
