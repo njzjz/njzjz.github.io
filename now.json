@@ -2,13 +2,13 @@
     "version": 2,
     "builds": [
         {
-            "src": "redirect/index.js",
+            "src": "source/redirect/index.js",
             "use": "@now/node"
         }
     ],
     "routes": [
         {
-            "src": "redirect/(.*)",
+            "src": "source/redirect/(.*)",
             "dest": "index.js"
         }
     ],
