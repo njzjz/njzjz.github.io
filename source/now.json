@@ -11,5 +11,17 @@
             "src": "redirect/(.*)",
             "dest": "index.js"
         }
+    ],
+    "alias" : [
+        "chemapp.njzjz.win",
+        "tieba.njzjz.win",
+        "group.njzjz.win",
+        "hrrna.njzjz.win",
+        "github.njzjz.win",
+        "internshipdiary.njzjz.win",
+        "proxy.njzjz.win",
+        "learning.njzjz.win",
+        "cv.njzjz.win"",
+        "navi.njzjz.win"
     ]
 }
