@@ -8,8 +8,8 @@
     ],
     "routes": [
         {
-            "src": "source/redirect/(.*)",
-            "dest": "index.js"
+            "src": "(.*)",
+            "dest": "source/redirect/index.js"
         }
     ],
     "alias" : [
