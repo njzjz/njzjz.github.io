@@ -8,7 +8,7 @@
     ],
     "routes": [
         {
-            "src": "source/redirect/(.*)",
+            "src": "(.*)",
             "dest": "index.js"
         }
     ],
