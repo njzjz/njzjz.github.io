@@ -1,0 +1,26 @@
+/* error.css */
+
+.ui.masthead.segment {
+    min-height: 300px;
+}
+
+.ui.masthead h1.ui.header {
+    margin-top: 1.5em;
+}
+
+.ui.masthead h2.ui.header {
+    margin-bottom: 1.5em;
+}
+
+.ui.vertical.stripe h1.ui.error.header {
+    font-size: 8em;
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.masthead.segment {
+        min-height: 160px;
+    }
+    .ui.vertical.stripe h1.ui.error.header {
+        font-size: 4em;
+    }
+}

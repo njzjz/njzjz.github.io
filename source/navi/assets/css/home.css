@@ -1,0 +1,51 @@
+/* home.css */
+
+.ui.masthead.segment {
+    padding: 1em 0em;
+}
+
+.ui.masthead .logo.item img {
+    margin-right: 1em;
+}
+
+.ui.masthead .ui.text.container {
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
+
+.ui.masthead div.ui.pointing.label {
+    margin-bottom: 2em;
+}
+
+.ui.masthead h1.ui.header {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.ui.masthead h1.ui.logo.header .ui.centered.image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ui.masthead .shortcuts {
+    margin-top: 0.5rem;
+}
+
+.ui.masthead .ui.link.list {
+    margin-top: 0.5em;
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.masthead .ui.text.container {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .ui.masthead h1.ui.header {
+        margin-top: 0em;
+        font-size: 2em;
+    }
+    .ui.masthead h2.ui.header {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}

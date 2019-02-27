@@ -1,0 +1,32 @@
+/* donate.css */
+
+.ui.masthead.segment {
+    min-height: 300px;
+}
+
+.ui.masthead h1.ui.header {
+    margin-top: 1.5em;
+}
+
+.ui.masthead h2.ui.header {
+    margin-bottom: 1.5em;
+}
+
+.ui.vertical.stripe h3.ui.header {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.centered.card .qrcode.image {
+    padding: 1em;
+    background: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.masthead.segment {
+        min-height: 160px;
+    }
+}

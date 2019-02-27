@@ -1,0 +1,48 @@
+/* analytics.css */
+
+.ui.masthead.segment {
+    min-height: 300px;
+}
+
+.ui.masthead h1.ui.header {
+    margin-top: 1.5em;
+}
+
+.ui.masthead h2.ui.header {
+    margin-bottom: 1.5em;
+}
+
+.ui.vertical.stripe .ui.statistic .label {
+    font-size: 1.2em;
+}
+
+.echart-container {
+    height: 400px;
+}
+#visit-hourly.echart-container {
+    height: 600px;
+}
+#visit-map.echart-container {
+    height: 600px;
+}
+#visit-calendar.echart-container {
+    height: 580px;
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.masthead.segment {
+        min-height: 160px;
+    }
+    .echart-container {
+        height: 300px;
+    }
+    #visit-hourly.echart-container {
+        height: 400px;
+    }
+    #visit-map.echart-container {
+        height: 400px;
+    }
+    #visit-calendar.echart-container {
+        height: 3450px;
+    }
+}

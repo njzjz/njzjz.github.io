@@ -1,0 +1,40 @@
+repository: njzjz/Navi
+repository_url: https://github.com/njzjz/Navi
+
+timezone: Asia/Shanghai
+lang: zh_CN
+
+title: 曾晋哲的导航 - Navi of Jinzhe Zeng
+alias_en: Navi of Jinzhe Zeng
+alias_cn: 曾晋哲的导航
+description: A Navigation Website of Jinzhe Zeng based on BYR-Navi. 
+keywords: 曾晋哲的导航, Navi, Navigation
+url: https://navi.njzjz.win
+established_at: "2018-08-26T00:00+08:00"
+
+author: 曾晋哲
+author_en: njzjz
+author_url: https://njzjz.win
+organization: East China Normal University
+organization_url: https://www.ecnu.edu.cn
+contact: contact[at]irockbunny[dot]com
+
+image: /images/logo.png
+logo: /images/logo.png
+logo_dark: /images/logo-dark.svg
+logo_white: /images/logo-white.svg
+
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- script
+- vendor

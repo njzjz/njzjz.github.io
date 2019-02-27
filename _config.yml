@@ -32,6 +32,7 @@ skip_render:
   - 404.html
   - cv/*.html
   - redirect/*
+  - navi/*
 
 # Writing
 new_post_name: :title.md # File name of new posts
