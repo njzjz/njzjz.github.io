@@ -2,7 +2,6 @@
 layout: default
 title: 捐赠
 icon: donate
-active_key: donate
 ---
 
 <div class="ui vertical stripe quote segment">
