@@ -95,13 +95,11 @@ neat_enable: true
 neat_html:
   enable: true
   exclude:
-    - 'navi/*'
   
 neat_css:
   enable: true
   exclude:
     - '*.min.css'
-    - 'navi/*'
 
 neat_js:
   enable: true
@@ -110,5 +108,4 @@ neat_js:
   compress:
   exclude:
     - '*.min.js'
-    - 'navi/*'
 
