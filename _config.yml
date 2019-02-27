@@ -110,5 +110,5 @@ neat_js:
   compress:
   exclude:
     - '*.min.js'
-    - 'navi/*‘
+    - 'navi/*'
 
