@@ -2,7 +2,6 @@
 title: CHEM0031131028 物质结构
 date: 2018-06-22
 categories: ECNUChemistry
-pdf: true
 ---
 ## 作业答案
 {% pdf https://p4.cdn.img9.top/ipfs/QmVhvfkESkQajbL1NnvreuyJA88xia697apuk6FiaC9SwP?4.pdf %}
