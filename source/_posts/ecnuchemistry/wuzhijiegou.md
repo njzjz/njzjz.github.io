@@ -14,7 +14,7 @@ pdf: true
 
 ### 2015-2016学年第二学期
 
-[下载](https://p0.cdn.img9.top/ipfs/QmauzgYDTjkmxK1HaaSwkTV2KbSvA7Z1zTgTCFspWbWCuB?0.pdf）
+[下载](https://p0.cdn.img9.top/ipfs/QmauzgYDTjkmxK1HaaSwkTV2KbSvA7Z1zTgTCFspWbWCuB?0.pdf)
 
 {% pdf https://p0.cdn.img9.top/ipfs/QmauzgYDTjkmxK1HaaSwkTV2KbSvA7Z1zTgTCFspWbWCuB?0.pdf %}
 
@@ -22,6 +22,6 @@ pdf: true
 
 ### 2016-2017学年第二学期
 
-[下载](https://p0.cdn.img9.top/ipfs/QmVB9TWSWdMR7wKehaj9gHcpzfG4ZZuHwbr1ZzhoVuWD2M?0.pdf）
+[下载](https://p0.cdn.img9.top/ipfs/QmVB9TWSWdMR7wKehaj9gHcpzfG4ZZuHwbr1ZzhoVuWD2M?0.pdf)
 
 {% pdf https://p0.cdn.img9.top/ipfs/QmVB9TWSWdMR7wKehaj9gHcpzfG4ZZuHwbr1ZzhoVuWD2M?0.pdf %}
