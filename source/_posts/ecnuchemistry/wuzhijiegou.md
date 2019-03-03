@@ -5,7 +5,7 @@ categories: ECNUChemistry
 pdf: true
 ---
 ## 作业答案
-[](https://p4.cdn.img9.top/ipfs/QmVhvfkESkQajbL1NnvreuyJA88xia697apuk6FiaC9SwP?4.pdf)
+{% pdf https://p4.cdn.img9.top/ipfs/QmVhvfkESkQajbL1NnvreuyJA88xia697apuk6FiaC9SwP?4.pdf %}
 
  ## 期末试题
 
