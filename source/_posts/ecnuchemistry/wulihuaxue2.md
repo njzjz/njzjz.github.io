@@ -20,11 +20,11 @@ pdf: true
 * [模拟二](https://p4.cdn.img9.top/ipfs/QmTz9F5uoHLoAyWRByY3J1iYtMDNCmXMGnv33r4GSozbDu?4.pdf)
 
 # 课件
-* [第六章](https://p0.cdn.img9.top/ipfs/QmZDD1jWXFNXP3zncD5Ceb8W8oRTWtp8vLeyLRtXajcsEr?0.ppt)
-* [第七章](https://p3.cdn.img9.top/ipfs/QmTotTUYiapgQxtpvAgMNa5ueqsVJtZ8y2XkWrwLDczjsK?3.ppt)
-* [第九到十一章](https://p0.cdn.img9.top/ipfs/QmVNKosfbiuS78cEHTFxVmT4ZYoDoaz67iHGWopVwVqpS3?0.ppt)
-* [第十二章](https://p0.cdn.img9.top/ipfs/QmZhuGzqj8Qpgz4wRoqCYZCwei65dFrf3R3w3NcBC2Bh4m?0.ppt)
-* [第十三章](https://p4.cdn.img9.top/ipfs/QmTkxnsk69gE15qpJK9jaRU7B8TpJNvGDSKempVPYUdFmT?4.ppt)
+* [第六章](https://p1.cdn.img9.top/ipfs/QmYRMydVqW3bgXfd3DTGz7H7ojvhxMcGXeQFRCqFeFoSAv?1.pdf)
+* [第七章](https://p3.cdn.img9.top/ipfs/QmPiTRRCYNM2oRtf91HeUwmZFnPNc1Rwb9D6A4D1F4mVaX?3.pdf)
+* [第九到十一章](https://p4.cdn.img9.top/ipfs/QmW5eNgtixmtt3pkqH4grzZp5jYSWG6FPEnFiYqXY8F6mg?4.pdf)
+* [第十二章](https://p3.cdn.img9.top/ipfs/QmZK8W2eJGU3Xr8haPWvYugiRUyTnYq4z7fLDpKyBwyQ9x?3.pdf)
+* [第十三章](https://p2.cdn.img9.top/ipfs/QmQgnDaXq4KGZUHESLhqx7FCx8ghciiaZ8HVD3v4cjoJEi?2.pdf)
 * [复习](https://p3.cdn.img9.top/ipfs/QmSYQ87urQJ2sAztSefCEQseSCAvrJoCaLYBziSdSHptmu?3.pptx)
 
 # 单元测试
