@@ -10,14 +10,14 @@ pdf: true
 
 # 期中试题
 
-* [2013-2014学年第二学期](https://p0.cdn.img9.top/ipfs/QmUVEcxpJr7DFyjhoJK46ouMWAb46nr3MtzaJF3s1nTDn7?0.docx)
+* [2013-2014学年第二学期](https://p3.cdn.img9.top/ipfs/QmTy3wbiwnA35DSjvEttsCwA9X7pX61rGrcehC65RU8hx2?3.pdf)
 * [2014-2015学年第二学期](https://p0.cdn.img9.top/ipfs/QmeArLcHN6iRfTYqa8urpVdpnuULTWZxCCjgoHxB1ooh5X?0.pdf)
 * [2016-2017学年第二学期](https://p0.cdn.img9.top/ipfs/QmWVKg4mAmEd88hmaAQ13gwSmzFtrteoZGUk6WdGGDzs5H?0.pdf)
 
 # 期末模拟
 
-* [模拟一](https://p2.cdn.img9.top/ipfs/QmWx3JyowEWtG2r9Dxi1wAU93CSE3SQzecroC9GGPmvkri?2.doc)
-* [模拟二](https://p1.cdn.img9.top/ipfs/QmTxMiLBjFiLfXyh3sQ8xRnsq28aZtVVttkk3MJHAL2Lbs?1.doc)
+* [模拟一](https://p0.cdn.img9.top/ipfs/QmZsPQx9MVumSHvuKSFkQykXbTrYErT5dSDxebGFyZHPBM?0.pdf)
+* [模拟二](https://p4.cdn.img9.top/ipfs/QmTz9F5uoHLoAyWRByY3J1iYtMDNCmXMGnv33r4GSozbDu?4.pdf)
 
 # 课件
 * [第六章](https://p0.cdn.img9.top/ipfs/QmZDD1jWXFNXP3zncD5Ceb8W8oRTWtp8vLeyLRtXajcsEr?0.ppt)
@@ -28,6 +28,6 @@ pdf: true
 * [复习](https://p3.cdn.img9.top/ipfs/QmSYQ87urQJ2sAztSefCEQseSCAvrJoCaLYBziSdSHptmu?3.pptx)
 
 # 单元测试
-* [第七章](https://p2.cdn.img9.top/ipfs/QmVtZEHe22NSPG3U1TAChnefUkKsNLQ2GGaWdgjWRS3tby?2.doc)
-* [第九到十一章](https://p3.cdn.img9.top/ipfs/QmXW1BCTmweVws9yDDJzQ8UsJDZNkKWvGCMcYKStXsEAu1?3.docx)
-* [第十三章](https://p1.cdn.img9.top/ipfs/QmYGHKTanQ4PEG6CjoYZwpMwCA9G2TQpxCGFtvviLsqavE?1.docx)
+* [第七章](https://p0.cdn.img9.top/ipfs/QmUQshyY3ERmgD5C5oNmGe6v2MiVRQ5i4wQX6ymtoCLfsR?0.pdf)
+* [第九到十一章](https://p2.cdn.img9.top/ipfs/QmX7fkJGGHyuUuphmfKASg8GMAkZ9wtK5K1KdibCz42R46?2.pdf)
+* [第十三章](https://p0.cdn.img9.top/ipfs/QmZpRTsuw3fju1NVRyaWRgFDroGUvXkYYAGzBCzBQaQ6jW?0.pdf)
