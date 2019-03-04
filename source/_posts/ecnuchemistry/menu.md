@@ -5,6 +5,6 @@ categories: ECNUChemistry
 ---
 * 公共必修
 
-    * {% post_link daxuejisuanji 大学计算机 %}
+    * {% post_link ecnuchemistry/daxuejisuanji 大学计算机 %}
 
 * 专业必修
