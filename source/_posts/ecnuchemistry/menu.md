@@ -4,7 +4,7 @@ date: 2019-03-05
 categories: ECNUChemistry
 ---
 * 劝退
-    * {% post_link ecnuchemistry/job 华东师范大学化学与分子工程学院2018届就业率达近四年最低 %}
+    * {% post_link job 华东师范大学化学与分子工程学院2018届就业率达近四年最低 %}
     * [如何看待华东师范大学研究生考试专业分数普遍较低的情况？是否有学校故意压分的嫌疑？-知乎](https://www.zhihu.com/question/312447813)
     * [我的劝退之总结篇-知乎](https://zhuanlan.zhihu.com/p/56874296)
 
