@@ -1,0 +1,29 @@
+---
+title: 分析化学与分析技术(II)
+date: 2019-03-04
+categories: ECNUChemistry
+pdf: true
+---
+# 作业答案
+* [下载](https://dev.tencent.com/api/share/download/2726b4be-3bc2-4a52-bc5c-e99bfced9ff4)
+# 期中试卷
+* [2015-2016学年第一学期](https://dev.tencent.com/api/share/download/eeaf50a8-a974-413d-8b41-e680287348be)
+# 课件
+* [前言](https://dev.tencent.com/api/share/download/243d4773-2ef8-4861-9557-dcbf44b4c514)
+* [AAS](https://dev.tencent.com/api/share/download/8f5a1c4a-4d52-42f4-8419-870839cffdaa)
+* [AES](https://dev.tencent.com/api/share/download/a62fa386-4be3-4274-b260-d4a148910965)
+* [Chromatography](https://dev.tencent.com/api/share/download/0a452a9a-9470-45ed-8cc8-0821e6a0a688)
+* [GC](https://dev.tencent.com/api/share/download/f7e9d447-85a7-4702-bf1b-0fc4124c2cb6)
+* [HPLC](https://dev.tencent.com/api/share/download/6be067e9-691a-4d7f-bdb0-55dbf8229100)
+* [IR](https://dev.tencent.com/api/share/download/9951b675-dbb4-4852-8884-a0afa634b0f5)
+* [MS](https://dev.tencent.com/api/share/download/ce4a81b2-8242-4daf-bf81-efcc136de593)
+* [NMR](https://dev.tencent.com/api/share/download/4e9ac608-914d-4821-a22e-4a8ae6fcd122)
+* [极谱分析](https://dev.tencent.com/api/share/download/ace90d98-0645-47f9-b4fc-ac7d278b1322)
+* 电位分析
+    * [1](https://dev.tencent.com/api/share/download/7c75b5ae-301f-45e9-bea6-eb9adc8fbc84)
+    * [2](https://dev.tencent.com/api/share/download/0938cb94-a420-4b5d-8bc5-05c57f666c81)
+    * [3](https://dev.tencent.com/api/share/download/8114977e-8a9b-4723-8a11-e16e3f44d207)
+    * [4](https://dev.tencent.com/api/share/download/c3d5211b-bd5c-4289-a79a-287d28765c17)
+    * [5](https://dev.tencent.com/api/share/download/6baf7fd7-10d6-42db-b9e2-da02fbac554f)
+* [紫外可见光谱](https://dev.tencent.com/api/share/download/afe0bab1-41fd-4a82-8e0a-a030edaab98a)
+* [复习](https://dev.tencent.com/api/share/download/b8f20fe3-88a2-4282-8f15-c57f4d5c3bd1)
