@@ -6,4 +6,4 @@ pdf: true
 ---
 # 作业答案
 
-* [下载](https://p4.cdn.img9.top/ipfs/QmZMzAaUzx6cCYerQwJCPXqZxUEPBSYEVjja7igKr31bu1?4.pdf)
+* [下载](https://dev.tencent.com/api/share/download/fc9b78b2-8a69-47f6-b5bf-3a81d8f32f7f)
