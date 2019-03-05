@@ -68,7 +68,7 @@ footer:
     # `heart` is recommended with animation in red (#ff0000).
     name: user
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
     color: "#808080"
 
@@ -318,7 +318,7 @@ codeblock:
     show_result: true
 
 # Wechat Subscriber
-#wechat_subscriber:
+wechat_subscriber:
   enabled: true
   qcode: https://open.weixin.qq.com/qr/code?username=gh_c3cec7062858
   description: My Wechat Account
@@ -620,7 +620,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics:UA-74033886-2
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster
@@ -681,14 +681,14 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: UJXGMqVd8DbRnRm6eSUV74aA-9Nh9j0Va
+  app_key: JWC5OD0apLNWan5JVDwDrvsx
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
   security: true
-  betterPerformance: false
+  betterPerformance: true
 
 # Another tool to show number of visitors to each article.
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
