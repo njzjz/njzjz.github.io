@@ -40,6 +40,7 @@ categories: ECNUChemistry
     * {% post_link ecnuchemistry/wujihuaxueshiyan 无机化学实验 %}
     * {% post_link ecnuchemistry/wulihuaxue1 物理化学(I) %}
     * {% post_link ecnuchemistry/wulihuaxue2 物理化学(II) %}
+    * {% post_link ecnuchemistry/wulihuaxueshiyan1 物理化学实验(I) %}
     * {% post_link ecnuchemistry/wuzhijiegou 物质结构 %}
     * {% post_link ecnuchemistry/youjihuaxue1 有机化学(I) %}
     * {% post_link ecnuchemistry/youjihuaxue2 有机化学(II) %}
