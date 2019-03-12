@@ -1,6 +1,6 @@
 # Jinzhe Zeng's Blog
 
-[![](https://img.shields.io/website-up-down-green-red/https/njzjz.win.svg?style=flat)](https://njzjz.win)
+[![](https://img.shields.io/website-up-down-green-red/https/njzjz.win.svg?style=flat)](https://njzjz.win) [![Greenkeeper badge](https://badges.greenkeeper.io/njzjz/njzjz.github.io.svg)](https://greenkeeper.io/)
 
 A blog powered by [Hexo](https://github.com/hexojs/hexo) and [Next Theme](https://github.com/theme-next/hexo-theme-next), and deployed by Travis-CI and [GitHub Pages](https://pages.github.com/).
 
