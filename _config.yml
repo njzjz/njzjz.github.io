@@ -108,3 +108,7 @@ neat_js:
   exclude:
     - '*.min.js'
 
+#autoissue
+owner: njzjz
+comment_repo: njzjz.github.io
+labels: ["Gitalk"]
