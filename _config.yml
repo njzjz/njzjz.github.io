@@ -113,3 +113,6 @@ owner: njzjz
 comment_repo: njzjz.github.io
 labels: ["Gitalk"]
 
+sitemap:
+  path: sitemap.xml
+
