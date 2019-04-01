@@ -108,3 +108,11 @@ neat_js:
   exclude:
     - '*.min.js'
 
+#autoissue
+owner: njzjz-bot
+comment_repo: njzjzgitalk
+labels: ["Gitalk"]
+
+sitemap:
+  path: sitemap.xml
+
