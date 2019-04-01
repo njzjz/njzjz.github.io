@@ -109,8 +109,8 @@ neat_js:
     - '*.min.js'
 
 #autoissue
-owner: njzjz-bot
-comment_repo: njzjzgitalk
+owner: njzjz
+comment_repo: njzjz.github.io
 labels: ["Gitalk"]
 
 sitemap:

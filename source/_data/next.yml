@@ -572,11 +572,11 @@ gitment:
 # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.top/2018/8/10/gitalk-error/
 gitalk:
   enable: true
-  github_id: njzjz-bot  # Github repo owner
-  repo: njzjzgitalk # Repository name to store issues.
+  github_id: njzjz  # Github repo owner
+  repo: njzjz.github.io # Repository name to store issues.
   client_id: 88da8a24e98af8c2e558 # Github Application Client ID
   client_secret: 50a685ee108b4b436466cfcb57446ec5c2dc9466 # Github Application Client Secret
-  admin_user: ["njzjz","njzjz-bot"] # GitHub repo owner and collaborators, only these guys can initialize github issues
+  admin_user: njzjz # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
 
 # Baidu Share
