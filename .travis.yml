@@ -5,7 +5,7 @@ cache: yarn
 env:
   global:
     - secure: "URJWTGe/stXWhnWu1iKVXz9gjogCWynLw4/MwRdGHf12wWCDpGAuZ+9zzY/J5r6uYDpOhDihfdcphk+3fT+rghQrqGneogLGAsDIydo06g9iuYl4BluHa1VVJiSpbEpdq9XOMlrNQXe5t70Q21yvCRVRDdgmJ//0O56omvkUNMuTVzJBsctD9Q3Ev+z6r2nww3s7pxHZTkA7rx3Pebt9NHv2fwHm6JMLjyiN2q3GLtmz1AX8n0tVnJDBXx3I7dPUBCM1Q1729b+AeLe+SHcv6PoDTcY65cieCqX8LVBlmO090dR2hJWW/Vjd+3iNehH6Ogo20X8eSdAN76YBqznu5w268v3FAN8pkYUUsSSgwnViiAogUmYk3gqNnklLv7kaA5wSexPD1yX6mkLI0kkEb/cDh1IdaJjbb/573zRLGNdAxul64tUoTdTNCYZAw32oCPc5B8MqUVKN2QQGqER+D/JDw/W+0hZ3jbT0+dQY1/orKa4gxEzILHSNx/0nY9Ax7s4QoIp8zQJ+ri6+F5fB53hFNju4Xh7RLSWCXbMdAQufYyC9ITaiIcvQHF6J2+LYuRwfKs0FPNkeZD1OpCyAL3axDAdccslC2HsWiaKtpO7ZKJDz3OGUMiAMZYLqkQBf4nfVwHUWg1ubut6LfEAX5kRVTBNU92K/prugoKvYtso="
-script: hexo g
+script: yarn build
 deploy:
   provider: pages
   skip_cleanup: true
