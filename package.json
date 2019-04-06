@@ -31,6 +31,6 @@
     "hexo-server": "0.3.3"
   },
   "devDependencies": {
-    "bundlesize": "^0.17.1"
+    "bundlesize": "0.17.1"
   }
 }
