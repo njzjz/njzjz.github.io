@@ -7,7 +7,7 @@
   },
   "scripts":{
     "build": "hexo g && bundlesize",
-	"now-build": "npm run build && mv public dist"
+    "now-build": "yarn build && mv public dist"
   },
   "bundlesize": [
     {
