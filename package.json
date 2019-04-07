@@ -6,7 +6,8 @@
     "version": "3.8.0"
   },
   "scripts":{
-    "build": "hexo g && bundlesize"
+    "build": "hexo g && bundlesize",
+	"now-build": "npm run build && mv public dist"
   },
   "bundlesize": [
     {

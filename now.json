@@ -2,26 +2,9 @@
     "version": 2,
     "builds": [
         {
-            "src": "source/redirect/index.js",
-            "use": "@now/node"
+            "src": "package.json",
+            "use": "@now/static-build"
         }
-    ],
-    "routes": [
-        {
-            "src": "(.*)",
-            "dest": "source/redirect/index.js"
-        }
-    ],
-    "alias" : [
-        "chemapp.njzjz.win",
-        "tieba.njzjz.win",
-        "group.njzjz.win",
-        "hrrna.njzjz.win",
-        "github.njzjz.win",
-        "internshipdiary.njzjz.win",
-        "proxy.njzjz.win",
-        "learning.njzjz.win",
-        "cv.njzjz.win",
-        "navi.njzjz.win"
+    
     ]
 }
