@@ -5,8 +5,8 @@
   "hexo": {
     "version": "3.8.0"
   },
-  "scripts":{
-    "build": "hexo g && bundlesize",
+  "scripts": {
+    "build": "cpx \"node_modules/hexo-theme-next/**/*\" themes/next && hexo g && bundlesize",
     "now-build": "yarn build && mv public dist"
   },
   "bundlesize": [
@@ -29,9 +29,11 @@
     "hexo-renderer-ejs": "0.3.1",
     "hexo-renderer-marked": "0.3.2",
     "hexo-renderer-stylus": "0.3.3",
-    "hexo-server": "0.3.3"
+    "hexo-server": "0.3.3",
+    "hexo-theme-next": "git+https://github.com/theme-next/hexo-theme-next.git"
   },
   "devDependencies": {
-    "bundlesize": "0.17.1"
+    "bundlesize": "0.17.1",
+    "cpx": "^1.5.0"
   }
 }
