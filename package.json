@@ -34,6 +34,6 @@
   },
   "devDependencies": {
     "bundlesize": "0.17.1",
-    "cpx": "^1.5.0"
+    "cpx": "1.5.0"
   }
 }
