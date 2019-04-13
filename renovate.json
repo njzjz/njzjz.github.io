@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>njzjz/renovate-config",
-    "config:base"
+    "config:base",
+    "github>njzjz/renovate-config"
   ]
 }
