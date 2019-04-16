@@ -1890,8 +1890,8 @@ hexo-server@0.3.3:
 
 "hexo-theme-next@git+https://github.com/theme-next/hexo-theme-next.git":
   version "7.1.0"
-  uid d39666e9306ab05614bc5530bfdaa574d7cd19ef
-  resolved "git+https://github.com/theme-next/hexo-theme-next.git#d39666e9306ab05614bc5530bfdaa574d7cd19ef"
+  uid "933dd90ae731561247d17b668273f8b3f7a8b869"
+  resolved "git+https://github.com/theme-next/hexo-theme-next.git#933dd90ae731561247d17b668273f8b3f7a8b869"
 
 hexo-util@^0.6.0, hexo-util@^0.6.2, hexo-util@^0.6.3:
   version "0.6.3"
