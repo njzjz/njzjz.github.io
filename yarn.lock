@@ -1839,7 +1839,7 @@ hexo-pdf@1.1.1:
   dependencies:
     ejs "^1.0.0"
 
-hexo-reference@^1.0.4:
+hexo-reference@1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/hexo-reference/-/hexo-reference-1.0.4.tgz#5198601ed445904f51764c9dfb77f5e99540ec32"
   integrity sha512-bPXunZHoH+Aq0v2SKS3CmnqClFsIcGzRonk1jjq0RLTQ/AB7MEw5xyldyMymyyK4IMWwlKgVrlTShNAIeNXCeA==
