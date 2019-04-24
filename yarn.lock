@@ -880,7 +880,7 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   resolved "http://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-cpx@^1.5.0:
+cpx@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/cpx/-/cpx-1.5.0.tgz#185be018511d87270dedccc293171e37655ab88f"
   integrity sha1-GFvgGFEdhycN7czCkxceN2VauI8=
@@ -1890,7 +1890,8 @@ hexo-server@0.3.3:
 
 "hexo-theme-next@git+https://github.com/theme-next/hexo-theme-next.git":
   version "7.1.0"
-  resolved "git+https://github.com/theme-next/hexo-theme-next.git#798d24bcad5ddc16c9eee690813b86c99ba0f6fb"
+  uid "933dd90ae731561247d17b668273f8b3f7a8b869"
+  resolved "git+https://github.com/theme-next/hexo-theme-next.git#933dd90ae731561247d17b668273f8b3f7a8b869"
 
 hexo-util@^0.6.0, hexo-util@^0.6.2, hexo-util@^0.6.3:
   version "0.6.3"
