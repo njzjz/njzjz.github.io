@@ -1,6 +1,5 @@
 ---
 title: 软件
-lang: zh-Hans
 ---
 
 ## [ReacNetGenerator](https://reacnetgenerator.njzjz.win/zh/)
