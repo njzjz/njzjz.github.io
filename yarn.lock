@@ -1746,7 +1746,7 @@ hexo-generator-archive@0.1.5:
     hexo-pagination "0.0.2"
     object-assign "^2.0.0"
 
-hexo-generator-basic-set@^0.1.1:
+hexo-generator-basic-set@0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/hexo-generator-basic-set/-/hexo-generator-basic-set-0.1.1.tgz#f39b423c99310ba8a8d65b439fb6f05dbd371d42"
   integrity sha1-85tCPJkxC6io1ltDn7bwXb03HUI=
@@ -1770,7 +1770,7 @@ hexo-generator-feed@1.2.2:
     nunjucks "^3.0.0"
     object-assign "^4.1.1"
 
-hexo-generator-index2@^0.2.0:
+hexo-generator-index2@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-index2/-/hexo-generator-index2-0.2.0.tgz#0aa46bf5aff125eb236f7168f66fa59c8ca8c326"
   integrity sha1-CqRr9a/xJesjb3Fo9m+lnIyowyY=
