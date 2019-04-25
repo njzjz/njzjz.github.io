@@ -116,3 +116,15 @@ labels: ["Gitalk"]
 sitemap:
   path: sitemap.xml
 
+index2_generator:
+  - layout: 'archive'
+    path: 'archives'
+    exclude:
+      - category ECNUChemistry
+      - category Internship
+  - layout: 'index'
+    path: ''
+    index: true
+    exclude:
+      - category ECNUChemistry
+      - category Internship
