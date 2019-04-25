@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 大学物理实验C
 date: 2019-03-04
 categories: ECNUChemistry

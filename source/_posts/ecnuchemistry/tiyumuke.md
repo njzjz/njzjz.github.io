@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 体育慕课
 date: 2019-03-04
 categories: ECNUChemistry

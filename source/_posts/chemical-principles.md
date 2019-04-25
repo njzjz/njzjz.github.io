@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: Chemical Principles 测评
 url: 47.html
 id: 47

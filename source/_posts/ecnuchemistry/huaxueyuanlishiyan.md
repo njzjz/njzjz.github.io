@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 化学原理实验
 date: 2019-03-04
 categories: ECNUChemistry

@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 在Ubuntu子系统中配置Seafile
 url: 66.html
 id: 66

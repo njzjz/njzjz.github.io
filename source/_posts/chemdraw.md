@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 用ChemDraw命名有机物
 url: 58.html
 id: 58

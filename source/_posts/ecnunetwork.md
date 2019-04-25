@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: ecnunetwork——用Python登陆校园网
 url: 104.html
 id: 104

@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: Linux软件安装②|Anaconda3
 url: 78.html
 id: 78

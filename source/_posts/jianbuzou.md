@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 【ECNU】健步走打卡之五法
 url: 56.html
 id: 56

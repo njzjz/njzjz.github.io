@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 物理化学实验(I)
 date: 2019-03-08
 categories: ECNUChemistry

@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 与化学相关的法律法规知识简介
 date: 2019-03-04
 categories: ECNUChemistry

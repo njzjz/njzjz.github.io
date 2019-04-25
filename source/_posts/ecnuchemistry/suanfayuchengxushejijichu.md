@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 算法与程序设计基础
 date: 2019-03-04
 categories: ECNUChemistry

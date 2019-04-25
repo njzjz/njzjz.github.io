@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 无机化学
 date: 2019-03-04
 categories: ECNUChemistry

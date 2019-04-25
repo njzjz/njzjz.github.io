@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 两步提升Linux下ssh的使用体验
 url: 90.html
 id: 90

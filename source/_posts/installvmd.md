@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: Linux软件安装④|VMD
 url: 82.html
 id: 82

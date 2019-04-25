@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 华东师范大学化学学习资料
 date: 2019-03-05
 categories: ECNUChemistry
