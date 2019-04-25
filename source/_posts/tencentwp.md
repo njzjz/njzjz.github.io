@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 薅腾讯羊毛——零成本搭建WordPress博客
 url: 128.html
 id: 128
