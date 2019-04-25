@@ -1762,6 +1762,14 @@ hexo-generator-feed@1.2.2:
     nunjucks "^3.0.0"
     object-assign "^4.1.1"
 
+hexo-generator-index2@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-index2/-/hexo-generator-index2-0.2.0.tgz#0aa46bf5aff125eb236f7168f66fa59c8ca8c326"
+  integrity sha1-CqRr9a/xJesjb3Fo9m+lnIyowyY=
+  dependencies:
+    hexo-pagination "0.0.2"
+    object-assign "^4.0.1"
+
 hexo-generator-index@0.2.1:
   version "0.2.1"
   resolved "http://registry.npm.taobao.org/hexo-generator-index/download/hexo-generator-index-0.2.1.tgz#9042229fcac79aaf700575da19332bf3f7ee5c5d"
@@ -1890,7 +1898,6 @@ hexo-server@0.3.3:
 
 "hexo-theme-next@git+https://github.com/theme-next/hexo-theme-next.git":
   version "7.1.0"
-  uid "361dbe887815de634c968d42f878d37ad1c3b21b"
   resolved "git+https://github.com/theme-next/hexo-theme-next.git#361dbe887815de634c968d42f878d37ad1c3b21b"
 
 hexo-util@^0.6.0, hexo-util@^0.6.2, hexo-util@^0.6.3:
