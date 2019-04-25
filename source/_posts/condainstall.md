@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: conda install——无root权限时一键安装软件
 url: 100.html
 id: 100

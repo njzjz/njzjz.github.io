@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 大学计算机
 date: 2019-03-04
 categories: ECNUChemistry

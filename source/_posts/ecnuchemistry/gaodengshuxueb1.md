@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 高等数学B（一）
 date: 2019-03-03
 categories: ECNUChemistry

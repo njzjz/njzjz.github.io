@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 光华书院学生会科技创新部指导团新年聚餐成功举行
 url: 64.html
 id: 64

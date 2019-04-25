@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 毛泽东思想与中国特色社会主义理论体系概论（一）
 date: 2019-03-04
 categories: ECNUChemistry

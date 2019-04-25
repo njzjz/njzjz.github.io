@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 物理化学(II)
 date: 2019-03-03
 categories: ECNUChemistry

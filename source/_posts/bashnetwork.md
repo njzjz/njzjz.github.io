@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 【ECNU】bash登陆校园网
 url: 60.html
 id: 60

@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: Linux软件安装⑤|GaussView
 url: 84.html
 id: 84

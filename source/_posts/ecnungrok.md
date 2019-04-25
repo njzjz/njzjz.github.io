@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 在ECNU校园网内搭建反向代理
 url: 72.html
 id: 72

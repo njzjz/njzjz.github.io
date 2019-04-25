@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 学术英语听说(I)
 date: 2019-03-04
 categories: ECNUChemistry

@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: Linux软件安装①|Open Babel
 url: 76.html
 id: 76

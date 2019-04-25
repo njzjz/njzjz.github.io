@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 化学与分子工程学院团委学生会主席团午餐会成功举办
 url: 70.html
 id: 70

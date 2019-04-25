@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: Linux软件安装⑥|LAMMPS
 url: 86.html
 id: 86
