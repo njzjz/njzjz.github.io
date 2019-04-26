@@ -19,18 +19,17 @@ cache:
 # outside theme directory in root `source/_data`, set
 # `styles: source/_data/styles.styl`
 #custom_file_path:
-  # Default paths: layout/_custom/*
-  #head: source/_data/head.swig
-  #header: source/_data/header.swig
-  #sidebar: source/_data/sidebar.swig
+# Default paths: layout/_custom/*
+#head: source/_data/head.swig
+#header: source/_data/header.swig
+#sidebar: source/_data/sidebar.swig
 
-  # Default path: source/css/_variables/custom.styl
-  #variables: source/_data/variables.styl
-  # Default path: source/css/_mixins/custom.styl
-  #mixins: source/_data/mixins.styl
-  # Default path: source/css/_custom/custom.styl
-  #styles: source/_data/styles.styl
-
+# Default path: source/css/_variables/custom.styl
+#variables: source/_data/variables.styl
+# Default path: source/css/_mixins/custom.styl
+#mixins: source/_data/mixins.styl
+# Default path: source/css/_custom/custom.styl
+#styles: source/_data/styles.styl
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -55,7 +54,7 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss:
+? rss
 
 footer:
   # Specify the date when the site was setup.
@@ -73,7 +72,7 @@ footer:
     color: "#808080"
 
   # If not defined, `author` from Hexo main config will be used.
-  copyright:
+  ? copyright
   # -------------------------------------------------------------
   powered:
     # Hexo link (Powered by Hexo).
@@ -91,7 +90,7 @@ footer:
   # http://www.miitbeian.gov.cn
   beian:
     enable: false
-    icp:
+    ? icp
 
   # -------------------------------------------------------------
   # Any custom text can be defined here.
@@ -104,7 +103,6 @@ creative_commons:
   license: by-nc-sa
   sidebar: true
   post: true
-
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -124,7 +122,6 @@ index_with_subtitle: true
 
 # Automatically add external URL with BASE64 encrypt & decrypt.
 exturl: true
-
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -156,7 +153,6 @@ menu_settings:
   icons: true
   badges: true
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -166,7 +162,6 @@ menu_settings:
 #scheme: Mist
 #scheme: Pisces
 scheme: Gemini
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -211,7 +206,7 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 #links:
-  #Title: http://example.com
+#Title: http://example.com
 
 # Sidebar Avatar
 avatar:
@@ -266,7 +261,6 @@ sidebar:
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: true
 
-
 # ---------------------------------------------------------------
 # Post Settings
 # ---------------------------------------------------------------
@@ -314,7 +308,7 @@ symbols_count_time:
 codeblock:
   # Manual define the border radius in codeblock
   # Leave it empty for the default 1
-  border_radius:
+  ? border_radius
   # Add copy button on codeblock
   copy_button:
     enable: true
@@ -357,7 +351,6 @@ post_edit:
   url: https://github.com/njzjz/njzjz.github.io/tree/hexo/source/ # Link for view source.
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit.
 
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -378,7 +371,7 @@ android_chrome_color: "#222"
 #   image: Images's url, replace it with specific image
 custom_logo:
   enabled: false
-  image:
+  ? image
 
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
@@ -387,7 +380,6 @@ highlight_theme: normal
 
 # Enable "cheers" for archive page.
 cheers_enabled: true
-
 
 # ---------------------------------------------------------------
 # Font Settings
@@ -405,7 +397,7 @@ font:
   enable: false
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
-  host:
+  ? host
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -416,34 +408,33 @@ font:
   global:
     external: true
     family: Lato
-    size:
+    ? size
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
-    size:
+    ? family
+    ? size
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    ? family
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
-    size:
+    ? family
+    ? size
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
-    size:
-
+    ? family
+    ? size
 
 # ---------------------------------------------------------------
 # Third Party Services Settings
@@ -467,7 +458,6 @@ math:
     cdn: //cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     # For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com)
     #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
-
     # See: https://mhchem.github.io/MathJax-mhchem/
     #mhchem: //cdn.jsdelivr.net/npm/mathjax-mhchem@3
     #mhchem: //cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.0
@@ -532,8 +522,8 @@ disqus:
 # Changyan
 changyan:
   enable: false
-  appid:
-  appkey:
+  ? appid
+  ? appkey
 
 # Valine
 # You can get your appid and appkey from https://leancloud.cn
@@ -568,7 +558,7 @@ gitment:
   github_repo: njzjz.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
   client_id: 88da8a24e98af8c2e558 # MUST HAVE, Github client id for the Gitment
   client_secret: 50a685ee108b4b436466cfcb57446ec5c2dc9466 # EITHER this or proxy_gateway, Github access secret token for the Gitment
-  proxy_gateway:  # Address of api proxy, See: https://github.com/aimingoo/intersect
+  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
 # Gitalk
@@ -576,7 +566,7 @@ gitment:
 # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.top/2018/8/10/gitalk-error/
 gitalk:
   enable: false
-  github_id: njzjz-bot  # Github repo owner
+  github_id: njzjz-bot # Github repo owner
   repo: njzjz.github.io # Repository name to store issues.
   client_id: 88da8a24e98af8c2e558 # Github Application Client ID
   client_secret: 50a685ee108b4b436466cfcb57446ec5c2dc9466 # Github Application Client Secret
@@ -650,36 +640,36 @@ google_analytics: UA-74033886-2
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable:       false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: false
+  app_id: #<app_id>
+  fb_admin: #<user_id>
+  like_button: #true
+  webmaster: #true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable:       false
-  num_of_posts: 10    # min posts num is 1
-  width:        100%  # default width is 550px
-  scheme:       light # default scheme is light (light or dark)
+  enable: false
+  num_of_posts: 10 # min posts num is 1
+  width: 100% # default width is 550px
+  scheme: light # default scheme is light (light or dark)
 
 # VKontakte API Support
 # To get your AppID visit https://vk.com/editapp?act=create
 vkontakte_api:
-  enable:       false
-  app_id:       #<app_id>
-  like:         true
-  comments:     true
+  enable: false
+  app_id: #<app_id>
+  like: true
+  comments: true
   num_of_posts: 10
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
-  color:  fc6423
+  id: #<app_id>
+  color: fc6423
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -775,7 +765,6 @@ bookmark:
   # if manual, only save it by clicking the bookmark-icon
   save: auto
 
-
 # ---------------------------------------------------------------
 # Tags Settings
 # ---------------------------------------------------------------
@@ -812,7 +801,6 @@ reading_progress:
   enable: true
   color: "#37c6c0"
   height: 2px
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -868,7 +856,7 @@ pace_theme: pace-theme-minimal
 canvas_nest:
   enable: false
   onmobile: true # display on mobile or not
-  color: '0,0,255' # RGB values, use ',' to separate
+  color: "0,0,255" # RGB values, use ',' to separate
   opacity: 0.5 # the opacity of line: 0~1
   zIndex: -1 # z-index property of the background
   count: 99 # the number of lines
