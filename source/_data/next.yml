@@ -147,6 +147,10 @@ menu:
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
+zh_CN:
+  menu:
+    Softwares: /zh-CN/softwares/ || server
+
 # Enable/Disable menu icons / item badges.
 menu_settings:
   icons: true
