@@ -1,3 +1,10 @@
+---
+lang: zh-CN
+title: 华东师范大学VPN已经开始限速
+categories:
+  - Life
+date: 2019-02-09
+---
 为了测试学校VPN的速度，本文中用Speedtest对比了不连接VPN、连接电信网节点和连接教育网节点的速度。为了控制变量，测试服务器均采用中国联通的上海节点（Shanghai Branch, China Unicom，ID：5083）。
 ![](https://pic.superbed.cn/item/5cc4ed173a213b04172490c9)
 不连接VPN时的速度
