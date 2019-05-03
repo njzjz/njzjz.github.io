@@ -1905,9 +1905,9 @@ hexo-server@0.3.3:
     serve-static "^1.13.2"
 
 "hexo-theme-next@git+https://github.com/theme-next/hexo-theme-next.git":
-  version "7.1.0"
-  uid c7689deb4c1765c9b0222fdb807e22ee2e80d086
-  resolved "git+https://github.com/theme-next/hexo-theme-next.git#c7689deb4c1765c9b0222fdb807e22ee2e80d086"
+  version "7.1.1"
+  uid c2f33fc76b500770e266c1c16f028807967cd121
+  resolved "git+https://github.com/theme-next/hexo-theme-next.git#c2f33fc76b500770e266c1c16f028807967cd121"
 
 hexo-util@^0.6.0, hexo-util@^0.6.2, hexo-util@^0.6.3:
   version "0.6.3"
