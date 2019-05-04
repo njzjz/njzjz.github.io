@@ -3,7 +3,7 @@ lang: zh-CN
 title: 回首四年|学科竞赛2·计算机应用竞赛
 categories:
   - Life
-date: 2019-04-30
+date: 2019-05-02
 ---
 前天，{% post_link ecnu-competition1 我介绍了学科竞赛的概况 %}。今天我来讲解一下计算机应用竞赛，该类比赛采用“校级-省级-国家级”三级体系：
 
