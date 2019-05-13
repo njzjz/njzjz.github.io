@@ -777,9 +777,9 @@ color-name@1.1.3:
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
 
 combined-stream@^1.0.6, combined-stream@~1.0.6:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.7.tgz#2d1d24317afb8abe95d6d2c0b07b57813539d828"
-  integrity sha512-brWl9y6vOB1xYPZcpZde3N9zDByXTosAeMDo4p1wzo6UMOX4vumB+TP1RZ76sfE6Md68Q0NJSrE/gbezd4Ul+w==
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
   dependencies:
     delayed-stream "~1.0.0"
 
@@ -3305,10 +3305,10 @@ randomatic@^3.0.0:
     kind-of "^6.0.0"
     math-random "^1.0.1"
 
-range-parser@~1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
-  integrity sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4=
+range-parser@~1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
+  integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
 
 rc@^1.1.6, rc@^1.2.7:
   version "1.2.8"
@@ -3530,10 +3530,10 @@ semver@~5.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
   integrity sha1-myzl094C0XxgEq0yaqa00M9U+U8=
 
-send@0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/send/-/send-0.17.0.tgz#6d190beaaf08c5cf7e325ded024f1a7cd934ed9a"
-  integrity sha512-NYR0jCuwnBaGA2X5bO3+QDZmmJ+PUCvFCRTED5nx9l/BK3Pr8mD8Ryvk9bw08JJUdXxt2u+tVIGoqJPrHWGqSA==
+send@0.17.1:
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/send/-/send-0.17.1.tgz#c1d8b059f7900f7466dd4938bdc44e11ddb376c8"
+  integrity sha512-BsVKsiGcQMFwT8UxypobUKyv7irCNRHk1T0G680vk88yf6LBByGcZJOTJCrTP2xVN6yI+XjPJcNuE3V4fT9sAg==
   dependencies:
     debug "2.6.9"
     depd "~1.1.2"
@@ -3546,7 +3546,7 @@ send@0.17.0:
     mime "1.6.0"
     ms "2.1.1"
     on-finished "~2.3.0"
-    range-parser "~1.2.0"
+    range-parser "~1.2.1"
     statuses "~1.5.0"
 
 sentence-case@^2.1.0:
@@ -3558,14 +3558,14 @@ sentence-case@^2.1.0:
     upper-case-first "^1.1.2"
 
 serve-static@^1.13.2:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/serve-static/-/serve-static-1.14.0.tgz#fad67e9f36d8c670b93fffd0586afe634f6c88a5"
-  integrity sha512-Kg15ayeXWLhAE5T9adD3xGcEHchIZsDUExIIfSTOzg6kgmIa86NP8NpuOAYKLbPEYU1OQ+KCQrtKh8AG3h7KAQ==
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/serve-static/-/serve-static-1.14.1.tgz#666e636dc4f010f7ef29970a88a674320898b2f9"
+  integrity sha512-JMrvUwE54emCYWlTI+hGrGv5I8dEwmco/00EvkzIIsR7MqrHonbD9pO2MOfFnpFntl7ecpZs+3mW+XbQZu9QCg==
   dependencies:
     encodeurl "~1.0.2"
     escape-html "~1.0.3"
     parseurl "~1.3.3"
-    send "0.17.0"
+    send "0.17.1"
 
 set-blocking@~2.0.0:
   version "2.0.0"
@@ -4352,9 +4352,9 @@ xml2js@0.4.2:
     xmlbuilder ">=0.4.2"
 
 xmlbuilder@>=0.4.2:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-13.0.0.tgz#51d5dfabaada7385c6861d74f274849b5d037ede"
-  integrity sha512-b1WOXl2I5wArvb2ZcSx147Rqg/SIudDKZgTcadjFaGjkgucy7Z0egSB5w4kBg9X0/edWdNiE/eKD8KQtaM2c6w==
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-13.0.1.tgz#0770a63c8672e38eea413ed13080de4fdc01f0ef"
+  integrity sha512-qdGT2O3+OWTVY5HqESkgbOd8NE5MWUIuKxXd9PNQOhVC83SRfdje+Ku4vjFCaEpL6JZqlTOcKN33TlCEbApNcA==
 
 xtend@^4.0.0:
   version "4.0.1"
