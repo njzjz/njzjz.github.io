@@ -15,6 +15,7 @@ action "yarn build" {
     CI_REPO_OWNER = "njzjz"
     CI_COMMIT_MESSAGE = ""
   }
+  secrets = ["BUNDLESIZE_GITHUB_TOKEN"]
 }
 
 action "Filters for GitHub Actions" {
