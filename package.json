@@ -6,7 +6,7 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "build": "cpx \"node_modules/hexo-theme-next/**/*\" themes/next && hexo g && bundlesize",
+    "build": "cpx \"node_modules/hexo-theme-next/**/*\" themes/next && hexo g && CI_COMMIT_SHA=$GITHUB_SHA bundlesize",
     "now-build": "yarn build && mv public dist"
   },
   "bundlesize": [
