@@ -9,6 +9,12 @@ action "yarn build" {
   uses = "Borales/actions-yarn@master"
   needs = ["yarn install"]
   args = "build"
+  env = {
+    CI = "github_actions"
+    CI_REPO_NAME = "njzjz.github.io"
+    CI_REPO_OWNER = "njzjz"
+    CI_COMMIT_MESSAGE = ""
+  }
 }
 
 action "Filters for GitHub Actions" {
