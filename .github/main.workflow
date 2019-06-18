@@ -30,6 +30,7 @@ action "Deploy to GitHub Pages" {
   env = {
     BRANCH = "master"
     FOLDER = "public"
+    BASE_BRANCH = "hexo"
   }
   secrets = ["ACCESS_TOKEN"]
 }
