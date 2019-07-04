@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - hexo > lodash:
+        patched: '2019-07-04T00:03:35.092Z'
+    - hexo > warehouse > lodash:
+        patched: '2019-07-04T00:03:35.092Z'
+    - hexo-deployer-git > babel-eslint > @babel/types > lodash:
+        patched: '2019-07-04T00:03:35.092Z'
+    - hexo-deployer-git > babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-04T00:03:35.092Z'
+    - hexo-migrator-wordpress > turndown > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-04T00:03:35.092Z'
+    - hexo-deployer-git > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-04T00:03:35.092Z'
+    - hexo-deployer-git > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-04T00:03:35.092Z'

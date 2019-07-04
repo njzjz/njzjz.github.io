@@ -7,7 +7,9 @@
   },
   "scripts": {
     "build": "cpx \"node_modules/hexo-theme-next/**/*\" themes/next && hexo g && CI_COMMIT_SHA=$GITHUB_SHA bundlesize",
-    "now-build": "yarn build && mv public dist"
+    "now-build": "yarn build && mv public dist",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bundlesize": [
     {
@@ -33,10 +35,12 @@
     "hexo-renderer-marked": "1.0.1",
     "hexo-renderer-stylus": "0.3.3",
     "hexo-server": "0.3.3",
-    "hexo-theme-next": "theme-next/hexo-theme-next"
+    "hexo-theme-next": "theme-next/hexo-theme-next",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "bundlesize": "0.18.0",
     "cpx": "1.5.0"
-  }
+  },
+  "snyk": true
 }
