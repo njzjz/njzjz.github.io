@@ -1893,8 +1893,8 @@ hexo-server@0.3.3:
 
 hexo-theme-next@theme-next/hexo-theme-next:
   version "7.2.0"
-  uid bde3bb51de91ca9e714ec464d0d408b00db4d2ae
-  resolved "https://codeload.github.com/theme-next/hexo-theme-next/tar.gz/bde3bb51de91ca9e714ec464d0d408b00db4d2ae"
+  uid "737dd67bd9f2c8b536df30f057004c63712bccde"
+  resolved "https://codeload.github.com/theme-next/hexo-theme-next/tar.gz/737dd67bd9f2c8b536df30f057004c63712bccde"
 
 hexo-util@^0.6.0, hexo-util@^0.6.2, hexo-util@^0.6.3:
   version "0.6.3"
