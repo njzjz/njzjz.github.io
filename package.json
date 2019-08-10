@@ -6,7 +6,7 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "build": "cpx \"node_modules/hexo-theme-next/**/*\" themes/next && hexo g && CI_COMMIT_SHA=$GITHUB_SHA bundlesize",
+    "build": "cpx \"node_modules/hexo-theme-next/**/*\" themes/next && hexo g && bundlesize",
     "now-build": "yarn build && mv public dist"
   },
   "bundlesize": [
@@ -26,7 +26,6 @@
     "hexo-generator-sitemap": "1.2.0",
     "hexo-generator-tag": "0.2.0",
     "hexo-migrator-wordpress": "1.0.0",
-    "hexo-neat": "1.0.4",
     "hexo-pdf": "1.1.1",
     "hexo-reference": "1.0.4",
     "hexo-renderer-ejs": "0.3.1",
@@ -37,6 +36,7 @@
   },
   "devDependencies": {
     "bundlesize": "0.18.0",
-    "cpx": "1.5.0"
+    "cpx": "1.5.0",
+    "hexo-all-minifier": "^0.5.3"
   }
 }
