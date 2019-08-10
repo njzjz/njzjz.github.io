@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 【圆周率日】含圆周率的化学公式
 url: 54.html
 id: 54

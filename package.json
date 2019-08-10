@@ -6,7 +6,7 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "build": "cpx \"node_modules/hexo-theme-next/**/*\" themes/next && hexo g && bundlesize",
+    "build": "cpx \"node_modules/hexo-theme-next/**/*\" themes/next && hexo g && CI_COMMIT_SHA=$GITHUB_SHA bundlesize",
     "now-build": "yarn build && mv public dist"
   },
   "bundlesize": [
@@ -15,14 +15,14 @@
     }
   ],
   "dependencies": {
-    "hexo": "3.8.0",
+    "hexo": "3.9.0",
     "hexo-deployer-git": "1.0.0",
     "hexo-generator-archive": "0.1.5",
-    "hexo-generator-basic-set": "^0.1.1",
+    "hexo-generator-basic-set": "0.1.1",
     "hexo-generator-category": "0.1.3",
     "hexo-generator-feed": "1.2.2",
     "hexo-generator-index": "0.2.1",
-    "hexo-generator-index2": "^0.2.0",
+    "hexo-generator-index2": "0.2.0",
     "hexo-generator-sitemap": "1.2.0",
     "hexo-generator-tag": "0.2.0",
     "hexo-migrator-wordpress": "1.0.0",
@@ -30,13 +30,13 @@
     "hexo-pdf": "1.1.1",
     "hexo-reference": "1.0.4",
     "hexo-renderer-ejs": "0.3.1",
-    "hexo-renderer-marked": "0.3.2",
+    "hexo-renderer-marked": "1.0.1",
     "hexo-renderer-stylus": "0.3.3",
     "hexo-server": "0.3.3",
-    "hexo-theme-next": "git+https://github.com/theme-next/hexo-theme-next.git"
+    "hexo-theme-next": "theme-next/hexo-theme-next"
   },
   "devDependencies": {
-    "bundlesize": "0.17.1",
+    "bundlesize": "0.18.0",
     "cpx": "1.5.0"
   }
 }

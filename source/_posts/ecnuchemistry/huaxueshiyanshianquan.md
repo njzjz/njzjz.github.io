@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 化学实验室安全
 date: 2019-03-03
 categories: ECNUChemistry

@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: Linux软件安装③|TensorFlow
 url: 80.html
 id: 80

@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: Word中给公式自动编号
 url: 88.html
 id: 88

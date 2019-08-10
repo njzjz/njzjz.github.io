@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 中国电信IPv6体验
 url: 133.html
 id: 133

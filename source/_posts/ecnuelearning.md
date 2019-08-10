@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 【ECNU】在日历中同步大夏学堂作业的截止时间
 url: 52.html
 id: 52

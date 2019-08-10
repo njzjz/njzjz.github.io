@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 王琛语录！新鲜出炉的王琛语录！
 url: 45.html
 id: 45

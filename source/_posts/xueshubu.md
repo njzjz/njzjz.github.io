@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 学术而不严肃，专业融于兴趣
 url: 49.html
 id: 49

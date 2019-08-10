@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 用QQ监控PBS任务
 url: 97.html
 id: 97

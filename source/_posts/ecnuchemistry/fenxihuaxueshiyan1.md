@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 分析化学与分析技术实验(I)
 date: 2019-03-04
 categories: ECNUChemistry

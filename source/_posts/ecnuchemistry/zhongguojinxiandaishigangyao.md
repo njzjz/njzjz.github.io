@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 中国近现代史纲要
 date: 2019-03-04
 categories: ECNUChemistry

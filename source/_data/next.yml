@@ -373,8 +373,6 @@ android_chrome_color: "#222"
 #   enabled: If true, will enable custom logo
 #   image: Images's url, replace it with specific image
 custom_logo:
-  enabled: false
-  image:
 
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright

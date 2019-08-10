@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 用EndNote添加参考文献
 url: 92.html
 id: 92

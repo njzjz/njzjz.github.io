@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 物质结构
 date: 2018-06-22
 categories: ECNUChemistry

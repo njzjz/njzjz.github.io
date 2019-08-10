@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 化学e+小程序发布一周年，累计用户数达1万
 url: 68.html
 id: 68

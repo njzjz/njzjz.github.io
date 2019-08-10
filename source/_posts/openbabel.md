@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: Open Babel 基本用法
 url: 94.html
 id: 94

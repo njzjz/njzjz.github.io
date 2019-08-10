@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 title: 思想道德修养与法律基础
 date: 2019-03-04
 categories: ECNUChemistry
