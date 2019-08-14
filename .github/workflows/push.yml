@@ -16,12 +16,9 @@ jobs:
         BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN }}
       with:
         args: build
-    - name: Filters for GitHub Actions
-      uses: actions/bin/filter@3c0b4f0e63ea54ea5df2914b4fabf383368cd0da
-      with:
-        args: branch hexo
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@master
+      if: github.ref == "refs/heads/hexo"
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: hexo
