@@ -1,0 +1,26 @@
+on: push
+name: Build and deploy on push
+jobs:
+  yarnInstall:
+    name: yarn install
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: yarn install
+      uses: Borales/actions-yarn@master
+      with:
+        args: install
+    - name: yarn build
+      uses: Borales/actions-yarn@master
+      env:
+        BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN }}
+      with:
+        args: build
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@master
+      if: github.ref == 'refs/heads/hexo'
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BASE_BRANCH: hexo
+        BRANCH: master
+        FOLDER: public
