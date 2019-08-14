@@ -18,7 +18,7 @@ jobs:
         args: build
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@master
-      if: github.ref == "refs/heads/hexo"
+      if: github.ref == 'refs/heads/hexo'
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: hexo
