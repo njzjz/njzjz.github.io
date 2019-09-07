@@ -2382,13 +2382,12 @@ hexo-generator-basic-set@0.1.1:
     hexo-pagination "0.0.2"
     object-assign "^4.0.1"
 
-hexo-generator-category@0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/hexo-generator-category/-/hexo-generator-category-0.1.3.tgz#b9e6a5862530a83bdd7da4c819c1b9f3e4ccb4b2"
-  integrity sha1-uealhiUwqDvdfaTIGcG58+TMtLI=
+hexo-generator-category@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-category/-/hexo-generator-category-1.0.0.tgz#cd2a2b03eb326da3ef821d6e29408488cc132eb5"
+  integrity sha512-kmtwT1SHYL2ismbGnYQXNtqLFSeTdtHNbJIqno3LKROpCK8ybST5QVXF1bZI9LkFcXV/H8ilt8gfg4/dNNcQQQ==
   dependencies:
-    hexo-pagination "0.0.2"
-    object-assign "^2.0.0"
+    hexo-pagination "1.0.0"
 
 hexo-generator-feed@2.0.0:
   version "2.0.0"
@@ -2461,6 +2460,11 @@ hexo-pagination@0.0.2:
   integrity sha1-jPRwx9sN5bGKOSanbesZQBXffys=
   dependencies:
     utils-merge "^1.0.0"
+
+hexo-pagination@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-1.0.0.tgz#c9c0ca3665267b9e9d0a89fc3edcaf3276907dc1"
+  integrity sha512-miEVFgxchPr2qNWxw0JWpJ9R/Yaf7HjHBZVjvCCcqfbsLyYtCvIfJDxcEwz1sDOC/fLzYPqNnhUI73uNxBHRSA==
 
 hexo-pdf@1.1.1:
   version "1.1.1"
