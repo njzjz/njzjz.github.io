@@ -6,16 +6,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: yarn install
-      uses: Borales/actions-yarn@master
+    - uses: actions/setup-node@v1
       with:
-        args: install
-    - name: yarn build
-      uses: Borales/actions-yarn@master
+        node-version: 12
+    - run: npm install -g yarn
+    - run: yarn install
+    - run: yarn build
       env:
         BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN }}
-      with:
-        args: build
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@master
       if: github.ref == 'refs/heads/hexo'
