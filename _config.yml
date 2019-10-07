@@ -5,13 +5,13 @@
 # Site
 title: Jinzhe Zeng's Blog
 subtitle: 苟利国家生死以，岂因祸福避趋之
-description: Undergraduate, East China Normal University
+description: PhD student at Rutgers University
 keywords: Jinzhe Zeng Blog
 author: Jinzhe Zeng
 language: 
    - en
    - zh-CN
-timezone: Asia/Shanghai
+timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
