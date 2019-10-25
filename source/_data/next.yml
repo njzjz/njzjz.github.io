@@ -1,106 +1,106 @@
 reminder: true
 minify: true
 favicon:
-   small: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
-   medium: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
-   apple_touch_icon: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
-   safari_pinned_tab: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  small: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  medium: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  apple_touch_icon: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  safari_pinned_tab: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
 footer:
-   since: 2016
-   icon:
-     animated: true
+  since: 2016
+  icon:
+    animated: true
 creative_commons:
-   sidebar: true
-   post: true
+  sidebar: true
+  post: true
 scheme: Gemini
 menu:
-   home: / || home
-   CV: /cv/ || user
-   Softwares: /softwares/ || server
-   categories: /categories/ || th
-   archives: /archives/ || archive
+  home: / || home
+  CV: /cv/ || user
+  Softwares: /softwares/ || server
+  categories: /categories/ || th
+  archives: /archives/ || archive
 menu_settings:
-   badges: true
+  badges: true
 avatar:
-   url: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  url: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
 social:
-   GitHub: https://github.com/njzjz || github
-   E-Mail: mailto:jinzhe.zeng@rutgers.edu || envelope
-   Weibo: https://weibo.com/njzjz || weibo
-   Google Scholar: https://scholar.google.com/citations?user=P7gRtg4AAAAJ || google
-   ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || graduation-cap
-   Twitter: https://twitter.com/njzjz || twitter
+  GitHub: https://github.com/njzjz || github
+  E-Mail: mailto:jinzhe.zeng@rutgers.edu || envelope
+  Weibo: https://weibo.com/njzjz || weibo
+  Google Scholar: https://scholar.google.com/citations?user=P7gRtg4AAAAJ || google
+  ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || graduation-cap
+  Twitter: https://twitter.com/njzjz || twitter
 wechat_subscriber:
-   enable: true
-   qcode: https://open.weixin.qq.com/qr/code?username=gh_c3cec7062858
-   description: My Wechat Account
+  enable: true
+  qcode: https://open.weixin.qq.com/qr/code?username=gh_c3cec7062858
+  description: My Wechat Account
 reward:
-   wechatpay: https://i.loli.net/2018/08/26/5b821ce3a2497.jpg
-   alipay: https://i.loli.net/2018/08/26/5b821c8f752b4.png
+  wechatpay: https://i.loli.net/2018/08/26/5b821ce3a2497.jpg
+  alipay: https://i.loli.net/2018/08/26/5b821c8f752b4.png
 #related_posts:
 #   enable: true
 post_edit:
-   enable: true
-   url: https://github.com/njzjz/njzjz.github.io/tree/hexo/source/ # Link for view source.
+  enable: true
+  url: https://github.com/njzjz/njzjz.github.io/tree/hexo/source/ # Link for view source.
 codeblock:
-   copy_button:
-     enable: true
-     show_result: true
+  copy_button:
+    enable: true
+    show_result: true
 reading_progress:
-   enable: true
+  enable: true
 bookmark:
-   enable: true
+  enable: true
 github_banner:
-   enable: true
-   permalink: https://github.com/njzjz
+  enable: true
+  permalink: https://github.com/njzjz
 seo: true
 index_with_subtitle: true
 exturl: true
 math:
-   enable: true
+  enable: true
 valine:
-   enable: true
-   appid: UJXGMqVd8DbRnRm6eSUV74aA-9Nh9j0Va
-   appkey: JWC5OD0apLNWan5JVDwDrvsx
-   notify: ture
-   visitor: true
-   recordIP: true
+  enable: true
+  appid: UJXGMqVd8DbRnRm6eSUV74aA-9Nh9j0Va
+  appkey: JWC5OD0apLNWan5JVDwDrvsx
+  notify: ture
+  visitor: true
+  recordIP: true
 local_search:
-   enable: true
+  enable: true
 pdf:
-   enable: true
+  enable: true
 vendors:
-   anime: //cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js
-   fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
-   mathjax: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-   mhchem: //cdn.jsdelivr.net/npm/mathjax-mhchem@3
-   katex: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
-   copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js
-   pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
-   jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
-   fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
-   fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
-   mediumzoom: //cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js
-   lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
-   pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
-   quicklink: //cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js
-   disqusjs_js: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
-   disqusjs_css: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
-   valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
-   gitalk_js: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
-   gitalk_css: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css
-   algolia_instant_js: //cdn.jsdelivr.net/npm/instantsearch.js@2/dist/instantsearch.min.js
-   algolia_instant_css: //cdn.jsdelivr.net/npm/instantsearch.js@2/dist/instantsearch.min.css
-   pdfobject: //cdn.jsdelivr.net/npm/pdfobject@2/pdfobject.min.js
-   mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
-   velocity: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js
-   velocity_ui: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.ui.min.js
-   pace: //cdn.jsdelivr.net/npm/pace-js@1/pace.min.js
-   pace_css: //cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css
-   three: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three.min.js
-   three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three-waves.min.js
-   canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_lines.min.js
-   canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_sphere.min.js
-   canvas_nest: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1/canvas-nest.min.js
-   canvas_nest_nomobile: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1/canvas-nest-nomobile.min.js
-   canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
+  anime: //cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js
+  fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+  mathjax: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  mhchem: //cdn.jsdelivr.net/npm/mathjax-mhchem@3
+  katex: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
+  copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js
+  pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
+  jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
+  fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
+  fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
+  mediumzoom: //cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js
+  lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
+  pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
+  quicklink: //cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js
+  disqusjs_js: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
+  disqusjs_css: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
+  valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
+  gitalk_js: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
+  gitalk_css: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css
+  algolia_instant_js: //cdn.jsdelivr.net/npm/instantsearch.js@2/dist/instantsearch.min.js
+  algolia_instant_css: //cdn.jsdelivr.net/npm/instantsearch.js@2/dist/instantsearch.min.css
+  pdfobject: //cdn.jsdelivr.net/npm/pdfobject@2/pdfobject.min.js
+  mermaid: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
+  velocity: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js
+  velocity_ui: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.ui.min.js
+  pace: //cdn.jsdelivr.net/npm/pace-js@1/pace.min.js
+  pace_css: //cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css
+  three: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three.min.js
+  three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three-waves.min.js
+  canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_lines.min.js
+  canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_sphere.min.js
+  canvas_nest: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1/canvas-nest.min.js
+  canvas_nest_nomobile: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1/canvas-nest-nomobile.min.js
+  canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
