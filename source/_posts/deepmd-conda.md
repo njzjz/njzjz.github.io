@@ -48,7 +48,7 @@ GPU版本已经包含CUDA 10.0，需要注意的是CUDA 10.0仅支持NVIDIA驱�
 
 运行dp命令时，应设置环境变量KMP_BLOCKTIME=0 和 KMP_AFFINITY=granularity=fine,verbose,compact,1,0，否则会导致高达50%的性能损失。这是由于anaconda numpy一个存在多年的bug[^4]。
 
-[^1]conda-build https://github.com/conda/conda-build
-[^2]deepmd-kit-recipes https://github.com/njzjz/deepmd-kit-recipes
-[^3]constructor https://github.com/conda/constructor
-[^4]numpy/numpy#12374 https://github.com/numpy/numpy/issues/12374
+[^1]: conda-build https://github.com/conda/conda-build
+[^2]: deepmd-kit-recipes https://github.com/njzjz/deepmd-kit-recipes
+[^3]: constructor https://github.com/conda/constructor
+[^4]: numpy/numpy#12374 https://github.com/numpy/numpy/issues/12374
