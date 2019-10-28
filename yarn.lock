@@ -2526,8 +2526,8 @@ hexo-server@1.0.0:
 
 hexo-theme-next@theme-next/hexo-theme-next:
   version "7.4.2"
-  uid "611fc7176c63b09bf7bffb110346d38d9f6ce77c"
-  resolved "https://codeload.github.com/theme-next/hexo-theme-next/tar.gz/611fc7176c63b09bf7bffb110346d38d9f6ce77c"
+  uid "5c82ba355867f0694f6541d946a24f0db5630067"
+  resolved "https://codeload.github.com/theme-next/hexo-theme-next/tar.gz/5c82ba355867f0694f6541d946a24f0db5630067"
 
 hexo-util@1.0.0:
   version "1.0.0"
