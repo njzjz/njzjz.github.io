@@ -9,9 +9,7 @@ tags:
 
 2019 年 10 月 17 日微信公众号
 
-先介绍一下机器环境，CentOS 7.6，系统自带的 gcc 4.8.5，自己安装的 anaconda，icc
-19.0.4，CUDA 10.1，CUDNN 7，连有互联网。目标是安装带有 TensorFlow
-2.0.0、DeePMD-kit 1.0.1 的用 icc 编译的 LAMMPS 7Aug2019。
+先介绍一下机器环境，CentOS 7.6，系统自带的 gcc 4.8.5，自己安装的 anaconda，icc 19.0.4，CUDA 10.1，CUDNN 7，连有互联网。目标是安装带有 TensorFlow 2.0.0、DeePMD-kit 1.0.1 的用 icc 编译的 LAMMPS 7Aug2019。
 
 ## 一、编译 TensorFlow C++库
 
@@ -53,8 +51,7 @@ cd tensorflow
 >
 > capabilities >= 3.5 [Default is: 3.5,7.0]: 6.0,7.5
 
-这里需要
-至https://developer.nvidia.com/cuda-gpus查询GPU对应的capanilities，例如P100对应6.0，2080Ti对应7.5。
+这里需要至[https://developer.nvidia.com/cuda-gpus](https://developer.nvidia.com/cuda-gpus)查询GPU对应的capanilities，例如P100对应6.0，2080Ti对应7.5。
 
 选项完成后，开始编译：
 
