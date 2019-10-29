@@ -8,9 +8,9 @@ subtitle: 苟利国家生死以，岂因祸福避趋之
 description: PhD student at Rutgers University
 keywords: Jinzhe Zeng Blog
 author: Jinzhe Zeng
-language: 
-   - en
-   - zh-CN
+language:
+  - en
+  - zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -28,7 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: 
+skip_render:
   - 404.html
   - cv/*.html
   - redirect/*
@@ -48,16 +48,16 @@ highlight:
   line_number: true
   auto_detect: true
   tab_replace: true
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -82,7 +82,7 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: 
+deploy:
   type: git
   repo: https://github.com/njzjz/njzjz.github.io
   branch: master
@@ -97,13 +97,13 @@ sitemap:
   path: sitemap.xml
 
 index2_generator:
-  - layout: 'archive'
-    path: 'archives'
+  - layout: "archive"
+    path: "archives"
     exclude:
       - category ECNUChemistry
       - category Internship
-  - layout: 'index'
-    path: ''
+  - layout: "index"
+    path: ""
     index: true
     exclude:
       - category ECNUChemistry
