@@ -9,8 +9,7 @@ tags:
 
 2019 年 10 月 24 日（UTC-4）微信公众号
 
-近日，我已经通过 conda-build[^1]构建了 deepmd-kit（含 lammps 模块）的 conda
-packges[^2]，并用 constructor[^3]打包了离线安装包。下介绍安装方法及注意事项：
+近日，我已经通过 conda-build[^1]构建了 deepmd-kit（含 lammps 模块）的 conda packges[^2]，并用 constructor[^3]打包了离线安装包。下介绍安装方法及注意事项：
 
 ## 一、conda 安装
 
@@ -31,8 +30,7 @@ conda install deepmd-kit=1.0.1=*cpu lammps-dp=1.0.1=*cpu -c deepmodeling
 
 ## 二、离线安装
 
-至 https://github.com/njzjz/deepmd-kit-recipes/releases 下载 v1.0.1 离线安装包（
-也提供了百度网盘链接）：
+至 https://github.com/njzjz/deepmd-kit-recipes/releases 下载 v1.0.1 离线安装包（也提供了百度网盘链接）：
 
 ![releases](https://ae01.alicdn.com/kf/He38ad9eb9bc84b04bfebd052b69a00f7j.jpg)
 
@@ -51,12 +49,9 @@ dp -h
 lmp -h
 ```
 
-GPU 版本已经包含 CUDA 10.0，需要注意的是 CUDA 10.0 仅支持 NVIDIA 驱动 410.48 以
-上，详情可参见 NVIDIA 官网 https://docs.nvidia.com/deploy/cuda-compatibility/
+GPU 版本已经包含 CUDA 10.0，需要注意的是 CUDA 10.0 仅支持 NVIDIA 驱动 410.48 以上，详情可参见 NVIDIA 官网 https://docs.nvidia.com/deploy/cuda-compatibility/
 
-运行 dp 命令时，应设置环境变量 KMP_BLOCKTIME=0 和
-KMP_AFFINITY=granularity=fine,verbose,compact,1,0，否则会导致高达 50%的性能损失
-。这是由于 anaconda numpy 一个存在多年的 bug[^4]。
+运行 dp 命令时，应设置环境变量`KMP_BLOCKTIME=0`和`KMP_AFFINITY=granularity=fine,verbose,compact,1,0`，否则会导致高达50%的性能损失。这是由于 anaconda numpy 一个存在多年的 bug[^4]。
 
 [^1]: conda-build https://github.com/conda/conda-build
 [^2]: deepmd-kit-recipes https://github.com/njzjz/deepmd-kit-recipes
