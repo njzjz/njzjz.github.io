@@ -38,7 +38,7 @@
     "hexo-server": "1.0.0",
     "hexo-symbols-count-time": "0.6.3",
     "hexo-theme-next": "theme-next/hexo-theme-next",
-    "snyk": "1.241.1"
+    "snyk": "1.242.0"
   },
   "devDependencies": {
     "bundlesize": "0.18.0",
