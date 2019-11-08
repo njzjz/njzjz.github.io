@@ -7,9 +7,7 @@
   },
   "scripts": {
     "build": "cpx \"node_modules/hexo-theme-next/**/*\" themes/next && hexo g && bundlesize",
-    "now-build": "yarn build && mv public dist",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "now-build": "yarn build && mv public dist"
   },
   "bundlesize": [
     {
@@ -37,13 +35,11 @@
     "hexo-renderer-stylus": "1.1.0",
     "hexo-server": "1.0.0",
     "hexo-symbols-count-time": "0.6.3",
-    "hexo-theme-next": "theme-next/hexo-theme-next",
-    "snyk": "1.244.0"
+    "hexo-theme-next": "theme-next/hexo-theme-next"
   },
   "devDependencies": {
     "bundlesize": "0.18.0",
     "cpx": "1.5.0",
     "hexo-all-minifier": "0.5.3"
-  },
-  "snyk": true
+  }
 }
