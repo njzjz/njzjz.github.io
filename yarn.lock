@@ -2767,7 +2767,8 @@ hexo-symbols-count-time@0.6.3:
 
 hexo-theme-next@theme-next/hexo-theme-next:
   version "7.5.0"
-  resolved "https://codeload.github.com/theme-next/hexo-theme-next/tar.gz/c1d5dc4f567509ba76c7fdb05b2f8998aa6b02e0"
+  uid e735db4b581ec6d72f34030d255ced97f37799d4
+  resolved "https://codeload.github.com/theme-next/hexo-theme-next/tar.gz/e735db4b581ec6d72f34030d255ced97f37799d4"
 
 hexo-util@1.0.0:
   version "1.0.0"
