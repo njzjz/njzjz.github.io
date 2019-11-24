@@ -13,7 +13,7 @@ tags:
 
 ### 1.安装
 
-可用Anaconda安装`conda install openbabel -c openbabel`或参照 [此文](https://wp.njzjz.win/?p=76) 自己编译。
+可用Anaconda安装`conda install openbabel -c conda-forge`或参照 [此文](https://njzjz.win/2018/05/28/installopenbabel/) 自己编译。
 
 ### 2.转换格式
 
