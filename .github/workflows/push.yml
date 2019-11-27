@@ -30,4 +30,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: master
         FOLDER: public
-        BASE_BRANCH: hexo	
+        BASE_BRANCH: hexo
+        CLEAN: true
