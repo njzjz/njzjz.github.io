@@ -16,7 +16,7 @@ title: Jinzhe Zeng
 ## Research
 
 - Combustion Mechanisms of Hydrocarbon Fuel Based on Deep Learning
-- Free Energy Calculation Based on Deep Learning
+- ML-Potential for Simulations of Drug Discovery
 
 ## Publications
 
