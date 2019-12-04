@@ -62,7 +62,7 @@ valine:
   enable: true
   appid: UJXGMqVd8DbRnRm6eSUV74aA-9Nh9j0Va
   appkey: JWC5OD0apLNWan5JVDwDrvsx
-  notify: ture
+  notify: true
   visitor: true
   recordIP: true
 local_search:
