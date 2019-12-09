@@ -32,7 +32,7 @@
       });
     });
   }, window.PDFObject);
-}</script><script>NexT.utils.loadComments(() => {
+}</script><script>NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js', () => {
     var GUEST = ['nick', 'mail', 'link'];
     var guest = 'nick,mail,link';
@@ -40,7 +40,7 @@
       return GUEST.includes(item);
     });
     new Valine({
-      el: '#comments',
+      el: '#valine-comments',
       verify: false,
       notify: true,
       appId: 'UJXGMqVd8DbRnRm6eSUV74aA-9Nh9j0Va',
