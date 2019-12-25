@@ -2192,7 +2192,6 @@ fsevents@^1.0.0, fsevents@^1.2.7:
   dependencies:
     bindings "^1.5.0"
     nan "^2.12.1"
-    node-pre-gyp "*"
 
 fsevents@~2.1.2:
   version "2.1.2"
@@ -2797,10 +2796,10 @@ hexo-reference@1.0.4:
     hexo-util "^0.6.3"
     markdown-it "^8.4.2"
 
-hexo-related-popular-posts@3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-3.0.6.tgz#e96567ab0dbcf19d39c9cdb0f002605e0d533d43"
-  integrity sha512-bxRRE6eBttug5mGMc8MRaxNs5VpUv9+kv8sSYB+Aqwdnkn5y+aKiO4D8d1zapBiA8vgMdiX5l9cVogA3xWX03Q==
+hexo-related-popular-posts@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-4.0.0.tgz#529085634c328756a9c00b46de141c0676f1a43c"
+  integrity sha512-oudCAf8VjjQGwU/Q9BT5KkbvU5JGfC/Glz1hW+jUHTgYvo+oNQZ58IYTe4eVcJ8WeEhzPGT2AfEV7TsFRRfjWw==
   dependencies:
     cheerio "^1.0.0-rc.2"
     columnify "^1.5.4"
@@ -2859,7 +2858,6 @@ hexo-symbols-count-time@0.7.0:
 
 hexo-theme-next@theme-next/hexo-theme-next:
   version "7.6.0"
-  uid "0787ec0c273b64cf13ee08a4d517a735961bf489"
   resolved "https://codeload.github.com/theme-next/hexo-theme-next/tar.gz/0787ec0c273b64cf13ee08a4d517a735961bf489"
 
 hexo-util@1.0.0:
