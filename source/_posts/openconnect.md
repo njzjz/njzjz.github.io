@@ -28,7 +28,7 @@ pip install vpn-slice
 确定`which vpn-slice`能够找到路径。
 
 方便起见，我们先设置环境变量：
-‵‵`sh
+```sh
 export SERVER=vpn-cn.ecnu.edu.cn
 export USERNAME=20199966
 export PASSWORD=<HIDDEN>
