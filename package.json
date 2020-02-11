@@ -6,7 +6,7 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "build": "ln -s ../node_modules/hexo-theme-next/ themes/next && hexo g && bundlesize",
+    "build": "mkdir -p themes && ln -s ../node_modules/hexo-theme-next/ themes/next && hexo g && bundlesize",
     "now-build": "yarn build && mv public dist"
   },
   "bundlesize": [
