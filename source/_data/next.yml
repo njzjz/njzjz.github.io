@@ -29,14 +29,11 @@ social:
   Weibo: https://weibo.com/njzjz || weibo
   Google Scholar: https://scholar.google.com/citations?user=P7gRtg4AAAAJ || google
   ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || graduation-cap
+follow_me:
   Twitter: https://twitter.com/njzjz || twitter
-wechat_subscriber:
-  enable: true
-  qcode: https://open.weixin.qq.com/qr/code?username=gh_c3cec7062858
-  description: My Wechat Account
-reward:
-  wechatpay: https://i.loli.net/2018/08/26/5b821ce3a2497.jpg
-  alipay: https://i.loli.net/2018/08/26/5b821c8f752b4.png
+  #Telegram: https://t.me/channel_name || telegram
+  Wechat: https://open.weixin.qq.com/qr/code?username=gh_c3cec7062858 || wechat
+  RSS: /atom.xml || rss
 related_posts:
    enable: true
 post_edit:
