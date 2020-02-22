@@ -4,11 +4,12 @@ title: Jinzhe Zeng
 
 ## Education
 
-- B.S. in Chemistry, East China Normal University, 2015 - 2019
-- PhD in Chemistry, Rutgers University, 2019 - Now
+- B.S. in Chemistry, East China Normal University, Sep 2015 - Jul 2019
+- PhD in Chemistry, Rutgers University, Aug 2019 - Now
 
 ## Work Experience
 
+- Paid Research Volunteer, East China Normal University, Sep 2017 - Jul 2019
 - Undergraduate Internship Course for 6 Credits, Shanghai Qiaokun Chemical Technology Co., LTD, Sep 2018 - Nov 2018
 - Summer Research Internship, Peking University, Jun 2019 - Jul 2019
 - Fellow, Rutgers University, Sep 2019 - Now
