@@ -2807,8 +2807,8 @@ hexo-symbols-count-time@0.7.1:
 
 hexo-theme-next@theme-next/hexo-theme-next:
   version "7.7.2"
-  uid "9b543ddacf21a59f2daa52b0ae64075aed62fca2"
-  resolved "https://codeload.github.com/theme-next/hexo-theme-next/tar.gz/9b543ddacf21a59f2daa52b0ae64075aed62fca2"
+  uid f17962796ef9f017c294bd61aa96bdd94950e217
+  resolved "https://codeload.github.com/theme-next/hexo-theme-next/tar.gz/f17962796ef9f017c294bd61aa96bdd94950e217"
 
 hexo-util@1.0.0:
   version "1.0.0"
