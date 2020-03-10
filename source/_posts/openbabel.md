@@ -39,9 +39,9 @@ SMILES会默认补氢至饱和，将C补成甲烷，若要得到单个碳的mol�
 
 ### 4.生成结构式的图像
 
-![cys](https://user-images.githubusercontent.com/9496702/43214544-2633e94e-906c-11e8-8623-372674fa80b1.png)
+![cys](//images.weserv.nl/?url=drive.google.com/uc?id=1ToLMDA18j4wk7OPkefkKmqaRQFv8K9jb)
 
-![phosphate](https://user-images.githubusercontent.com/9496702/43214869-2c9da01c-906d-11e8-8350-6877cbd69214.png)
+![phosphate](//images.weserv.nl/?url=drive.google.com/uc?id=10ReRtWZiPoXWskGDSFnhwaxAnLzDUl-D)
 
 `obabel -:"C([C@@H](C(=O)O)N)S" -opng -O cys.png`  
 即可生成半胱氨酸的结构式：  

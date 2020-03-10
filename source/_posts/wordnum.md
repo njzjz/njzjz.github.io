@@ -13,39 +13,39 @@ tags:
 
 以我瞎写的四个公式为例：  
 
-![](https://i.loli.net/2018/06/20/5b2a60db680b8.png)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1k2LbKMgckUdhbimlXza1Lpqzbh3Fg5cN)
 
 在一个公式后面输#()，并且把光标放到两个括号之间：
 
-![](https://i.loli.net/2018/06/20/5b2a60dc5f231.png)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1vP8xgkwd-yaKAFynOWOnt7rQ-2EWqd_S)
 
 点击插入-文档部件-域：
 
-![](https://i.loli.net/2018/06/20/5b2a60ddb417b.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1o0cxj03yPV9KYRw7mVGWAohdqfXOf6Nr)
 
 类别选编号，域名选AutoNum，格式选1，2，3，…，确定：  
 
-![](https://i.loli.net/2018/06/20/5b2a60df0345a.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=18ZgV4M3cQevNPKC8UimY5_RmtQrRNK26)
 
 复制#(1)：
 
-![](https://i.loli.net/2018/06/20/5b2a60dfda2b5.png)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1R1KQyzX3GKQSqDIS_nMGoUNERjGLjnsJ)
 
 光标移到#(1)后面（**光标****务必要在公式里面**），按Enter回车，这时(1)自动到了公式最右边，退格键删掉这个段落符号：
 
-![](https://i.loli.net/2018/06/20/5b2a60e0b50c1.png)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=14LPS36GYWoBnKt1WhTZYxBQH8txBs084)
 
 将刚才复制的#(1)粘贴到第二个公式后面，发现已经变成了#(2)：
 
-![](https://i.loli.net/2018/06/20/5b2a60e20b0dc.png)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1xCZ6MomGmP5C3Qpb0x9B5PYpMNCi-eh5)
 
 同样回车，退格：
 
-![](https://i.loli.net/2018/06/20/5b2a60e3763db.png)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1GMdF68ga3BGjafjN-TBMeTciWc7u58fc)
 
 依葫芦画瓢，搞定剩下的公式，完工：
 
-![](https://i.loli.net/2018/06/20/5b2a60e49422f.png)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1Hq233l1o-gzdF1mgLE9OTHSs8GDzYPIG)
 
 （本文中Word版本为Word 2016，版本1807，内部版本10301.20006）
 

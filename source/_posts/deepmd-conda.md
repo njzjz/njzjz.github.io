@@ -32,7 +32,7 @@ conda install deepmd-kit=1.0.1=*cpu lammps-dp=1.0.1=*cpu -c deepmodeling
 
 至 https://github.com/njzjz/deepmd-kit-recipes/releases 下载 v1.0.1 离线安装包（也提供了百度网盘链接）：
 
-![releases](https://ae01.alicdn.com/kf/He38ad9eb9bc84b04bfebd052b69a00f7j.jpg)
+![releases](//images.weserv.nl/?url=drive.google.com/uc?id=1X2f2pWYGfkKttjBkmCqhYfSljhcttXFO)
 
 下载后执行以下命令，按提示操作即可。
 
