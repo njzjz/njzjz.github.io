@@ -13,7 +13,7 @@ _2018年5月6日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMjA
 
 之所以不用学校的思科Anyconnect VPN服务，是因为其谜一般的稳定性：
 
-![](https://i.loli.net/2018/06/06/5b16f274967cc.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1Y1eDE0hHw-od1lqUMvhoYUuzFl7D9KWF)
 
 学校VPN真辣鸡
 
@@ -59,11 +59,11 @@ ssh连接公网机器，安装ngrok：
 
 将公网机器的ngrok/bin/windows_amd64/ngrok.exe复制下来：
 
-![](https://s1.ax1x.com/2018/05/28/C49Tln.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1f4etJIMtnBsMlM9SKDfXi8VatR11j144)
 
 从shadowsocks/libQtShadowsocks下载Shadowsocks Windows服务器端（如果无法下载自己想办法解决），可以放到同一个文件夹内：
 
-![](https://i.loli.net/2018/05/28/5b0b9c1ec9e09.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1znJQldziPHgYAvs9_4Or1roQfVgf52Ar)
 
 在同一文件夹编写config.json：
 
@@ -90,7 +90,7 @@ ssh连接公网机器，安装ngrok：
 
 现在应该有这些文件：
 
-![](https://i.loli.net/2018/05/28/5b0b9c1ed20f4.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1ZpoumqLO9EivYYJtYejCWneIcS4Byi6k)
 
 打开命令提示符，跳转到这个文件夹中，然后：
 
@@ -100,7 +100,7 @@ ssh连接公网机器，安装ngrok：
 
     ngrok -log=ngrok.log -config=ngrok.yml start ss
 
-![](https://s1.ax1x.com/2018/05/28/C49HO0.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1isg-5qZ0s7I_1a5I_fCR-QLE_i6v0dd4)
 
 显示online就说明连接成功了。
 
@@ -108,35 +108,35 @@ ssh连接公网机器，安装ngrok：
 
 自己的机器，打开shadowsocks（略去下载过程），添加服务器：
 
-![](https://i.loli.net/2018/05/28/5b0b9c1eddab7.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1eRgc0WQt0lG7DhCrsLi3WTwI2rPTc_4n)
 
 shadowsocksR可以单独设置一个端口：
 
-![](https://i.loli.net/2018/05/28/5b0b9c1ed34d7.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=139-8vYOPQpR89EMFSdXLJpty9qlB1W6O)
 
 这样就可以在Switchy Omega配置：
 
-![](https://i.loli.net/2018/05/28/5b0b9c1edae06.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=11RdfB9yQayFcuWCTesO3H-FPzsvLBbcM)
 
 并实现分流：
 
-![](https://s1.ax1x.com/2018/05/28/C49jkF.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1NAALaWxrdhmz5_yV0gOuOtokc5StqClu)
 
 就可以访问不对外网开放的网站了：
 
-![](https://s1.ax1x.com/2018/05/28/C49xfJ.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1LF_TLzVpxz1oTYyEXWGYf0f2f2LrsXWk)
 
 以及下论文啥的：
 
-![](https://s1.ax1x.com/2018/05/28/C4CplR.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=14hAA2hrKSipvdRm-12zSdSURevNebHj3)
 
 Ubuntu子系统内则可以使用proxychains，使用代理连接学校内网的服务器：
 
-![](https://i.loli.net/2018/05/28/5b0b9c1edc448.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1e31WNfe9gA_B29fNH4wBQw5GXd-izDmg)
 
 当然手机上也能用：
 
-![](https://i.loli.net/2018/05/28/5b0b9c1edf0ae.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1-Pv_CgFr5r6-pZgyl4BmyFdAe7hOnF9C)
 
 速度受公网服务器带宽的影响。
 

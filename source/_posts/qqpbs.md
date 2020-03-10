@@ -29,7 +29,7 @@ HTTP API插件的默认地址为http://localhost:5700/
     bot = CQHttp(api_root='http://219.228.63.56:5700/')
     bot.send_group_msg(group_id=599070209,message='hello world')
 
-![default](https://user-images.githubusercontent.com/9496702/43784385-a07c6486-9a96-11e8-808e-be63cf9b381e.png)
+![default](//images.weserv.nl/?url=drive.google.com/uc?id=1M7D0SXpR8rpDOMPQs-KvtATEpPPGUhnA)
 
 第二行定义了一个机器人，第三行让这个机器人发一条hello world的消息。  
 
@@ -123,7 +123,7 @@ HTTP API插件的默认地址为http://localhost:5700/
 
     nohup python monitor.py >/dev/null &
 
-![image](https://user-images.githubusercontent.com/9496702/43786091-6ca16c66-9a9a-11e8-8a55-acde7f3bed2d.png)
+![image](//images.weserv.nl/?url=drive.google.com/uc?id=12KxzikWXWoGD8pkKljRj-sUfACgH6UWZ)
 
   
 即可定时发送任务情况。

@@ -35,4 +35,4 @@ Ubuntu子系统中缺少libGLU.so.1、libfreetype.so.6、libXrender.so.1、libfo
 
 运行gv：
 
-![](https://i.loli.net/2018/06/17/5b253e2d449ca.jpg)
+![](//images.weserv.nl/?url=drive.google.com/uc?id=1s6ziIVUNXrNpvULaJ2V9fzN8ufkbi64K)

@@ -16,32 +16,32 @@ _2017年3月14日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMj
 
 气体分子的能量分布：
 
-[![](https://camo.githubusercontent.com/1953f600da6c8832585fd4b2fa05360bcb4cdd4a/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d556d442e706e67)](https://camo.githubusercontent.com/1953f600da6c8832585fd4b2fa05360bcb4cdd4a/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d556d442e706e67)
+[![](//images.weserv.nl/?url=drive.google.com/uc?id=1JUZMaCBlaogEd-g8AL-HrPDRzodwdj5i)](//images.weserv.nl/?url=drive.google.com/uc?id=1JUZMaCBlaogEd-g8AL-HrPDRzodwdj5i)
 
 气体分子的速率分布：
 
-[![](https://camo.githubusercontent.com/c129d4b3915fc738acba0de65ca0ed36ef78bce8/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d4a6c362e706e67)](https://camo.githubusercontent.com/c129d4b3915fc738acba0de65ca0ed36ef78bce8/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d4a6c362e706e67)
+[![](//images.weserv.nl/?url=drive.google.com/uc?id=1b98q8gZN9YNjQjgY42NITbTSKxmEjnYG)](//images.weserv.nl/?url=drive.google.com/uc?id=1b98q8gZN9YNjQjgY42NITbTSKxmEjnYG)
 
 气体分子的平均速率：
 
-[![](https://camo.githubusercontent.com/045095e859aa181ae4068643f6b52df5b48f96a3/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d59364b2e706e67)](https://camo.githubusercontent.com/045095e859aa181ae4068643f6b52df5b48f96a3/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d59364b2e706e67)
+[![](//images.weserv.nl/?url=drive.google.com/uc?id=1tZj0kVS7LJLSnRpHexUzDXwkz_MarqFK)](//images.weserv.nl/?url=drive.google.com/uc?id=1tZj0kVS7LJLSnRpHexUzDXwkz_MarqFK)
 
 约化普朗克常数（及很多含约化普朗克常数的公式）：
 
-[![](https://camo.githubusercontent.com/e8c7876d91c62d718b1e88b2fbe16a8445a0ada5/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d4753782e706e67)](https://camo.githubusercontent.com/e8c7876d91c62d718b1e88b2fbe16a8445a0ada5/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d4753782e706e67)
+[![](//images.weserv.nl/?url=drive.google.com/uc?id=1DrG3cRbOlTWQNyrzy7tAcAF_8mNgNFXx)](//images.weserv.nl/?url=drive.google.com/uc?id=1DrG3cRbOlTWQNyrzy7tAcAF_8mNgNFXx)
 
 一维势箱的本征函数：
 
-[![](https://camo.githubusercontent.com/42d189bbd0c6adb7494eaa878f8ed66ac6211036/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d7370742e706e67)](https://camo.githubusercontent.com/42d189bbd0c6adb7494eaa878f8ed66ac6211036/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d7370742e706e67)
+[![](//images.weserv.nl/?url=drive.google.com/uc?id=1jgVqdgWhSb0wP5L7J0iWe2s8S3L30RNt)](//images.weserv.nl/?url=drive.google.com/uc?id=1jgVqdgWhSb0wP5L7J0iWe2s8S3L30RNt)
 
 一维谐振子的波函数：
 
-[![](https://camo.githubusercontent.com/814f04e0360981d68c468d1b6f5fe19ab0787c47/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d3366312e706e67)](https://camo.githubusercontent.com/814f04e0360981d68c468d1b6f5fe19ab0787c47/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d3366312e706e67)
+[![](//images.weserv.nl/?url=drive.google.com/uc?id=1aSvqgfT16Z9I_ocMei4FRsameMXPaClX)](//images.weserv.nl/?url=drive.google.com/uc?id=1aSvqgfT16Z9I_ocMei4FRsameMXPaClX)
 
 正态分布：
 
-[![](https://camo.githubusercontent.com/b415d42d63969bbfce1a6ff9508f343a4115ba92/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d6130652e706e67)](https://camo.githubusercontent.com/b415d42d63969bbfce1a6ff9508f343a4115ba92/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d6130652e706e67)
+[![](//images.weserv.nl/?url=drive.google.com/uc?id=12FWXdBUg3zj5_IhjZXaBt5MYO1ZLOD32)](//images.weserv.nl/?url=drive.google.com/uc?id=12FWXdBUg3zj5_IhjZXaBt5MYO1ZLOD32)
 
 最密堆积（面心立方最密堆积和六方最密堆积）的空间利用率：
 
-[![](https://camo.githubusercontent.com/c0216d155ff4d4f6d91f82c50163dacf8c971872/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d744f4f2e706e67)](https://camo.githubusercontent.com/c0216d155ff4d4f6d91f82c50163dacf8c971872/68747470733a2f2f73312e617831782e636f6d2f323031382f30352f32382f43344d744f4f2e706e67)
+[![](//images.weserv.nl/?url=drive.google.com/uc?id=1Bqfnb5ZYHpDsTx3RdZn3iJX-i8MTopJE)](//images.weserv.nl/?url=drive.google.com/uc?id=1Bqfnb5ZYHpDsTx3RdZn3iJX-i8MTopJE)
