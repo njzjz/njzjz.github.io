@@ -50,7 +50,7 @@ Ubuntu子系统，需要Windows 10 专业版 版本 1709以上，在控制面板
 
 浏览器打开[http://localhost:8000/](http://localhost:8000/)，应该就可以看到Seafile界面。
 
-![](//images.weserv.nl/?url=drive.google.com/uc?id=1WRNQBGzeaEADah1ZlLVECMx-UUaMPXbK)
+![](https://images.weserv.nl/?url=drive.google.com/uc?id=1WRNQBGzeaEADah1ZlLVECMx-UUaMPXbK)
 
 * * *
 
@@ -81,7 +81,7 @@ Ubuntu子系统，需要Windows 10 专业版 版本 1709以上，在控制面板
 
 最后，在计划任务中让Seafile.vbs开机自动启动即可。
 
-![](//images.weserv.nl/?url=drive.google.com/uc?id=1OBzqcDqp8O3_6Js8SmXyVomGZzFnd14q)
+![](https://images.weserv.nl/?url=drive.google.com/uc?id=1OBzqcDqp8O3_6Js8SmXyVomGZzFnd14q)
 
 * * *
 
@@ -89,17 +89,17 @@ Ubuntu子系统，需要Windows 10 专业版 版本 1709以上，在控制面板
 
 首先确定有宽带有公网IP，如果没有，找运营商客服要。之前江苏电信把我的IP改成了100开头的内网IP，后来在微信上的江苏电信客服那里开通了一个名为“公网IPv4”的业务。
 
-![](//images.weserv.nl/?url=drive.google.com/uc?id=11Su9wwCKb5pAlWgZ0daJ6Jstr0cUVdO2)
+![](https://images.weserv.nl/?url=drive.google.com/uc?id=11Su9wwCKb5pAlWgZ0daJ6Jstr0cUVdO2)
 
 如果开通不了，就用ngrok穿透……这篇文章就不说了。
 
 在路由器中设置好端口转发，8000和8082端口都要，8000端口用来打开网页（因为80端口被中国的运营商屏蔽了），8082端口用来上传和下载文件：
 
-![](//images.weserv.nl/?url=drive.google.com/uc?id=1bbmiVFSCYT0H5tMzTRgjNcb4f9hXaOfO)
+![](https://images.weserv.nl/?url=drive.google.com/uc?id=1bbmiVFSCYT0H5tMzTRgjNcb4f9hXaOfO)
 
 配置DDNS服务，这里推荐[Dynu](https://www.dynu.com/zh-CN/)，一个有中文的、免费的、非常稳定的DDNS服务商：
 
-![](//images.weserv.nl/?url=drive.google.com/uc?id=1PU79nwufmzuLS3Bq_cunPQ932ckD6qoZ)
+![](https://images.weserv.nl/?url=drive.google.com/uc?id=1PU79nwufmzuLS3Bq_cunPQ932ckD6qoZ)
 
 当然可以把自己的域名再设置CNAME记录。这时，在任何网络，打开[http://cloud.njzjz.win:8000/](http://cloud.njzjz.win:8000/)就可以使用了。
 

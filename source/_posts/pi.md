@@ -16,32 +16,32 @@ _2017年3月14日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMj
 
 气体分子的能量分布：
 
-[![](//images.weserv.nl/?url=drive.google.com/uc?id=1JUZMaCBlaogEd-g8AL-HrPDRzodwdj5i)](//images.weserv.nl/?url=drive.google.com/uc?id=1JUZMaCBlaogEd-g8AL-HrPDRzodwdj5i)
+[![](https://images.weserv.nl/?url=drive.google.com/uc?id=1JUZMaCBlaogEd-g8AL-HrPDRzodwdj5i)](https://images.weserv.nl/?url=drive.google.com/uc?id=1JUZMaCBlaogEd-g8AL-HrPDRzodwdj5i)
 
 气体分子的速率分布：
 
-[![](//images.weserv.nl/?url=drive.google.com/uc?id=1b98q8gZN9YNjQjgY42NITbTSKxmEjnYG)](//images.weserv.nl/?url=drive.google.com/uc?id=1b98q8gZN9YNjQjgY42NITbTSKxmEjnYG)
+[![](https://images.weserv.nl/?url=drive.google.com/uc?id=1b98q8gZN9YNjQjgY42NITbTSKxmEjnYG)](https://images.weserv.nl/?url=drive.google.com/uc?id=1b98q8gZN9YNjQjgY42NITbTSKxmEjnYG)
 
 气体分子的平均速率：
 
-[![](//images.weserv.nl/?url=drive.google.com/uc?id=1tZj0kVS7LJLSnRpHexUzDXwkz_MarqFK)](//images.weserv.nl/?url=drive.google.com/uc?id=1tZj0kVS7LJLSnRpHexUzDXwkz_MarqFK)
+[![](https://images.weserv.nl/?url=drive.google.com/uc?id=1tZj0kVS7LJLSnRpHexUzDXwkz_MarqFK)](https://images.weserv.nl/?url=drive.google.com/uc?id=1tZj0kVS7LJLSnRpHexUzDXwkz_MarqFK)
 
 约化普朗克常数（及很多含约化普朗克常数的公式）：
 
-[![](//images.weserv.nl/?url=drive.google.com/uc?id=1DrG3cRbOlTWQNyrzy7tAcAF_8mNgNFXx)](//images.weserv.nl/?url=drive.google.com/uc?id=1DrG3cRbOlTWQNyrzy7tAcAF_8mNgNFXx)
+[![](https://images.weserv.nl/?url=drive.google.com/uc?id=1DrG3cRbOlTWQNyrzy7tAcAF_8mNgNFXx)](https://images.weserv.nl/?url=drive.google.com/uc?id=1DrG3cRbOlTWQNyrzy7tAcAF_8mNgNFXx)
 
 一维势箱的本征函数：
 
-[![](//images.weserv.nl/?url=drive.google.com/uc?id=1jgVqdgWhSb0wP5L7J0iWe2s8S3L30RNt)](//images.weserv.nl/?url=drive.google.com/uc?id=1jgVqdgWhSb0wP5L7J0iWe2s8S3L30RNt)
+[![](https://images.weserv.nl/?url=drive.google.com/uc?id=1jgVqdgWhSb0wP5L7J0iWe2s8S3L30RNt)](https://images.weserv.nl/?url=drive.google.com/uc?id=1jgVqdgWhSb0wP5L7J0iWe2s8S3L30RNt)
 
 一维谐振子的波函数：
 
-[![](//images.weserv.nl/?url=drive.google.com/uc?id=1aSvqgfT16Z9I_ocMei4FRsameMXPaClX)](//images.weserv.nl/?url=drive.google.com/uc?id=1aSvqgfT16Z9I_ocMei4FRsameMXPaClX)
+[![](https://images.weserv.nl/?url=drive.google.com/uc?id=1aSvqgfT16Z9I_ocMei4FRsameMXPaClX)](https://images.weserv.nl/?url=drive.google.com/uc?id=1aSvqgfT16Z9I_ocMei4FRsameMXPaClX)
 
 正态分布：
 
-[![](//images.weserv.nl/?url=drive.google.com/uc?id=12FWXdBUg3zj5_IhjZXaBt5MYO1ZLOD32)](//images.weserv.nl/?url=drive.google.com/uc?id=12FWXdBUg3zj5_IhjZXaBt5MYO1ZLOD32)
+[![](https://images.weserv.nl/?url=drive.google.com/uc?id=12FWXdBUg3zj5_IhjZXaBt5MYO1ZLOD32)](https://images.weserv.nl/?url=drive.google.com/uc?id=12FWXdBUg3zj5_IhjZXaBt5MYO1ZLOD32)
 
 最密堆积（面心立方最密堆积和六方最密堆积）的空间利用率：
 
-[![](//images.weserv.nl/?url=drive.google.com/uc?id=1Bqfnb5ZYHpDsTx3RdZn3iJX-i8MTopJE)](//images.weserv.nl/?url=drive.google.com/uc?id=1Bqfnb5ZYHpDsTx3RdZn3iJX-i8MTopJE)
+[![](https://images.weserv.nl/?url=drive.google.com/uc?id=1Bqfnb5ZYHpDsTx3RdZn3iJX-i8MTopJE)](https://images.weserv.nl/?url=drive.google.com/uc?id=1Bqfnb5ZYHpDsTx3RdZn3iJX-i8MTopJE)
