@@ -65,6 +65,8 @@ valine:
   notify: true
   visitor: true
   recordIP: true
+google_analytics:
+  tracking_id: UA-74033886-1
 local_search:
   enable: true
 pdf:
