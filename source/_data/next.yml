@@ -1,5 +1,6 @@
 reminder: true
 minify: true
+language_switcher: true
 favicon:
   small: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
   medium: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
