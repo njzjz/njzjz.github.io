@@ -16,8 +16,8 @@ creative_commons:
 scheme: Gemini
 menu:
   home: / || home
-  CV: /cv/ || user
-  Softwares: /softwares/ || server
+  cV: /cv/ || user
+  softwares: /softwares/ || server
   categories: /categories/ || th
   archives: /archives/ || archive
 menu_settings:
