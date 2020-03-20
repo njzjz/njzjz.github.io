@@ -1,8 +1,10 @@
 en:
+  name: English
   menu:
     Softwares: Softwares
     CV: CV
 zh-CN:
+  name: 简体中文
   menu:
     Softwares: 软件
     CV: 简历
