@@ -1,0 +1,10 @@
+{
+    "name": "jinzhe-blog",
+    "version": 2,
+    "builds": [
+        {
+            "src": "*",
+            "use": "@now/static"
+        }
+    ]
+}
