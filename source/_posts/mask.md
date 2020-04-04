@@ -12,4 +12,4 @@ Martin Blaser认为，卫生部门因为口罩不能提供完美的防护，就�
 
 Martin Blaser的Google Scholar引用数达11.6万，h-index达169。
 
-[^1] [Should You Wear a Face Mask to Protect Against the Coronavirus?](https://www.rutgers.edu/news/should-you-wear-face-mask-protect-against-coronavirus), Rutgers Today, April 3, 2020.
+[^1]: [Should You Wear a Face Mask to Protect Against the Coronavirus?](https://www.rutgers.edu/news/should-you-wear-face-mask-protect-against-coronavirus), Rutgers Today, April 3, 2020.
