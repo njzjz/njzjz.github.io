@@ -18,22 +18,22 @@ creative_commons:
   post: true
 scheme: Gemini
 menu:
-  home: / || home
-  cv: /cv/ || user
-  softwares: /softwares/ || server
-  categories: /categories/ || th
-  archives: /archives/ || archive
+  home: / || fa fa-home
+  cv: /cv/ || fas fa-file
+  softwares: /softwares/ || fab fa-app-store
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
 menu_settings:
   badges: true
 avatar:
   url: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
 social:
-  GitHub: https://github.com/njzjz || github
-  E-Mail: mailto:jinzhe.zeng@rutgers.edu || envelope
-  Weibo: https://weibo.com/njzjz || weibo
-  Google Scholar: https://scholar.google.com/citations?user=P7gRtg4AAAAJ || google
-  ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || graduation-cap
-  Twitter: https://twitter.com/njzjz || twitter
+  GitHub: https://github.com/njzjz || fab fa-github
+  E-Mail: mailto:jinzhe.zeng@rutgers.edu || fa fa-envelope
+  Weibo: https://weibo.com/njzjz || fab fa-weibo
+  Google Scholar: https://scholar.google.com/citations?user=P7gRtg4AAAAJ || fab fa-google
+  ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || fab fa-researchgate
+  Twitter: https://twitter.com/njzjz || fab fa-twitter
 wechat_subscriber:
   enable: true
   qcode: https://open.weixin.qq.com/qr/code?username=gh_c3cec7062858
@@ -77,7 +77,7 @@ pdf:
   enable: true
 vendors:
   anime: //cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js
-  fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+  fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
   mathjax: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   mhchem: //cdn.jsdelivr.net/npm/mathjax-mhchem@3
   katex: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
