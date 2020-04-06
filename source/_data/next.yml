@@ -5,10 +5,10 @@ language_switcher: true
 cache:
   enable: false
 favicon:
-  small: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
-  medium: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
-  apple_touch_icon: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
-  safari_pinned_tab: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  small: https://images.weserv.nl/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  medium: https://images.weserv.nl/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  apple_touch_icon: https://images.weserv.nl/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  safari_pinned_tab: https://images.weserv.nl/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
 footer:
   since: 2016
   icon:
@@ -26,7 +26,7 @@ menu:
 menu_settings:
   badges: true
 avatar:
-  url: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  url: https://images.weserv.nl/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
 social:
   GitHub: https://github.com/njzjz || fab fa-github
   E-Mail: mailto:jinzhe.zeng@rutgers.edu || fa fa-envelope
@@ -34,13 +34,15 @@ social:
   Google Scholar: https://scholar.google.com/citations?user=P7gRtg4AAAAJ || fab fa-google
   ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || fab fa-researchgate
   Twitter: https://twitter.com/njzjz || fab fa-twitter
-wechat_subscriber:
+follow_me:
+  Twitter: https://twitter.com/njzjz || twitter
+  WeChat: https://images.weserv.nl/?url=open.weixin.qq.com/qr/code?username=gh_c3cec7062858 || wechat
+reward_settings:
   enable: true
-  qcode: https://open.weixin.qq.com/qr/code?username=gh_c3cec7062858
-  description: My Wechat Account
+  animation: true
 reward:
-  wechatpay: https://i.loli.net/2018/08/26/5b821ce3a2497.jpg
-  alipay: https://i.loli.net/2018/08/26/5b821c8f752b4.png
+  wechatpay: https://images.weserv.nl/?url=i.loli.net/2018/08/26/5b821ce3a2497.jpg
+  alipay: https://images.weserv.nl/?url=i.loli.net/2018/08/26/5b821c8f752b4.png
 related_posts:
    enable: true
 post_edit:
@@ -56,7 +58,7 @@ bookmark:
   enable: true
 github_banner:
   enable: true
-  permalink: https://github.com/njzjz
+  permalink: https://github.com/njzjz/njzjz.github.io
 seo: true
 index_with_subtitle: true
 exturl: true
