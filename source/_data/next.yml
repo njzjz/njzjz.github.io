@@ -19,8 +19,8 @@ creative_commons:
 scheme: Gemini
 menu:
   home: / || fa fa-home
-  CV: /cv/ || user
-  Softwares: /softwares/ || server
+  cv: /cv/ || fab fa-file
+  softwares: /softwares/ || fab fa-app-store
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
 menu_settings:
