@@ -19,7 +19,7 @@ creative_commons:
 scheme: Gemini
 menu:
   home: / || fa fa-home
-  cv: /cv/ || fab fa-file
+  cv: /cv/ || fas fa-file
   softwares: /softwares/ || fab fa-app-store
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
