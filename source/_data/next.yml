@@ -1,6 +1,9 @@
 reminder: true
 minify: true
+darkmode: true
 language_switcher: true
+cache:
+  enable: false
 favicon:
   small: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
   medium: https://avatars2.githubusercontent.com/u/9496702?s=460&v=4
