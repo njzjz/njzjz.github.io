@@ -6,4 +6,4 @@ categories: ECNUChemistry
 pdf: true
 ---
 # 期末试卷
-* [2007-2008学年第一学期](https://dev.tencent.com/api/share/download/dfc34247-3742-4bb1-9a30-774fc50ef9b9)
+* [2007-2008学年第一学期](https://njzjz.coding.net/api/share/download/dfc34247-3742-4bb1-9a30-774fc50ef9b9)
