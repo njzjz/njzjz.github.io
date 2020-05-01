@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -15,3 +15,12 @@ patch:
   'npm:tunnel-agent:20170305':
     - hexo-related-popular-posts > ga-analytics > googleapis > request > tunnel-agent:
         patched: '2019-10-29T03:55:03.032Z'
+  SNYK-JS-LODASH-567746:
+    - hexo > lodash:
+        patched: '2020-05-01T08:42:16.276Z'
+    - hexo-related-popular-posts > cheerio > lodash:
+        patched: '2020-05-01T08:42:16.276Z'
+    - hexo-related-popular-posts > kuromoji > async > lodash:
+        patched: '2020-05-01T08:42:16.276Z'
+    - hexo-migrator-wordpress > turndown > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T08:42:16.276Z'
