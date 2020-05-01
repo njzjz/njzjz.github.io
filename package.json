@@ -7,7 +7,9 @@
   },
   "scripts": {
     "build": "mkdir -p themes && ln -s ../node_modules/hexo-theme-next/ themes/next && hexo g && bundlesize",
-    "now-build": "yarn build && mv public dist"
+    "now-build": "yarn build && mv public dist",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "bundlesize": [
     {
@@ -35,7 +37,8 @@
     "hexo-renderer-stylus": "1.1.0",
     "hexo-server": "1.0.0",
     "hexo-symbols-count-time": "0.7.1",
-    "hexo-theme-next": "theme-next/hexo-theme-next"
+    "hexo-theme-next": "theme-next/hexo-theme-next",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "bundlesize": "0.18.0",
@@ -43,5 +46,6 @@
   },
   "engines": {
     "node": ">=10.x"
-  }
+  },
+  "snyk": true
 }
