@@ -27,22 +27,22 @@ We are going to hold...
 
 “与学霸面对面”活动“与学霸面对面”活动将于9月8日下午举行。在这里，每一位新生都有机会与学霸们交流，汲取学霸们的学习经验，为今后的学业奠定基础。
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=1HTHAdFjFdAuqvGsEd_QZxg4MvrqlQhbe)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=1HTHAdFjFdAuqvGsEd_QZxg4MvrqlQhbe)
 
 第一届“逃出实验D楼”活动实验D楼，是每一个化院学子再熟悉不过的实验楼。在这里，我们将上演密室逃脱类游戏。凭借智慧与力量，每一个逃出实验D楼的，都是真正的勇士。
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=1n8wAv_J9TQAj30RGw8MlcwJftkdwgtnN)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=1n8wAv_J9TQAj30RGw8MlcwJftkdwgtnN)
 
 第十三届理科实验设计大赛理科实验设计大赛是化学与分子工程学院唯一的学术性活动。通过大赛，各年级的学生可以提高实验水平，为今后的科研道路奠定坚实的基础。
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=1JgSsa-i9PeOwUMIcWUvMYbEVv0QNgG6o)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=1JgSsa-i9PeOwUMIcWUvMYbEVv0QNgG6o)
 
 第四届“格林尼亚”杯趣味知识竞赛活动化学趣味知识？是的，这是面向全校同学的知识盛筵，凭借知识面与反应能力的比拼，获奖的同学可以获得丰厚的礼品。
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=1mp4pAaaNbQNbxnzQhb_SbOjiljSodw5Z)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=1mp4pAaaNbQNbxnzQhb_SbOjiljSodw5Z)
 
 东华大学第十七届化学节之十校邀请赛应东华大学邀请，我们将代表华东师范大学，派出队伍参加十校邀请赛，与其它复旦交大同济等其它九校的参赛队伍同场竞技。胜利，属于我们！
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=1UF17ncS5VZjzlyCYk_OQFj4MclELsa_U)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=1UF17ncS5VZjzlyCYk_OQFj4MclELsa_U)
 
 我们是欢乐的大家庭，我们充满欢乐与掌声，我们不断努力！如果你活泼欢乐，甘于奉献，拥有强烈的责任感和荣誉感，那就不要犹豫，快快来到学术部这片让你自我锻炼、自我展示的天地吧！我们期待你的加入！**WAITING for YOU**

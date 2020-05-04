@@ -5,10 +5,10 @@ language_switcher: true
 cache:
   enable: false
 favicon:
-  small: https://images.weserv.nl/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
-  medium: https://images.weserv.nl/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
-  apple_touch_icon: https://images.weserv.nl/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
-  safari_pinned_tab: https://images.weserv.nl/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  small: https://img.njzjz.win/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  medium: https://img.njzjz.win/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  apple_touch_icon: https://img.njzjz.win/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  safari_pinned_tab: https://img.njzjz.win/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
 footer:
   since: 2016
   icon:
@@ -26,7 +26,7 @@ menu:
 menu_settings:
   badges: true
 avatar:
-  url: https://images.weserv.nl/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  url: https://img.njzjz.win/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
 social:
   GitHub: https://github.com/njzjz || fab fa-github
   E-Mail: mailto:jinzhe.zeng@rutgers.edu || fa fa-envelope
@@ -36,13 +36,13 @@ social:
   Twitter: https://twitter.com/njzjz || fab fa-twitter
 follow_me:
   Twitter: https://twitter.com/njzjz || twitter
-  WeChat: https://images.weserv.nl/?url=open.weixin.qq.com/qr/code?username=gh_c3cec7062858 || wechat
+  WeChat: https://img.njzjz.win/?url=open.weixin.qq.com/qr/code?username=gh_c3cec7062858 || wechat
 reward_settings:
   enable: true
   animation: true
 reward:
-  wechatpay: https://images.weserv.nl/?url=i.loli.net/2018/08/26/5b821ce3a2497.jpg
-  alipay: https://images.weserv.nl/?url=i.loli.net/2018/08/26/5b821c8f752b4.png
+  wechatpay: https://img.njzjz.win/?url=i.loli.net/2018/08/26/5b821ce3a2497.jpg
+  alipay: https://img.njzjz.win/?url=i.loli.net/2018/08/26/5b821c8f752b4.png
 related_posts:
    enable: true
 post_edit:
