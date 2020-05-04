@@ -66,11 +66,12 @@ math:
   enable: true
 valine:
   enable: true
-  appid: UJXGMqVd8DbRnRm6eSUV74aA-9Nh9j0Va
-  appkey: JWC5OD0apLNWan5JVDwDrvsx
+  appid: YMI6904uVYbYEvp2Q0MtJc8n-MdYXbMMI
+  appkey: hY1CYIauaeAmQe75EmPUFgN0
   notify: true
   visitor: true
   recordIP: true
+  serverURLs: https://blogcomment.njzjz.win
 google_analytics:
   tracking_id: UA-74033886-1
 local_search:
