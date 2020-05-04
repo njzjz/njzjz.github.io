@@ -71,7 +71,7 @@ valine:
   notify: true
   visitor: true
   recordIP: true
-  serverURLs: blogcomment.njzjz.win
+  serverURLs: https://blogcomment.njzjz.win
 google_analytics:
   tracking_id: UA-74033886-1
 local_search:
