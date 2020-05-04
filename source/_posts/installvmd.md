@@ -52,4 +52,4 @@ Windows Subsystem for Linux (Ubuntu)
 
 这时再输入vmd，即可打开VMD界面。
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=1BkC5jEZYVo5KlmOonvQWbqDrgICWzVD9)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=1BkC5jEZYVo5KlmOonvQWbqDrgICWzVD9)

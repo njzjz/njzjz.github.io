@@ -17,17 +17,17 @@ tags:
 
 我们检查登陆页面（[https://login.ecnu.edu.cn/srun\_portal\_pc.php](https://login.ecnu.edu.cn/srun_portal_pc.php)）的源代码，发现使用了jQuery，还有一个叫srun_portal.js的JavaScript脚本，显然登陆的POST请求就是从这里发送的：
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=14lgyLTVRKmLdrKXPy9rkYdaL5bjVkzHf)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=14lgyLTVRKmLdrKXPy9rkYdaL5bjVkzHf)
 
 打开srun\_portal.js，我们看到这段post请求，下面还有login\_ok，很显然就是这段了。记下post地址[https://login.ecnu.edu.cn/include/auth_action.php](https://login.ecnu.edu.cn/include/auth_action.php)，几个关键的参数，action=login，username=用户名，password=密码，ajax=1，ac_id=1，ok。
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=1j9o6w1KjfBPd0njab10omLAdFHALBls2)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=1j9o6w1KjfBPd0njab10omLAdFHALBls2)
 
 下面可以编写curl命令了：
 
 **$ curl -d "action=login&username=10154601140&password=password&ac_id=1&ajax=1" [https://login.ecnu.edu.cn/include/auth_action.php](https://login.ecnu.edu.cn/include/auth_action.php)**
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=11kF4jfbzo4DfY1PfP0WrMzjKEivETAN3)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=11kF4jfbzo4DfY1PfP0WrMzjKEivETAN3)
 
 提示login_ok。
 
@@ -42,13 +42,13 @@ tags:
 
 **$ ls -l network** **#检查一下文件权限**
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=13AzytmVDTaFZE2ITk1cFykMruC4-09VD)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=13AzytmVDTaFZE2ITk1cFykMruC4-09VD)
 
 如果设置成功，文件权限应为-rwxr-xr-x。现在，我们就可以运行脚本了：
 
 **$ ./network**
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=1EWjGiAhuVd7_D63zVV5szI63iprslDWC)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=1EWjGiAhuVd7_D63zVV5szI63iprslDWC)
 
 **三、扔进~/bin**
 
@@ -58,7 +58,7 @@ tags:
 
 **$ network**
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=1lCDW3bh-bXVdmhkIp0dBvHFg4uZ6kZlc)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=1lCDW3bh-bXVdmhkIp0dBvHFg4uZ6kZlc)
 
 bin目录一般是默认的PATH环境变量，扔进去即可直接输入**network**运行。如果PATH变量不包含此目录，我们可以修改.bashrc文件：
 
@@ -66,7 +66,7 @@ bin目录一般是默认的PATH环境变量，扔进去即可直接输入**netwo
 
 在最下方加入**export PATH=~/bin:"$PATH"**，保存：
 
-![](https://images.weserv.nl/?url=drive.google.com/uc?id=1qN2v4Ka9rtTTBau5K2o8dGslBkN4osFp)
+![](https://img.njzjz.win/?url=drive.google.com/uc?id=1qN2v4Ka9rtTTBau5K2o8dGslBkN4osFp)
 
 **$ . .bashrc** **#重新读取.bashrc**
 
