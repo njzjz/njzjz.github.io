@@ -12,7 +12,7 @@ tags:
 
 ![健康包总览](https://img.njzjz.win/?url=lh3.googleusercontent.com/6eGLgWbeIXLG0SiskZuM2raHzTdMYhHqhDOIp4sMxJtyPJwdZrrF98kLuVPgEN9q06Zi3sWOZWXJZYvIKJNJPggUaZEAdmMVerlggXdN-wvPTq0VML421vsIPEtJ1CjaeWuAiPh0lNg)
 
-包括2盒连花清瘟胶囊，5盒卫生湿巾，2袋KN95，两袋医用外科口罩，一本《预防新馆肺炎知识问答》。本来应该还有慰问信，但是不知道为什么供应不足，发完了，看来只能把小册子作为纪念了。
+包括2盒连花清瘟胶囊，5盒卫生湿巾，2袋KN95，两袋医用外科口罩，一本《预防新冠​肺炎防护知识问答》。本来应该还有慰问信，但是不知道为什么供应不足，发完了，看来只能把小册子作为纪念了。
 
 ![连花清瘟1](https://img.njzjz.win/?url=lh3.googleusercontent.com/wTbTAxiI2CvysZbG5JcDHrbdlWF-P2e1Z_QlwREstH__5vhJ8nQJXBJQBd8uIy6f9FjwyP1hoKLatJo7z5zk0uv-JBfdNI-ZkiUEP4PT_SnS9lqR_H9lRbN633H79XECaGzQvYJdXUk)
 
