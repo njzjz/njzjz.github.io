@@ -21,7 +21,7 @@ title: Jinzhe Zeng
 
 ## Publications
 
-- Zhang, Y; Wang, H; Chen, W; **Zeng, J**; Zhang, L\*; Wang, H\*; E, W\*, DP-GEN: A concurrent learning platform for the generation of reliable deep learning based potential energy models, Comput. Phys. Commun, 2020, 107206, DOI: [10.1016/j.cpc.2020.107206](https://doi.org/10.1016/j.cpc.2020.107206)
+- Zhang, Y; Wang, H; Chen, W; **Zeng, J**; Zhang, L\*; Wang, H\*; E, W\*, DP-GEN: A concurrent learning platform for the generation of reliable deep learning based potential energy models, Comput. Phys. Commun, 2020 253, 107206, DOI: [10.1016/j.cpc.2020.107206](https://doi.org/10.1016/j.cpc.2020.107206)
 - Cao, L; **Zeng, J**; Xu, M; Chin, CH; Zhu, T\*; Zhang, J ZH\*, Combustion Driven by Fragment-based Ab Initio Molecular Dynamics Simulation, ChemRxiv. Preprint, 2019-12-31, DOI: [10.26434/chemrxiv.11462160](https://doi.org/10.26434/chemrxiv.11462160)
 - **Zeng, J**; Cao, L; Xu, M; Zhu, T\*; Zhang, J ZH\*, Neural Network Based in Silico Simulation of Combustion Reactions, [arXiv:1911.12252](https://arxiv.org/abs/1911.12252), 2019-11-27
 - **Zeng, J**; Cao, L; Chin, CH\*; Ren, H\*; Zhang, J ZH; Zhu, T\*, ReacNetGenerator: an automatic reaction network generator for reactive molecular dynamics simulations, Phys. Chem. Chem. Phys., 2020, 22 (2), 683–691, DOI: [10.1039/C9CP05091D](https://doi.org/10.1039/C9CP05091D)
