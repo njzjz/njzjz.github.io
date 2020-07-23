@@ -2660,10 +2660,10 @@ hexo-symbols-count-time@0.7.1:
   dependencies:
     hexo-util "1.9.0"
 
-hexo-theme-next@theme-next/hexo-theme-next:
-  version "7.8.0"
-  uid fdaf3e325ca5eaf345dd23c2e16932030c81a64d
-  resolved "https://codeload.github.com/theme-next/hexo-theme-next/tar.gz/fdaf3e325ca5eaf345dd23c2e16932030c81a64d"
+hexo-theme-next@^8.0.0-rc.4:
+  version "8.0.0-rc.4"
+  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.0.0-rc.4.tgz#05c1064fc2e26d60362b4c93d766643f6f72c60a"
+  integrity sha512-lxD8KPQmPqkpPUbJofVBm4Vp3y4O/XJs+7svspHJB4CMbbBtEpUmywlnEFGMvUt7ql0v3HG2ZdK791M5YH5y/Q==
 
 hexo-util@1.9.0:
   version "1.9.0"
