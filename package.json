@@ -26,7 +26,7 @@
     "hexo-generator-search": "2.4.0",
     "hexo-generator-sitemap": "2.0.0",
     "hexo-generator-tag": "1.0.0",
-    "hexo-image-cloudflare": "^0.0.1",
+    "hexo-image-cloudflare": "0.0.1",
     "hexo-pdf": "1.1.1",
     "hexo-reference": "1.0.4",
     "hexo-related-popular-posts": "4.0.0",
