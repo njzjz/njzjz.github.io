@@ -2566,6 +2566,13 @@ hexo-i18n@^1.0.0:
   dependencies:
     sprintf-js "^1.0.3"
 
+hexo-image-cloudflare@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/hexo-image-cloudflare/-/hexo-image-cloudflare-0.0.1.tgz#185985330015b0005c1545351aa3ca1f50fae577"
+  integrity sha512-6wPQyIHjsmSAcdIW9y6N9y8TmkDVJ+Rpgy5+dc4XiDPJCQrOjgm2SxImbXpU+WsHFoGU3NMSWlmEdpDZcbVR7Q==
+  dependencies:
+    hexo-util "^2.2.0"
+
 hexo-log@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-log/-/hexo-log-1.0.0.tgz#6f0d39e0e9e76b04a4617b242c3e101d5c4283c7"
@@ -2713,6 +2720,21 @@ hexo-util@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.1.0.tgz#2c691a034a05d4ed254696c2e99d7cb686fdd350"
   integrity sha512-TXt6z7rj5BEDig7aZZjfHa7qFKGOtUlQoVHvQh0GS99fGp1JxWbllosI173kOcrzor/uubtGk+5nRzhELZyeZw==
+  dependencies:
+    bluebird "^3.5.2"
+    camel-case "^4.0.0"
+    cross-spawn "^7.0.0"
+    deepmerge "^4.2.2"
+    highlight.js "^10.0.0"
+    htmlparser2 "^4.0.0"
+    prismjs "^1.17.1"
+    strip-indent "^3.0.0"
+    striptags "^3.1.1"
+
+hexo-util@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.2.0.tgz#5372864457d716c3f4553babf22e6da51690806a"
+  integrity sha512-ERYPhehtWKYo2Wkf2e11iwub10rxHvCdJt4FNnBzjuUV7MEfSphpFNXJ3yyBAQgHPr7ce9ZPb7SEbMdyZL159w==
   dependencies:
     bluebird "^3.5.2"
     camel-case "^4.0.0"
