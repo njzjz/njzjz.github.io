@@ -302,6 +302,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> Linux软件安装 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -320,6 +326,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> Linux软件安装 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2182,7 +2194,7 @@
       <link href="/2018/06/19/ssh/"/>
       <url>/2018/06/19/ssh/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>2018/06/20</p><p>免密和别名。</p><h3 id="免密"><a href="#免密" class="headerlink" title="免密"></a>免密</h3><pre><code>ssh-keygen -t rsa</code></pre><p>一路回车，将在~/.ssh/目录下生成密钥（id_rsa）和公钥（id_rsa.pub）。</p><pre><code>&lt;span class=&quot;c1&quot; style=&quot;font-style: italic;color: rgb(153, 153, 153);&quot;&gt;#以106.14.182.145这个服务器为例&lt;/span&gt;ssh-copy-id root@106.14.182.145</code></pre><p>输入密码后，即把公钥信息（id_rsa.pub）拷入服务器的authorized_keys中。再次登录：</p><pre><code>ssh root@106.14.182.145</code></pre><p>再也不用输密码了。</p><h3 id="别名"><a href="#别名" class="headerlink" title="别名"></a>别名</h3><pre><code>vi ~/.ssh/config</code></pre><p>在config文件中输入：</p><pre><code>Host aliyunHostName 106.14.182.145User root  Host xxxHostName xxx.xxx.xx.xxxUser xxxPort xx</code></pre><p>保存，然后将config文件的权限设置为600：</p><pre><code>chmod 600 ~/.ssh/config</code></pre><p>现在，ssh可以用aliyun替代<span class="exturl" data-url="bWFpbHRvOiYjeDcyOyYjeDZmOyYjMTExOyYjeDc0OyYjeDQwOyYjeDMxOyYjNDg7JiN4MzY7JiM0NjsmI3gzMTsmI3gzNDsmI3gyZTsmI3gzMTsmIzU2OyYjNTA7JiM0NjsmI3gzMTsmIzUyOyYjNTM7">&#x72;&#x6f;&#111;&#x74;&#x40;&#x31;&#48;&#x36;&#46;&#x31;&#x34;&#x2e;&#x31;&#56;&#50;&#46;&#x31;&#52;&#53;<i class="fa fa-external-link-alt"></i></span>了：</p><pre><code>ssh aliyun</code></pre><h3 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h3><p>这两步设置后，Ubuntu子系统是Windows最好的ssh软件。</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>2018/06/20</p><p>免密和别名。</p><h3 id="免密"><a href="#免密" class="headerlink" title="免密"></a>免密</h3><pre><code>ssh-keygen -t rsa</code></pre><p>一路回车，将在~/.ssh/目录下生成密钥（id_rsa）和公钥（id_rsa.pub）。</p><pre><code>&lt;span class=&quot;c1&quot; style=&quot;font-style: italic;color: rgb(153, 153, 153);&quot;&gt;#以106.14.182.145这个服务器为例&lt;/span&gt;ssh-copy-id root@106.14.182.145</code></pre><p>输入密码后，即把公钥信息（id_rsa.pub）拷入服务器的authorized_keys中。再次登录：</p><pre><code>ssh root@106.14.182.145</code></pre><p>再也不用输密码了。</p><h3 id="别名"><a href="#别名" class="headerlink" title="别名"></a>别名</h3><pre><code>vi ~/.ssh/config</code></pre><p>在config文件中输入：</p><pre><code>Host aliyunHostName 106.14.182.145User root  Host xxxHostName xxx.xxx.xx.xxxUser xxxPort xx</code></pre><p>保存，然后将config文件的权限设置为600：</p><pre><code>chmod 600 ~/.ssh/config</code></pre><p>现在，ssh可以用aliyun替代<span class="exturl" data-url="bWFpbHRvOiYjMTE0OyYjMTExOyYjeDZmOyYjeDc0OyYjNjQ7JiM0OTsmIzQ4OyYjNTQ7JiN4MmU7JiM0OTsmI3gzNDsmIzQ2OyYjNDk7JiM1NjsmI3gzMjsmIzQ2OyYjeDMxOyYjNTI7JiM1Mzs=">&#114;&#111;&#x6f;&#x74;&#64;&#49;&#48;&#54;&#x2e;&#49;&#x34;&#46;&#49;&#56;&#x32;&#46;&#x31;&#52;&#53;<i class="fa fa-external-link-alt"></i></span>了：</p><pre><code>ssh aliyun</code></pre><h3 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h3><p>这两步设置后，Ubuntu子系统是Windows最好的ssh软件。</p>]]></content>
       
       
       <categories>
@@ -2230,6 +2242,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> Linux软件安装 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -2248,6 +2266,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> Linux软件安装 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2268,6 +2292,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> Linux软件安装 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -2286,6 +2316,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> Linux软件安装 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2306,6 +2342,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> Linux软件安装 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -2324,6 +2366,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> Linux软件安装 </tag>
+            
+        </tags>
       
     </entry>
     
