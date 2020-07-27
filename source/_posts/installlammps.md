@@ -7,6 +7,7 @@ categories:
   - Chemistry
 date: 2018-06-17 00:32:48
 tags:
+- Linux软件安装
 ---
 
 2018年6月17日

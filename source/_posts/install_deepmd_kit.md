@@ -5,6 +5,7 @@ categories:
   - Chemistry
 date: 2019-10-09
 tags:
+- Linux软件安装
 ---
 
 2019 年 10 月 9 日微信公众号发

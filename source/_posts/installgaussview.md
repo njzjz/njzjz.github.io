@@ -7,6 +7,7 @@ categories:
   - Chemistry
 date: 2018-06-17 00:32:07
 tags:
+- Linux软件安装
 ---
 
 文末将介绍GaussView在Ubuntu子系统的安装方法（网不好的时候用）。
