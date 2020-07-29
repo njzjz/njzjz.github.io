@@ -26,28 +26,31 @@ Ubuntu子系统，需要Windows 10 专业版 版本 1709以上，在控制面板
 
 或者
 
-    <span class="nb">cd</span>
-    mkdir seafile
-    <span class="nb">cd</span> seafile
-    wget http://seafile-downloads.oss-cn-shanghai.aliyuncs.com/seafile-server_6.2.5_x86-64.tar.gz
-    tar -vxzf seafile-server_6.2.5_x86-64.tar.gz
-    <span class="nb">cd</span> seafile-server_6.2.5
-    
+```sh
+cd
+mkdir seafile
+cd seafile
+wget http://seafile-downloads.oss-cn-shanghai.aliyuncs.com/seafile-server_6.2.5_x86-64.tar.gz
+tar -vxzf seafile-server_6.2.5_x86-64.tar.gz
+cd seafile-server_6.2.5
+```  
 
 接着装好Python和SQLite：
 
-    sudo apt-get update
-    sudo apt-get install python
-    sudo apt-get install python2.7 libpython2.7 python-setuptools python-imaging python-ldap python-urllib3 ffmpeg python-pip sqlite3
-    pip install pillow moviepy
-    
+```sh
+sudo apt-get update
+sudo apt-get install python
+sudo apt-get install python2.7 libpython2.7 python-setuptools python-imaging python-ldap python-urllib3 ffmpeg python-pip sqlite3
+pip install pillow moviepy
+```    
 
 安装并启动：
 
-    ./setup-seafile.sh
-    ./seafile.sh start
-    ./seahub.sh start
-    
+```sh
+./setup-seafile.sh
+./seafile.sh start
+./seahub.sh start
+```    
 
 浏览器打开[http://localhost:8000/](http://localhost:8000/)，应该就可以看到Seafile界面。
 
@@ -67,18 +70,20 @@ Ubuntu子系统，需要Windows 10 专业版 版本 1709以上，在控制面板
 
 首先创建seafile.sh：
 
-    <span class="c1">#/home/njzjz/seafile.sh</span>
-    <span class="nb">cd</span> /home/njzjz/seafile/seafile-server-6.2.5/ <span class="c1">#根据实际位置修改</span>
-    ./seafile.sh start
-    ./seahub.sh start
-    <span class="nv">$SHELL</span> <span class="c1">#挂起脚本进程</span>
-    
+```sh
+#/home/njzjz/seafile.sh
+cd /home/njzjz/seafile/seafile-server-6.2.5/ #根据实际位置修改
+./seafile.sh start
+./seahub.sh start
+$SHELL #挂起脚本进程
+``` 
 
 然后在Windows 系统中创建Seafile.vbs：
 
-    <span class="k">Set</span> <span class="n">ws</span> <span class="o">=</span> <span class="n">CreateObject</span><span class="p">(</span><span class="s">"Wscript.Shell"</span><span class="p">)</span>
-    <span class="n">ws</span><span class="p">.</span><span class="n">run</span> <span class="s">"bash -c 'sh /home/njzjz/seafile.sh'"</span><span class="p">,</span><span class="n">vbhide</span>
-    
+```vbs
+Set ws = CreateObject("Wscript.Shell")
+ws.run "bash -c 'sh /home/njzjz/seafile.sh'",vbhide
+```    
 
 最后，在计划任务中让Seafile.vbs开机自动启动即可。
 

@@ -23,12 +23,16 @@ HTTP API插件的默认地址为http://localhost:5700/
 
 #### 2.安装`cqhttp`包
 
-`pip install cqhttp`  
+```bash
+pip install cqhttp
+```
 安装后在Python中使用：
 
-    from cqhttp import CQHttp
-    bot = CQHttp(api_root='http://219.228.63.56:5700/')
-    bot.send_group_msg(group_id=599070209,message='hello world')
+```python
+from cqhttp import CQHttp
+bot = CQHttp(api_root='http://219.228.63.56:5700/')
+bot.send_group_msg(group_id=599070209,message='hello world')
+```
 
 ![default](https://drive.google.com/uc?id=1M7D0SXpR8rpDOMPQs-KvtATEpPPGUhnA)
 
@@ -38,25 +42,29 @@ HTTP API插件的默认地址为http://localhost:5700/
 
 #### 1.获取任务状态
 
-    import subprocess as sp
-    class CQJobMonitor():
-        def jobstate(self):
-            states=sp.check_output(self.command.split()).decode('utf-8').split("\n")
-            states=[' '.join(line.split()) for line in states if any([keyword in line for keyword in self.keywords])]
-            return states
+```python
+import subprocess as sp
+class CQJobMonitor():
+    def jobstate(self):
+        states=sp.check_output(self.command.split()).decode('utf-8').split("\n")
+        states=[' '.join(line.split()) for line in states if any([keyword in line for keyword in self.keywords])]
+        return states
+```
 
 这里`self.command`为获取任务状态的命令，如`qstat`，`self.keywords`为关键词，如`['jzzeng']`。如此即可返回含有关键词的任务状态。
 
 #### 2.发送消息
 
-    import time
-    from cqhttp import CQHttp
-    class CQJobMonitor():
-        def sendstate(self):
-            localtime = time.asctime(time.localtime(time.time()))
-            message=localtime+"\n"+self.tip+"\n"
-            message+="\n".join(self.jobstate())
-            self.bot.send_group_msg(group_id=self.group_id,message=message)
+```python
+import time
+from cqhttp import CQHttp
+class CQJobMonitor():
+    def sendstate(self):
+        localtime = time.asctime(time.localtime(time.time()))
+        message=localtime+"\n"+self.tip+"\n"
+        message+="\n".join(self.jobstate())
+        self.bot.send_group_msg(group_id=self.group_id,message=message)
+```
 
 调用定义好的CQHttp类发送消息，顺便带上当前时间。
 
@@ -64,15 +72,17 @@ HTTP API插件的默认地址为http://localhost:5700/
 
 设置每300秒发送一次：
 
-    from threading import Timer
-    import os
-    class CQJobMonitor():
-        def loopmonitor(self):
-            while not os.path.exists("pause"):
-                timer=Timer(self.timeinterval,self.sendstate)
-                timer.start()
-                timer.join()
-            print("Exit per signal.")
+```python
+from threading import Timer
+import os
+class CQJobMonitor():
+    def loopmonitor(self):
+        while not os.path.exists("pause"):
+            timer=Timer(self.timeinterval,self.sendstate)
+            timer.start()
+            timer.join()
+        print("Exit per signal.")
+```
 
 这里`self.timeinterval`设置为300.
 
@@ -80,49 +90,55 @@ HTTP API插件的默认地址为http://localhost:5700/
 
 **完整的程序如下：**
 
-    import os
-    import subprocess as sp
-    from cqhttp import CQHttp
-    import time
-    from threading import Timer
-    
-    class CQJobMonitor():
-        def __init__(self,command="qstat",cqroot='http://219.228.63.56:5700/',group_id=312676525,keywords=['jzzeng'],timeinterval=300):
-            self.tip="JobMonitor"
-            print(self.tip)
-            self.command=command
-            self.group_id=group_id
-            self.keywords=keywords
-            self.bot = CQHttp(api_root=cqroot)
-            self.timeinterval=timeinterval
-    
-        def jobstate(self):
-            states=sp.check_output(self.command.split()).decode('utf-8').split("\n")
-            states=[' '.join(line.split()) for line in states if any([keyword in line for keyword in self.keywords])]
-            return states
-    
-        def sendstate(self):
-            localtime = time.asctime(time.localtime(time.time()))
-            message=localtime+"\n"+self.tip+"\n"
-            message+="\n".join(self.jobstate())
-            self.bot.send_group_msg(group_id=self.group_id,message=message)
-    
-        def loopmonitor(self):
-            while not os.path.exists("pause"):
-                timer=Timer(self.timeinterval,self.sendstate)
-                timer.start()
-                timer.join()
-            print("Exit per signal.")
+```python
+import os
+import subprocess as sp
+from cqhttp import CQHttp
+import time
+from threading import Timer
+
+class CQJobMonitor():
+	def __init__(self,command="qstat",cqroot='http://219.228.63.56:5700/',group_id=312676525,keywords=['jzzeng'],timeinterval=300):
+		self.tip="JobMonitor"
+		print(self.tip)
+		self.command=command
+		self.group_id=group_id
+		self.keywords=keywords
+		self.bot = CQHttp(api_root=cqroot)
+		self.timeinterval=timeinterval
+
+	def jobstate(self):
+		states=sp.check_output(self.command.split()).decode('utf-8').split("\n")
+		states=[' '.join(line.split()) for line in states if any([keyword in line for keyword in self.keywords])]
+		return states
+
+	def sendstate(self):
+		localtime = time.asctime(time.localtime(time.time()))
+		message=localtime+"\n"+self.tip+"\n"
+		message+="\n".join(self.jobstate())
+		self.bot.send_group_msg(group_id=self.group_id,message=message)
+
+	def loopmonitor(self):
+		while not os.path.exists("pause"):
+			timer=Timer(self.timeinterval,self.sendstate)
+			timer.start()
+			timer.join()
+		print("Exit per signal.")
+```
 
 代码已上传至pypi，可用`pip install CQJobMonitor`安装。  
 编写`monitor.py`：
 
-    from CQJobMonitor import CQJobMonitor
-    CQJobMonitor(command="qstat",cqroot='http://219.228.63.56:5700/',group_id=312676525,keywords=['jzzeng'],timeinterval=300).loopmonitor()
+```python
+from CQJobMonitor import CQJobMonitor
+CQJobMonitor(command="qstat",cqroot='http://219.228.63.56:5700/',group_id=312676525,keywords=['jzzeng'],timeinterval=300).loopmonitor()
+```
 
 并在后台运行：
 
-    nohup python monitor.py >/dev/null &
+```
+nohup python monitor.py >/dev/null &
+```
 
 ![image](https://drive.google.com/uc?id=12KxzikWXWoGD8pkKljRj-sUfACgH6UWZ)
 

@@ -15,13 +15,15 @@ tags:
 本文将介绍 LAMMPS 在 Intel® MPI 、Open MPI 和 Ubuntu 下的安装方法。
 <!--more-->
 
-    #下载解压
-    wget http://lammps.sandia.gov/tars/lammps-stable.tar.gz
-    tar -vxf lammps-stable.tar.gz
-    cd lammps-16Mar18/src
-    #安装Package，例如这里安装USER-REAXC
-    make yes-user-reaxc
-    #所有Package的列表可见http://lammps.sandia.gov/doc/Section_packages.html
+```sh
+#下载解压
+wget http://lammps.sandia.gov/tars/lammps-stable.tar.gz
+tar -vxf lammps-stable.tar.gz
+cd lammps-16Mar18/src
+#安装Package，例如这里安装USER-REAXC
+make yes-user-reaxc
+#所有Package的列表可见http://lammps.sandia.gov/doc/Section_packages.html
+```
 
 Intel® MPI
 ----------
@@ -30,7 +32,9 @@ Intel® MPI
 
 配置好Intel® MPI的环境变量后，只需：
 
-    make intel_cpu_intelmpi
+```sh
+make intel_cpu_intelmpi
+```
 
 即开始编译。
 
@@ -39,38 +43,50 @@ Open MPI
 
 若已装Open MPI，可直接编译：
 
-    make mpi
+```sh
+make mpi
+```
 
 若机器上没有装任何MPI，可自行安装Open MPI：
 
-    wget https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-3.1.0.tar.bz2
-    tar -vxf openmpi-3.1.0.tar.bz2
-    cd openmpi-3.1.0/
-    ./configure --prefix=$(pwd)
-    make all install
+```sh
+wget https://download.open-mpi.org/release/open-mpi/v3.1/openmpi-3.1.0.tar.bz2
+tar -vxf openmpi-3.1.0.tar.bz2
+cd openmpi-3.1.0/
+./configure --prefix=$(pwd)
+make all install
+```
 
-在$HOME/.bashrc中加入环境变量：
+在`$HOME/.bashrc`中加入环境变量：
 
-    export PATH=/home/njzjz/soft/openmpi-3.1.0/bin:$PATH
-    export LD_LIBRARY_PATH=/home/njzjz/soft/openmpi-3.1.0/lib:$LD_LIBRARY_PATH
+```sh
+export PATH=/home/njzjz/soft/openmpi-3.1.0/bin:$PATH
+export LD_LIBRARY_PATH=/home/njzjz/soft/openmpi-3.1.0/lib:$LD_LIBRARY_PATH
+```
 
 然后在LAMMPS的src目录下编译：
 
-    source $HOME/.bashrc
-    make mpi
+```sh
+source $HOME/.bashrc
+make mpi
+```
 
 Ubuntu
 ------
 
 先用管理员权限安装一些软件，再编译：
 
-    sudo apt install g++ mpi-default-bin mpi-default-dev libfftw3-dev libjpeg-dev libpng-dev
-    make ubuntu
+```sh
+sudo apt install g++ mpi-default-bin mpi-default-dev libfftw3-dev libjpeg-dev libpng-dev
+make ubuntu
+```
 
 最后
 --
 
 在当前目录下一键设置环境变量：
 
-    echo 'export PATH=$PATH:'$(pwd)>>$HOME/.bashrc
-    source $HOME/.bashrc
+```sh
+echo 'export PATH=$PATH:'$(pwd)>>$HOME/.bashrc
+source $HOME/.bashrc
+```
