@@ -11,10 +11,11 @@ tags:
 
 _2017年12月8日首发[微信公众号 ](http://mp.weixin.qq.com/s?__biz=MzIyMjA1MDA4MQ==&mid=2455134440&idx=1&sn=a3a245272296efdd649de03e2d74cb2d&chksm=ff91a2a6c8e62bb0bf0e7c05acf493ed94ef74a1f1bbeb300604dfe6ac57038105c74d6cd6af#rd)_
 
-**“这是暑假的存文，今天微信放开了原创声明和留言，因此发出来看看效果”** 如果你有多个网盘，那么一定有在不同网盘之间传输文件的需求，下面介绍使用MultCloud在不同网盘间传输文件的方法。
+**“这是暑假的存文，今天微信放开了原创声明和留言，因此发出来看看效果”**
+如果你有多个网盘，那么一定有在不同网盘之间传输文件的需求，下面介绍使用MultCloud在不同网盘间传输文件的方法。
 <!--more-->
 
-**01**
+# 01
 
 注册 ①打开MultCloud注册页面：[https://www.multcloud.com/sign?method=up&tc=51feffd65a7ee64f015a93b6656b1ae2 ](https://www.multcloud.com/sign?method=up&tc=51feffd65a7ee64f015a93b6656b1ae2)，输入用户名、密码等信息，点击Create Account注册：
 
@@ -30,7 +31,7 @@ _2017年12月8日首发[微信公众号 ](http://mp.weixin.qq.com/s?__biz=MzIyM
 
 ![4.png](https://drive.google.com/uc?id=13BcL2GIl2o2ZlP2hETgf50-GlJpKIfo4)
 
-**02**
+# 02
 
 登陆与绑定 ①输入邮箱和密码，点击Login登陆：
 
@@ -58,7 +59,7 @@ _2017年12月8日首发[微信公众号 ](http://mp.weixin.qq.com/s?__biz=MzIyM
 
 ⑦以步骤②-⑤再添加一个网盘。
 
-**03**
+# 03
 
 在两个网盘之间传输数据 ①点击“云传输“：
 
