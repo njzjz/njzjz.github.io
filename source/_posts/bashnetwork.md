@@ -26,52 +26,66 @@ tags:
 
 下面可以编写curl命令了：
 
-**$ curl -d "action=login&username=10154601140&password=password&ac_id=1&ajax=1" [https://login.ecnu.edu.cn/include/auth_action.php](https://login.ecnu.edu.cn/include/auth_action.php)**
+```sh
+curl -d "action=login&username=10154601140&password=password&ac_id=1&ajax=1" [https://login.ecnu.edu.cn/include/auth_action.php](https://login.ecnu.edu.cn/include/auth_action.php)
+```
 
 ![](https://drive.google.com/uc?id=11kF4jfbzo4DfY1PfP0WrMzjKEivETAN3)
 
-提示login_ok。
+提示`login_ok`。
 
 **二、制成Shell脚本**  
 这么一长串命令，每次都输一遍肯定特别麻烦。我们可以制成Shell脚本。
 
-**$ vi network** **#创建名为network的脚本**
+```sh
+vi network #创建名为network的脚本
+```
 
 然后将上面的curl命令输进去，**:wq**保存。
 
-**$ chmod 755 network** **#设置权限为可执行**
+```sh
+chmod 755 network #设置权限为可执行
+```
 
-**$ ls -l network** **#检查一下文件权限**
+```sh
+ls -l network #检查一下文件权限
+```
 
 ![](https://drive.google.com/uc?id=13AzytmVDTaFZE2ITk1cFykMruC4-09VD)
 
 如果设置成功，文件权限应为-rwxr-xr-x。现在，我们就可以运行脚本了：
 
-**$ ./network**
+```sh
+./network
+```
 
 ![](https://drive.google.com/uc?id=1EWjGiAhuVd7_D63zVV5szI63iprslDWC)
 
 **三、扔进~/bin**
 
-**$ mkdir bin**
-
-**$ mv network bin**
-
-**$ network**
+```sh
+mkdir bin
+mv network bin
+network
+```
 
 ![](https://drive.google.com/uc?id=1lCDW3bh-bXVdmhkIp0dBvHFg4uZ6kZlc)
 
-bin目录一般是默认的PATH环境变量，扔进去即可直接输入**network**运行。如果PATH变量不包含此目录，我们可以修改.bashrc文件：
+bin目录一般是默认的PATH环境变量，扔进去即可直接输入`network`运行。如果PATH变量不包含此目录，我们可以修改`.bashrc`文件：
 
-**$ vi .bashrc**
+```
+vi .bashrc
+```
 
-在最下方加入**export PATH=~/bin:"$PATH"**，保存：
+在最下方加入`export PATH=~/bin:"$PATH"`，保存：
 
 ![](https://drive.google.com/uc?id=1qN2v4Ka9rtTTBau5K2o8dGslBkN4osFp)
 
-**$ . .bashrc** **#重新读取.bashrc**
+```
+. .bashrc #重新读取.bashrc
+```
 
-现在，我们即可输入**network**直接连接校园网了。
+现在，我们即可输入`network`直接连接校园网了。
 
 **参考文献**
 

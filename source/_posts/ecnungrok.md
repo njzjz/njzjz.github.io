@@ -18,13 +18,13 @@ _2018年5月6日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMjA
 
 学校VPN真辣鸡
 
-         16:38:46    Connected to vpn-ct.ecnu.edu.cn.
-         16:38:48    Reconnecting to vpn-ct.ecnu.edu.cn...
-         16:38:50    Establishing VPN - Examining system...
-         16:38:50    Establishing VPN - Activating VPN adapter...
-         16:38:50    Establishing VPN - Configuring system...
-         16:38:51    Establishing VPN...
-         16:38:51    Connected to vpn-ct.ecnu.edu.cn.
+>         16:38:46    Connected to vpn-ct.ecnu.edu.cn.
+>         16:38:48    Reconnecting to vpn-ct.ecnu.edu.cn...
+>         16:38:50    Establishing VPN - Examining system...
+>         16:38:50    Establishing VPN - Activating VPN adapter...
+>         16:38:50    Establishing VPN - Configuring system...
+>         16:38:51    Establishing VPN...
+>         16:38:51    Connected to vpn-ct.ecnu.edu.cn.
 
 我也不是想要批判一番，但是这个Anyconnect频繁掉线，频繁重连，连接期间不能访问网络，稳定性也太差了吧？而且还不能自己设置分流，所有流量都要从学校网络走。
 
@@ -38,21 +38,23 @@ _2018年5月6日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMjA
 
 ssh连接公网机器，安装ngrok：
 
-    domain="ngrok.njzjz.win" #换成自己的域名
-    yum install gcc golang
-    git clone https://github.com/mamboer/ngrok.git
-    cd ngrok
-    openssl genrsa -out rootCA.key 2048
-    openssl req -x509 -new -nodes -key rootCA.key -subj "/CN=$domain" -days 5000 -out rootCA.pem
-    openssl genrsa -out device.key 2048
-    openssl req -new -key device.key -subj "/CN=$domain" -out device.csr
-    openssl x509 -req -in device.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out device.crt -days 5000
-    \cp rootCA.pem assets/client/tls/ngrokroot.crt -f
-    \cp device.crt assets/server/tls/snakeoil.crt  -f
-    \cp device.key assets/server/tls/snakeoil.key -f
-    make release-server
-    export GOOS="windows" GOARCH="amd64" && make release-client #如果内网机器是linux系统，将windows换成linux
-    /root/ngrok/bin/ngrokd -domain="$domain" -httpAddr=":6060" -httpsAddr=":6061" -tunnelAddr=":6062" #启动ngrok服务
+```sh
+domain="ngrok.njzjz.win" #换成自己的域名
+yum install gcc golang
+git clone https://github.com/mamboer/ngrok.git
+cd ngrok
+openssl genrsa -out rootCA.key 2048
+openssl req -x509 -new -nodes -key rootCA.key -subj "/CN=$domain" -days 5000 -out rootCA.pem
+openssl genrsa -out device.key 2048
+openssl req -new -key device.key -subj "/CN=$domain" -out device.csr
+openssl x509 -req -in device.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out device.crt -days 5000
+cp rootCA.pem assets/client/tls/ngrokroot.crt -f
+cp device.crt assets/server/tls/snakeoil.crt  -f
+cp device.key assets/server/tls/snakeoil.key -f
+make release-server
+export GOOS="windows" GOARCH="amd64" && make release-client #如果内网机器是linux系统，将windows换成linux
+/root/ngrok/bin/ngrokd -domain="$domain" -httpAddr=":6060" -httpsAddr=":6061" -tunnelAddr=":6062" #启动ngrok服务
+```
 
 * * *
 
@@ -68,26 +70,30 @@ ssh连接公网机器，安装ngrok：
 
 在同一文件夹编写config.json：
 
-    {
-        "server":"0.0.0.0",
-        "server_port":10086,
-        "local_address":"127.0.0.1",
-        "local_port":10086,
-        "password":"password",
-        "timeout":600,
-        "method":"aes-256-cfb",
-        "http_proxy": false
-    }
+```json
+{
+    "server":"0.0.0.0",
+    "server_port":10086,
+    "local_address":"127.0.0.1",
+    "local_port":10086,
+    "password":"password",
+    "timeout":600,
+    "method":"aes-256-cfb",
+    "http_proxy": false
+}
+```
 
 以及ngrok.yml：
 
-    server_addr: "ngrok.njzjz.win:6062"
-    trust_host_root_certs: false
-    tunnels:
-      ss:
-        remote_port: 38382
-        proto:
-          tcp: 10086
+```yml
+server_addr: "ngrok.njzjz.win:6062"
+trust_host_root_certs: false
+tunnels:
+  ss:
+    remote_port: 38382
+    proto:
+      tcp: 10086
+```
 
 现在应该有这些文件：
 
@@ -95,11 +101,15 @@ ssh连接公网机器，安装ngrok：
 
 打开命令提示符，跳转到这个文件夹中，然后：
 
-    shadowsocks-libqss -c config.json -S
+```sh
+shadowsocks-libqss -c config.json -S
+```
 
 再打开一个命令提示符：
 
-    ngrok -log=ngrok.log -config=ngrok.yml start ss
+```sh
+ngrok -log=ngrok.log -config=ngrok.yml start ss
+```
 
 ![](https://drive.google.com/uc?id=1isg-5qZ0s7I_1a5I_fCR-QLE_i6v0dd4)
 
