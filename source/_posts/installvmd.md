@@ -13,6 +13,7 @@ tags:
 \_2018年6月16日作\_
 
 文末将说明VMD在Ubuntu子系统上的安装方法。
+<!--more-->
 
     #下载解压
     wget http://www.ks.uiuc.edu/Research/vmd/vmd-1.9.3/files/final/vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz

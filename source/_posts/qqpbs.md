@@ -19,6 +19,7 @@ tags:
 CoolQ HTTP API 插件：https://github.com/richardchien/coolq-http-api  
 将HTTP API插件放置于app文件夹中，启动并登陆酷Q，在菜单中启用插件。  
 HTTP API插件的默认地址为http://localhost:5700/
+<!--more-->
 
 #### 2.安装`cqhttp`包
 

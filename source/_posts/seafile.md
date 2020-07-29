@@ -12,6 +12,7 @@ tags:
 2018年2月7日首发[知乎专栏](https://zhuanlan.zhihu.com/p/33579926)、微信公众号
 
 Seafile，是“开源的私有云存储”。
+<!--more-->
 
 近日在家里的Windows台式机上的Ubuntu子系统配置了Seafile。为啥不直接拿台Linux电脑？当然是因为穷，交不起两台电脑的电费……
 

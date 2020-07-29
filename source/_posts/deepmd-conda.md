@@ -10,6 +10,7 @@ tags:
 2019 年 10 月 24 日（UTC-4）微信公众号
 
 近日，我已经通过 conda-build[^1]构建了 deepmd-kit（含 lammps 模块）的 conda packges[^2]，并用 constructor[^3]打包了离线安装包。下介绍安装方法及注意事项：
+<!--more-->
 
 ## 一、conda 安装
 

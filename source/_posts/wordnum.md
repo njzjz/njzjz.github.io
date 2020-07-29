@@ -12,6 +12,7 @@ tags:
 2018/6/20
 
 以我瞎写的四个公式为例：  
+<!--more-->
 
 ![](https://drive.google.com/uc?id=1k2LbKMgckUdhbimlXza1Lpqzbh3Fg5cN)
 

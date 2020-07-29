@@ -12,6 +12,7 @@ tags:
 2018-08-20
 
 **`conda install --channel "anaconda" package`**
+<!--more-->
 
 ### 安装Anaconda
 

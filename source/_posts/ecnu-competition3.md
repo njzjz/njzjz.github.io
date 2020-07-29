@@ -8,6 +8,7 @@ tags:
   - 回首四年
 ---
 当我大一初涉数学建模竞赛时，我却没有想过，大四时能在这一类比赛中获得国家级一等奖。
+<!--more-->
 
 ![国家一等奖](https://drive.google.com/uc?id=1sHVPmDrZZXIrNZGO8dXxMv6wuyp6t-G_)
 

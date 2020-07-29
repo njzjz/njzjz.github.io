@@ -13,6 +13,7 @@ tags:
 2018年6月17日
 
 本文将介绍 LAMMPS 在 Intel® MPI 、Open MPI 和 Ubuntu 下的安装方法。
+<!--more-->
 
     #下载解压
     wget http://lammps.sandia.gov/tars/lammps-stable.tar.gz

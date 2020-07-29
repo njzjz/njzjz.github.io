@@ -12,6 +12,7 @@ tags:
 _本文作于2016年7月3日_
 
 众所周知，学院下学期要开一门《化学原理A》，教材是_[Chemical Principles: The Quest For Insight (International Edition, 5th) Macmillan Publishing House](http://libecnu.lib.ecnu.edu.cn/search~S0*chx?/XChemical+Principles&SORT=D/XChemical+Principles&SORT=D&extended=0&SUBKEY=Chemical+Principles/1%2C807%2C807%2CB/frameset&FF=XChemical+Principles&SORT=D&3%2C3%2C)_。我在学校图书馆找到了这本书，便把它借了下来。
+<!--more-->
 
 ![](https://drive.google.com/uc?id=1yVGIOSInA_DMl2ReNTRt1KNzUfs2FEJA)
 
