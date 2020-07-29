@@ -12,9 +12,11 @@ tags:
 
 2018年6月1日发布
 
-    wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.2.0-Linux-x86_64.sh
-    #清华大学镜像站可以显著提升下载速度，尤其是教育网网络环境
-    bash Anaconda3-5.2.0-Linux-x86_64.sh
+```sh
+wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+#清华大学镜像站可以显著提升下载速度，尤其是教育网网络环境
+bash Anaconda3-5.2.0-Linux-x86_64.sh
+```
 <!--more-->
 
 > Please, press ENTER to continue
@@ -40,7 +42,8 @@ yes
 no
 
 这样anaconda3就安装好了，接着启用清华大学镜像，提升下载速度：
-
-    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
-    conda config --set show_channel_urls yes
+```sh
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+```
