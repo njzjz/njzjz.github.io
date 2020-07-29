@@ -12,6 +12,7 @@ tags:
 （2019年1月7日测试；域名成本除外）
 
 1.打开Cloud Studio网站（[https://studio.dev.tencent.com](https://studio.dev.tencent.com/)），点击右上角注册按钮注册（若已有腾讯云账号，可直接登陆）：
+<!--more-->
 
 ![](https://drive.google.com/uc?id=1vP9IimsyYKgr2-OVOgSnqdv4iVD3ohsT)
 

@@ -12,6 +12,7 @@ tags:
 ---
 
 时至2018年3月，那时我刚刚结束了一个失败的课题，对molecular dynamics (MD)有了初步了解。大三下学期是一个“无课学期”，我的课表上只有4学分的课，有大量富余时间。开学后，导师告诉我暂缓force matching的project，先开始基于hidden Markov Model (HMM)分析MD轨迹的课题。这个project来自前一年申请的国自基金项目，然而当时我尚未入组，这个课题迟迟未能完成。
+<!--more-->
 
 老师给了我Liping Wang的两篇文章用作参考，很快，我google到一个名叫hmmlearn的library。基于上一个课题的部分代码，很快，我便有了思路。解决了几个关键问题后，3月11日，第一版Python程序出炉，能够分析LAMMPS的bond文件，并生成每个原子的路径，计算出轨迹的所有反应，生成一个reaction matrix。
 

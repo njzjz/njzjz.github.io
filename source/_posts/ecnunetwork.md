@@ -13,6 +13,7 @@ tags:
 
 为了在无GUI的环境下登陆校园网，我们编写了 _ecnunetwork_ ——一个Python模块，在Python 2.7和Python 3.6均通过测试，  
 因为目前校园网IPv6无需登陆，所以可以直接使用pip安装：
+<!--more-->
 
     $ pip install ecnunetwork
 

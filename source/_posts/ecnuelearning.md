@@ -12,6 +12,7 @@ tags:
 _2017年3月8日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMjA1MDA4MQ==&mid=2455134383&idx=1&sn=824770417cb7381aff49ba081b1a1eea&chksm=ff91a2e1c8e62bf784b367faee54b2f98741e51cf17497ac8348b32a60ce3575ce095013affb#rd)_
 
 大夏学堂有个很棒的功能，叫日程表，点进去就可以看到各作业的截止时间。
+<!--more-->
 
 ![](https://drive.google.com/uc?id=1NqJekNBYorEDvHOgnWK9N1CFxaGju3ts)
 

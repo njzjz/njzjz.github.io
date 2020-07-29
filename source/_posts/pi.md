@@ -11,8 +11,8 @@ tags:
 
 _2017年3月14日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMjA1MDA4MQ==&mid=2455134397&idx=1&sn=2b3e689705424ebdb1acf6458d86f871&chksm=ff91a2f3c8e62be55ad5586ebba3de8ab5649fbac894dfef9871c15f248f364943c8ba3aa4cf#rd)_
 
-**今天是圆周率日。很多化学公式都带有圆周率，例如：  
-**
+**今天是圆周率日。很多化学公式都带有圆周率，例如：**
+<!--more-->
 
 气体分子的能量分布：
 

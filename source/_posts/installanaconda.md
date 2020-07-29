@@ -15,6 +15,7 @@ tags:
     wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.2.0-Linux-x86_64.sh
     #清华大学镜像站可以显著提升下载速度，尤其是教育网网络环境
     bash Anaconda3-5.2.0-Linux-x86_64.sh
+<!--more-->
 
 > Please, press ENTER to continue
 

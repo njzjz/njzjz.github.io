@@ -6,6 +6,7 @@ categories:
 date: 2020-03-09
 ---
 最近几个月，Google Colab上线了免费的P100。本文介绍如何用Google Colaboratory的免费P100训练deepmd-kit模型。
+<!--more-->
 
 ![](https://drive.google.com/uc?id=1lYBrGK5nEJdi8PMmmaTMPtMzgPj4lmBh)
 
