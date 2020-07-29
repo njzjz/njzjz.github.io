@@ -27,11 +27,13 @@ tags:
 
 2.创建 TensorFlow 环境
 
-    conda create -n tensorflow pip python=3.6
-    #Proceed ([y]/n)? 输y
-    source activate tensorflow #激活环境
-    pip install tensorflow -i https://pypi.tuna.tsinghua.edu.cn/simple/
-    #这两天由于众所周知的原因，Google官方的镜像又下载不了了，所以这里用了清华大学的镜像
+```sh
+conda create -n tensorflow pip python=3.6
+#Proceed ([y]/n)? 输y
+source activate tensorflow #激活环境
+pip install tensorflow -i https://pypi.tuna.tsinghua.edu.cn/simple/
+#这两天由于众所周知的原因，Google官方的镜像又下载不了了，所以这里用了清华大学的镜像
+```
 
 ### 二、安装 gcc
 
@@ -39,9 +41,11 @@ tags:
 
 > ImportError: /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.7' not found
 
-    conda install -c psi4 gcc-5 
-    #Proceed ([y]/n)? 输y
-    LD_LIBRARY_PATH=$HOME/anaconda3/envs/tensorflow/lib:$LD_LIBRARY_PATH
+```sh
+conda install -c psi4 gcc-5 
+#Proceed ([y]/n)? 输y
+LD_LIBRARY_PATH=$HOME/anaconda3/envs/tensorflow/lib:$LD_LIBRARY_PATH
+```
 
 再此运行 Python，不再提示这个问题。
 
@@ -55,12 +59,14 @@ tags:
 
 1.下载GLIBC 2.21并编译GLIBC 2.21
 
-    wget http://mirror.rit.edu/gnu/libc/glibc-2.21.tar.gz
-    tar zxvf glibc-2.21.tar.gz
-    mkdir glibc-2.21-build glibc-2.21-install
-    cd glibc-2.21-build
-    ../glibc-2.21/configure --prefix=`readlink -f ../glibc-2.21-install` 
-    make && make install
+```sh
+wget http://mirror.rit.edu/gnu/libc/glibc-2.21.tar.gz
+tar zxvf glibc-2.21.tar.gz
+mkdir glibc-2.21-build glibc-2.21-install
+cd glibc-2.21-build
+../glibc-2.21/configure --prefix=`readlink -f ../glibc-2.21-install` 
+make && make install
+```
 
 然后就报错了：
 
@@ -70,46 +76,58 @@ tags:
 
 2.下载并编译binutils 2.30
 
-    wget ftp://ftp.gnu.org/gnu/binutils/binutils-2.30.tar.gz
-    tar zxvf binutils-2.30.tar.gz
-    cd binutils-2.30
-    ./configure --prefix=`readlink -f ../binutils-2.30-install` 
-    make && make install
-    #加入环境变量
-    PATH=$HOME/software/binutils-2.30-install/bin:$PATH
+```sh
+wget ftp://ftp.gnu.org/gnu/binutils/binutils-2.30.tar.gz
+tar zxvf binutils-2.30.tar.gz
+cd binutils-2.30
+./configure --prefix=`readlink -f ../binutils-2.30-install` 
+make && make install
+#加入环境变量
+PATH=$HOME/software/binutils-2.30-install/bin:$PATH
+```
 
 3.重新编译glibc 2.21
 
-    cd glibc-2.21-build
-    ../glibc-2.21/configure --prefix=`readlink -f ../glibc-2.21-install` 
-    make && make install
+```sh
+cd glibc-2.21-build
+../glibc-2.21/configure --prefix=`readlink -f ../glibc-2.21-install` 
+make && make install
+```
 
 > Warning: ignoring configuration file that cannot be opened: ... /software/glibc-2.21-install/etc/ld.so.conf: No such file or directory
 
 将/etc 目录的ld.so.conf复制到指定目录后重新安装：
 
-    cp /etc/ld.so.conf ../glibc-2.21-install/etc/
-    make install
+```sh
+cp /etc/ld.so.conf ../glibc-2.21-install/etc/
+make install
+```
 
 安装成功。
 
 ### 四、运行TensorFlow
 
-    source activate tensorflow
-    $HOME/software/glibc-2.21-install/lib/ld-2.21.so --library-path $HOME/anaconda3/envs/tensorflow/lib:$HOME/software/glibc-2.21-install/lib:/lib64:$LD_LIBRARY_PATH `which python`
+```sh
+source activate tensorflow
+$HOME/software/glibc-2.21-install/lib/ld-2.21.so --library-path $HOME/anaconda3/envs/tensorflow/lib:$HOME/software/glibc-2.21-install/lib:/lib64:$LD_LIBRARY_PATH `which python`
+```
 
 在Python内输入：
 
-    # Python
-    import tensorflow as tf
-    hello = tf.constant('Hello, TensorFlow!')
-    sess = tf.Session()
-    print(sess.run(hello))
+```sh
+# Python
+import tensorflow as tf
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()
+print(sess.run(hello))
+```
 
 > b'Hello, TensorFlow!'
 
 运行成功。我们可以运行的命令记录在.bashrc中：
 
-    echo 'alias tf='"'"'$HOME/software/glibc-2.21-install/lib/ld-2.21.so --library-path $HOME/anaconda3/envs/tensorflow/lib:$HOME/software/glib-2.21-install/lib:/lib64:$LD_LIBRARY_PATH `which python`'"'">>$HOME/.bashrcsource $HOME/.bashrc
+```sh
+echo 'alias tf='"'"'$HOME/software/glibc-2.21-install/lib/ld-2.21.so --library-path $HOME/anaconda3/envs/tensorflow/lib:$HOME/software/glib-2.21-install/lib:/lib64:$LD_LIBRARY_PATH `which python`'"'">>$HOME/.bashrcsource $HOME/.bashrc
+```
 
 即可用 tf 代替装了 TensorFlow 的 Python。
