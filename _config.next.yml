@@ -78,6 +78,13 @@ local_search:
   enable: true
 pdf:
   enable: true
+links_settings:
+  icon: fa fa-link
+  title: Links
+  layout: block
+links:
+  Darrin_York_Group: http://theory.rutgers.edu/profile.php?people_id=230
+  Tong_Zhu_Group: https://computchem.cn/people 
 vendors:
   anime: //js.njzjz.win/npm/animejs@3.1.0/lib/anime.min.js
   fontawesome: //js.njzjz.win/npm/@fortawesome/fontawesome-free@5/css/all.min.css
