@@ -30,10 +30,12 @@ avatar:
 social:
   GitHub: https://github.com/njzjz || fab fa-github
   E-Mail: mailto:jinzhe.zeng@rutgers.edu || fa fa-envelope
-  Weibo: https://weibo.com/njzjz || fab fa-weibo
-  Google Scholar: https://scholar.google.com/citations?user=P7gRtg4AAAAJ || fab fa-google
+  ORCID: https://orcid.org/0000-0002-1515-8172 || fab fa-orcid
+  Scholar: https://scholar.google.com/citations?user=P7gRtg4AAAAJ || fab fa-google
   ResearchGate: https://www.researchgate.net/profile/Jinzhe_Zeng || fab fa-researchgate
   Twitter: https://twitter.com/njzjz || fab fa-twitter
+  Zhihu: https://www.zhihu.com/people/zeng-jin-zhe || fab fa-zhihu
+  Weibo: https://weibo.com/njzjz || fab fa-weibo
 follow_me:
   Twitter: https://twitter.com/njzjz || twitter
   WeChat: https://img.njzjz.win/?url=open.weixin.qq.com/qr/code?username=gh_c3cec7062858 || wechat
