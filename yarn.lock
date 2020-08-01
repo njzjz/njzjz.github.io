@@ -2150,10 +2150,10 @@ hexo-symbols-count-time@0.7.1:
   dependencies:
     hexo-util "1.9.0"
 
-hexo-theme-next@8.0.0-rc.4:
-  version "8.0.0-rc.4"
-  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.0.0-rc.4.tgz#05c1064fc2e26d60362b4c93d766643f6f72c60a"
-  integrity sha512-lxD8KPQmPqkpPUbJofVBm4Vp3y4O/XJs+7svspHJB4CMbbBtEpUmywlnEFGMvUt7ql0v3HG2ZdK791M5YH5y/Q==
+hexo-theme-next@8.0.0-rc.5:
+  version "8.0.0-rc.5"
+  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.0.0-rc.5.tgz#896352101bfcdd65c73497796a41c536a3ca0a7f"
+  integrity sha512-SI09BttngdWHKavc+eeg/z9sJOrOTTipKoHwJpuPtznvbVvFCaf+c4fvuMxL3ZkfZ008Tedu0TNaOfaYG0ktYQ==
 
 hexo-util@1.9.0:
   version "1.9.0"
