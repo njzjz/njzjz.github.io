@@ -1,4 +1,3 @@
-reminder: true
 minify: true
 darkmode: true
 language_switcher: true
@@ -73,6 +72,7 @@ valine:
   notify: true
   visitor: true
   recordIP: true
+  enableQQ: true
   serverURLs: https://blogcomment.njzjz.win
 google_analytics:
   tracking_id: UA-74033886-1
@@ -89,7 +89,7 @@ links:
   "Tong Zhu Group": https://computchem.cn/people
   "hexi blog": https://hexi519.github.io
 vendors:
-  anime: //js.njzjz.win/npm/animejs@3.1.0/lib/anime.min.js
+  anime: //js.njzjz.win/npm/animejs@3.2.0/lib/anime.min.js
   fontawesome: //js.njzjz.win/npm/@fortawesome/fontawesome-free@5/css/all.min.css
   mathjax: //js.njzjz.win/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   mhchem: //js.njzjz.win/npm/mathjax-mhchem@3
@@ -116,10 +116,6 @@ vendors:
   velocity_ui: //js.njzjz.win/npm/velocity-animate@1/velocity.ui.min.js
   pace: //js.njzjz.win/npm/pace-js@1/pace.min.js
   pace_css: //js.njzjz.win/npm/pace-js@1/themes/blue/pace-theme-minimal.css
-  three: //js.njzjz.win/gh/theme-next/theme-next-three@1/three.min.js
-  three_waves: //js.njzjz.win/gh/theme-next/theme-next-three@1/three-waves.min.js
-  canvas_lines: //js.njzjz.win/gh/theme-next/theme-next-three@1/canvas_lines.min.js
-  canvas_sphere: //js.njzjz.win/gh/theme-next/theme-next-three@1/canvas_sphere.min.js
   canvas_nest: //js.njzjz.win/gh/theme-next/theme-next-canvas-nest@1/canvas-nest.min.js
   canvas_nest_nomobile: //js.njzjz.win/gh/theme-next/theme-next-canvas-nest@1/canvas-nest-nomobile.min.js
   canvas_ribbon: //js.njzjz.win/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
