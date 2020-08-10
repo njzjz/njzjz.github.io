@@ -2188,9 +2188,9 @@ hexo-util@^1.0.0, hexo-util@^1.3.0:
     striptags "^3.1.1"
 
 hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.2.0.tgz#5372864457d716c3f4553babf22e6da51690806a"
-  integrity sha512-ERYPhehtWKYo2Wkf2e11iwub10rxHvCdJt4FNnBzjuUV7MEfSphpFNXJ3yyBAQgHPr7ce9ZPb7SEbMdyZL159w==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.3.0.tgz#e1f04f18d3790f5999415769e9278cfb1ab4205c"
+  integrity sha512-TmS88BiCrAoqiPDM0ebvxZU/EYjyD5hrKPkJ1wUcHEnm2d14NhXxHzYULzE9EgbdHSUaXgMZC5yg2WMxDiYOLg==
   dependencies:
     bluebird "^3.5.2"
     camel-case "^4.0.0"
