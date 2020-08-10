@@ -2202,10 +2202,10 @@ hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.2.0:
     strip-indent "^3.0.0"
     striptags "^3.1.1"
 
-hexo@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.0.1.tgz#aad7343d6c94a02427f0cff084a3fd6093cbf533"
-  integrity sha512-abhAeiXXJEqHkaRLqFvdYGX36Vj94lEVNPw84zk4qY2lkWh0veBtWUc7gfKQs3L0He2wjdRrOZ4yrjfU8peYuA==
+hexo@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.0.2.tgz#b7c593b26044ce2b7e0265a706218a7aba0b0070"
+  integrity sha512-4tbZqBJHL6QfCLelz+rZjGipVBqQ0TXISi6bjJQpHQuWQtwmMgehVMH8na66y4P4fSRRP17JwReo38oIZ3EINQ==
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
