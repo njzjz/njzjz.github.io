@@ -45,6 +45,7 @@ mobile_layout_economy: true
 pjax: true
 mediumzoom: true
 motion:
+  enable: false
   async: true
 reward:
   wechatpay: https://img.njzjz.win/?url=i.loli.net/2018/08/26/5b821ce3a2497.jpg
