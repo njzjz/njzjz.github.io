@@ -44,6 +44,11 @@ reward_settings:
 mobile_layout_economy: true
 pjax: true
 mediumzoom: true
+pangu: true
+quicklink:
+  enable: true
+  home: true
+  archive: true
 motion:
   enable: false
   async: true
