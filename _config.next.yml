@@ -69,8 +69,11 @@ github_banner:
 seo: true
 index_with_subtitle: true
 exturl: true
+baidu_push: true
 math:
   enable: true
+comments:
+  lazyload: true
 valine:
   enable: true
   appId: YMI6904uVYbYEvp2Q0MtJc8n-MdYXbMMI
