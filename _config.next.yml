@@ -67,8 +67,8 @@ math:
   enable: true
 valine:
   enable: true
-  appid: YMI6904uVYbYEvp2Q0MtJc8n-MdYXbMMI
-  appkey: hY1CYIauaeAmQe75EmPUFgN0
+  appId: YMI6904uVYbYEvp2Q0MtJc8n-MdYXbMMI
+  appKey: hY1CYIauaeAmQe75EmPUFgN0
   notify: true
   visitor: true
   recordIP: true
@@ -89,33 +89,5 @@ links:
   "Tong Zhu Group": https://computchem.cn/people
   "hexi blog": https://hexi519.github.io
 vendors:
-  anime: //js.njzjz.win/npm/animejs@3.2.0/lib/anime.min.js
-  fontawesome: //js.njzjz.win/npm/@fortawesome/fontawesome-free@5/css/all.min.css
-  mathjax: //js.njzjz.win/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  mhchem: //js.njzjz.win/npm/mathjax-mhchem@3
-  katex: //js.njzjz.win/npm/katex@0/dist/katex.min.css
-  copy_tex_js: //js.njzjz.win/npm/katex@0/dist/contrib/copy-tex.min.js
-  pjax: //js.njzjz.win/gh/theme-next/theme-next-pjax@0/pjax.min.js
-  jquery: //js.njzjz.win/npm/jquery@3/dist/jquery.min.js
-  fancybox: //js.njzjz.win/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
-  fancybox_css: //js.njzjz.win/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
-  mediumzoom: //js.njzjz.win/npm/medium-zoom@1/dist/medium-zoom.min.js
-  lazyload: //js.njzjz.win/npm/lozad@1/dist/lozad.min.js
-  pangu: //js.njzjz.win/npm/pangu@4/dist/browser/pangu.min.js
-  quicklink: //js.njzjz.win/npm/quicklink@1/dist/quicklink.umd.js
-  disqusjs_js: //js.njzjz.win/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: //js.njzjz.win/npm/disqusjs@1/dist/disqusjs.css
-  valine: //js.njzjz.win/npm/valine@1/dist/Valine.min.js
-  gitalk_js: //js.njzjz.win/npm/gitalk@1/dist/gitalk.min.js
-  gitalk_css: //js.njzjz.win/npm/gitalk@1/dist/gitalk.css
-  algolia_instant_js: //js.njzjz.win/npm/instantsearch.js@2/dist/instantsearch.min.js
-  algolia_instant_css: //js.njzjz.win/npm/instantsearch.js@2/dist/instantsearch.min.css
-  pdfobject: //js.njzjz.win/npm/pdfobject@2/pdfobject.min.js
-  mermaid: //js.njzjz.win/npm/mermaid@8/dist/mermaid.min.js
-  velocity: //js.njzjz.win/npm/velocity-animate@1/velocity.min.js
-  velocity_ui: //js.njzjz.win/npm/velocity-animate@1/velocity.ui.min.js
-  pace: //js.njzjz.win/npm/pace-js@1/pace.min.js
-  pace_css: //js.njzjz.win/npm/pace-js@1/themes/blue/pace-theme-minimal.css
-  canvas_nest: //js.njzjz.win/gh/theme-next/theme-next-canvas-nest@1/canvas-nest.min.js
-  canvas_nest_nomobile: //js.njzjz.win/gh/theme-next/theme-next-canvas-nest@1/canvas-nest-nomobile.min.js
-  canvas_ribbon: //js.njzjz.win/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
+  internal: jsdelivr
+  plugins: jsdelivr
