@@ -51,7 +51,7 @@ reward:
   wechatpay: https://img.njzjz.win/?url=i.loli.net/2018/08/26/5b821ce3a2497.jpg
   alipay: https://img.njzjz.win/?url=i.loli.net/2018/08/26/5b821c8f752b4.png
 related_posts:
-   enable: false
+   enable: true
 post_edit:
   enable: true
   url: https://github.com/njzjz/njzjz.github.io/tree/hexo/source/ # Link for view source.
