@@ -105,3 +105,5 @@ links:
 vendors:
   internal: jsdelivr
   plugins: jsdelivr
+  anime: //cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js
+  fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
