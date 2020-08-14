@@ -25,7 +25,7 @@ hexo.extend.tag.register('source', function(args){
 		var cls = "info zhihu"; 
 		var platform = "知乎专栏";
 		var link = "https://zhuanlan.zhihu.com/p/" + id;
-	}else if{
+	}else if( source == "wechat"){
 		var cls = "success wechat"; 
 		var platform = "微信公众号";
 		var link = "https://mp.weixin.qq.com/s/" + id;
