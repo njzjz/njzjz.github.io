@@ -6,6 +6,9 @@ categories:
 date: 2020-08-06
 tags:
 ---
+
+{% source zhihu 169132764 2020 8 5 %}
+
 ## 1. Windows 10 教育版
 
 ![](https://drive.google.com/uc?id=19OTfkZl6bnE2rPcu5v7Nl4GkVEwLDptq&export=download)
