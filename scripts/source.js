@@ -29,5 +29,5 @@ hexo.extend.tag.register('source', function(args){
 		platform = "知乎";
 		link = "https://zhuanlan.zhihu.com/p/" + id;
 	}
-	return `<div class="note info ${cls}">本文${datestring}发表于${platform}，<a href="${link}">查看原文</a>`;
+	return `<div class="note info ${cls}">本文${datestring}发表于${platform}，<a href="${link}">查看原文</a></div>`;
 });

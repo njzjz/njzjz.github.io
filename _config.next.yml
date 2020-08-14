@@ -60,6 +60,9 @@ related_posts:
 post_edit:
   enable: true
   url: https://github.com/njzjz/njzjz.github.io/tree/hexo/source/ # Link for view source.
+note:
+  style: modern
+  icons: true
 codeblock:
   copy_button:
     enable: true
