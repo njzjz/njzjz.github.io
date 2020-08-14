@@ -1,5 +1,5 @@
 hexo.extend.injector.register('head_end', () => {
-	return `<style>.post-body .note.info.zhihu:not(.no-icon)::before {content: "\f63f";}</style>`;
+	return `<style>.post-body .note.info.zhihu:not(.no-icon)::before {content: "\\f63f";}</style>`;
 	//return css('https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css');
 });
 
