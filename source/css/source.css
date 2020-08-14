@@ -1,0 +1,8 @@
+.post-body .note.info.zhihu:not(.no-icon)::before {
+	content: '\f63f';
+	font-family: 'Font Awesome 5 Brands';
+}
+.post-body .note.success.wechat:not(.no-icon)::before {
+	content: '\f1d7';
+	font-family: 'Font Awesome 5 Brands';
+}

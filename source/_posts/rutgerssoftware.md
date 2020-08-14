@@ -8,6 +8,7 @@ tags:
 ---
 
 {% source zhihu 169132764 2020 8 5 %}
+{% source wechat mdlwFomGOm7eabPrHdz7KA 2020 8 8 %}
 
 ## 1. Windows 10 教育版
 
