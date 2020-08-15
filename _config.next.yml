@@ -81,7 +81,7 @@ baidu_push: true
 math:
   enable: true
 comments:
-  lazyload: true
+  lazyload: false
 valine:
   enable: true
   appId: YMI6904uVYbYEvp2Q0MtJc8n-MdYXbMMI
