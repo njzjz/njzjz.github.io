@@ -31,5 +31,5 @@ hexo.extend.tag.register('source', function(args){
 		var platform = "微信公众号";
 		var link = "https://mp.weixin.qq.com/s/" + id;
 	}
-	return `<div class="note ${cls}">本文${datestring}发表于${platform}，<a href="${link}">查看原文</a></div>`;
+	return `<div class="note sourcenote ${cls}">本文${datestring}发表于${platform}，<a href="${link}">查看原文</a></div>`;
 });

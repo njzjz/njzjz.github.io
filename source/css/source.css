@@ -1,3 +1,6 @@
+.index .sourcenote:{
+	display: none;
+}
 .post-body .note.info.zhihu:not(.no-icon)::before {
 	content: '\f63f';
 	font-family: 'Font Awesome 5 Brands';
