@@ -34,6 +34,7 @@
     "hexo-renderer-marked": "3.0.0",
     "hexo-renderer-stylus": "1.1.0",
     "hexo-server": "2.0.0",
+    "hexo-source-tag": "^0.0.2",
     "hexo-symbols-count-time": "0.7.1",
     "hexo-theme-next": "8.0.0-rc.5"
   },
