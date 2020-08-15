@@ -2640,17 +2640,17 @@ hexo-server@2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
+hexo-source-tag@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.2.tgz#b350f396a6f1ef872848b3d091cc4475db4ad167"
+  integrity sha512-GESAB58Kd+2EJc2vmjtvly/dDKsXxTpVAXZ1n7LrPd5co5/1nE91BHyYy7mLf7Uy6yGNFq9Kwvuf+MazsGIRyQ==
+
 hexo-symbols-count-time@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/hexo-symbols-count-time/-/hexo-symbols-count-time-0.7.1.tgz#7d41c549827071756bd2730047eea027f6dfd631"
   integrity sha512-Zw19uxRIT/3VCvMQytG6HfBJc/IvfFJYui8cg6vyFAtDxkPOoZ1UlsPjrBRXYAqO6VjLc/vRi+Jthj38pKNPlw==
   dependencies:
     hexo-util "1.9.0"
-
-hexo-tag-source@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/hexo-tag-source/-/hexo-tag-source-0.0.1.tgz#9f1e302ee4dfaeea2c270e20354c9bb74b48f7eb"
-  integrity sha512-rnaq28VlSkR7GGDbOdjUKVm2p+Klpo+wPQWM5LPnxVMESopTi3vs5y7wmL123mNyudW1aYANfZQYUaQJFGbM8Q==
 
 hexo-theme-next@8.0.0-rc.5:
   version "8.0.0-rc.5"
