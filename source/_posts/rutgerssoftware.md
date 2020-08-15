@@ -2,7 +2,7 @@
 lang: zh-CN
 title: Rutgers University软件资源整理
 categories:
-  - Chemistry
+  - Technology
 date: 2020-08-06
 tags:
 ---
