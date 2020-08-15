@@ -1,4 +1,4 @@
-.index .sourcenote:{
+.index .sourcenote{
 	display: none;
 }
 .post-body .note.info.zhihu:not(.no-icon)::before {
