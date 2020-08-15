@@ -2,7 +2,7 @@
 lang: zh-CN
 title: 唾液检测COVID-19之体验
 categories:
-  - Chemistry
+  - Life
 date: 2020-08-14
 tags:
 ---
