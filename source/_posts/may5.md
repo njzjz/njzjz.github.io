@@ -5,6 +5,9 @@ categories:
   - Life
 date: 2020-05-05
 ---
+
+{% source zhihu 138425259 2020 5 5 %}
+
 今天是马克思诞辰纪念日，有感而发。
 <!--more-->
 

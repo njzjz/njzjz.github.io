@@ -8,8 +8,9 @@ categories:
 date: 2018-02-07 00:21:38
 tags:
 ---
+{% source zhihu 33579926 2018 2 4 %}
 
-2018年2月7日首发[知乎专栏](https://zhuanlan.zhihu.com/p/33579926)、微信公众号
+2018年2月7日微信公众号
 
 Seafile，是“开源的私有云存储”。
 <!--more-->

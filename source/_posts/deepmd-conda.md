@@ -5,7 +5,9 @@ categories:
   - Chemistry
 date: 2019-10-24
 tags:
+  - conda
 ---
+{% source zhihu 88433094 2019 10 24 %}
 
 2019 年 10 月 24 日（UTC-4）微信公众号
 

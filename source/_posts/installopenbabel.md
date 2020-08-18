@@ -9,10 +9,11 @@ date: 2018-05-29 00:25:57
 tags:
 - Linux软件安装
 ---
+{% source zhihu 37459007 2018 5 29 %}
 
  2018年5月29日发布
 
-```
+```bash
 #超算上都没有root权限，所以只能自己编译
 wget https://jaist.dl.sourceforge.net/project/openbabel/openbabel/2.3.1/openbabel-2.3.1.tar.gz #下载
 tar -vxzf openbabel-2.3.1.tar.gz #解压

@@ -5,6 +5,7 @@ categories:
   - Life
 date: 2020-08-14
 tags:
+  - COVID-19
 ---
 
 {% source zhihu_answer 1404560114 2020 8 12 %}

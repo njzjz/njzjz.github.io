@@ -7,7 +7,9 @@ categories:
   - Chemistry
 date: 2018-08-20 00:40:12
 tags:
+  - conda
 ---
+{% source zhihu 46882610 2018 10 16 %}
 
 2018-08-20
 
