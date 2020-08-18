@@ -10,7 +10,7 @@ tags:
 ---
 {% source zhihu 30105863 2017 10 13 %}
 
-2017年11月14日首发[知乎专栏](https://zhuanlan.zhihu.com/p/30105863)、[微信公众号](https://mp.weixin.qq.com/s?timestamp=1527423146&src=3&ver=1&signature=aR1qmeGbvOzc4e9WsPnpwmjqUbvA5JfcrQ6yliOgES94TT1wtnLQCP9IZoEZkUvJSzK1xhNamRi68YSijn*eR-*gKFngBYdZ76V1qNfjyY7n2Q4OJcK8cj39stMySuc2dqbORl33xdL9R1adcRKr97Q4xaX9mMMExRSn2POFt8Q=)
+{% source wechat 2_g0umECg1C_v47CjrOl1A 2017 10 14 %}
 
 校园网的登陆页面是个网页，bash不能浏览网页，但是也有联网需求。幸好，curl命令可以发送POST请求。
 <!--more-->
