@@ -13,6 +13,7 @@ tags:
 ----
 
 本文先介绍python包的构建配方（recipe）。在[deepmd-kit-feedstock](https://github.com/deepmd-kit-recipes/deepmd-kit-feedstock)这一项目中，`recipe`文件夹下包括`conda_build_config.yaml`和`meta.yaml`两个YAML文件，其中`conda_build_config.yaml`包含了构建变量，而`meta.yaml`包含了构建的元信息。
+<!-- more -->
 
 我们来看一看`conda_build_config.yaml`这个文件：
 ```yaml
