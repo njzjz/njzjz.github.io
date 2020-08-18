@@ -127,7 +127,7 @@ build:
 这一部分是构建信息，`number`表示该版本程序的构建版本号；`string`表示构建出来的package名称，我们为不同的`float_prec`设置了不同的名称，将python版本、构建版本、CUDA版本、CPU还是GPU、高精度还是低精度全部包含在内。
 
 `script`表示执行什么脚本可以构建程序，{% post_link install_deepmd_kit 之前笔者介绍过 %}，deepmd-kit的python包可以用`pip`直接安装：
-```
+```sh
 pip install git+htts://github.com/deepmodeling/deepmd-kit
 ```
 这里正是用`pip`直接从源代码安装。将`skip`设为`true`，又在后面设置了若干条件语句，表示在这些情况下跳过构建。例如，我们目前之构建Linux环境下的程序，当CUDA为9.2和10.0时，我们跳过Python 3.8的构建，因为没有对应的TensorFlow。
