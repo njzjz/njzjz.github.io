@@ -8,6 +8,8 @@ tags:
   - conda
 ---
 
+{% source wechat MXDo-Kgxh7HvBg5GYK754Q 2020 8 18 %}
+
 此前，本专栏介绍了{% post_link condainstall 'conda install的使用方法'%}，以及{% post_link deepmd-conda 'conda install安装deepmd-kit的方法' %}。但是，目前对conda build构建conda packages的讨论甚少。授之以鱼不如授之以渔，这一系列将以deepmd-kit的packages为例，介绍conda包的构建方法。
 
 ----
@@ -124,7 +126,7 @@ build:
 
 这一部分是构建信息，`number`表示该版本程序的构建版本号；`string`表示构建出来的package名称，我们为不同的`float_prec`设置了不同的名称，将python版本、构建版本、CUDA版本、CPU还是GPU、高精度还是低精度全部包含在内。
 
-`script`表示执行什么脚本可以构建程序，之前笔者介绍过，deepmd-kit的python包可以用`pip`直接安装：
+`script`表示执行什么脚本可以构建程序，{% post_link install_deepmd_kit 之前笔者介绍过 %}，deepmd-kit的python包可以用`pip`直接安装：
 ```
 pip install git+htts://github.com/deepmodeling/deepmd-kit
 ```
@@ -189,4 +191,4 @@ extra:
 
 ----
 
-本文就介绍到这里。相信大部分人都看得云里雾里，不过没关系，本文的初衷就不是让人看懂。下一期将介绍`libtensorflow`的构建。
+本文就介绍到这里。相信大部分人都看得云里雾里，不过没关系，本文的初衷就不是让人看懂。下一期将介绍`libtensorflow`的构建，之后也会绍，有了配方后，如何搭建自动构建的平台。
