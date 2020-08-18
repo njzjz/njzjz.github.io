@@ -9,6 +9,7 @@ tags:
 ---
 
 {% source wechat MXDo-Kgxh7HvBg5GYK754Q 2020 8 18 %}
+{% source zhihu 189019413 2020 8 18 %}
 
 此前，本专栏介绍了{% post_link condainstall 'conda install的使用方法'%}，以及{% post_link deepmd-conda 'conda install安装deepmd-kit的方法' %}。但是，目前对conda build构建conda packages的讨论甚少。授之以鱼不如授之以渔，这一系列将以deepmd-kit的packages为例，介绍conda包的构建方法。
 

@@ -10,6 +10,8 @@ tags:
 - Linux软件安装
 ---
 
+{% source zhihu 38172992 2018 6 16 %}
+
 2018年6月17日
 
 本文将介绍 LAMMPS 在 Intel® MPI 、Open MPI 和 Ubuntu 下的安装方法。

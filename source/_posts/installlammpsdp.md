@@ -8,6 +8,8 @@ tags:
 - Linux软件安装
 ---
 
+{% source zhihu 88425932 2019 10 24 %}
+
 2019 年 10 月 17 日微信公众号
 
 先介绍一下机器环境，CentOS 7.6，系统自带的 gcc 4.8.5，自己安装的 anaconda，icc 19.0.4，CUDA 10.1，CUDNN 7，连有互联网。目标是安装带有 TensorFlow 2.0.0、DeePMD-kit 1.0.1 的用 icc 编译的 LAMMPS 7Aug2019。

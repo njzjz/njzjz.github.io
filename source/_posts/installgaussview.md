@@ -10,6 +10,8 @@ tags:
 - Linux软件安装
 ---
 
+{% source zhihu 38170085 2018 6 16 %}
+
 文末将介绍GaussView在Ubuntu子系统的安装方法（网不好的时候用）。
 <!--more-->
 
