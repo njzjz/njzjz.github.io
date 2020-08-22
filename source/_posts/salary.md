@@ -9,7 +9,7 @@ tags:
 
 {% source zhihu_answer 1422931504 2020 8 20 %}
 
-作为一所公立大学，Rutgers University所有教职工的工资都是公开的，在[这个页面](https://content-static.app.com/datauniverse/caspio/bundle/Rutgers_salaries.html)可以查到去年所有人的工资。
+作为一所公立大学，Rutgers University所有教职工的工资通过某种方式实现了公开。在[这个页面](https://content-static.app.com/datauniverse/caspio/bundle/Rutgers_salaries.html)可以查到去年所有人的工资。
 
 # 我的课题组
 在[我的课题组](http://theory.rutgers.edu/people.php)中，每个人的工资如下（只列举去年一整年都有工作的，下同）：
