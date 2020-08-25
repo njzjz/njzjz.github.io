@@ -9,6 +9,9 @@ tags:
 ---
 {% source zhihu 196057257 2020 8 23 %}
 {% source wechat TBpq97nUdj71PF--MK5gBA 2020 8 24 %}
+
+![Amber20](https://api.njzjz.win/1afNbrBOnpGVlIyBWhlpl8xqT5fdoCGZ1)
+
 假设你已经有了Amber20的源代码，名叫`amber20_src`，并且现在在这个目录里面。
 
 ## 安装串行版本
