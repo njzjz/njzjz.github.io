@@ -53,9 +53,9 @@ obabel C.mol C.mol2 C.pdb C.xyz --osmi -O C.smi
 
 ### 4.生成结构式的图像
 
-![cys](https://drive.google.com/uc?id=1ToLMDA18j4wk7OPkefkKmqaRQFv8K9jb)
+![cys](https://api.njzjz.win/1ToLMDA18j4wk7OPkefkKmqaRQFv8K9jb)
 
-![phosphate](https://drive.google.com/uc?id=10ReRtWZiPoXWskGDSFnhwaxAnLzDUl-D)
+![phosphate](https://api.njzjz.win/10ReRtWZiPoXWskGDSFnhwaxAnLzDUl-D)
 
 ```sh
 obabel -:"C([C@@H](C(=O)O)N)S" -opng -O cys.png
