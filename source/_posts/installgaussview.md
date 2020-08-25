@@ -47,4 +47,4 @@ export DISPLAY=localhost:0.0
 
 运行gv：
 
-![](https://drive.google.com/uc?id=1s6ziIVUNXrNpvULaJ2V9fzN8ufkbi64K)
+![](https://api.njzjz.win/1s6ziIVUNXrNpvULaJ2V9fzN8ufkbi64K)

@@ -68,4 +68,4 @@ export DISPLAY=localhost:0.0
 
 这时再输入`vmd`，即可打开VMD界面。
 
-![](https://drive.google.com/uc?id=1BkC5jEZYVo5KlmOonvQWbqDrgICWzVD9)
+![](https://api.njzjz.win/1BkC5jEZYVo5KlmOonvQWbqDrgICWzVD9)
