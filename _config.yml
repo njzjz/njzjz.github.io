@@ -121,4 +121,4 @@ search:
   content: true
 
 cdn_server: https://img.njzjz.win
-cdn_use_webp: false
+cdn_use_webp: true
