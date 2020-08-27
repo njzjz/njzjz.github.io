@@ -13,22 +13,28 @@ tags:
 
 2018-08-20
 
-**`conda install --channel "anaconda" package`**
+```bash
+conda install --channel "anaconda" package
+```
 <!--more-->
 
 ### 安装Anaconda
 
 使用conda install需要安装Anaconda，安装方式见 #18 。  
 但也可以用我写的一键脚本安装：  
-`wget https://raw.githubusercontent.com/njzjz/ChemAutoInstaller/master/ChemAutoInstaller.sh && bash ChemAutoInstaller.sh --anaconda`
+```bash
+wget https://raw.githubusercontent.com/njzjz/ChemAutoInstaller/master/ChemAutoInstaller.sh && bash ChemAutoInstaller.sh --anaconda
+```
 
 ### 添加清华镜像
 
-`conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/`  
-`conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/`  
-`conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/`  
-`conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/`  
-`conda config --set show_channel_urls yes`
+```bash
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+conda config --set show_channel_urls yes
+```
 
 经测试，在华东师范大学校园网下可以满速下载。
 
@@ -36,15 +42,25 @@ tags:
 
 一些最常用的软件，如numpy、scipy已经预装在Anaconda中。剩下一些常用的软件（其实是我常用的）安装命令（-y可以跳过确认）：  
 **TensorFlow**（含cuDDN）  
-`conda install tensorflow-gpu`  
+```bash
+conda install tensorflow-gpu
+```
 **OpenBabel**  
-`conda install openbabel`  
+```bash
+conda install openbabel
+```
 **RDkit**  
-`conda install rdkit`  
+```bash
+conda install rdkit
+```  
 **高版本GCC**  
-`conda install libgcc`  
+```bash
+conda install libgcc
+```  
 **DeePMD**  
-`conda install -c deepmd.kit deepmd`
+```bash
+conda install -c deepmd.kit deepmd
+```
 
 ### 搜索软件
 
