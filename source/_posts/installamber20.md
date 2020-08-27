@@ -14,7 +14,10 @@ tags:
 
 假设你已经有了Amber20的源代码，名叫`amber20_src`，并且现在在这个目录里面。
 
+<!-- more -->
 ## 安装串行版本
+
+{% video https://bf.njzjz.win/amber1.mp4 %}
 
 ```bash
 cd build/
@@ -29,6 +32,8 @@ source ../amber20/amber.sh
 ```
 
 ## 安装并行版本
+
+{% video https://bf.njzjz.win/amber2.mp4 %}
 
 安装并行版本前，请先安装串行版本。
 
