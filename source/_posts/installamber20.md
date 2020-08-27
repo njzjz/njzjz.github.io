@@ -16,7 +16,7 @@ tags:
 
 ## 安装串行版本
 
-{% video https://api.njzjz.win/1LLAYRjIR71CcSKjb3ijhklO0c7Dn6mhf %}
+{% video https://bf.njzjz.win/amber1.mp4 %}
 
 ```bash
 cd build/
@@ -32,7 +32,7 @@ source ../amber20/amber.sh
 
 ## 安装并行版本
 
-{% video https://api.njzjz.win/1LO5gJy_B8x-ysy_fxD-8ab8rXPunFLpV %}
+{% video https://bf.njzjz.win/amber2.mp4 %}
 
 安装并行版本前，请先安装串行版本。
 
