@@ -16,6 +16,8 @@ tags:
 
 ## 安装串行版本
 
+{% video https://api.njzjz.win/1LLAYRjIR71CcSKjb3ijhklO0c7Dn6mhf %}
+
 ```bash
 cd build/
 ./run_cmake
@@ -29,6 +31,8 @@ source ../amber20/amber.sh
 ```
 
 ## 安装并行版本
+
+{% video https://api.njzjz.win/1LO5gJy_B8x-ysy_fxD-8ab8rXPunFLpV %}
 
 安装并行版本前，请先安装串行版本。
 
