@@ -2597,10 +2597,10 @@ hexo-reference@1.0.4:
     hexo-util "^0.6.3"
     markdown-it "^8.4.2"
 
-hexo-related-popular-posts@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-5.0.0.tgz#49f44c19d232bd12bd8c1b69a9864efac5849bf1"
-  integrity sha512-wZBGyKU1uBMKPHd4cwyJQcf+/qZJPrWZ3TXZ7mIACcLvB677ku09Z6c/EfFPRKkdcq98eJc+MofxYyzVnIcq1w==
+hexo-related-popular-posts@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-5.0.1.tgz#8dc61e7f8bc40058c5adef34213364e3a1472bb5"
+  integrity sha512-X+7leZ708sXq1bgayful2HaGU22XAGPDZjqzpFUoeP8mXmJL51E2p66gqs7Xu+rygu4MMJQJvRK/fzGbHa8eqQ==
   dependencies:
     cheerio "^1.0.0-rc.2"
     columnify "^1.5.4"
