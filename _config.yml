@@ -87,11 +87,6 @@ deploy:
   branch: master
 all_minifier: true
 
-#autoissue
-owner: njzjz-bot
-comment_repo: njzjz.github.io
-labels: ["Gitalk"]
-
 sitemap:
   path: sitemap.xml
 
