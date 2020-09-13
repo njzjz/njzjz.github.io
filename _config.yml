@@ -86,6 +86,8 @@ deploy:
   repo: https://github.com/njzjz/njzjz.github.io
   branch: master
 all_minifier: true
+js_concator:
+  enable: true
 
 sitemap:
   path: sitemap.xml
