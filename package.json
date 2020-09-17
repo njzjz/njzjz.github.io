@@ -15,7 +15,7 @@
     }
   ],
   "dependencies": {
-    "hexo": "5.1.1",
+    "hexo": "5.2.0",
     "hexo-generator-archive": "1.0.0",
     "hexo-generator-basic-set": "0.1.1",
     "hexo-generator-category": "1.0.0",
