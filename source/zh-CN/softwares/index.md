@@ -11,5 +11,3 @@ Essential tools for chemistry students.
 ## [Color](https://color.njzjz.win/)
 A tool to predict concentration based on the color.
 
-## [Tieba Sign](https://tieba.njzjz.win)
-Tieba Cloud Sign.
