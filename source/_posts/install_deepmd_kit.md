@@ -8,8 +8,7 @@ tags:
 - Linux软件安装
 ---
 {% source zhihu 88425139 2019 10 24 %}
-
-2019 年 10 月 9 日微信公众号发
+{% source wechat DeQZKwoyxXK7rHhhmdgTmw 2019 10 9 %}
 
 假定已经安装了 Anaconda（建议使用最新版 2019.07），已连接互联网，则
 <!--more-->

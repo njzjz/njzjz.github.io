@@ -9,7 +9,7 @@ date: 2017-04-04 00:12:24
 tags:
 ---
 
-_2017年4月4日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMjA1MDA4MQ==&mid=2455134400&idx=1&sn=91738071ce0dccc1e135ab65051a7c92&chksm=ff91a28ec8e62b98129d2f7acb00ad914f62a6b7e7c7bc4b915c1253c467f92cea3a70310f8e#rd)_
+{% source wechat -pI4S7-92n4lNnzyHmV2jw 2017 4 4 %}
 
 **其一曰截。**截以过万之记为图，翌日示之。然其不可动也。  
 <!--more-->

@@ -11,8 +11,7 @@ tags:
 ---
 
 {% source zhihu 38146922 2018 6 16 %}
-
-\_2018年6月16日作\_
+{% source wechat sT4FNMuRa6lPcx_z0Sw7KQ 2018 6 16 %}
 
 文末将说明VMD在Ubuntu子系统上的安装方法。
 <!--more-->

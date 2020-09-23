@@ -6,6 +6,7 @@ categories:
 date: 2020-02-05
 tags:
 ---
+{% source wechat lnSIWCSbbczpFeX7IViXUA 2020 2 6 %}
 
 很久没有写技术贴了。最近，总有在Linux环境下连回ecnu服务器的需求，但是又不想丧失使用Google的权利，怎么办？openconnect是一个非常好的开源软件，可以实现这一需求。
 

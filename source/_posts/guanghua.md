@@ -9,7 +9,7 @@ date: 2018-01-05 00:18:55
 tags:
 ---
 
-_本文2018年1月5日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMjA1MDA4MQ==&mid=2455134444&idx=1&sn=5d734a914e79d87aed48c2a2b2970e56&chksm=ff91a2a2c8e62bb481265c3382f8bbe24ed0f481380b5b1b1e2f7396ead0cfb04874fdee095a#rd)_
+{% source wechat AP3EriQRSh0oUgpuyDvFsw 2018 1 5 %}
 
     2018年1月5日晚，光华书院学生会科技创新部指导团新年聚餐在呷哺呷哺宝龙广场店成功举行。科技创新部高级指导团成员曾晋哲，指导团成员程宇环、李育欣、刘玥洋、王若君出席了本次活动。
 <!--more-->

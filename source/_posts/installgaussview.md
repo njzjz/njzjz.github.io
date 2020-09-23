@@ -11,6 +11,7 @@ tags:
 ---
 
 {% source zhihu 38170085 2018 6 16 %}
+{% source wechat _Tw5oj1Ggg_dch1tS-gjPw 2018 6 17 %}
 
 文末将介绍GaussView在Ubuntu子系统的安装方法（网不好的时候用）。
 <!--more-->

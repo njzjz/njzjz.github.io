@@ -9,7 +9,7 @@ tags:
 ---
 
 {% source zhihu 46882842 2018 10 16 %}
-2018-09-23
+{$ source wechat cIaQOYM50lQNhDHuX6CzFw 2018 9 23 %}
 
 1.安装Intel® MPI Library并激活，如`source /share/apps/intel/compilers_and_libraries/linux/bin/compilervars.sh intel64`。  
 <!--more-->

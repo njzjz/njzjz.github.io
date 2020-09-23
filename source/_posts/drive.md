@@ -9,7 +9,7 @@ date: 2017-12-08 00:17:30
 tags:
 ---
 
-_2017年12月8日首发[微信公众号 ](http://mp.weixin.qq.com/s?__biz=MzIyMjA1MDA4MQ==&mid=2455134440&idx=1&sn=a3a245272296efdd649de03e2d74cb2d&chksm=ff91a2a6c8e62bb0bf0e7c05acf493ed94ef74a1f1bbeb300604dfe6ac57038105c74d6cd6af#rd)_
+{% source wechat qPw-4Q9GfLOQBxHcWDeXJg 2017 12 8 %}
 
 **“这是暑假的存文，今天微信放开了原创声明和留言，因此发出来看看效果”**
 如果你有多个网盘，那么一定有在不同网盘之间传输文件的需求，下面介绍使用MultCloud在不同网盘间传输文件的方法。

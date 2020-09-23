@@ -10,8 +10,7 @@ tags:
   - conda
 ---
 {% source zhihu 46882610 2018 10 16 %}
-
-2018-08-20
+{% source wechat XfbMarjpoFGJLiytVAeT1g 2018 8 20 %}
 
 ```bash
 conda install --channel "anaconda" package

@@ -9,6 +9,7 @@ date: 2018-11-05 02:51:18
 tags:
 ---
 {% source zhihu 54211641 2019 1 6 %}
+{% source wechat gAwdkZxx3eXZK5q_nFRqwQ 2018 11 5 %}
 
 坐标江苏南京，光猫型号是华为HG8120C，路由器是刷了最新版padavan的斐讯k2。光猫为桥接模式，路由器为路由模式。
 

@@ -8,8 +8,7 @@ tags:
   - conda
 ---
 {% source zhihu 88433094 2019 10 24 %}
-
-2019 年 10 月 24 日（UTC-4）微信公众号
+{% source wechat Acg_pbyzRC-22l5ltfqqQg 2019 10 24 %}
 
 近日，我已经通过 conda-build[^1]构建了 deepmd-kit（含 lammps 模块）的 conda packges[^2]，并用 constructor[^3]打包了离线安装包。下介绍安装方法及注意事项：
 <!--more-->

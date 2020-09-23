@@ -10,8 +10,7 @@ tags:
 - Linux软件安装
 ---
 {% source zhihu 37459007 2018 5 29 %}
-
- 2018年5月29日发布
+{% source wechat YxWuQ768xEuKjZAJZH3VOQ 2018 5 29 %}
 
 ```bash
 #超算上都没有root权限，所以只能自己编译

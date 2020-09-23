@@ -8,6 +8,8 @@ tags:
   - 回首四年
 ---
 {% source zhihu 67699831 2019 5 31 %}
+{% source wechat eyihenA6bo6cEKi5sQhuRA 2019 5 2 %}
+
 前天，{% post_link ecnu-competition1 我介绍了学科竞赛的概况 %}。今天我来讲解一下计算机应用竞赛，该类比赛采用“校级-省级-国家级”三级体系：
 <!--more-->
 
