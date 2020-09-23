@@ -10,8 +10,7 @@ tags:
 ---
 
 {% source zhihu 38302624 2018 6 20 %}
-
-2018/06/20
+{% source wechat 5Z-umzDJfTkv19TnrhqdNQ 2018 6 20 %}
 
 免密和别名。
 <!--more-->

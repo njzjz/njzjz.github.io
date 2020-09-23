@@ -10,8 +10,9 @@ tags:
 ---
 
 {% source zhihu 46883052 2018 10 16 %}
+{% source wechat USHNWNRQ1kCfIZEFBQXW3Q 2018 6 22 %}
 
-2018年6月22日发表于微信公众号 （需已经安装好EndNote）
+（需已经安装好EndNote）
 
 1.  下载EndNote引用文件：①打开Google Scholar，②搜索文献，③点击文献下方的引用按钮，④点击EndNote下载，⑤打开下载好的EndNote文件：
 <!--more-->

@@ -9,7 +9,7 @@ date: 2016-09-04 00:09:11
 tags:
 ---
 
-2016年9月4日首发[微信公众号](http://mp.weixin.qq.com/s?__biz=MzIyMjA1MDA4MQ==&mid=2455134366&idx=1&sn=e83479681438c774628ebda494234c9a#rd)
+{% source wechat WwOR3UgWX0XWo43aWVmp3A 2016 9 4 %}
 
 学术而不严肃，专业融于兴趣
 <!--more-->

@@ -9,7 +9,7 @@ date: 2018-03-20 00:22:48
 tags:
 ---
 
-_2018年3月20日首发[化学e+公众号](https://mp.weixin.qq.com/s?__biz=MzIwOTYyMjIyOA%3D%3D&mid=2247483681&idx=1&sn=79b5e03048bdd39c85e29615656390f9&scene=45#wechat_redirect)_
+{% source wechat v828HNv3BUGzkKWWvWeQSg 2018 3 20 %}
 
 化学e+小程序于2017年3月30日发布。今天，化学e+小程序发布即将满1周年，**累计用户数**达到**1万**。
 <!--more-->

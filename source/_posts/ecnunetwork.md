@@ -9,10 +9,9 @@ date: 2018-09-28 00:41:36
 tags:
 ---
 {% source zhihu 46882924 2018 10 16 %}
+{% source wechat irLvftsJ7p74z1fQ5b-zbg 2018 9 28 %}
 
-2018-09-28
-
-为了在无GUI的环境下登陆校园网，我们编写了 _ecnunetwork_ ——一个Python模块，在Python 2.7和Python 3.6均通过测试，  
+为了在无GUI的环境下登陆校园网，我们编写了 `ecnunetwork` ——一个Python模块，在Python 2.7和Python 3.6均通过测试，  
 因为目前校园网IPv6无需登陆，所以可以直接使用pip安装：
 <!--more-->
 

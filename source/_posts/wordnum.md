@@ -9,8 +9,7 @@ date: 2018-06-20 00:33:32
 tags:
 ---
 {% source zhihu 38300903 2018 6 20 %}
-
-2018/6/20
+{% source wechat M5upYszFmEknYX6gVmpruQ 2018 6 20 %}
 
 以我瞎写的四个公式为例：  
 <!--more-->

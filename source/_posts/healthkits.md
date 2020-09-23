@@ -6,7 +6,8 @@ categories:
 date: 2020-05-18
 tags:
 ---
-{% source zhihu 141928271 2020 8 18 %}
+{% source zhihu 141928271 2020 5 18 %}
+{% source wechat zy5chktWQG4ZmAtdyIPojg 2020 5 19 %}
 上个月学校CSSA发了1000包，然而睡了一觉就完美错过了问卷。这次又发了500包，终于抢到了。
 <!--more-->
 

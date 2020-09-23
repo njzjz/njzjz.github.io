@@ -10,8 +10,7 @@ tags:
 - Linux软件安装
 ---
 {% source zhihu 37553631 2018 5 31  %}
-
-2018年6月1日发布
+{% source wechat LzO2OeJnxA4H6ijG1px_aA 2018 6 1 %}
 
 ```sh
 wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.2.0-Linux-x86_64.sh

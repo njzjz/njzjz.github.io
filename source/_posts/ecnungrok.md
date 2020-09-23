@@ -8,8 +8,7 @@ categories:
 date: 2018-05-06 00:24:13
 tags:
 ---
-
-_2018年5月6日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMjA1MDA4MQ==&mid=2455134461&idx=1&sn=9053193f53bd55bc33be3b38283acbb6&chksm=ff91a2b3c8e62ba56be0b3a163311036550a23dbf076266255331c95e54c4e511a426874b486#rd)_
+{% source wechat MgxqyWJ8GVeuEf7wqn_9MA 2018 5 6 %}
 
 之所以不用学校的思科Anyconnect VPN服务，是因为其谜一般的稳定性：
 <!--more-->
