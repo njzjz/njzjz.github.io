@@ -108,3 +108,5 @@ links:
 vendors:
   internal: jsdelivr
   plugins: jsdelivr
+nprogress:
+  enable: true
