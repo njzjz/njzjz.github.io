@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "bundlesize": "0.18.0",
-    "hexo-all-minifier": "0.5.3"
+    "hexo-all-minifier": "https://github.com/njzjz/hexo-all-minifier#html-minifier-terser"
   },
   "engines": {
     "node": ">=10.x"
