@@ -39,9 +39,12 @@
   },
   "devDependencies": {
     "bundlesize": "0.18.0",
-    "hexo-all-minifier": "0.5.3"
+    "hexo-all-minifier": "0.5.5"
   },
   "engines": {
     "node": ">=10.x"
+  },
+  "resolutions": {
+    "gifsicle": "4.0.1"
   }
 }
