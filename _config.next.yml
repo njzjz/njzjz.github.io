@@ -77,7 +77,7 @@ github_banner:
 seo: true
 index_with_subtitle: true
 exturl: true
-baidu_push: true
+baidu_push: false
 math:
   enable: true
 comments:
