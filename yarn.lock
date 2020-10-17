@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@jiangtj/hexo-next-pwa@^1.0.2":
+"@jiangtj/hexo-next-pwa@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@jiangtj/hexo-next-pwa/-/hexo-next-pwa-1.0.2.tgz#83ba100bffe909d7eb186550fcfa3907f8156af1"
   integrity sha512-yxzOpJG6J6jBexJnnHZPZ226VlrVqixdzP2cnypbUGzRlbM6n6zftcDIl0du+22a1x79n000nPTSwhV4NZ2MBg==
