@@ -157,3 +157,17 @@ pwa:
           handler: StaleWhileRevalidate
           options:
             cacheName: jsdelivr
+        - urlPattern: !!js/regexp /^https:\/\/images\.weserv\.nl/
+          handler: CacheFirst
+          options:
+            cacheName: imagesweserv
+            expiration:
+              maxEntries: 60
+              maxAgeSeconds: 2592000
+        - urlPattern: !!js/regexp /^https:\/\/img\.njzjz\.win/
+          handler: CacheFirst
+          options:
+            cacheName: imagesredirect
+            expiration:
+              maxEntries: 60
+              maxAgeSeconds: 2592000
