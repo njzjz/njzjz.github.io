@@ -122,3 +122,11 @@ pwa:
   manifest:
     body:
       name: Jinzhe Zeng's Blog
+      display: standalone
+  serviceWorker:
+    options:
+      runtimeCaching:
+        - urlPattern: !!js/regexp /^https:\/\/cdn\.jsdelivr\.net/
+          handler: StaleWhileRevalidate
+          options:
+            cacheName: jsdelivr
