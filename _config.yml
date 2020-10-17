@@ -117,3 +117,57 @@ search:
 
 cdn_server: https://img.njzjz.win
 cdn_use_webp: true
+
+pwa:
+  manifest:
+    body:
+      name: Jinzhe Zeng's Blog
+      display: standalone
+  serviceWorker:
+    options:
+      runtimeCaching:
+        - urlPattern: /
+          handler: NetworkFirst
+          options:
+            cacheName: index
+        - urlPattern: !!js/regexp /\.(?:js|css)$/
+          handler: StaleWhileRevalidate
+          options:
+            cacheName: js-css
+        - urlPattern: !!js/regexp /\.(?:png|gif|jpg|jpeg|svg)$/
+          handler: CacheFirst
+          options:
+            cacheName: images
+            expiration:
+              maxEntries: 60
+              maxAgeSeconds: 2592000 # 30 * 24 * 60 * 60
+        - urlPattern: !!js/regexp /^https:\/\/fonts\.googleapis\.com/
+          handler: StaleWhileRevalidate
+          options:
+            cacheName: google-fonts-stylesheets
+        - urlPattern: !!js/regexp /^https:\/\/fonts\.gstatic\.com/
+          handler: CacheFirst
+          options:
+            cacheName: google-fonts-webfonts
+            cacheableResponse:
+              statuses: [0, 200]
+            expiration:
+              maxAgeSeconds: 31536000 # 365 * 24 * 60 * 60
+        - urlPattern: !!js/regexp /^https:\/\/cdn\.jsdelivr\.net/
+          handler: StaleWhileRevalidate
+          options:
+            cacheName: jsdelivr
+        - urlPattern: !!js/regexp /^https:\/\/images\.weserv\.nl/
+          handler: CacheFirst
+          options:
+            cacheName: imagesweserv
+            expiration:
+              maxEntries: 60
+              maxAgeSeconds: 2592000
+        - urlPattern: !!js/regexp /^https:\/\/img\.njzjz\.win/
+          handler: CacheFirst
+          options:
+            cacheName: imagesredirect
+            expiration:
+              maxEntries: 60
+              maxAgeSeconds: 2592000
