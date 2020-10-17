@@ -117,3 +117,8 @@ search:
 
 cdn_server: https://img.njzjz.win
 cdn_use_webp: true
+
+pwa:
+  manifest:
+    body:
+      name: Jinzhe Zeng's Blog
