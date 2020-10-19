@@ -46,6 +46,6 @@
     "node": ">=10.x"
   },
   "resolutions": {
-    "gifsicle": "4.0.1"
+    "gifsicle": "5.1.0"
   }
 }
