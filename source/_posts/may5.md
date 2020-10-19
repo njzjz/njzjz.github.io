@@ -15,7 +15,7 @@ date: 2020-05-05
 
 但是当我来到Rutgers后，开学第一周，系主任却告诉我们，你必须在工作和生活之间取得平衡。随后我也见证了这样的平衡：每晚20点以后和周末，（除了我这个见证者外）办公室一定是空空荡荡。大部分老师周末一定不回邮件。965也成为了一种习惯。
 
-![](https://api.njzjz.win/1PElTKhhNIPYSuoXIQtwTyq-RcWKA5MYd&export=download)
+![](https://api.njzjz.win/1PElTKhhNIPYSuoXIQtwTyq-RcWKA5MYd)
 
 今天看到中国科讯的一则推送《“僧多粥少”“前浪”难超，学术界的“后浪”们越来越难了！》，这应当就是当下学术界的真实写照。
 
