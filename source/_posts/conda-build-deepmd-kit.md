@@ -45,7 +45,7 @@ python:
 - 3.8
 ```
 
-这里，`float_prec`表示程序是用低精度还是高精度编译的，`channel_sources`和`channel_targets`表示channel的来源和目标，剩下的则是版本号。这里，`float_prec`、`cuda_compiler_version`和`python`实质上构成了编译矩阵，一共有{% mathjax %}2 \times 4 \times 3 = 24{% endmathjax %}个序列。
+这里，`float_prec`表示程序是用低精度还是高精度编译的，`channel_sources`和`channel_targets`表示channel的来源和目标，剩下的则是版本号。这里，`float_prec`、`cuda_compiler_version`和`python`实质上构成了编译矩阵，一共有$2 \times 4 \times 3 = 24$个序列。
 
 
 我们再来看`meta.yaml`，从头部看起：
