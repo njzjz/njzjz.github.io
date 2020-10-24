@@ -44,6 +44,34 @@ requirements:
     - {{ pin_compatible('cudnn') }}  # [cuda_compiler_version != 'None']
 ```
 
+这里，如何指定tf的版本？这是在`meta.yaml`最上方实现的，可以根据不同的`cuda_compiler_version`设置不同的`dp_variant`和`tf_version`，之后再将两者拼接起来：
+```jinja2
+{% if cuda_compiler_version == "None" %}
+{% set dp_variant = "cpu" %}
+{% else %}
+{% set dp_variant = "gpu" %}
+{% endif %}
+
+{% if cuda_compiler_version == "None" %}
+{% set dp_variant = "cpu" %}
+{% set tf_version = "2.3" %}
+
+{% else %}
+{% set dp_variant = "gpu" %}
+
+{% if cuda_compiler_version == "10.1" %}
+{% set tf_version = "2.3" %}
+{% elif cuda_compiler_version == "10.0" %}
+{% set tf_version = "2.1" %}
+{% else %}
+{% set tf_version = "2.1" %}
+{% endif %}
+
+{% endif %}
+
+{% set tf = "{} {}".format(tf_version, dp_variant) %}
+```
+
 和`libtensorflow_cc`一样，我们在`conda_build_config.yaml`里面仍然把`gcc`的版本设为5.4，因为cudatoolkit仍然不支持用`gcc` 7.3编译。
 
 ```yaml
