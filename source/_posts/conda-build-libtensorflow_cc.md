@@ -21,6 +21,7 @@ if [ ${cuda_compiler_version} != "None" ]; then
   bash $RECIPE_DIR/build_gpu.sh
 fi
 ```
+<!--more-->
 
 这里，我们将CPU版本和GPU版本的编译脚本分成了两个文件，因为两者有所不同。这里借鉴了Anaconda的Python编译脚本。我们先来看CPU版本：
 
