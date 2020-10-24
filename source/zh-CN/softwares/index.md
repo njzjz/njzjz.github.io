@@ -2,12 +2,10 @@
 title: 软件
 ---
 
-## [ReacNetGenerator](https://reacnetgenerator.njzjz.win/zh/)
-基于反应分子动力学模拟轨迹的反应网络自动构建和可视化软件（DOI: [10.26434/chemrxiv.7421534](https://doi.org/10.26434/chemrxiv.7421534)）
-
-## [化学e+](https://chem.njzjz.win/zh/)
-Essential tools for chemistry students.
-
-## [Color](https://color.njzjz.win/)
-A tool to predict concentration based on the color.
+{% linkgrid %}
+ReacNetGenerator | https://reacnetgenerator.njzjz.win/zh/ | 基于反应分子动力学模拟轨迹的反应网络自动构建和可视化软件 | https://img.njzjz.win/?url=https://reacnetgenerator.njzjz.win/reacnetgen.svg
+MDDatasetBuilder | https://mddatasetbuilder.njzjz.win/ | 从轨迹构建势能面数据集的工具 | https://img.njzjz.win/?url=https://api.njzjz.win/1dXXk_zj_KeDPP3vC-ZYHPZcexTW0OR_Q&default=https://api.njzjz.win/1dXXk_zj_KeDPP3vC-ZYHPZcexTW0OR_Q
+化学e+ | https://chem.njzjz.win/zh/ | 化学专业学生的必备工具 | https://img.njzjz.win/?url=https://chem.njzjz.win/chemicaltools.png
+Color | https://color.njzjz.win/ | 根据颜色预测试剂浓度 | https://img.njzjz.win/?url=https://upload.wikimedia.org/wikipedia/commons/3/31/Dipicolinic_acid.png
+{% endlinkgrid %}
 
