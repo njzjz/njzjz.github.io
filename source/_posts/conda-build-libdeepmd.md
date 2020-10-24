@@ -7,8 +7,11 @@ date: 2020-10-24
 tags:
   - conda
 ---
+{% source zhihu 268497296 2020 10 24 %}
+{% source wechat d0vsx9pwF2HluoIMusCWtQ 2020 10 24 % }
 
 在{% post_link conda-build-libtensorflow_cc '成功构建libtensorflow_cc'%}后，我们便可以参照{% post_link installlammpsdp '之前的方法'%}，构建libdeepmd了。
+<!--more-->
 
 在[deepmd-kit-recipes/libdeepmd-feedstock](https://github.com/deepmd-kit-recipes/libdeepmd-feedstock)的`recipe/meta.yaml`文件中，我们把包的名称设置为`{{ PKG_BUILDNUM }}_cuda{{ cuda_compiler_version }}_{{ dp_variant }}`，其中把`{{ dp_variant }}`放在最后，就可以确保用`*cpu`或者`*gpu`就可以搜寻到指定的版本。
 
