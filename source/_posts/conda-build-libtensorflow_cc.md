@@ -85,7 +85,7 @@ export TF_NEED_CUDA=0
 
 ```sh
 bazel ${BAZEL_OPTS} build  ${BUILD_OPTS}  \
-	//tensorflow:libtensorflow_cc.so
+    //tensorflow:libtensorflow_cc.so
 ```
 
 编译成功后，我们将一大批库文件和头文件拷至`$PREFIX`下的lib和include文件夹下：
@@ -122,13 +122,13 @@ export TF_NEED_TENSORRT=0
 # Additional compute capabilities can be added if desired but these increase
 # the build time and size of the package.
 if [[ ${cuda_compiler_version} == "9.0" ]]; then
-	    export TF_CUDA_COMPUTE_CAPABILITIES="3.5,5.2,6.0,6.1,7.0"
+        export TF_CUDA_COMPUTE_CAPABILITIES="3.5,5.2,6.0,6.1,7.0"
 fi
 if [[ ${cuda_compiler_version} == "9.2" ]]; then
-	    export TF_CUDA_COMPUTE_CAPABILITIES="3.5,5.2,6.0,6.1,7.0"
+        export TF_CUDA_COMPUTE_CAPABILITIES="3.5,5.2,6.0,6.1,7.0"
 fi
 if [[ ${cuda_compiler_version} == 10.* ]]; then
-	    export TF_CUDA_COMPUTE_CAPABILITIES="3.5,5.2,6.0,6.1,7.0,7.5"
+        export TF_CUDA_COMPUTE_CAPABILITIES="3.5,5.2,6.0,6.1,7.0,7.5"
 fi
 export TF_NCCL_VERSION=""
 export GCC_HOST_COMPILER_PATH="${CC}"
@@ -137,7 +137,7 @@ export GCC_HOST_COMPILER_PREFIX=$(dirname "${CC}")
 # link binutils
 for ii in addr2line ar as c++filt dwp elfedit gprof ld nm objcopy objdump ranlib readelf size strings strip
 do
-	ln -s ${GCC_HOST_COMPILER_PREFIX}/x86_64-conda_cos6-linux-gnu-${ii} ${GCC_HOST_COMPILER_PREFIX}/${ii}
+    ln -s ${GCC_HOST_COMPILER_PREFIX}/x86_64-conda_cos6-linux-gnu-${ii} ${GCC_HOST_COMPILER_PREFIX}/${ii}
 done
 
 
