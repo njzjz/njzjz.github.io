@@ -6,12 +6,11 @@ categories:
 date: 2020-10-24
 tags:
   - conda
-mathjax: true
 ---
 {% source wechat YSmEi4SRjrr5789yv_UgoA 2020 10 24 %}
 {% source zhihu 268447564 2020 10 24 %}
 
-很多人对Anaconda有这样的误解，认为conda只是用来管理Python packages的。实际上，conda更神奇的功能，是可以打包编译后的程序，并且不需要root权限即可安装。一般来说，分发编译后的程序总有各种各样的静态库的依赖问题，所以Anaconda把这些依赖库也做成了conda packages，这样就能确保任何机器都能安装了。`libtensorflow_cc`是TensorFlow的C++库，之前介绍{% post_link installlammpsdp '介绍过如何编译'%}，但编译成conda packages，仍需要费一番功夫。本文介绍2.3版本的构建方法：
+很多人对Anaconda有这样的误解，认为conda只是用来管理Python packages的。实际上，conda更神奇的功能，是可以打包编译后的程序，并且不需要root权限即可安装。一般来说，分发编译后的程序总有各种各样的静态库的依赖问题，所以Anaconda把这些依赖库也做成了conda packages，这样就能确保任何机器都能安装了。`libtensorflow_cc`是TensorFlow的C++库，之前{% post_link installlammpsdp '介绍过如何编译'%}，但编译成conda packages，仍需要费一番功夫。本文介绍2.3版本的构建方法：
 
 我们先来看[deepmd-kit-recipes/libtensorflow_cc-feedstock](https://github.com/deepmd-kit-recipes/libtensorflow_cc-feedstock)的`recipe/build.sh`文件。`conda-build`构建时，会默认把`build.sh`作为编译脚本。
 
