@@ -6,6 +6,7 @@ categories:
 date: 2020-08-18
 tags:
   - conda
+mathjax: true
 ---
 
 {% source wechat MXDo-Kgxh7HvBg5GYK754Q 2020 8 18 %}

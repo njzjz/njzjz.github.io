@@ -79,7 +79,8 @@ index_with_subtitle: true
 exturl: true
 baidu_push: false
 math:
-  enable: true
+  mathjax:
+    enable: true
 comments:
   lazyload: false
 valine:
