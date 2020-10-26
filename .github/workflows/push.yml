@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master
+      - hexo
     tags:
       - v*
   pull_request:
