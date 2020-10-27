@@ -43,7 +43,7 @@ jobs:
         ref: 'master'
         fetch-depth: 2
     - name: cachepurger
-      uses: CyrusRoshan/cachepurger@v1.0
+      uses: njzjz/cachepurger@index
       if: github.ref == 'refs/heads/hexo'
       with:
         url-prefix: 'https://njzjz.win/'
