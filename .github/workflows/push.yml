@@ -36,3 +36,15 @@ jobs:
         FOLDER: public
         BASE_BRANCH: hexo
         CLEAN: true
+    # purge cloudflare caches
+    - uses: actions/checkout@v2
+      if: github.ref == 'refs/heads/hexo'
+      with:
+        ref: 'master'
+        fetch-depth: 2
+    - name: cachepurger
+      uses: CyrusRoshan/cachepurger@v1.0
+      with:
+        url-prefix: 'https://njzjz.win/'
+        zone-id: ${{ secrets.CLOUDFLAREZONEID }}
+        api-token: ${{ secrets.CLOUDFLAREAPITOKEN }}
