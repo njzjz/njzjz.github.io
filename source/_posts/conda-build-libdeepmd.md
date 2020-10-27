@@ -8,7 +8,7 @@ tags:
   - conda
 ---
 {% source zhihu 268497296 2020 10 24 %}
-{% source wechat d0vsx9pwF2HluoIMusCWtQ 2020 10 24 % }
+{% source wechat d0vsx9pwF2HluoIMusCWtQ 2020 10 24 %}
 
 在{% post_link conda-build-libtensorflow_cc '成功构建libtensorflow_cc'%}后，我们便可以参照{% post_link installlammpsdp '之前的方法'%}，构建libdeepmd了。
 <!--more-->
