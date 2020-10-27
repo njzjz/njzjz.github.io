@@ -49,3 +49,5 @@ jobs:
         url-prefix: 'https://njzjz.win/'
         zone-id: ${{ secrets.CLOUDFLAREZONEID }}
         api-token: ${{ secrets.CLOUDFLAREAPITOKEN }}
+        from-commit: 'HEAD~1'
+        to-commit: 'HEAD'
