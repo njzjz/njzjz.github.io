@@ -44,6 +44,7 @@ jobs:
         fetch-depth: 2
     - name: cachepurger
       uses: CyrusRoshan/cachepurger@v1.0
+      if: github.ref == 'refs/heads/hexo'
       with:
         url-prefix: 'https://njzjz.win/'
         zone-id: ${{ secrets.CLOUDFLAREZONEID }}
