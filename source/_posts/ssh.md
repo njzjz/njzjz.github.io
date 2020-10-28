@@ -28,7 +28,7 @@ ssh-keygen -t rsa
 ssh-copy-id root@106.14.182.145
 ```
 
-输入密码后，即把公钥信息（id\_rsa.pub）拷入服务器的authorized\_keys中。再次登录：
+输入密码后，即把公钥信息（`id_rsa.pub`）拷入服务器的`authorized_keys`中。再次登录：
 
 ```sh
 ssh root@106.14.182.145
@@ -61,7 +61,7 @@ Port xx
 chmod 600 ~/.ssh/config
 ```
 
-现在，ssh可以用aliyun替代root@106.14.182.145了：
+现在，ssh可以用aliyun替代`root@106.14.182.145`了：
 
 ```
 ssh aliyun
