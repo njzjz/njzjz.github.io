@@ -114,6 +114,7 @@ search:
   path: search.xml
   field: post
   content: true
+  format: striptags
 
 cdn_server: https://img.njzjz.win
 cdn_use_webp: true
