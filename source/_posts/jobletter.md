@@ -12,3 +12,6 @@ tags:
 笔者此前曾经发现，学院2018届就业率仅85.66%，为{% post_link job '近四年最低' %}；但2019届就业率达98.78%，超过{% post_link job20192 '全校平均水平' %}，其中{% post_link job2019 '本科生就业率达100%' %}。
 
 笔者注意到，今年4月，南京大学化学化工学院也发布过类似的《[一封信](https://mp.weixin.qq.com/s/70nyxgecCVL3D6Yvinlp0w)》。
+
+<!--more-->
+![letter](https://api.njzjz.win/1phVAhC81cSOWF40LoWjnvSlD_Fnjw8dd)
