@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: en
 title: "Report at Westlake University: Development and Application of DP and Integrating External Packages"
 categories:
   - Chemistry
