@@ -7,10 +7,11 @@ date: 2020-11-09
 tags:
 ---
 {% note info %}
-Report on on Nov 5 at 9:50 p.m. EST.
+Online report on Nov 5 at 9:50 p.m. EST, at Westlake University.
 {% endnote %}
 
 ![](https://api.njzjz.win/1l6tqCPFNjd8afU08VLfrUboKnxvmy1CX)
+<!--more-->
 
 ![](https://api.njzjz.win/1l5udNi8pMRAzq-nXrO_FVveJxBp7aa1n)
 
