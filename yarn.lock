@@ -2649,9 +2649,10 @@ hexo-server@2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-"hexo-source-tag@https://github.com/njzjz/hexo-source-tag#i18n":
-  version "0.0.4"
-  resolved "https://github.com/njzjz/hexo-source-tag#54d62f347ce1913834435be4813b19ebc6e97b1d"
+hexo-source-tag@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.6.tgz#e806f2f03cb3c8a2c3bb0fbe63e2e46d500bb7e8"
+  integrity sha512-Rp0WrlrrZWGxNWRXq7AR43+bkwbqCve4nfj1yenUCoj/pfIdPv8mDh9lNx6NRwtPg521uAxzI+aeKIORV9G09g==
   dependencies:
     string-format "^2.0.0"
 
