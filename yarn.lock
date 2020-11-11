@@ -2649,10 +2649,12 @@ hexo-server@2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-hexo-source-tag@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.4.tgz#71bebe632190175d8c7852e20317a9723d9d95da"
-  integrity sha512-9YOGtBOjk92+APWy5j0qtFgIH+766TM10uo+Vm6snSzCnpJLu7aF5Nl7zCD2OlemLV7d0dBZqNWASBckRya6/g==
+hexo-source-tag@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.6.tgz#e806f2f03cb3c8a2c3bb0fbe63e2e46d500bb7e8"
+  integrity sha512-Rp0WrlrrZWGxNWRXq7AR43+bkwbqCve4nfj1yenUCoj/pfIdPv8mDh9lNx6NRwtPg521uAxzI+aeKIORV9G09g==
+  dependencies:
+    string-format "^2.0.0"
 
 hexo-symbols-count-time@0.7.1:
   version "0.7.1"
@@ -5116,6 +5118,11 @@ strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
   integrity sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=
+
+string-format@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/string-format/-/string-format-2.0.0.tgz#f2df2e7097440d3b65de31b6d40d54c96eaffb9b"
+  integrity sha512-bbEs3scLeYNXLecRRuk6uJxdXUSj6le/8rNPHChIJTn2V79aXVTR1EH2OH5zLKKoz0V02fOUKZZcw01pLUShZA==
 
 string-template@~0.2.0:
   version "0.2.1"
