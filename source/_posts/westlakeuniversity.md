@@ -6,7 +6,7 @@ categories:
 date: 2020-11-09
 tags:
 ---
-{% source wechat 2 2020 Nov 10 %}
+{% source wechat 2 2020 Nov 10 en %}
 {% note info %}
 Online report on Nov 5 2020 at 9:50 p.m. EST, at Westlake University.
 {% endnote %}
