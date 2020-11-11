@@ -2651,9 +2651,9 @@ hexo-server@2.0.0:
 
 "hexo-source-tag@https://github.com/njzjz/hexo-source-tag#i18n":
   version "0.0.4"
-  resolved "https://github.com/njzjz/hexo-source-tag#855b2bca926f9641cbae69db9eded2e53f803f90"
+  resolved "https://github.com/njzjz/hexo-source-tag#a896753bbe5a2a1817fc7ee15fb5880c58f294a8"
   dependencies:
-    hexo-i18n "^1.0.0"
+    string-format "^2.0.0"
 
 hexo-symbols-count-time@0.7.1:
   version "0.7.1"
@@ -5117,6 +5117,11 @@ strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
   integrity sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=
+
+string-format@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/string-format/-/string-format-2.0.0.tgz#f2df2e7097440d3b65de31b6d40d54c96eaffb9b"
+  integrity sha512-bbEs3scLeYNXLecRRuk6uJxdXUSj6le/8rNPHChIJTn2V79aXVTR1EH2OH5zLKKoz0V02fOUKZZcw01pLUShZA==
 
 string-template@~0.2.0:
   version "0.2.1"
