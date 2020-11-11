@@ -2651,7 +2651,7 @@ hexo-server@2.0.0:
 
 "hexo-source-tag@https://github.com/njzjz/hexo-source-tag#i18n":
   version "0.0.4"
-  resolved "https://github.com/njzjz/hexo-source-tag#a896753bbe5a2a1817fc7ee15fb5880c58f294a8"
+  resolved "https://github.com/njzjz/hexo-source-tag#53f8032cf1ebd4764fcc8f30692d032decfb5d8c"
   dependencies:
     string-format "^2.0.0"
 
