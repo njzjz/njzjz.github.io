@@ -5,7 +5,10 @@ categories:
   - Chemistry
 date: 2020-11-09
 tags:
+  - meeting
 ---
+{% source wechat agB0zKHQ0pgruJSuqlPwfg 2020 11 09 en %}
+{% source zhihu 282761607 2020 11 09 en %}
 {% note info %}
 Online report on Nov 5 2020 at 9:50 p.m. EST, at Westlake University.
 {% endnote %}
