@@ -1,3 +1,3 @@
 hexo.on('generateBefore', function () {
-  hexo.theme.css = "111";
+  hexo.theme.config.css = "111";
 });
