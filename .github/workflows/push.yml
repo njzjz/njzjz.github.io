@@ -7,7 +7,7 @@ on:
   pull_request:
 name: Build and deploy on push
 jobs:
-  yarnInstall:
+  build:
     name: yarn install
     runs-on: ubuntu-latest
     steps:
@@ -19,7 +19,7 @@ jobs:
     - name: Get yarn cache
       id: yarn-cache
       run: echo "::set-output name=dir::$(yarn cache dir)"
-    - uses: actions/cache@v1
+    - uses: actions/cache@v2
       with:
         path: ${{ steps.yarn-cache.outputs.dir }}
         key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
@@ -36,15 +36,40 @@ jobs:
         FOLDER: public
         BASE_BRANCH: hexo
         CLEAN: true
-    # purge cloudflare caches
+  deploy:
+    name: deploy on Vercel
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Vercel Action
+        uses: amondnet/vercel-action@master
+        if: github.ref != 'refs/heads/master'
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
+      - name: Vercel Action
+        uses: amondnet/vercel-action@master
+        if: github.ref == 'refs/heads/master'
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
+          vercel-args: '--prod'
+  purge:
+    name: purge cloudflare caches
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/hexo'
+    needs: [build, deploy]
+    steps:
     - uses: actions/checkout@v2
-      if: github.ref == 'refs/heads/hexo'
       with:
         ref: 'master'
         fetch-depth: 2
     - name: cachepurger
       uses: njzjz/cachepurger@index
-      if: github.ref == 'refs/heads/hexo'
       with:
         url-prefix: 'https://njzjz.win/'
         zone-id: ${{ secrets.CLOUDFLAREZONEID }}
