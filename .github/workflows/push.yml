@@ -8,7 +8,7 @@ on:
 name: Build and deploy on push
 jobs:
   build:
-    name: build blog
+    name: yarn install
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
@@ -86,7 +86,6 @@ jobs:
   deploy_test:
     name: test on Vercel
     runs-on: ubuntu-latest
-    needs: [css_commit]
     if: github.ref != 'refs/heads/hexo'
     steps:
       - uses: actions/checkout@v2
