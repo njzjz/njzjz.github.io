@@ -4,10 +4,10 @@ language_switcher: true
 cache:
   enable: false
 favicon:
-  small: https://img.njzjz.win/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
-  medium: https://img.njzjz.win/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
-  apple_touch_icon: https://img.njzjz.win/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
-  safari_pinned_tab: https://img.njzjz.win/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  small: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@9d4d517f7c008456c8f13320ed78d70c6742f623/avatar.png
+  medium: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@9d4d517f7c008456c8f13320ed78d70c6742f623/avatar.png
+  apple_touch_icon: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@9d4d517f7c008456c8f13320ed78d70c6742f623/avatar.png
+  safari_pinned_tab: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@9d4d517f7c008456c8f13320ed78d70c6742f623/avatar.png
 footer:
   since: 2016
   icon:
@@ -25,7 +25,7 @@ menu:
 menu_settings:
   badges: true
 avatar:
-  url: https://img.njzjz.win/?url=avatars2.githubusercontent.com/u/9496702?s=460&v=4
+  url: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@9d4d517f7c008456c8f13320ed78d70c6742f623/avatar.png
 social:
   GitHub: https://github.com/njzjz || fab fa-github
   E-Mail: mailto:jinzhe.zeng@rutgers.edu || fa fa-envelope
