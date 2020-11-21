@@ -9,7 +9,7 @@ tags:
 ---
 在搞定{% post_link conda-build-libdeepmd libdeepmd的构建 %}后，我们终于来到了最后一关：LAMMPS。
 
-这里以今年3月发布的LAMMPS stable_3Mar2020为例。在{% post_link installlammpsdp 寻常的安装 %}中，我们需要把`USER-DEEPMD`文件夹拷进`src`目录下，这次也不例外，我们在`build.sh`的最开头便做了这件事：
+这里以今年3月发布的LAMMPS stable_3Mar2020为例。<!--more-->在{% post_link installlammpsdp 寻常的安装 %}中，我们需要把`USER-DEEPMD`文件夹拷进`src`目录下，这次也不例外，我们在`build.sh`的最开头便做了这件事：
 
 ```sh build.sh
 cp -r ${PREFIX}/share/USER-DEEPMD src/
