@@ -2556,10 +2556,10 @@ hexo-i18n@^1.0.0:
   dependencies:
     sprintf-js "^1.0.3"
 
-hexo-image-cloudflare@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/hexo-image-cloudflare/-/hexo-image-cloudflare-0.0.3.tgz#0603d5480b97245eb6c0ffee029391589b308fad"
-  integrity sha512-wSRXZcjWAisJ6H6y5/RcZhrwFs+CHL6M5qX3i7WrynVMURee0pbNgHCg/Flv0KBRE5pgHKOJjPPMQArYWZpGeg==
+hexo-image-cloudflare@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/hexo-image-cloudflare/-/hexo-image-cloudflare-0.0.4.tgz#2a1bc40dbae80da54418338966923c209caea1ec"
+  integrity sha512-f2Sw7j1+TUGLH/pBReK0/itqXR1pwUChhoD79+FZOCZAMR24vLBXvLWG3+ras41NoxbgXCPWz9x+SDOsmgaUpw==
   dependencies:
     hexo-util "^2.2.0"
 
@@ -2649,10 +2649,12 @@ hexo-server@2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-hexo-source-tag@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.4.tgz#71bebe632190175d8c7852e20317a9723d9d95da"
-  integrity sha512-9YOGtBOjk92+APWy5j0qtFgIH+766TM10uo+Vm6snSzCnpJLu7aF5Nl7zCD2OlemLV7d0dBZqNWASBckRya6/g==
+hexo-source-tag@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.6.tgz#e806f2f03cb3c8a2c3bb0fbe63e2e46d500bb7e8"
+  integrity sha512-Rp0WrlrrZWGxNWRXq7AR43+bkwbqCve4nfj1yenUCoj/pfIdPv8mDh9lNx6NRwtPg521uAxzI+aeKIORV9G09g==
+  dependencies:
+    string-format "^2.0.0"
 
 hexo-symbols-count-time@0.7.1:
   version "0.7.1"
@@ -2661,10 +2663,10 @@ hexo-symbols-count-time@0.7.1:
   dependencies:
     hexo-util "1.9.0"
 
-hexo-theme-next@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.0.1.tgz#608e085e4f6d8cbd0f0adad0d5e6e7c5ccfb1577"
-  integrity sha512-0ljbi7RmX1NXUR4Kt3z+Mlpd5ODkW8XV2IQvQxDHin3PTzVVfFudRmUpCb+4c7oMThu+/WIvJuQgK93kUEMFXA==
+hexo-theme-next@8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.0.2.tgz#6f9ee15e231241c209ac2fe687b764ed00a926e7"
+  integrity sha512-rTqJoD0FNt6lVvU5MTfYVltNOIfOJSDjO3MdAYknPcOogtoqGu8UypiEz8bYwFNNwIRsFExJUl7IBsVrMlOR4Q==
 
 hexo-util@1.9.0:
   version "1.9.0"
@@ -5116,6 +5118,11 @@ strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
   integrity sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=
+
+string-format@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/string-format/-/string-format-2.0.0.tgz#f2df2e7097440d3b65de31b6d40d54c96eaffb9b"
+  integrity sha512-bbEs3scLeYNXLecRRuk6uJxdXUSj6le/8rNPHChIJTn2V79aXVTR1EH2OH5zLKKoz0V02fOUKZZcw01pLUShZA==
 
 string-template@~0.2.0:
   version "0.2.1"

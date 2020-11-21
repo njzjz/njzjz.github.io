@@ -26,7 +26,7 @@
     "hexo-generator-search": "2.4.1",
     "hexo-generator-sitemap": "2.1.0",
     "hexo-generator-tag": "1.0.0",
-    "hexo-image-cloudflare": "0.0.3",
+    "hexo-image-cloudflare": "0.0.4",
     "hexo-pdf": "1.1.1",
     "hexo-reference": "1.0.4",
     "hexo-related-popular-posts": "5.0.1",
@@ -34,9 +34,9 @@
     "hexo-renderer-marked": "3.3.0",
     "hexo-renderer-stylus": "2.0.1",
     "hexo-server": "2.0.0",
-    "hexo-source-tag": "0.0.4",
+    "hexo-source-tag": "0.0.6",
     "hexo-symbols-count-time": "0.7.1",
-    "hexo-theme-next": "8.0.1"
+    "hexo-theme-next": "8.0.2"
   },
   "devDependencies": {
     "bundlesize": "0.18.0",

@@ -1,4 +1,6 @@
+---
 title: 代理分享 - 为科学研究提供无偿支持
+date: 2020-10-27
 ---
 请联系[jzzeng@stu.ecnu.edu.cn](mailto:jzzeng@stu.ecnu.edu.cn)无偿获取密码（务必说明使用用途)
 
