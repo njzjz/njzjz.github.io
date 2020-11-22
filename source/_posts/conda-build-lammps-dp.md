@@ -7,8 +7,8 @@ date: 2020-11-21
 tags:
   - conda
 ---
-{% source tag wechat GYBXEHvokSYeRMu2288KJQ 2020 11 21 %}
-{% source tag zhihu 305516678 2020 11 21 %}
+{% source wechat GYBXEHvokSYeRMu2288KJQ 2020 11 21 %}
+{% source zhihu 305516678 2020 11 21 %}
 
 在搞定{% post_link conda-build-libdeepmd libdeepmd的构建 %}后，我们终于来到了最后一关：LAMMPS。
 
