@@ -1,7 +1,7 @@
 # Jinzhe Zeng's Blog
 
 [![up](https://img.shields.io/website-up-down-green-red/https/njzjz.win.svg?style=flat)](https://njzjz.win)
-[![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/njzjz/njzjz.github.io/badge/year?style=rounded)](https://www.jsdelivr.com/package/gh/njzjz/njzjz.github.io)
+[![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/njzjz/njzjz.github.io/badge/all?style=rounded)](https://www.jsdelivr.com/package/gh/njzjz/njzjz.github.io)
 
 
 A blog powered by [Hexo](https://github.com/hexojs/hexo) and [Next Theme](https://github.com/theme-next/hexo-theme-next), and deployed by GitHub Actions.
