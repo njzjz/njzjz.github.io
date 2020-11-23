@@ -1,8 +1,10 @@
 # Jinzhe Zeng's Blog
 
-[![](https://img.shields.io/website-up-down-green-red/https/njzjz.win.svg?style=flat)](https://njzjz.win) [![Greenkeeper badge](https://badges.greenkeeper.io/njzjz/njzjz.github.io.svg)](https://greenkeeper.io/)
+[![up](https://img.shields.io/website-up-down-green-red/https/njzjz.win.svg?style=flat)](https://njzjz.win)
+[![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/njzjz/njzjz.github.io/badge?style=rounded)](https://www.jsdelivr.com/package/gh/njzjz/njzjz.github.io)
 
-A blog powered by [Hexo](https://github.com/hexojs/hexo) and [Next Theme](https://github.com/theme-next/hexo-theme-next), and deployed by Travis-CI and [GitHub Pages](https://pages.github.com/).
+
+A blog powered by [Hexo](https://github.com/hexojs/hexo) and [Next Theme](https://github.com/theme-next/hexo-theme-next), and deployed by GitHub Actions.
 
 Author: Jinzhe Zeng
 
