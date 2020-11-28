@@ -46,6 +46,8 @@ highlight:
   enable: true
   line_number: true
   auto_detect: true
+marked:
+  lazyload: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -116,7 +118,6 @@ search:
   content: true
   format: striptags
 
-cdn_server: https://img.njzjz.win
 cdn_use_webp: true
 
 pwa:
