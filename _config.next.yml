@@ -54,8 +54,8 @@ motion:
   enable: false
   async: true
 reward:
-  wechatpay: https://img.njzjz.win/?url=i.loli.net/2018/08/26/5b821ce3a2497.jpg
-  alipay: https://img.njzjz.win/?url=i.loli.net/2018/08/26/5b821c8f752b4.png
+  wechatpay: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@5471f41503354e524e431315d03f44379260c2a0/wechatpay.png
+  alipay: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@5471f41503354e524e431315d03f44379260c2a0/alipay.png
 related_posts:
    enable: true
 post_edit:
