@@ -43,6 +43,7 @@ reward_settings:
   animation: true
 mobile_layout_economy: true
 pjax: false
+lazyload: true
 mediumzoom: true
 pangu: true
 quicklink:
