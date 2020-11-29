@@ -113,3 +113,4 @@ vendors:
 nprogress:
   enable: true
 images: https://cdn.jsdelivr.net/npm/hexo-theme-next@8.0.2/source/images
+preconnect: true
