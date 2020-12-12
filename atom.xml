@@ -6,7 +6,7 @@
   <link href="https://njzjz.win/atom.xml" rel="self"/>
   
   <link href="https://njzjz.win/"/>
-  <updated>2020-11-26T16:00:00.000Z</updated>
+  <updated>2020-12-11T16:00:00.000Z</updated>
   <id>https://njzjz.win/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>媒体总喜欢搞个大新闻</title>
+    <link href="https://njzjz.win/2020/12/11/fakenews/"/>
+    <id>https://njzjz.win/2020/12/11/fakenews/</id>
+    <published>2020-12-11T16:00:00.000Z</published>
+    <updated>2020-12-11T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img data-src="https://images.weserv.nl/?url=https://njzjz.win/%25E5%25AE%25A3%25E4%25BC%25A0%25E7%25A8%25BF%25E5%259C%25A8%25E5%25BE%25AE%25E4%25BF%25A1%25E7%259A%2584%25E4%25BC%25A0%25E6%2592%25AD%25E7%25BB%258F%25E5%258E%2586&default=https://njzjz.win/%25E5%25AE%25A3%25E4%25BC%25A0%25E7%25A8%25BF%25E5%259C%25A8%25E5%25BE%25AE%25E4%25BF%25A1%25E7%259A%2584%25E4%25BC%25A0%25E6%2592%25AD%25E7%25BB%258F%25E5%258E%2586" alt="https://api.njzjz.win/1mYvLe03fwhMZIDquGmuwSuVGizZKKEBg" loading="lazy"></p><p>统计了<a href="/2020/11/26/combustion_news/" title="论文宣传稿">论文宣传稿</a>在微信上的传播路径（图），产生几个有意思的结论。一是学校媒体和传统媒体的影响力仍然是最大的，应当作为宣传时优先考虑的对象；二是自媒体喜欢抄来抄去，扩大了宣传稿的阅读量；三是一些媒体乱改标题，总喜欢搞个大新闻。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;img data-src=&quot;https://images.weserv.n</summary>
+      
+    
+    
+    
+    <category term="Life" scheme="https://njzjz.win/categories/Life/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>人工智能算法助力燃烧化学研究 华东师大科研团队取得重要进展</title>
@@ -504,27 +526,6 @@
     
     
     <category term="COVID-19" scheme="https://njzjz.win/tags/COVID-19/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>羊毛党的胜利——用Google Colab的免费P100训练deepmd-kit模型</title>
-    <link href="https://njzjz.win/2020/03/08/colab/"/>
-    <id>https://njzjz.win/2020/03/08/colab/</id>
-    <published>2020-03-08T16:00:00.000Z</published>
-    <updated>2020-03-08T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="note sourcenote info zhihu">本文于2020年3月12日发表于知乎专栏,<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xMTI4MzkzMTg=">查看原文<i class="fa fa-external-link-alt"></i></span></div><div class="note sourcenote success wechat">本文于2020年3月9日发表于微信公众号,<span class="exturl" data-url="aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3Mvay1odERCT1g0dXNkbWRpTU5VaWxCUQ==">查看原文<i class="fa fa-external-link-alt"></i></span></div><p>最近几个月，Google Colab上线了免费的P100。本文介绍如何用Google Colaboratory的免费P100训练deepmd-kit模型。</p><a id="more"></a><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1lYBrGK5nEJdi8PMmmaTMPtMzgPj4lmBh&default=https://api.njzjz.win/1lYBrGK5nEJdi8PMmmaTMPtMzgPj4lmBh" loading="lazy"></p><p>在Google Drive上传训练需要的文件。为了方便展示，这里以GitHub的库里的example为例，但是stop_batch被调为了20000。</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1lTf38Zm1FT7ruXNuUNJ4RAYOzdG0FN1u&default=https://api.njzjz.win/1lTf38Zm1FT7ruXNuUNJ4RAYOzdG0FN1u" loading="lazy"></p><p>打开Colab网站<span class="exturl" data-url="aHR0cHM6Ly9jb2xhYi5yZXNlYXJjaC5nb29nbGUuY29tLw==">https://colab.research.google.com/<i class="fa fa-external-link-alt"></i></span> ，点击下方的“新建笔记本”：</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1lTf38Zm1FT7ruXNuUNJ4RAYOzdG0FN1u&default=https://api.njzjz.win/1lTf38Zm1FT7ruXNuUNJ4RAYOzdG0FN1u" loading="lazy"></p><p>进入Colab界面，点击代码执行程序&gt;更改运行时类型，将硬件设置为GPU：</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1ezSolpIArFhNlIW28aQHImM-AKuQJCpI&default=https://api.njzjz.win/1ezSolpIArFhNlIW28aQHImM-AKuQJCpI" loading="lazy"></p><p>用!nvidia-smi看一下被分到的卡是什么型号，看看是不是较差的P4，毕竟能否抢到P100也个玄学的事情。如果不是，可以重复执行以上操作。</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1znfGlsO6Y25O00AwF8hqRzM2JKrj2qmz&default=https://api.njzjz.win/1znfGlsO6Y25O00AwF8hqRzM2JKrj2qmz" loading="lazy"></p><p>用!pip install deepmd-kit tensorflow==2.1 配置环境：</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1sHgdDq_bl1Fyk5-tsUVL-PEYvJi6koFd&default=https://api.njzjz.win/1sHgdDq_bl1Fyk5-tsUVL-PEYvJi6koFd" loading="lazy"></p><p>挂载Google Drive。点击左侧的“文件”图标，点击“挂载Google云端硬盘”，并且同意访问：</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1tRa2ZW1ByVHgM1VFWSl3ym8jq9AeQ9de&default=https://api.njzjz.win/1tRa2ZW1ByVHgM1VFWSl3ym8jq9AeQ9de" loading="lazy"></p><p>cd到刚才上传目录训练，然后坐等训练完成。</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1vMGoBQGVPrTF6yWcJ19nT4evClt9fANH&default=https://api.njzjz.win/1vMGoBQGVPrTF6yWcJ19nT4evClt9fANH" loading="lazy"></p><p>免费的还是挺香的。</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1quUP685tzfjiZui7Sbx9A7BarW75yx9G&default=https://api.njzjz.win/1quUP685tzfjiZui7Sbx9A7BarW75yx9G" loading="lazy"></p><p>保存模型：</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1amPAy7Fa9BqoZikb55CLT2vqwwfDbz3I&default=https://api.njzjz.win/1amPAy7Fa9BqoZikb55CLT2vqwwfDbz3I" loading="lazy"></p><p>测试模型。由于我只训练了20,000个batch，精度没有达到最高水平：</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1JgD5mkUl6KxrhgurfZls52DcFXwt6-SX&default=https://api.njzjz.win/1JgD5mkUl6KxrhgurfZls52DcFXwt6-SX" loading="lazy"></p><p>回到Google Drive，我们发现，所有训练文件都在里面了——也就是说如果中途断线也可以继续训练。</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1c_SbEpW0pOK2BnJ0eQjrW84Tqs9rGexI&default=https://api.njzjz.win/1c_SbEpW0pOK2BnJ0eQjrW84Tqs9rGexI" loading="lazy"></p><p><span class="exturl" data-url="aHR0cHM6Ly9jb2xhYi5yZXNlYXJjaC5nb29nbGUuY29tL2RyaXZlLzFhZlVUMGNrY1k1N1FmUHNrSmRCRVNuSWVIa2xqUlBsUw==">本文的colab文件<i class="fa fa-external-link-alt"></i></span></p>]]></content>
-    
-    
-    <summary type="html">&lt;div class=&quot;note sourcenote info zhihu&quot;&gt;本文于2020年3月12日发表于知乎专栏,&lt;a href=&quot;https://zhuanlan.zhihu.com/p/112839318&quot;&gt;查看原文&lt;/a&gt;&lt;/div&gt;
-&lt;div class=&quot;note sourcenote success wechat&quot;&gt;本文于2020年3月9日发表于微信公众号,&lt;a href=&quot;https://mp.weixin.qq.com/s/k-htDBOX4usdmdiMNUilBQ&quot;&gt;查看原文&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;最近几个月，Google Colab上线了免费的P100。本文介绍如何用Google Colaboratory的免费P100训练deepmd-kit模型。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Chemistry" scheme="https://njzjz.win/categories/Chemistry/"/>
-    
     
   </entry>
   
