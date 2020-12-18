@@ -24,7 +24,7 @@ update: 2020-12-05
 
 ## 发表文章
 
-- **Zeng, Jinzhe**; Zhang, Linfeng\*; Wang, Han\*; Zhu, Tong\*, Explore the Chemical Space of Linear Alkanes Pyrolysis via Deep Potential Generator, Energy & Fuels, In Press, DOI: [10.26434/chemrxiv.12935261](https://doi.org/10.26434/chemrxiv.12935261)
+- **Zeng, Jinzhe**; Zhang, Linfeng\*; Wang, Han\*; Zhu, Tong\*, Exploring the Chemical Space of Linear Alkanes Pyrolysis via Deep Potential GENerator, Energy & Fuels, 2020, DOI: [10.1021/acs.energyfuels.0c03211](https://doi.org/10.1021/acs.energyfuels.0c03211)
 - **Zeng, Jinzhe**; Cao, Liqun; Xu, Mingyuan; Zhu, Tong\*; Zhang, John ZH\*, Complex reaction processes in combustion unraveled by neural network-based molecular dynamics simulation, Nature Communications, 2020, 11, 5713, DOI: [10.1038/s41467-020-19497-z](https://doi.org/10.1038/s41467-020-19497-z)
 - **Zeng, Jinzhe**; Zhang, Linfeng\*; Wang, Han\*; Zhu, Tong\*, Explore the Chemical Space of Linear Alkanes Pyrolysis via Deep Potential Generator, ChemRxiv, 2020-09-10, DOI: [10.26434/chemrxiv.12935261](https://doi.org/10.26434/chemrxiv.12935261)
 - Zhang, Yuzhi; Wang, Haidi; Chen, Weijie; **Zeng, Jinzhe**; Zhang, Linfeng\*; Wang, Han\*; E, Weinan\*, DP-GEN: A concurrent learning platform for the generation of reliable deep learning based potential energy models, Comput. Phys. Commun, 2020, 253, 107206, DOI: [10.1016/j.cpc.2020.107206](https://doi.org/10.1016/j.cpc.2020.107206)
