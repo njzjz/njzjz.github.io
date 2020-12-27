@@ -34,7 +34,7 @@
     "hexo-renderer-marked": "3.3.0",
     "hexo-renderer-stylus": "2.0.1",
     "hexo-server": "2.0.0",
-    "hexo-source-tag": "0.0.6",
+    "hexo-source-tag": "https://github.com/njzjz/hexo-source-tag#refactor",
     "hexo-symbols-count-time": "0.7.1",
     "hexo-theme-next": "8.1.0"
   },
