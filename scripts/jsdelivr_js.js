@@ -8,9 +8,9 @@ hexo.extend.filter.register('after_generate', () => {
 
 // .js -> .min.js
 function use_min_js(str, package, old_path, new_path){
-  var old_url = new RegExp(`https://cdn.jsdelivr.net/npm/${package}@(([\s\S])*?)/${old_path}`, "g");
+  var old_url = new RegExp(`https://cdn.jsdelivr.net/npm/${package}@(([\s\S])*?)/${old_path}`.replaceAll('/','\\/'), "g");
   var new_url = `https://cdn.jsdelivr.net/npm/${package}@$1/${new_path}`;
-  return str.replace(old_url, new_url)
+  return str.replace(old_url, new_url);
 }
 
 hexo.extend.filter.register('after_render:html', function(str, data){
