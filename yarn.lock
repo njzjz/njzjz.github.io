@@ -2663,10 +2663,10 @@ hexo-symbols-count-time@0.7.1:
   dependencies:
     hexo-util "1.9.0"
 
-hexo-theme-next@8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.1.0.tgz#fc12ef9e6f3fe33a2c3bbf972f1e546047e34cd4"
-  integrity sha512-msxTbPsu95UljHZGXxo/PSJMKOc9amBVgK4B2Yi4tLduOuEpOTCieLiOnfz1e7ywBYlmqS86oPxXrQXc6q9yiQ==
+hexo-theme-next@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.2.0.tgz#e882343642b3d2061b66bb6cf58e4f435c3c7cde"
+  integrity sha512-whvcjF4Fl+afZxkuS0LbpREsO0f4otkTLH3rSuw2qkR0wI1yTTqZ4sTZc9P/9X87+CgYPuzS2AzurDQFaPXyAQ==
 
 hexo-util@1.9.0:
   version "1.9.0"
