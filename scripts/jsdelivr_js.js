@@ -26,6 +26,6 @@ hexo.extend.filter.register('after_render:html', function(str, data){
   str = use_min_js(str, 'nprogress', 'nprogress.js', 'nprogress.min.js');
   str = use_min_js(str, 'nprogress', 'nprogress.css', 'nprogress.min.css');
   // busuanzi
-  str = replace_url(str, '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', '//cdn.jsdelivr.net/gh/sukkaw/busuanzi@2.3/bsz.pure.mini.js');
+  str = replace_url(str, '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', '//cdn.jsdelivr.net/gh/YinAoXiong/busuanzi@2.3.0/busuanzi.pure.mini.js');
   return str;
 });
