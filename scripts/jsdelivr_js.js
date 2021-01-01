@@ -7,7 +7,7 @@ hexo.extend.filter.register('after_generate', () => {
 });
 
 function replace_url(str, old_url, new_url){
-  var old_url = new RegExp(old_path.split('/').join('\\/'), "g");
+  old_url = new RegExp(old_path.split('/').join('\\/'), "g");
   return str.replace(old_url, new_url);
 }
 
