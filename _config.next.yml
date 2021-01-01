@@ -93,6 +93,10 @@ valine:
   recordIP: true
   enableQQ: true
   serverURLs: https://blogcomment.njzjz.win
+disqusjs:
+  enable: true
+  apikey: 2BQ7XHnqBr57WPaTp2ozSwhwTJ7k5gOvwA9ruq9OE8vEZSQ43YYFNa8UjL1t62Ls
+  shortname: njzjz
 google_analytics:
   tracking_id: UA-74033886-1
 local_search:
