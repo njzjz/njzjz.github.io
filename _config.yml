@@ -88,6 +88,8 @@ deploy:
   repo: https://github.com/njzjz/njzjz.github.io
   branch: master
 all_minifier: true
+css_minifier:
+  level: 2
 
 sitemap:
   path: sitemap.xml
