@@ -118,7 +118,9 @@ search:
   content: true
   format: striptags
 
-cdn_use_webp: true
+cdn: 
+  use_webp: true
+  max_width: 828
 
 pwa:
   manifest:
