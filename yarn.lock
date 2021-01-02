@@ -2558,7 +2558,7 @@ hexo-i18n@^1.0.0:
 
 "hexo-image-cloudflare@https://github.com/njzjz/hexo-image-cloudflare#max_width":
   version "0.0.10"
-  resolved "https://github.com/njzjz/hexo-image-cloudflare#44be1bce6af078a8ccdaf4b6c4428375d7d35abf"
+  resolved "https://github.com/njzjz/hexo-image-cloudflare#88d5d01c0d678377b1cfb34a046f33cb25114e83"
   dependencies:
     hexo-util "^2.2.0"
 
