@@ -93,6 +93,7 @@ busuanzi_count:
   enable: true
 google_analytics:
   tracking_id: UA-74033886-1
+  only_pageview: true
 local_search:
   enable: true
 pdf:
