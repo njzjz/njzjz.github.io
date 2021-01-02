@@ -2563,6 +2563,13 @@ hexo-image-cloudflare@0.1.0:
   dependencies:
     hexo-util "^2.2.0"
 
+hexo-lazyload-image@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/hexo-lazyload-image/-/hexo-lazyload-image-1.0.9.tgz#6dbff4957a965b8b0eed3ca7a4afd9ad1cced013"
+  integrity sha512-BadWRtA3K9w9J+sjjNXPBPkt/F1xBhpPBx0AOLyJNhKLXJG076ctdwq4rh1/C+su+1PuTZe1+YSXDFU73vcrjw==
+  dependencies:
+    uglify-js "^3.0.27"
+
 hexo-log@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-log/-/hexo-log-2.0.0.tgz#1dcc8e960029b08b21994fe2c56c4e3d6346e893"
@@ -5553,6 +5560,11 @@ uglify-es@^3.3.9:
   dependencies:
     commander "~2.13.0"
     source-map "~0.6.1"
+
+uglify-js@^3.0.27:
+  version "3.12.4"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.12.4.tgz#93de48bb76bb3ec0fc36563f871ba46e2ee5c7ee"
+  integrity sha512-L5i5jg/SHkEqzN18gQMTWsZk3KelRsfD1wUVNqtq0kzqWQqcJjyL8yc1o8hJgRrWqrAl2mUFbhfznEIoi7zi2A==
 
 unbzip2-stream@^1.0.9:
   version "1.4.3"

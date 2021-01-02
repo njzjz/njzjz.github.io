@@ -46,8 +46,6 @@ highlight:
   enable: true
   line_number: true
   auto_detect: true
-marked:
-  lazyload: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -175,3 +173,6 @@ pwa:
             expiration:
               maxEntries: 60
               maxAgeSeconds: 2592000
+lazyload:
+  enable: true
+  loadingImg: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@ea928a02c513a04b7f124d84975771a535d12c2d/loading.png
