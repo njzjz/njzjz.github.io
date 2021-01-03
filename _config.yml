@@ -151,18 +151,6 @@ pwa:
             expiration:
               maxEntries: 60
               maxAgeSeconds: 2592000 # 30 * 24 * 60 * 60
-        - urlPattern: !!js/regexp /^https:\/\/fonts\.googleapis\.com/
-          handler: StaleWhileRevalidate
-          options:
-            cacheName: google-fonts-stylesheets
-        - urlPattern: !!js/regexp /^https:\/\/fonts\.gstatic\.com/
-          handler: CacheFirst
-          options:
-            cacheName: google-fonts-webfonts
-            cacheableResponse:
-              statuses: [0, 200]
-            expiration:
-              maxAgeSeconds: 31536000 # 365 * 24 * 60 * 60
         - urlPattern: !!js/regexp /^https:\/\/cdn\.jsdelivr\.net/
           handler: StaleWhileRevalidate
           options:
@@ -174,10 +162,6 @@ pwa:
             expiration:
               maxEntries: 60
               maxAgeSeconds: 2592000
-        - urlPattern: !!js/regexp /^https:\/\/img\.njzjz\.win/
-          handler: CacheFirst
-          options:
-            cacheName: imagesredirect
-            expiration:
-              maxEntries: 60
-              maxAgeSeconds: 2592000
+      offlineGoogleAnalytics: true
+      importScripts:
+        - https://cdn.jsdelivr.net/gh/njzjz/gist@468db3fe9211def6e58f9b165e39224e667d641b/workbox.js
