@@ -2,11 +2,11 @@ article img{
     transition: filter .35s ease 0s;
 }
 
-article img:not(.loaded){
+article img:not([data-loaded$="true"]){
     -webkit-filter: blur(5px);
     filter: blur(5px);
 }
 
-article img:not(.loaded):not(.loading){
+article img[src$=""]:not([data-loaded$="true"]){
     padding-bottom: 0.618
 }
