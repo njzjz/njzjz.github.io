@@ -122,7 +122,11 @@ search:
 
 cdn: 
   use_webp: true
-  max_width: 828
+  max_width:
+    - 828
+    - 1656
+    - 378
+    - 678
 
 pwa:
   manifest:
