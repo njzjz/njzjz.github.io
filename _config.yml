@@ -134,6 +134,7 @@ pwa:
       name: Jinzhe Zeng's Blog
       display: standalone
   serviceWorker:
+    cdn: https://cdn.jsdelivr.net/npm/workbox-cdn/workbox/workbox-sw.js
     options:
       runtimeCaching:
         - urlPattern: /
@@ -163,5 +164,3 @@ pwa:
               maxEntries: 60
               maxAgeSeconds: 2592000
       offlineGoogleAnalytics: true
-      importScripts:
-        - https://cdn.jsdelivr.net/gh/njzjz/gist@d7d883a155c2336f9e5cac14ceae461422c7e497/workbox.js
