@@ -164,4 +164,4 @@ pwa:
               maxAgeSeconds: 2592000
       offlineGoogleAnalytics: true
       importScripts:
-        - https://cdn.jsdelivr.net/gh/njzjz/gist@468db3fe9211def6e58f9b165e39224e667d641b/workbox.js
+        - https://cdn.jsdelivr.net/gh/njzjz/gist@d7d883a155c2336f9e5cac14ceae461422c7e497/workbox.js
