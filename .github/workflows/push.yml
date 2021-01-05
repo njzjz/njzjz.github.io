@@ -28,7 +28,7 @@ jobs:
     - run: yarn install
     - run: yarn build
       env:
-        BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN }}
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       if: github.ref == 'refs/heads/hexo'
@@ -81,7 +81,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v3
       if: github.ref == 'refs/heads/hexo'
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN }}
         BRANCH: master
         FOLDER: public
         BASE_BRANCH: hexo
