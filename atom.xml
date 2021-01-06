@@ -6,7 +6,7 @@
   <link href="https://njzjz.win/atom.xml" rel="self"/>
   
   <link href="https://njzjz.win/"/>
-  <updated>2020-12-11T16:00:00.000Z</updated>
+  <updated>2021-01-05T16:00:00.000Z</updated>
   <id>https://njzjz.win/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的第三篇论文</title>
+    <link href="https://njzjz.win/2021/01/05/paper3/"/>
+    <id>https://njzjz.win/2021/01/05/paper3/</id>
+    <published>2021-01-05T16:00:00.000Z</published>
+    <updated>2021-01-05T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><sourcetag><div class="note sourcenote info zhihu">本文于2020年11月28日发表于知乎专栏,<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8zNDE0NjAxNDc=">查看原文<i class="fa fa-external-link-alt"></i></span></div></sourcetag><sourcetag><div class="note sourcenote success wechat">本文于2020年11月28日发表于微信公众号,<span class="exturl" data-url="aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3MvUEs2cG4tdTVlZ1MwbXdwZEhZS2JVdw==">查看原文<i class="fa fa-external-link-alt"></i></span></div></sourcetag><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1lViMMxGi1jTrbt3LQDRbNhbuPsfRNe2O&default=https://api.njzjz.win/1lViMMxGi1jTrbt3LQDRbNhbuPsfRNe2O" alt="Cover" loading="lazy"></p><p>2019年5月，林峰邀请我暑假到北大实习，我欣然答应。拿到学士学位证书后，我在家里休息了一周，顺便处理了升学的各项事宜。这些全部搞定后，6月下旬，我启程前往北京。<a id="more"></a></p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1dXpd21QbwdstRsunQ7ckETyrVue3zX9k&default=https://api.njzjz.win/1dXpd21QbwdstRsunQ7ckETyrVue3zX9k" alt="2019年6月23日摄于北京大学东门" loading="lazy"></p><p>2019年6月23日摄于北京大学东门</p><p>北京大数据研究院（另一个牌子是北京大学大数据研究中心）坐落于静园六院，位于燕园的中心地带，距离未名湖不远。静园六院为二层三合院结构，外观古朴，而房间里有中央空调。我很快熟悉了周围的环境<del>，以及周围的外卖</del>。</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1bKmlbLceXOQYe9mCoCg3pF1uV5jn1UHX&default=https://api.njzjz.win/1bKmlbLceXOQYe9mCoCg3pF1uV5jn1UHX" alt="2019年6月30日摄于静园六院" loading="lazy"></p><p>2019年6月30日摄于静园六院</p><p>在王涵老师的安排下，一开始的几天，我参与了一些DP-GEN软件的开发工作。DP-GEN是一个基于active learning的自动化框架，可以自动向集群提交任务，用于搜集数据。后来，<span class="exturl" data-url="aHR0cHM6Ly9kb2kub3JnLzEwLjEwMTYvai5jcGMuMjAyMC4xMDcyMDY=">DP-GEN的四作文章<i class="fa fa-external-link-alt"></i></span>于2020年2月发表于Computer Physics Communications。</p><p>2019年7月4日，朱通老师来到北京。我们四个聚集在会议厅讨论，先交流了我<a href="/2020/11/13/paper2/" title="第二篇文章">第二篇文章</a>的一些细节，接着提出了idea：能否把DP-GEN和燃烧反应结合起来，做一个全自动的流程来逐步探索反应，完全不需要人力操作？我们敲定首先用正十二烷裂解来作为例子，之后再拓展到其它体系。</p><p>虽然这个idea只有一句话，但实现起来却有好几步工作要做。主要难点在于，此前DP-GEN是为材料体系设计的，因而通过模拟较小的体系来采样；但高温下的反应体系需要从大规模的模拟中采样，而第一性原理计算又有限制。大体上，这个idea仍延续了<a href="/2020/11/13/paper2/" title="第二篇文章">第二篇文章</a>的思路。次日，我列了一个开发提纲，计划逐渐实现目标。</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1ShVu5lCgt-DxJXsRQB1D7FHCGknnPjFw&default=https://api.njzjz.win/1ShVu5lCgt-DxJXsRQB1D7FHCGknnPjFw" alt="2019年7月5日列出的开发提纲" loading="lazy"></p><p>2019年7月5日列出的开发提纲</p><p>7月下旬，所有代码均已开发完毕，这一课题进入“正十二烷阶段”。于是，7月底，我告别了DP团队，告别了北京。8月下旬，抵达Rutgers University后，我增加了邮件提醒功能，继续监视着DP-GEN的日志。起初进展缓慢，但到了11月，登辉的GPU加速MD的code问世了，MD速度提升了十倍！分析结果以后，我启用relative deviation又重跑了一遍，2020年1月便结束了战斗。</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/14AF0aIoelq9qJN7Jke4k9GUW7NjOxtRj&default=https://api.njzjz.win/14AF0aIoelq9qJN7Jke4k9GUW7NjOxtRj" alt="整个流程" loading="lazy"></p><p>整个流程</p><p>拿着训练好的模型，我又进行了正十烷、正十四烷、正二十烷的模拟，并用<a href="#">Post not found: ReacNetGenerator 第一篇文章</a>分析，获得了不错的结果。长训的结果起先不如人意，测试了很久，排查出是sel不够所致。</p><p>9月，Darrin York让我申请NVIDIA Graduate Fellowship（最后并未申到），为了完善简历，我赶紧把这篇文章发到ChemRxiv上，并投了出去。最后ACS旗下的Energy &amp; Fuels同意审稿。10月下旬，审稿意见返回，两个小修，一个大修。那时，刚好第二篇文章发表，于是<del>我光顾着兴奋</del>，11月下旬才把文章修回，一周后便顺利接受。</p><p>至此，基于深度学习模拟燃烧反应的方法开发算是告一段落了，基于这一方法，可以完成进一步的应用<del>，发几篇大文章</del>。</p><p>Zeng, Jinzhe; Zhang, Linfeng*; Wang, Han*; Zhu, Tong*, Exploring the Chemical Space of Linear Alkanes Pyrolysis via Deep Potential GENerator, Energy &amp; Fuels, 2020, DOI: <span class="exturl" data-url="aHR0cHM6Ly9kb2kub3JnLzEwLjEwMjEvYWNzLmVuZXJneWZ1ZWxzLjBjMDMyMTE=">10.1021/acs.energyfuels.0c03211<i class="fa fa-external-link-alt"></i></span></p>]]></content>
+    
+    
+    <summary type="html">&lt;sourcetag&gt;&lt;div class=&quot;note sourcenote info zhihu&quot;&gt;本文于2020年11月28日发表于知乎专栏,&lt;a href=&quot;https://zhuanlan.zhihu.com/p/341460147&quot;&gt;查看原文&lt;/a&gt;&lt;/div&gt;&lt;/sourcetag&gt;
+&lt;sourcetag&gt;&lt;div class=&quot;note sourcenote success wechat&quot;&gt;本文于2020年11月28日发表于微信公众号,&lt;a href=&quot;https://mp.weixin.qq.com/s/PK6pn-u5egS0mwpdHYKbUw&quot;&gt;查看原文&lt;/a&gt;&lt;/div&gt;&lt;/sourcetag&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.weserv.nl/?url=https://api.njzjz.win/1lViMMxGi1jTrbt3LQDRbNhbuPsfRNe2O&amp;default=https://api.njzjz.win/1lViMMxGi1jTrbt3LQDRbNhbuPsfRNe2O&quot; alt=&quot;Cover&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2019年5月，林峰邀请我暑假到北大实习，我欣然答应。拿到学士学位证书后，我在家里休息了一周，顺便处理了升学的各项事宜。这些全部搞定后，6月下旬，我启程前往北京。</summary>
+    
+    
+    
+    <category term="Chemistry" scheme="https://njzjz.win/categories/Chemistry/"/>
+    
+    
+    <category term="papers" scheme="https://njzjz.win/tags/papers/"/>
+    
+  </entry>
   
   <entry>
     <title>媒体总喜欢搞个大新闻</title>
@@ -45,11 +70,13 @@
     <published>2020-11-26T16:00:00.000Z</published>
     <updated>2020-11-26T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="note info"><p>转载自<span class="exturl" data-url="aHR0cHM6Ly9uZXdzLmVjbnUuZWR1LmNuL2ZmLzVlL2MxODM3YTI2MTk4Mi9wYWdlLmh0bQ==">华东师范大学新闻网<i class="fa fa-external-link-alt"></i></span></p></div><p>华东师范大学化学与分子工程学院朱通副研究员指导学生结合人工智能算法、量子化学理论以及分子动力学方法，实现了燃料燃烧的高精度计算机模拟，在原子尺度和亚飞秒时间分辨率下获得了甲烷燃烧的化学反应网络。该成果以“Complex reaction processes in combustion unraveled by neural network-based molecular dynamics simulation”为题近日发表在Nature Communications [Nat. Commun. 2020, 11, 5713.]。华东师范大学为论文第一单位，2019届本科毕业生曾晋哲为论文的第一作者，朱通副研究员和张增辉教授为论文的共同通讯作者。</p><a id="more"></a><p><img data-src="https://images.weserv.nl/?url=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/6edd890b-0968-4c92-bcc7-16fbb5ca0811.jpg&default=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/6edd890b-0968-4c92-bcc7-16fbb5ca0811.jpg" alt="Fig1" loading="lazy"><br>朱通副研究员和张增辉教授为论文的共同通讯作者</p><p>航空发动机是国防、交通等领域的核心装备，反应了一个国家的科技和工业能力。只有掌握先进的航空发动机技术，才能使我国在航空航天领域与发达国家的竞争中获得优势地位。掌握燃料燃烧的本质和基础理论，发现和阐明航空发动机燃烧过程的基本规律和其中涉及的物理化学机制，是我国在发动机设计领域追赶直至超越发达国家的必要条件。</p><p>发动机工作在高温高压的严苛工况下，很难通过实验手段对其进行全景式的定量研究。而传统计算模拟方法无法正确高效地处理燃烧过程中剧烈化学反应带来的大量反应路径的量子化学计算。最近，基于人工神经网络的深度学习方法为构建具有量子化学精度、同时十分高效的模拟算法提供了可能。本研究专门为燃烧反应设计了数据库构建方案，采用人工神经网络模型在0.1飞秒的分辨率下对甲烷燃烧过程进行了长达1纳秒的反应分子动力学模拟。</p><p><img data-src="https://images.weserv.nl/?url=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/4f81f75d-b789-408d-9ee8-28f0ff834e30.png&default=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/4f81f75d-b789-408d-9ee8-28f0ff834e30.png" alt="Fig2" loading="lazy"><br>图1. 本文中的人工神经网络框架以及主要物种随着模拟时间的演变</p><p>在团队近期开发的ReacNetGenerator软件[Phys. Chem. Chem. Phys., 2020, 22, 683.]的帮助下，该工作不仅复现了多年来积累的甲烷燃烧骨架反应机理，还发现了数百个中间反应路径，揭示了甲烷燃烧的完整反应网络。</p><p><img data-src="https://images.weserv.nl/?url=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/ee74ecc3-f49c-4df2-9e96-9cfe984e351c.png&default=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/ee74ecc3-f49c-4df2-9e96-9cfe984e351c.png" alt="Fig3" loading="lazy"><br>图2. 模拟获得的甲烷燃烧主要反应机理</p><p><img data-src="https://images.weserv.nl/?url=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/98669519-dc2b-4e62-b4a2-3d60e3740cdb.jpg&default=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/98669519-dc2b-4e62-b4a2-3d60e3740cdb.jpg" alt="Fig4" loading="lazy"><br>论文第一作者2019届本科毕业生曾晋哲</p><p>目前团队正将该方法应用于碳烟的生成机理、航空煤油的热解以及含能材料的起爆机理研究中。该方法的进一步发展还有望为有机合成路径的逆分析提供新的思路。相关算法已集成至DP-GEN软件中[Comput. Phys. Commun., 2020, 253, 107206.]供用户下载使用。</p><p>值得一提的是本工作也是曾晋哲同学本科毕业论文的一部分，该毕业论文获得了第二十五届上海市大学生化学化工优秀论文交流会一等奖。相关算法还获得了全国及上海市的大学生计算机能力大赛一等奖。</p><p>本工作得到了国家自然科学基金重大研究计划《面向发动机的湍流燃烧基础研究》培育项目、科技部重点研发计划、国家级大学生创新创业训练计划和华东师范大学超算中心的支持。</p><p>文章链接：<span class="exturl" data-url="aHR0cHM6Ly93d3cubmF0dXJlLmNvbS9hcnRpY2xlcy9zNDE0NjctMDIwLTE5NDk3LXo=">https://www.nature.com/articles/s41467-020-19497-z<i class="fa fa-external-link-alt"></i></span></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="note info"><p>转载自<span class="exturl" data-url="aHR0cHM6Ly9uZXdzLmVjbnUuZWR1LmNuL2ZmLzVlL2MxODM3YTI2MTk4Mi9wYWdlLmh0bQ==">华东师范大学新闻网<i class="fa fa-external-link-alt"></i></span></p></div><sourcetag><div class="note sourcenote info zhihu">本文于2020年11月28日发表于知乎专栏,<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8zMTkwNzU0NTU=">查看原文<i class="fa fa-external-link-alt"></i></span></div></sourcetag><p>华东师范大学化学与分子工程学院朱通副研究员指导学生结合人工智能算法、量子化学理论以及分子动力学方法，实现了燃料燃烧的高精度计算机模拟，在原子尺度和亚飞秒时间分辨率下获得了甲烷燃烧的化学反应网络。该成果以“Complex reaction processes in combustion unraveled by neural network-based molecular dynamics simulation”为题近日发表在Nature Communications [Nat. Commun. 2020, 11, 5713.]。华东师范大学为论文第一单位，2019届本科毕业生曾晋哲为论文的第一作者，朱通副研究员和张增辉教授为论文的共同通讯作者。</p><a id="more"></a><p><img data-src="https://images.weserv.nl/?url=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/6edd890b-0968-4c92-bcc7-16fbb5ca0811.jpg&default=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/6edd890b-0968-4c92-bcc7-16fbb5ca0811.jpg" alt="Fig1" loading="lazy"><br>朱通副研究员和张增辉教授为论文的共同通讯作者</p><p>航空发动机是国防、交通等领域的核心装备，反应了一个国家的科技和工业能力。只有掌握先进的航空发动机技术，才能使我国在航空航天领域与发达国家的竞争中获得优势地位。掌握燃料燃烧的本质和基础理论，发现和阐明航空发动机燃烧过程的基本规律和其中涉及的物理化学机制，是我国在发动机设计领域追赶直至超越发达国家的必要条件。</p><p>发动机工作在高温高压的严苛工况下，很难通过实验手段对其进行全景式的定量研究。而传统计算模拟方法无法正确高效地处理燃烧过程中剧烈化学反应带来的大量反应路径的量子化学计算。最近，基于人工神经网络的深度学习方法为构建具有量子化学精度、同时十分高效的模拟算法提供了可能。本研究专门为燃烧反应设计了数据库构建方案，采用人工神经网络模型在0.1飞秒的分辨率下对甲烷燃烧过程进行了长达1纳秒的反应分子动力学模拟。</p><p><img data-src="https://images.weserv.nl/?url=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/4f81f75d-b789-408d-9ee8-28f0ff834e30.png&default=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/4f81f75d-b789-408d-9ee8-28f0ff834e30.png" alt="Fig2" loading="lazy"><br>图1. 本文中的人工神经网络框架以及主要物种随着模拟时间的演变</p><p>在团队近期开发的ReacNetGenerator软件[Phys. Chem. Chem. Phys., 2020, 22, 683.]的帮助下，该工作不仅复现了多年来积累的甲烷燃烧骨架反应机理，还发现了数百个中间反应路径，揭示了甲烷燃烧的完整反应网络。</p><p><img data-src="https://images.weserv.nl/?url=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/ee74ecc3-f49c-4df2-9e96-9cfe984e351c.png&default=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/ee74ecc3-f49c-4df2-9e96-9cfe984e351c.png" alt="Fig3" loading="lazy"><br>图2. 模拟获得的甲烷燃烧主要反应机理</p><p><img data-src="https://images.weserv.nl/?url=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/98669519-dc2b-4e62-b4a2-3d60e3740cdb.jpg&default=https://news.ecnu.edu.cn/_upload/article/images/89/34/c6ca3eb747e5af1179dd21f265e4/98669519-dc2b-4e62-b4a2-3d60e3740cdb.jpg" alt="Fig4" loading="lazy"><br>论文第一作者2019届本科毕业生曾晋哲</p><p>目前团队正将该方法应用于碳烟的生成机理、航空煤油的热解以及含能材料的起爆机理研究中。该方法的进一步发展还有望为有机合成路径的逆分析提供新的思路。相关算法已集成至DP-GEN软件中[Comput. Phys. Commun., 2020, 253, 107206.]供用户下载使用。</p><p>值得一提的是本工作也是曾晋哲同学本科毕业论文的一部分，该毕业论文获得了第二十五届上海市大学生化学化工优秀论文交流会一等奖。相关算法还获得了全国及上海市的大学生计算机能力大赛一等奖。</p><p>本工作得到了国家自然科学基金重大研究计划《面向发动机的湍流燃烧基础研究》培育项目、科技部重点研发计划、国家级大学生创新创业训练计划和华东师范大学超算中心的支持。</p><p>文章链接：<span class="exturl" data-url="aHR0cHM6Ly93d3cubmF0dXJlLmNvbS9hcnRpY2xlcy9zNDE0NjctMDIwLTE5NDk3LXo=">https://www.nature.com/articles/s41467-020-19497-z<i class="fa fa-external-link-alt"></i></span></p>]]></content>
     
     
     <summary type="html">&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;转载自&lt;a href=&quot;https://news.ecnu.edu.cn/ff/5e/c1837a261982/page.htm&quot;&gt;华东师范大学新闻网&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
+
+&lt;sourcetag&gt;&lt;div class=&quot;note sourcenote info zhihu&quot;&gt;本文于2020年11月28日发表于知乎专栏,&lt;a href=&quot;https://zhuanlan.zhihu.com/p/319075455&quot;&gt;查看原文&lt;/a&gt;&lt;/div&gt;&lt;/sourcetag&gt;
 
 &lt;p&gt;华东师范大学化学与分子工程学院朱通副研究员指导学生结合人工智能算法、量子化学理论以及分子动力学方法，实现了燃料燃烧的高精度计算机模拟，在原子尺度和亚飞秒时间分辨率下获得了甲烷燃烧的化学反应网络。该成果以“Complex reaction processes in combustion unraveled by neural network-based molecular dynamics simulation”为题近日发表在Nature Communications [Nat. Commun. 2020, 11, 5713.]。华东师范大学为论文第一单位，2019届本科毕业生曾晋哲为论文的第一作者，朱通副研究员和张增辉教授为论文的共同通讯作者。&lt;/p&gt;</summary>
     
@@ -496,29 +523,6 @@
     <summary type="html">&lt;sourcetag&gt;&lt;div class=&quot;note sourcenote info zhihu&quot;&gt;本文于2020年4月3日发表于知乎专栏,&lt;a href=&quot;https://zhuanlan.zhihu.com/p/124189998&quot;&gt;查看原文&lt;/a&gt;&lt;/div&gt;&lt;/sourcetag&gt;
 
 &lt;p&gt;引用使馆及总领馆官网内容，均提供参考资料，按时间倒序排列，长期更新。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Life" scheme="https://njzjz.win/categories/Life/"/>
-    
-    
-    <category term="COVID-19" scheme="https://njzjz.win/tags/COVID-19/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>对新泽西局势的思考</title>
-    <link href="https://njzjz.win/2020/03/28/nj0328/"/>
-    <id>https://njzjz.win/2020/03/28/nj0328/</id>
-    <published>2020-03-28T16:00:00.000Z</published>
-    <updated>2020-03-28T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><sourcetag><div class="note sourcenote info zhihu">本文于2020年3月29日发表于知乎专栏,<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xMjAzMDk2MzY=">查看原文<i class="fa fa-external-link-alt"></i></span></div></sourcetag><p>NJDOH于3月24日起公布了所有测试点的Negative数据总和，从图中可以看出，3月25日起，测试量稳定在了5k左右，应该就是目前的测试极限了。然而今明两天要将测试量限制在每日500，试剂盒的供应可能存在问题。</p><a id="more"></a><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1ptAY5tOFNbX3BtjNd5wgUwxsnY89Vlse&default=https://api.njzjz.win/1ptAY5tOFNbX3BtjNd5wgUwxsnY89Vlse" alt="image alt text" loading="lazy"></p><p>我们可以看到，在测试数量不断扩大后（三天内翻了一倍），确诊率仍保持在40%上下，这说明数据增长的瓶颈仅仅在于测试量，那么，之后的确诊数据基本上是没有参考价值的——仅仅反应测试量的多寡。想要看到真实的数据，必须继续增加测试数量。武汉巅峰时期能测2万例，现在NJ 5k，NY 1万，还需要继续努力，继续被输血。</p><p>从图中还可以看出，3月22日国民自卫队搭建的临时检测点，于3月25日开放大规模检测后，确诊率上升了近10%——这毫无疑问说明人群中有大量患者之前没有得到测试。只要这种现象持续下去，就说明测试量还没有追上疫情的蔓延速度。现在这个只能说明——如果你出现了症状，那么就有2/5的可能性是患者。当然我相信，既然已经shutdown了，之后还是有希望追上的（数据有滞后性）。</p><p><img data-src="https://images.weserv.nl/?url=https://api.njzjz.win/1qt2EKhOGwpUJdA0FDR_3K2IDb11tmDDG&default=https://api.njzjz.win/1qt2EKhOGwpUJdA0FDR_3K2IDb11tmDDG" alt="image alt text" loading="lazy"></p><p>来源：一亩三分地</p><p>病逝人数一般认为是比较真实的。从图中可以看出，取了对数的病逝人数是条直线，即增长人数呈指数增长，鉴于潜伏、发病到病逝需要一定的时间，这说明大概半个月前，没有shutdown的那段时间，是按指数传染的，大致每周翻三番，这个数据和之前确诊量的数据差不多，因为之前的确诊量本来也就等于重症量。shutdown的效果还要过几天再看死亡人数。不过，应当庆幸的是，从目前的数据来看，医疗应当尚未被击穿。</p><p>现在的局势说不定比武汉还差了，唯一的好消息是这个病毒确实对年轻人更友好。只希望科研力量能拯救全世界了。</p>]]></content>
-    
-    
-    <summary type="html">&lt;sourcetag&gt;&lt;div class=&quot;note sourcenote info zhihu&quot;&gt;本文于2020年3月29日发表于知乎专栏,&lt;a href=&quot;https://zhuanlan.zhihu.com/p/120309636&quot;&gt;查看原文&lt;/a&gt;&lt;/div&gt;&lt;/sourcetag&gt;
-
-&lt;p&gt;NJDOH于3月24日起公布了所有测试点的Negative数据总和，从图中可以看出，3月25日起，测试量稳定在了5k左右，应该就是目前的测试极限了。然而今明两天要将测试量限制在每日500，试剂盒的供应可能存在问题。&lt;/p&gt;</summary>
     
     
     
