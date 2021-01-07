@@ -39,7 +39,7 @@
     "hexo-theme-next": "8.2.0"
   },
   "devDependencies": {
-    "bundlesize": "0.18.0",
+    "bundlesize": "0.18.1",
     "hexo-all-minifier": "0.5.5"
   },
   "engines": {
