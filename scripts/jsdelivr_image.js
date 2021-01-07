@@ -1,7 +1,7 @@
 //const { version } = require("hexo-theme-next/package.json");
 hexo.on('generateBefore', function () {
   //hexo.theme.config.images = `https://cdn.jsdelivr.net/npm/hexo-theme-next@${version}/source/images`;
-  hexo.theme.config.images = "https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@3baecb0cb48d7dacd769a04a33a6c88dc9eb2425";
+  hexo.theme.config.images = "https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@6260d041079b671b933964297271cfecdcb905d6";
 });
 
 hexo.extend.filter.register('after_generate', () => {	
