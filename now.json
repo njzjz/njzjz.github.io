@@ -10,6 +10,7 @@
         }
     ],
     "routes": [
+        { "src": "/.*", "headers": { "Link": "<https://cdn.jsdelivr.net>; rel=preconnect" }, "continue": true },
         { "handle": "filesystem" },
         { "src": "/.*", "status": 404, "dest": "404.html" }
     ]  
