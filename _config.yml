@@ -167,4 +167,4 @@ pwa:
 waline:
   enable: true
   serverURL: https://comment.njzjz.win
-  vistor: true
+  visitor: true
