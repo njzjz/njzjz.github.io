@@ -25,7 +25,5 @@ hexo.extend.filter.register('after_render:html', function(str, data){
   str = use_min_js(str, 'hexo-theme-next', 'source/js/utils.js', 'source/js/utils.min.js');
   str = use_min_js(str, 'nprogress', 'nprogress.js', 'nprogress.min.js');
   str = use_min_js(str, 'nprogress', 'nprogress.css', 'nprogress.min.css');
-  // busuanzi
-  str = replace_url(str, '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', '//cdn.jsdelivr.net/gh/YinAoXiong/busuanzi@2.3.0/busuanzi.pure.mini.js');
   return str;
 });

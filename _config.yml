@@ -164,3 +164,7 @@ pwa:
               maxEntries: 60
               maxAgeSeconds: 2592000
       offlineGoogleAnalytics: true
+waline:
+  enable: true
+  serverURL: https://comment.njzjz.win
+  visitor: true
