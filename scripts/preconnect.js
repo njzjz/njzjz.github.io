@@ -4,5 +4,5 @@ const preconnect_domains = [
 ];
 
 preconnect_domains.forEach(domain =>
-    hexo.extend.injector.register('head_end', `<link rel="preconnect" href="${domain}">`)
+    hexo.extend.injector.register('head_end', `<link rel="preconnect" href="${domain}" crossorigin>`)
 );
