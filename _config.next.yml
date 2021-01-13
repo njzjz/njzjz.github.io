@@ -85,12 +85,16 @@ math:
 comments:
   lazyload: true
 disqusjs:
-  enable: true
+  enable: false
   api: https://njzjz.win/api/
   apikey: 2BQ7XHnqBr57WPaTp2ozSwhwTJ7k5gOvwA9ruq9OE8vEZSQ43YYFNa8UjL1t62Ls
   shortname: njzjz
-busuanzi_count:
+waline:
   enable: true
+  serverURL: https://comment.njzjz.win
+  vistor: true
+busuanzi_count:
+  enable: false
 google_analytics:
   tracking_id: UA-74033886-1
   only_pageview: true
