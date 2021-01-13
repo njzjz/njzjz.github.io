@@ -168,3 +168,4 @@ waline:
   enable: true
   serverURL: https://comment.njzjz.win
   visitor: true
+  lang: en
