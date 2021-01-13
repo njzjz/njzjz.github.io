@@ -89,10 +89,6 @@ disqusjs:
   api: https://njzjz.win/api/
   apikey: 2BQ7XHnqBr57WPaTp2ozSwhwTJ7k5gOvwA9ruq9OE8vEZSQ43YYFNa8UjL1t62Ls
   shortname: njzjz
-waline:
-  enable: true
-  serverURL: https://comment.njzjz.win
-  vistor: true
 busuanzi_count:
   enable: false
 google_analytics:
