@@ -1,5 +1,5 @@
 const preconnect_domains = [
-    "https://busuanzi.ibruce.info",
+    "https://comment.njzjz.win",
     "https://www.google-analytics.com",
 ];
 
