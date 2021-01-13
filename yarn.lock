@@ -2659,10 +2659,10 @@ hexo-server@2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-hexo-source-tag@0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.7.tgz#315ecfed3f6fba8a631cbd196adf3b97c39c28e7"
-  integrity sha512-Hwi3pqvyeBxQZzgR+uvbJW+WiDS995jaTiwwCdbd5mr/JTAfG4BdBTE3edGxd2th7XEl/ZjNkQlIozhQRxTVoA==
+hexo-source-tag@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.8.tgz#a1e637ca793f7774c32a8cd5fccb5814493271aa"
+  integrity sha512-BovSmRKAN+pHZsFt6kgLJBQDDJCsLujNksN4qX2X2/eSWHU2brLN9TISiFgrS+QRB4wUVCaYMwWYfNGKa51TMg==
   dependencies:
     string-format "^2.0.0"
 
