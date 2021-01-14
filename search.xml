@@ -2376,6 +2376,24 @@ We are going to hold…
       </categories>
   </entry>
   <entry>
+    <title>退乎前备份知乎回答：zhihubackup</title>
+    <url>/2021/01/12/zhihubackup/</url>
+    <content><![CDATA[本文于2021年1月10日发表于知乎专栏,查看原文
+
+每个知乎答主都有退乎的梦想，但退乎前如果删光回答，则十分可惜。因此，我用Python写了60行的脚本，可以在退乎前备份自己的所有回答和文章，以免事后后悔。
+GitHub - njzjz/zhihubackup
+安装pip install git+https://github.com/njzjz/zhihubackup
+使用假如你是@贱贱，你的id是splitter，那么可以编写Python脚本：
+from zhihubackup import backup_zhihubackup_zhihu(&quot;splitter&quot;)
+静等一段时间。运行结束后，可以看到产生了名为splitter的文件夹：
+- splitter|- answer   (842 files)|- article  (101 files)|- pin      (3214 files)|- question (57 files)
+备份已经成功，现在可以删光回答和文章了。
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+  </entry>
+  <entry>
     <title>965普通化学原理（2003-2015）</title>
     <url>/2019/04/06/ecnuchemistry/965/</url>
     <content><![CDATA[2003年
