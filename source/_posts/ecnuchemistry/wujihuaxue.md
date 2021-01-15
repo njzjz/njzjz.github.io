@@ -24,7 +24,7 @@ pdf: true
 * [14.卤素](https://bf.njzjz.win/ecnuchemistry/无机化学/课件-14.卤素第三季2016-2.pptx)
 * [15.氧族元素](https://bf.njzjz.win/ecnuchemistry/无机化学/课件-15.氧族元素2016-2.pptx)
 * [16.氮、磷、砷](https://bf.njzjz.win/ecnuchemistry/无机化学/课件-16.氮、磷、砷-2016-2.pptx)
-* [17.碳、硅、硼](https://bf.njzjz.win/ecnuchemistry/无机化学/课件-17.碳 硅 硼2016-2.pptx)
+* [17.碳、硅、硼](https://bf.njzjz.win/ecnuchemistry/无机化学/课件-17.碳%20硅%20硼2016-2.pptx)
 * [18.非金属元素小结](https://bf.njzjz.win/ecnuchemistry/无机化学/课件-18.非金属元素小结2.pptx)
 * [19.金属通论](https://bf.njzjz.win/ecnuchemistry/无机化学/课件-19.金属通论2016.pptx)
 * [20.s区金属](https://bf.njzjz.win/ecnuchemistry/无机化学/课件-20.s区金属3讲2016.pptx)

@@ -14,14 +14,14 @@ pdf: true
 # 课件
 * [前言](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-前言-2016.pdf)
 * [AAS](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-AAS-20161104.pdf)
-* [AES](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-AES20161130 (1).pdf)
-* [Chromatography](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-Chromatography-20161202 (1).pdf)
-* [GC](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-GC-20161206 (1).pdf)
+* [AES](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-AES20161130%20(1).pdf)
+* [Chromatography](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-Chromatography-20161202%20(1).pdf)
+* [GC](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-GC-20161206%20(1).pdf)
 * [HPLC](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-HPLC-20161206.pdf)
 * [IR](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-IR-2016.pdf)
 * [MS](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-MS20170104.pdf)
 * [NMR](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-NMR20161220.pdf)
-* [极谱分析](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-极谱分析-2 .pdf)
+* [极谱分析](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-极谱分析-2%20.pdf)
 * 电位分析
     * [1](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-第二章-电位分析1-2016.pdf)
     * [2](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(II)/课件-第二章-电位分析02.pdf)
