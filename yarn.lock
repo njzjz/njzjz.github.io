@@ -20,7 +20,7 @@
     js-yaml "4.0.0"
     lodash "4.17.20"
 
-"@njzjz/sitemap@^0.0.2":
+"@njzjz/sitemap@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@njzjz/sitemap/-/sitemap-0.0.2.tgz#85d7ae7d09b84979f59ca6df63832f50af0860d0"
   integrity sha512-u9dJpaq5nSx7kYMOaAvhTqMyIENuxZefMQhJzTOJP619F9YWKHxm/UEAzgtFJtDreXxWbL0+23kYec7udqpmzw==
