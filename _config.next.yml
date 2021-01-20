@@ -107,3 +107,4 @@ nprogress:
 preconnect: true
 custom_file_path:
   style: source/_data/styles.styl
+  footer: source/_data/footer.njk

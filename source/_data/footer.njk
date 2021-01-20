@@ -1,0 +1,17 @@
+<div class="footer-menu">
+{%- for site in config.njzjz_sitemap.site %}
+<div class="menu">
+<h3 class="menu-item">{{site.name}}</h3>
+<ul class="menu">
+{%- for subsite in site.site %}
+<li class="menu-item">
+<a href="{{subsite.url}}">
+<i class="{{subsite.icon}}"></i>
+{{subsite.name}}
+</a>
+</li>
+{%- endfor %}
+</ul>
+</div>
+{%- endfor %}
+</div>
