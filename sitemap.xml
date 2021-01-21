@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://njzjz.win/navi/index.html</loc>
+    
+    <lastmod>2021-01-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://njzjz.win/2021/01/12/libtensorflow_cc/</loc>
     
     <lastmod>2021-01-12</lastmod>
@@ -73,13 +80,6 @@
   
   <url>
     <loc>https://njzjz.win/cv/index.html</loc>
-    
-    <lastmod>2020-10-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://njzjz.win/navi/index.html</loc>
     
     <lastmod>2020-10-26</lastmod>
     
