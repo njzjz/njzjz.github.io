@@ -12,3 +12,8 @@ hexo.extend.filter.register('after_render:html', function(str, data){
 
   return str;
 });
+
+// waline
+hexo.on('generateBefore', function () {
+  delete hexo.config.waline.lang;
+});
