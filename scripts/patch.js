@@ -9,11 +9,9 @@ hexo.extend.filter.register('after_render:html', function(str, data){
   // Accessibility
   str = str.replace('class="back-to-top"', 'class="back-to-top" aria-label="Back to top"');
   str = str.replace('class="lang-select"', 'class="lang-select" aria-label="Language select"');
+  
+  // Waline
+  str = str.replace('lang:null,', '');
 
   return str;
-});
-
-// waline
-hexo.on('generateBefore', function () {
-  delete hexo.config.waline.lang;
 });
