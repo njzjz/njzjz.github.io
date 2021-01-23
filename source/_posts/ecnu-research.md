@@ -7,7 +7,8 @@ date: 2021-01-23
 tags:
   - 回首四年
 ---
-{% source zhihu 346569804 2019 5 31 %}
+{% source zhihu 346569804 2021 1 23 %}
+{% source wechat zTZu-WYz4keJC_oRJ42kRQ 2021 1 23 %}
 
 三年前的一个平常的清晨，天尚未亮，笔者前往秋实阁校车站，乘坐6:30的校车。
 
