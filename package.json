@@ -17,7 +17,7 @@
   "dependencies": {
     "@jiangtj/hexo-next-pwa": "1.0.2",
     "@njzjz/sitemap": "0.0.2",
-    "@waline/hexo-next": "1.0.4",
+    "@waline/hexo-next": "1.0.5",
     "hexo": "5.3.0",
     "hexo-generator-archive": "1.0.0",
     "hexo-generator-basic-set": "0.1.1",
