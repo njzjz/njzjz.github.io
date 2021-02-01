@@ -6,6 +6,7 @@ categories: ECNUChemistry
 pdf: true
 ---
 # 期末试卷
-* [2015-2016学年第一学期](https://njzjz.coding.net/api/share/download/90791f4a-83cb-4d8d-a2cc-4e505fc45eb2)
+* [2015-2016学年第一学期](https://bf.njzjz.win/ecnuchemistry/与化学相关的法律法规知识简介/期末试卷-2015-2016学年第一学期.pdf)
+
 # 课件
-* [课件](https://njzjz.coding.net/api/share/download/72d93060-3b84-444d-a46c-1d025612b1c0)
+* [课件](https://bf.njzjz.win/ecnuchemistry/与化学相关的法律法规知识简介/课件-化学与法律2015-2016.ppt)

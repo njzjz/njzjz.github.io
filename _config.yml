@@ -122,7 +122,11 @@ search:
 
 cdn: 
   use_webp: true
-  max_width: 828
+  max_width:
+    - 828
+    - 1656
+    - 378
+    - 678
 
 pwa:
   manifest:
@@ -130,6 +134,7 @@ pwa:
       name: Jinzhe Zeng's Blog
       display: standalone
   serviceWorker:
+    cdn: https://cdn.jsdelivr.net/npm/workbox-cdn/workbox/workbox-sw.js
     options:
       runtimeCaching:
         - urlPattern: /
@@ -147,18 +152,6 @@ pwa:
             expiration:
               maxEntries: 60
               maxAgeSeconds: 2592000 # 30 * 24 * 60 * 60
-        - urlPattern: !!js/regexp /^https:\/\/fonts\.googleapis\.com/
-          handler: StaleWhileRevalidate
-          options:
-            cacheName: google-fonts-stylesheets
-        - urlPattern: !!js/regexp /^https:\/\/fonts\.gstatic\.com/
-          handler: CacheFirst
-          options:
-            cacheName: google-fonts-webfonts
-            cacheableResponse:
-              statuses: [0, 200]
-            expiration:
-              maxAgeSeconds: 31536000 # 365 * 24 * 60 * 60
         - urlPattern: !!js/regexp /^https:\/\/cdn\.jsdelivr\.net/
           handler: StaleWhileRevalidate
           options:
@@ -170,10 +163,8 @@ pwa:
             expiration:
               maxEntries: 60
               maxAgeSeconds: 2592000
-        - urlPattern: !!js/regexp /^https:\/\/img\.njzjz\.win/
-          handler: CacheFirst
-          options:
-            cacheName: imagesredirect
-            expiration:
-              maxEntries: 60
-              maxAgeSeconds: 2592000
+      offlineGoogleAnalytics: true
+waline:
+  enable: true
+  serverURL: https://comment.njzjz.win
+  visitor: true

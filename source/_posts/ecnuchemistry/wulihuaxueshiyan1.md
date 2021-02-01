@@ -5,4 +5,4 @@ date: 2019-03-08
 categories: ECNUChemistry
 pdf: true
 ---
-* [实验报告](https://njzjz.coding.net/api/share/download/647f260e-48b9-43eb-b9d5-105b2bcf62aa)
+* [实验报告](https://bf.njzjz.win/ecnuchemistry/物理化学实验/物理化学实验.pdf)

@@ -42,7 +42,7 @@ reward_settings:
   enable: true
   animation: true
 mobile_layout_economy: true
-pjax: false
+pjax: true
 lazyload: true
 mediumzoom: true
 pangu: true
@@ -83,14 +83,7 @@ math:
   mathjax:
     enable: true
 comments:
-  lazyload: true
-disqusjs:
-  enable: true
-  api: https://njzjz.win/api/
-  apikey: 2BQ7XHnqBr57WPaTp2ozSwhwTJ7k5gOvwA9ruq9OE8vEZSQ43YYFNa8UjL1t62Ls
-  shortname: njzjz
-busuanzi_count:
-  enable: true
+  lazyload: false
 google_analytics:
   tracking_id: UA-74033886-1
   only_pageview: true
@@ -111,5 +104,7 @@ vendors:
   plugins: jsdelivr
 nprogress:
   enable: true
-images: https://cdn.jsdelivr.net/npm/hexo-theme-next@8.0.2/source/images
 preconnect: true
+custom_file_path:
+  style: source/_data/styles.styl
+  footer: source/_data/footer.njk

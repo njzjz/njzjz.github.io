@@ -11,6 +11,8 @@ tags:
 转载自[华东师范大学新闻网](https://news.ecnu.edu.cn/ff/5e/c1837a261982/page.htm)
 {% endnote %}
 
+{% source zhihu 319075455 2020 11 28 %}
+
 华东师范大学化学与分子工程学院朱通副研究员指导学生结合人工智能算法、量子化学理论以及分子动力学方法，实现了燃料燃烧的高精度计算机模拟，在原子尺度和亚飞秒时间分辨率下获得了甲烷燃烧的化学反应网络。该成果以“Complex reaction processes in combustion unraveled by neural network-based molecular dynamics simulation”为题近日发表在Nature Communications [Nat. Commun. 2020, 11, 5713.]。华东师范大学为论文第一单位，2019届本科毕业生曾晋哲为论文的第一作者，朱通副研究员和张增辉教授为论文的共同通讯作者。
 <!--more-->
 
