@@ -88,5 +88,7 @@ tags:
 
 笔者进入Rutgers University后，将这一方法迁移到了生物化学反应中，这又是另外一个故事了。
 
-Zeng, Jinzhe; Cao, Liqun; Xu, Mingyuan; Zhu, Tong; Zhang, John ZH, Complex reaction processes in combustion unraveled by neural network based molecular dynamics simulation, Nature Communications, 2020.
+{% publications %}
+Zeng_NatCommun_2020_v11_p5713
+{% endpublications %}
 

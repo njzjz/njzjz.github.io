@@ -47,4 +47,6 @@ tags:
 
 至此，基于深度学习模拟燃烧反应的方法开发算是告一段落了，基于这一方法，可以完成进一步的应用~~，发几篇大文章~~。
 
-Zeng, Jinzhe; Zhang, Linfeng*; Wang, Han*; Zhu, Tong*, Exploring the Chemical Space of Linear Alkanes Pyrolysis via Deep Potential GENerator, Energy & Fuels, 2020, DOI: [10.1021/acs.energyfuels.0c03211](https://doi.org/10.1021/acs.energyfuels.0c03211)
+{% publications %}
+Zeng_EnergyFuels_2021_v35_p762
+{% endpublications %}

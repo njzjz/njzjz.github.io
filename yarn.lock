@@ -389,6 +389,11 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bibtex-parse@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/bibtex-parse/-/bibtex-parse-2.1.0.tgz#576d2c61a95b1612928d5e52c7dee64df13618e0"
+  integrity sha512-Ej1vvnhfEfegd2WAeQ1dWJ/NkS3Cb84zRPeMMCFDcOSvAJFAmhm/sAr2oLpK/KQITlnHk0g6+zBokGvLe9+NaQ==
+
 bin-build@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bin-build/-/bin-build-3.0.0.tgz#c5780a25a8a9f966d8244217e6c1f5082a143861"
@@ -2679,6 +2684,13 @@ hexo-symbols-count-time@0.7.1:
   integrity sha512-Zw19uxRIT/3VCvMQytG6HfBJc/IvfFJYui8cg6vyFAtDxkPOoZ1UlsPjrBRXYAqO6VjLc/vRi+Jthj38pKNPlw==
   dependencies:
     hexo-util "1.9.0"
+
+hexo-tag-publications@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.0.4.tgz#0b5ee5b23b91895c5433e03c73cb824e2645ba67"
+  integrity sha512-DW5VvM6yn4sPy6i1Bsv2H87vn9W0gLvmcLmyvZbVZZa5VA2Fvz1FYYmHGjTGsmUssw0cuNLP/8Nx1vcRVwzPSg==
+  dependencies:
+    bibtex-parse "^2.1.0"
 
 hexo-theme-next@8.2.1:
   version "8.2.1"

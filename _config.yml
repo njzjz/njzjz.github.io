@@ -168,3 +168,6 @@ waline:
   enable: true
   serverURL: https://comment.njzjz.win
   visitor: true
+pub_author:
+  - Jinzhe Zeng
+  - Jin-Zhe Zeng

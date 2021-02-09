@@ -35,6 +35,6 @@ tags:
 
 最后，我的第一篇文章终于在新年第二天见刊了。虽然档次不算高，花费的时间和精力也不是很多，但作为第一篇文章，具有很大的纪念意义，我也因此大大提升了技术，为之后的课题奠定了基础。
 
----
-
-Zeng, J; Cao, L; Chin, CH\*; Ren, H\*; Zhang, J ZH; Zhu, T\*, ReacNetGenerator: an automatic reaction network generator for reactive molecular dynamics simulations, Phys. Chem. Chem. Phys., 2020, 22 (2), 683–691, DOI: 10.1039/C9CP05091D
+{% publications %}
+Zeng_PhysChemChemPhys_2020_v22_p683
+{% endpublications %}
