@@ -107,19 +107,19 @@ vi .bashrc
     <content><![CDATA[本文于2017年7月8日发表于微信公众号,查看原文
 
 
-打开ChemDraw，这里以Chemdraw Professional 15.0为例。
+ 打开ChemDraw，这里以Chemdraw Professional 15.0为例。
 
 
-绘制结构式：
-
-
-
-
-选中结构式，按Ctrl+Alt+N：
+ 绘制结构式：
 
 
 
-我们看到，其英文名已经出来了：4-(2,6-di-tert-butyl-3,5-bis(cyclopropylmethyl)phenyl)-1,2-dioxolane，我们拖到Google翻译（https://translate.google.cn/）中，即得中文为：**4-2,6-二-叔丁基-3,5-双（环丙基甲基）苯基）-1,2-二氧戊环**。
+
+ 选中结构式，按Ctrl+Alt+N：
+
+
+
+ 我们看到，其英文名已经出来了：4-(2,6-di-tert-butyl-3,5-bis(cyclopropylmethyl)phenyl)-1,2-dioxolane，我们拖到Google翻译（https://translate.google.cn/）中，即得中文为：**4-2,6-二-叔丁基-3,5-双（环丙基甲基）苯基）-1,2-二氧戊环**。
 
 
 ]]></content>
@@ -867,6 +867,7 @@ Please input your ECNU id: xxxxxxPlease input your password: xxxxxxSuccessfully 
     16:38:51    Establishing VPN...
     16:38:51    Connected to vpn-ct.ecnu.edu.cn.
 
+
 我也不是想要批判一番，但是这个Anyconnect频繁掉线，频繁重连，连接期间不能访问网络，稳定性也太差了吧？而且还不能自己设置分流，所有流量都要从学校网络走。
 
 原料：公网机器一台（以腾讯云CentOS服务器为例）、内网机器一台（以Windows为例）、域名一个（指向公网机器）
@@ -943,7 +944,7 @@ pip install speedtest-clispeedtest-cli --server  5083
 
 （需已经安装好EndNote）
 
-下载EndNote引用文件：①打开Google Scholar，②搜索文献，③点击文献下方的引用按钮，④点击EndNote下载，⑤打开下载好的EndNote文件：
+ 下载EndNote引用文件：①打开Google Scholar，②搜索文献，③点击文献下方的引用按钮，④点击EndNote下载，⑤打开下载好的EndNote文件：
 
 
 
@@ -957,11 +958,11 @@ pip install speedtest-clispeedtest-cli --server  5083
 自动插入了1. Jiang, Z.-m., Reflections on energy issues in China. Journal of Shanghai Jiaotong University (Science) 2008, 13 (3), 257-274. 
 注：
 
-Style一栏可以选择文献格式，大多数期刊都会提供格式文件： 
+ Style一栏可以选择文献格式，大多数期刊都会提供格式文件： 
 
-可以多次加入同一文献，或在同一位置加入多个文献；
+ 可以多次加入同一文献，或在同一位置加入多个文献；
 
-可以给Reference加个标题。
+ 可以给Reference加个标题。
 
 
 ]]></content>
@@ -1481,7 +1482,6 @@ WSL里面ifconfig的显示（eth2和eth3分别是有线和无线网卡）：
 本文于2019年1月3日发表于微信公众号,查看原文
 
 近日，《华东师范大学2018 届毕业生就业质量报告》出炉，化学与分子工程学院就业率为85.66%，在全校33个专业中排名32，位居全校倒数第二名[1]。  
-
 
 笔者查阅了化学与分子工程学院（及其前身化学系）近三年的就业率及排名：2017届为89.19%，排第29名，位居倒数第六[2]；2016届位85.99%，第31名，位居倒数第四[3]；2015届92.57%，为第20名，位于倒数第19[4]。2014年并未公布院系数据[5]。  
 由此可见，化学与分子工程学院2018届就业率无论是数值还是排名，均位于近四年来的最低点。作图如下图所示：  
@@ -2202,6 +2202,7 @@ cdmkdir seafilecd seafilewget http://seafile-downloads.oss-cn-shanghai.aliyuncs.
 然后在Windows 系统中创建Seafile.vbs：
 Set ws = CreateObject(&quot;Wscript.Shell&quot;)
 ws.run &quot;bash -c &#39;sh /home/njzjz/seafile.sh&#39;&quot;,vbhide
+
 最后，在计划任务中让Seafile.vbs开机自动启动即可。
 
 
@@ -2358,43 +2359,6 @@ Online report on Nov 5 2020 at 9:50 p.m. EST, at Westlake University.
       </tags>
   </entry>
   <entry>
-    <title>Word中给公式自动编号</title>
-    <url>/2018/06/19/wordnum/</url>
-    <content><![CDATA[本文于2018年6月20日发表于知乎专栏,查看原文
-本文于2018年6月20日发表于微信公众号,查看原文
-
-以我瞎写的四个公式为例：  
-
-
-
-在一个公式后面输#()，并且把光标放到两个括号之间：
-
-点击插入-文档部件-域：
-
-类别选编号，域名选AutoNum，格式选1，2，3，…，确定：  
-
-复制#(1)：
-
-光标移到#(1)后面（光标**务必要在公式里面**），按Enter回车，这时(1)自动到了公式最右边，退格键删掉这个段落符号：
-
-将刚才复制的#(1)粘贴到第二个公式后面，发现已经变成了#(2)：
-
-同样回车，退格：
-
-依葫芦画瓢，搞定剩下的公式，完工：
-
-（本文中Word版本为Word 2016，版本1807，内部版本10301.20006）
-参考资料
-
-知乎. 如何解决word中公式加编号之后变为内嵌格式？. https://www.zhihu.com/question/65751973/answer/365060085
-知乎. 你可能从未使用过的Word内嵌编号功能. https://zhuanlan.zhihu.com/p/22436463
-
-]]></content>
-      <categories>
-        <category>Chemistry</category>
-      </categories>
-  </entry>
-  <entry>
     <title>学术而不严肃，专业融于兴趣</title>
     <url>/2016/09/03/xueshubu/</url>
     <content><![CDATA[本文于2016年9月4日发表于微信公众号,查看原文
@@ -2422,6 +2386,43 @@ We are going to hold…
 ]]></content>
       <categories>
         <category>Life</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Word中给公式自动编号</title>
+    <url>/2018/06/19/wordnum/</url>
+    <content><![CDATA[本文于2018年6月20日发表于知乎专栏,查看原文
+本文于2018年6月20日发表于微信公众号,查看原文
+
+以我瞎写的四个公式为例：  
+
+
+
+在一个公式后面输#()，并且把光标放到两个括号之间：
+
+点击插入-文档部件-域：
+
+类别选编号，域名选AutoNum，格式选1，2，3，…，确定：  
+
+复制#(1)：
+
+光标移到#(1)后面（光标****务必要在公式里面），按Enter回车，这时(1)自动到了公式最右边，退格键删掉这个段落符号：
+
+将刚才复制的#(1)粘贴到第二个公式后面，发现已经变成了#(2)：
+
+同样回车，退格：
+
+依葫芦画瓢，搞定剩下的公式，完工：
+
+（本文中Word版本为Word 2016，版本1807，内部版本10301.20006）
+参考资料
+
+ 知乎. 如何解决word中公式加编号之后变为内嵌格式？. https://www.zhihu.com/question/65751973/answer/365060085
+ 知乎. 你可能从未使用过的Word内嵌编号功能. https://zhuanlan.zhihu.com/p/22436463
+
+]]></content>
+      <categories>
+        <category>Chemistry</category>
       </categories>
   </entry>
   <entry>
@@ -3472,28 +3473,28 @@ https://item.taobao.com/item.htm?id=528999612547
 
 Reaxys使用方法
 
-打开浏览器，Ctrl+Shift+N打开无痕模式；
+   打开浏览器，Ctrl+Shift+N打开无痕模式；
 
-点击书签栏中的Reaxys；
+   点击书签栏中的Reaxys；
 
 
 若书签栏中没有Reaxys，添加书签即可，地址：http://www.xuebalib.com/e/action/ListInfo/?classid=1702&amp;goid=15
 
-输入账号和密码，点击登陆；
+   输入账号和密码，点击登陆；
 
-再次点击书签栏中的Reaxys；
+   再次点击书签栏中的Reaxys；
 
-点击Create Structure or Reaction Drawing；
+   点击Create Structure or Reaction Drawing；
 
-搜索化学式，可在ChemDraw选中结构后Alt+Ctrl+C复制，在画图框中Ctrl+V粘贴，点击Transfer to query，然后点击Find；
+   搜索化学式，可在ChemDraw选中结构后Alt+Ctrl+C复制，在画图框中Ctrl+V粘贴，点击Transfer to query，然后点击Find；
 
-在弹出的窗口，点击Preview Results，然后在展开的信息中找到所搜索的物质，点击Preparations；
+   在弹出的窗口，点击Preview Results，然后在展开的信息中找到所搜索的物质，点击Preparations；
 
-找到需要的反应，在下面的文献中，点击UCONN Full Text；
+   找到需要的反应，在下面的文献中，点击UCONN Full Text；
 
-在弹出的窗口中复制DOI号，如：10.1021/acscatal.5b00950
+   在弹出的窗口中复制DOI号，如：10.1021/acscatal.5b00950
 
-打开桌面上的SciHub Desktop，粘贴DOI号，点击Fetch PDF下载文献。SciHub Desktop下载地址：http://t.cn/EPMTzCp 
+   打开桌面上的SciHub Desktop，粘贴DOI号，点击Fetch PDF下载文献。SciHub Desktop下载地址：http://t.cn/EPMTzCp 
 
 
 
