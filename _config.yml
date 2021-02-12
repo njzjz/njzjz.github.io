@@ -122,6 +122,10 @@ search:
 
 cdn: 
   use_webp: true
+  exclude_domains:
+    - https://images.weserv.nl/
+    - https://img.njzjz.win/
+    - https://cdn.jsdelivr.net/
   max_width:
     - 828
     - 1656
