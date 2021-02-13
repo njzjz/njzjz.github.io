@@ -75,15 +75,7 @@ update: 2021-02-14
 
 **图4** 甲烷燃烧的1ns动力学模拟（论文Fig. 1，CC BY-4.0）
 
-{% youtubefallback message begin %}
-视频加载中……
-{% youtubefallback message end %}
-{% youtubefallback youtube begin %}
-{% youtube diWEMGDKx9g %}
-{% youtubefallback youtube end %}
-{% youtubefallback fallback begin %}
-{% iframe https://player.bilibili.com/player.html?aid=840614318&bvid=BV1454y1X7et&cid=185897499&page=1 %}
-{% youtubefallback fallback end %}
+{% bilitube diWEMGDKx9g BV1454y1X7et "fas fa-spinner fa-spin" %}
 
 ## 三、论文发表
 
