@@ -2686,10 +2686,10 @@ hexo-symbols-count-time@0.7.1:
   dependencies:
     hexo-util "1.9.0"
 
-hexo-tag-bilitube@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/hexo-tag-bilitube/-/hexo-tag-bilitube-0.1.1.tgz#4df1141a55d05f4356948130f7e786ebb2db4239"
-  integrity sha512-oFqEWHDTwzRTk0bnQfhDL0jftrOlpaHGNBIL8ZYdAovP8S9JOc6Pneyc84fy9eRRPxuKYhAe1rZpNdCaeBBwWA==
+hexo-tag-bilitube@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/hexo-tag-bilitube/-/hexo-tag-bilitube-0.1.2.tgz#a2b2de4ff3751be301bfc6528670a31330b11ec0"
+  integrity sha512-6y0mSV8u5vZn3kaFtLOo9I7kSyBYaPl1QMKBm8D8Zf2CrblcQELVXA1eQqxbI+rFiRRHFud4MkEul1CJfTJsdA==
   dependencies:
     hexo-tag-injector "^0.0.1"
     hexo-util "^2.4.0"
