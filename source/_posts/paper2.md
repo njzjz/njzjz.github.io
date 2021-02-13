@@ -6,6 +6,7 @@ categories:
 date: 2020-11-14
 tags:
   - papers
+update: 2021-02-14
 ---
 {% source zhihu 286276757 2020 11 11 %}
 {% source wechat Uau66ZWkpyJ8iw9FijiW1Q 2020 11 11 %}
@@ -73,6 +74,16 @@ tags:
 ![Fig 4](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-19497-z/MediaObjects/41467_2020_19497_Fig1_HTML.png)
 
 **图4** 甲烷燃烧的1ns动力学模拟（论文Fig. 1，CC BY-4.0）
+
+{% youtubefallback message begin %}
+视频加载中……
+{% youtubefallback message end %}
+{% youtubefallback youtube begin %}
+{% youtube diWEMGDKx9g %}
+{% youtubefallback youtube end %}
+{% youtubefallback fallback begin %}
+{% iframe https://player.bilibili.com/player.html?aid=840614318&bvid=BV1454y1X7et&cid=185897499&page=1 %}
+{% youtubefallback fallback end %}
 
 ## 三、论文发表
 

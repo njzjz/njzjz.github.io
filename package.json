@@ -39,6 +39,7 @@
     "hexo-source-tag": "0.0.9",
     "hexo-symbols-count-time": "0.7.1",
     "hexo-tag-publications": "0.0.7",
+    "hexo-tag-youtube-fallback": "^0.0.1",
     "hexo-theme-next": "8.2.1"
   },
   "devDependencies": {
