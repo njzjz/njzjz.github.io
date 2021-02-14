@@ -172,6 +172,7 @@ waline:
   enable: true
   serverURL: https://comment.njzjz.win
   visitor: true
+  emojiCDN: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets@4246f266c73df6de465e91359282669de97916ed/emoji/valine/
 pub_author:
   - Jinzhe Zeng
   - Jin-Zhe Zeng
