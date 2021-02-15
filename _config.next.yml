@@ -42,7 +42,7 @@ reward_settings:
   enable: true
   animation: true
 mobile_layout_economy: true
-pjax: false
+pjax: true
 lazyload: true
 mediumzoom: true
 pangu: true
