@@ -2691,12 +2691,13 @@ hexo-tag-injector@^0.0.1:
   resolved "https://registry.yarnpkg.com/hexo-tag-injector/-/hexo-tag-injector-0.0.1.tgz#35a677064ade6cb7917e13ff66280763dedbbd6f"
   integrity sha512-XlNNvcgNK6V0UKIdk2poumxEPunzsweqf6H5lJE6WJyt2P7V8OlAbntwCYX/3SOPrboKWxLFDJb4isr85IHbxQ==
 
-hexo-tag-publications@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.0.6.tgz#4f463a22eb1c74a28d4dfa1a6beae2f1ca4ebcfa"
-  integrity sha512-hf1bp5eyROUcR27Gw9cI8QmhlESRkqnBiI9XsJ6FDikEuhGPcp/Gif5Ttx48dYRGYyv/W5AzoffiLETGrVY3sA==
+hexo-tag-publications@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.0.7.tgz#cfe83c0ae9a9007c09151396ae7c88df9c32096f"
+  integrity sha512-8YrB8WVwk7ll4iRO+htOUyLC9+yYYiuY8UeNwZP20HDQ/aLzTK74oVdbz9BhwLVv+GakQpfzuvpJemW7lpco4g==
   dependencies:
     bibtex-parse "^2.1.0"
+    hexo-tag-injector "^0.0.1"
 
 hexo-theme-next@8.2.1:
   version "8.2.1"
