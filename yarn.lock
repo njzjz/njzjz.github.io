@@ -20,7 +20,7 @@
     js-yaml "4.0.0"
     lodash "4.17.20"
 
-"@njzjz/hexo-sitemap@^0.0.1":
+"@njzjz/hexo-sitemap@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@njzjz/hexo-sitemap/-/hexo-sitemap-0.0.1.tgz#0ce4babbf315a9b182a7fb0608a2d0198cdacdb6"
   integrity sha512-6fn8QE7rT6KY9M5M6DAb0gt3C8R6+ohY1LINOd/r5z8NnEib3AoyE4KA2A/d6iuit3DZug/jjfXEXbLkFST4BQ==
