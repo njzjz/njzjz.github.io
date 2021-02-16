@@ -2676,12 +2676,14 @@ hexo-server@2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-hexo-source-tag@0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.9.tgz#6b7425b8bef24010c56e5749129e058264aa2ab2"
-  integrity sha512-raAI7LYF/8kqQ/Cz6ffYyo+r9Tffv5OmsiOhCn1kwNYlDAthdFgGMB3GzXaJJpWFDXMajsB7LEMLT3/XMkF9FA==
+hexo-source-tag@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.10.tgz#f153820c090ed97d0899168e3ca386dde110efc1"
+  integrity sha512-nihtYKUn9Z81uT1q9pYcN/ONqPfAY2WnKn6UHMbHxsoCSVGplEZ307Da8iTKY/jUaSlIz+HOxlnRjTTm34uS2g==
   dependencies:
     hexo-tag-injector "^0.0.1"
+    hexo-util "^2.4.0"
+    jsdelivr_url "^0.0.1"
     string-format "^2.0.0"
 
 hexo-symbols-count-time@0.7.1:
