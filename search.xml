@@ -1730,7 +1730,7 @@ ping google，延迟极小：
 最后，我的第一篇文章终于在新年第二天见刊了。虽然档次不算高，花费的时间和精力也不是很多，但作为第一篇文章，具有很大的纪念意义，我也因此大大提升了技术，为之后的课题奠定了基础。
 ReacNetGenerator: an automatic reaction network
               generator for reactive molecular dynamics
-              simulationsJinzhe Zeng, Liqun Cao, Chih-Hao Chin, Haisheng Ren, John Z. H. Zhang, Tong ZhuPhysical Chemistry Chemical Physics, 2020, 22, 683-691.DOI: 10.1039/C9CP05091D     
+              simulationsJinzhe Zeng, Liqun Cao, Chih-Hao Chin, Haisheng Ren, John Z. H. Zhang, Tong ZhuPhysical Chemistry Chemical Physics, 2020, 22, 683-691.DOI: 10.1039/C9CP05091D    
 ]]></content>
       <categories>
         <category>Chemistry</category>
@@ -1782,7 +1782,7 @@ ReacNetGenerator: an automatic reaction network
 3月12日，笔者现在的学校宣布work from home，笔者焦急地在家里等待回音。文章分别于5月5日、7月17日被要求2次大修后（审稿意见可以在文章的SI下载），9月16日，文章终于原则接受！略微修改后，10月6日，文章正式接受。今日，终于正式发表。
 四、总结和展望这一篇文章将基于深度学习的反应分子动力学模拟首次应用于复杂反应系统的模拟中，具有较强的创新性。但是，这篇文章中的方法仍然是不完善的，例如，最后得到的数据集多达60万结构。笔者的下一篇文章对这一方法进行了改进，这就是另外一个故事了。
 笔者进入Rutgers University后，将这一方法迁移到了生物化学反应中，这又是另外一个故事了。
-Complex reaction processes in combustion unraveled by neural network-based molecular dynamics simulationJinzhe Zeng, Liqun Cao, Mingyuan Xu, Tong Zhu, John Z. H. ZhangNature Communications, 2020, 11, 5713.DOI: 10.1038/s41467-020-19497-z     
+Complex reaction processes in combustion unraveled by neural network-based molecular dynamics simulationJinzhe Zeng, Liqun Cao, Mingyuan Xu, Tong Zhu, John Z. H. ZhangNature Communications, 2020, 11, 5713.DOI: 10.1038/s41467-020-19497-z    
 
 ]]></content>
       <categories>
@@ -1816,7 +1816,7 @@ Complex reaction processes in combustion unraveled by neural network-based molec
 拿着训练好的模型，我又进行了正十烷、正十四烷、正二十烷的模拟，并用Post not found: ReacNetGenerator 第一篇文章分析，获得了不错的结果。长训的结果起先不如人意，测试了很久，排查出是sel不够所致。
 9月，Darrin York让我申请NVIDIA Graduate Fellowship（最后并未申到），为了完善简历，我赶紧把这篇文章发到ChemRxiv上，并投了出去。最后ACS旗下的Energy &amp; Fuels同意审稿。10月下旬，审稿意见返回，两个小修，一个大修。那时，刚好第二篇文章发表，于是我光顾着兴奋，11月下旬才把文章修回，一周后便顺利接受。
 至此，基于深度学习模拟燃烧反应的方法开发算是告一段落了，基于这一方法，可以完成进一步的应用，发几篇大文章。
-Exploring the Chemical Space of Linear Alkane Pyrolysis via Deep Potential GENeratorJinzhe Zeng, Linfeng Zhang, Han Wang, Tong ZhuEnergy & Fuels, 2021, 35 (1), 762-769.DOI: 10.1021/acs.energyfuels.0c03211    
+Exploring the Chemical Space of Linear Alkane Pyrolysis via Deep Potential GENeratorJinzhe Zeng, Linfeng Zhang, Han Wang, Tong ZhuEnergy & Fuels, 2021, 35 (1), 762-769.DOI: 10.1021/acs.energyfuels.0c03211   
 ]]></content>
       <categories>
         <category>Chemistry</category>
