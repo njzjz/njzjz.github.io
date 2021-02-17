@@ -32,6 +32,7 @@ jobs:
       if: github.ref == 'refs/heads/hexo'
       env:
         CSS_COMMIT: css
+        DO_NOT_REMOVE_CSS: TRUE
     - name: Deploy to GitHub Pages
       id: csspush
       uses: JamesIves/github-pages-deploy-action@releases/v3
