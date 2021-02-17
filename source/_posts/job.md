@@ -20,7 +20,7 @@ tags:
   
 由此可见，化学与分子工程学院2018届就业率无论是数值还是排名，均位于近四年来的最低点。作图如下图所示：  
 
-![](https://api.njzjz.win/1nZQidofm47hQGZY-Vde98ReuaGGsVnaH)
+![](https://bb.njzjz.win/file/jinzhe/img/1nZQidofm47hQGZY-Vde98ReuaGGsVnaH)
 
   
   
