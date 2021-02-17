@@ -11,17 +11,17 @@ tags:
 {% source zhihu 341460147 2021 1 2 %}
 {% source wechat PK6pn-u5egS0mwpdHYKbUw 2021 1 2 %}
 
-![Cover](https://api.njzjz.win/1lViMMxGi1jTrbt3LQDRbNhbuPsfRNe2O)
+![Cover](https://bb.njzjz.win/file/jinzhe/img/1lViMMxGi1jTrbt3LQDRbNhbuPsfRNe2O)
 
 2019年5月，林峰邀请我暑假到北大实习，我欣然答应。拿到学士学位证书后，我在家里休息了一周，顺便处理了升学的各项事宜。这些全部搞定后，6月下旬，我启程前往北京。<!--more-->
 
-![2019年6月23日摄于北京大学东门](https://api.njzjz.win/1dXpd21QbwdstRsunQ7ckETyrVue3zX9k)
+![2019年6月23日摄于北京大学东门](https://bb.njzjz.win/file/jinzhe/img/1dXpd21QbwdstRsunQ7ckETyrVue3zX9k)
 
 2019年6月23日摄于北京大学东门
 
 北京大数据研究院（另一个牌子是北京大学大数据研究中心）坐落于静园六院，位于燕园的中心地带，距离未名湖不远。静园六院为二层三合院结构，外观古朴，而房间里有中央空调。我很快熟悉了周围的环境~~，以及周围的外卖~~。
 
-![2019年6月30日摄于静园六院](https://api.njzjz.win/1bKmlbLceXOQYe9mCoCg3pF1uV5jn1UHX)
+![2019年6月30日摄于静园六院](https://bb.njzjz.win/file/jinzhe/img/1bKmlbLceXOQYe9mCoCg3pF1uV5jn1UHX)
 
 2019年6月30日摄于静园六院
 
@@ -31,13 +31,13 @@ tags:
 
 虽然这个idea只有一句话，但实现起来却有好几步工作要做。主要难点在于，此前DP-GEN是为材料体系设计的，因而通过模拟较小的体系来采样；但高温下的反应体系需要从大规模的模拟中采样，而第一性原理计算又有限制。大体上，这个idea仍延续了{% post_link paper2 第二篇文章 %}的思路。次日，我列了一个开发提纲，计划逐渐实现目标。
 
-![2019年7月5日列出的开发提纲](https://api.njzjz.win/1ShVu5lCgt-DxJXsRQB1D7FHCGknnPjFw)
+![2019年7月5日列出的开发提纲](https://bb.njzjz.win/file/jinzhe/img/1ShVu5lCgt-DxJXsRQB1D7FHCGknnPjFw)
 
 2019年7月5日列出的开发提纲
 
 7月下旬，所有代码均已开发完毕，这一课题进入“正十二烷阶段”。于是，7月底，我告别了DP团队，告别了北京。8月下旬，抵达Rutgers University后，我增加了邮件提醒功能，继续监视着DP-GEN的日志。起初进展缓慢，但到了11月，登辉的GPU加速MD的code问世了，MD速度提升了十倍！分析结果以后，我启用relative deviation又重跑了一遍，2020年1月便结束了战斗。
 
-![整个流程](https://api.njzjz.win/14AF0aIoelq9qJN7Jke4k9GUW7NjOxtRj)
+![整个流程](https://bb.njzjz.win/file/jinzhe/img/14AF0aIoelq9qJN7Jke4k9GUW7NjOxtRj)
 
 整个流程
 
