@@ -28,11 +28,12 @@ jobs:
     - run: yarn install
     - run: yarn build
       if: github.ref != 'refs/heads/hexo'
-    - run: yarn build
+    - run: yarn build && yarn bundlesize
       if: github.ref == 'refs/heads/hexo'
       env:
         CSS_COMMIT: css
         DO_NOT_REMOVE_CSS: TRUE
+        BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN }}
     - name: Deploy to GitHub Pages
       id: csspush
       uses: JamesIves/github-pages-deploy-action@releases/v3

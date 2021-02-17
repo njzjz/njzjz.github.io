@@ -6,8 +6,8 @@
     "version": "5.3.0"
   },
   "scripts": {
-    "build": "hexo g && bundlesize",
-    "now-build": "yarn build && mv public dist"
+    "build": "hexo g",
+    "bundlesize": "bundlesize"
   },
   "bundlesize": [
     {
