@@ -75,7 +75,7 @@ update: 2021-02-14
 
 **图4** 甲烷燃烧的1ns动力学模拟（论文Fig. 1，CC BY-4.0）
 
-{% bilitube diWEMGDKx9g BV1454y1X7et "fas fa-spinner fa-spin" %}
+{% bilitube diWEMGDKx9g BV1454y1X7et %}
 
 ## 三、论文发表
 

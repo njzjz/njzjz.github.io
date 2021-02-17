@@ -17,7 +17,7 @@ tags:
 <!-- more -->
 ## 安装串行版本
 
-{% video https://bf.njzjz.win/amber1.mp4 %}
+{% bilitube lZlTboxfDMM BV1ui4y1T7u5 %}
 
 ```bash
 cd build/
@@ -33,7 +33,7 @@ source ../amber20/amber.sh
 
 ## 安装并行版本
 
-{% video https://bf.njzjz.win/amber2.mp4 %}
+{% bilitube Nj6qHXmM34I BV1VN411d7Sr %}
 
 安装并行版本前，请先安装串行版本。
 
