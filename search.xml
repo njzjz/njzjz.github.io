@@ -2199,7 +2199,7 @@ Ubuntu子系统，需要Windows 10 专业版 版本 1709以上，在控制面板
 
 安装首先需要下载好Seafile的Linux 服务器端：下载 - Seafile​www.seafile.com
 或者
-cdmkdir seafilecd seafilewget http://seafile-downloads.oss-cn-shanghai.aliyuncs.com/seafile-server_6.2.5_x86-64.tar.gztar -vxzf seafile-server_6.2.5_x86-64.tar.gzcd seafile-server_6.2.5```  接着装好Python和SQLite：```shsudo apt-get updatesudo apt-get install pythonsudo apt-get install python2.7 libpython2.7 python-setuptools python-imaging python-ldap python-urllib3 ffmpeg python-pip sqlite3pip install pillow moviepy```    安装并启动：```sh./setup-seafile.sh./seafile.sh start./seahub.sh start```    浏览器打开[http://localhost:8000/](http://localhost:8000/)，应该就可以看到Seafile界面。![](https://images.weserv.nl/?url=https%3A%2F%2Fbb.njzjz.win%2Ffile%2Fjinzhe%2Fimg%2F1WRNQBGzeaEADah1ZlLVECMx-UUaMPXbK&default=https%3A%2F%2Fbb.njzjz.win%2Ffile%2Fjinzhe%2Fimg%2F1WRNQBGzeaEADah1ZlLVECMx-UUaMPXbK)* * *### 防火墙设置在高级安全 Windows Defender 防火墙中，创建入站规则，允许8000和8082两个端口通过。* * *### 设置开机启动由于关掉Bash后，里面所有进程都会结束，所以我们要让Seafile在后台静默运行。首先创建seafile.sh：```sh#/home/njzjz/seafile.shcd /home/njzjz/seafile/seafile-server-6.2.5/ #根据实际位置修改./seafile.sh start./seahub.sh start$SHELL #挂起脚本进程
+cdmkdir seafilecd seafilewget http://seafile-downloads.oss-cn-shanghai.aliyuncs.com/seafile-server_6.2.5_x86-64.tar.gztar -vxzf seafile-server_6.2.5_x86-64.tar.gzcd seafile-server_6.2.5```  接着装好Python和SQLite：```shsudo apt-get updatesudo apt-get install pythonsudo apt-get install python2.7 libpython2.7 python-setuptools python-imaging python-ldap python-urllib3 ffmpeg python-pip sqlite3pip install pillow moviepy```    安装并启动：```sh./setup-seafile.sh./seafile.sh start./seahub.sh start```    浏览器打开[http://localhost:8000/](http://localhost:8000/)，应该就可以看到Seafile界面。![](https://images.weserv.nl/?url=https%3A%2F%2Fpic.njzjz.win%2F1WRNQBGzeaEADah1ZlLVECMx-UUaMPXbK&default=https%3A%2F%2Fpic.njzjz.win%2F1WRNQBGzeaEADah1ZlLVECMx-UUaMPXbK)* * *### 防火墙设置在高级安全 Windows Defender 防火墙中，创建入站规则，允许8000和8082两个端口通过。* * *### 设置开机启动由于关掉Bash后，里面所有进程都会结束，所以我们要让Seafile在后台静默运行。首先创建seafile.sh：```sh#/home/njzjz/seafile.shcd /home/njzjz/seafile/seafile-server-6.2.5/ #根据实际位置修改./seafile.sh start./seahub.sh start$SHELL #挂起脚本进程
 
 然后在Windows 系统中创建Seafile.vbs：
 Set ws = CreateObject(&quot;Wscript.Shell&quot;)
@@ -2298,16 +2298,6 @@ ssh aliyun
       </categories>
   </entry>
   <entry>
-    <title>实验一下</title>
-    <url>/2016/02/17/test/</url>
-    <content><![CDATA[这只是一个实验，测试网站能否正常运行。如果实验成功了，就将成为第一篇文章。
-发布成功，这篇文章成功地成为了blog的第一篇文章。
-]]></content>
-      <categories>
-        <category>Life</category>
-      </categories>
-  </entry>
-  <entry>
     <title>王琛语录！新鲜出炉的王琛语录！</title>
     <url>/2015/09/28/wangchen/</url>
     <content><![CDATA[本文于2015年9月29日发表于微信公众号,查看原文
@@ -2319,6 +2309,16 @@ ssh aliyun
 
 
 
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>实验一下</title>
+    <url>/2016/02/17/test/</url>
+    <content><![CDATA[这只是一个实验，测试网站能否正常运行。如果实验成功了，就将成为第一篇文章。
+发布成功，这篇文章成功地成为了blog的第一篇文章。
 ]]></content>
       <categories>
         <category>Life</category>
