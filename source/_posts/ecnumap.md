@@ -10,7 +10,7 @@ categories:
 2020年10月23日警告：本文已太监
 {% endnote %}
 
-![ECNU map](https://bb.njzjz.win/file/jinzhe/img/1L6SF7KZYpydZLZCVzuUILuXkT6tPxNx4)
+![ECNU map](https://pic.njzjz.win/1L6SF7KZYpydZLZCVzuUILuXkT6tPxNx4)
 
 上面是华东师范大学闵行校区的卫星地图，可以看出，道路弯曲，竟没有一条笔直的路。从地图上看，这样设计可能是因为樱桃河环绕闵行，[吴周铁路](https://zh.wikipedia.org/wiki/%E5%90%B4%E5%91%A8%E9%93%81%E8%B7%AF)贯穿校园。但是这样的设计，给迫切想走最短路线的同学们造成了很大的挑战。
 
@@ -23,7 +23,7 @@ categories:
 
 这条路线，是最直观的路线。我也曾多次走过，很多次都是无意识地走了这一条路线。
 
-![flat7toA3](https://bb.njzjz.win/file/jinzhe/img/17J003GTARmbZJpa6Bdm8o1aBNCWpCG-e)
+![flat7toA3](https://pic.njzjz.win/17J003GTARmbZJpa6Bdm8o1aBNCWpCG-e)
 
 ### 方案B：527m
 
@@ -31,7 +31,7 @@ categories:
 
 在这个方案下，方案A虽然只多花了约33m，但看起来就毫无优势了。
 
-![flat7toA1](https://bb.njzjz.win/file/jinzhe/img/1TOgqfwvmtnpHUV6yxPZnRXerZhEXAh2E)
+![flat7toA1](https://pic.njzjz.win/1TOgqfwvmtnpHUV6yxPZnRXerZhEXAh2E)
 
 ### 方案C：560m
 
@@ -41,7 +41,7 @@ categories:
 
 这个方案特别适合对河西食堂面包店或者豪大大鸡排有需求的同学。众所周知，方案A和方案B不会经过任何商家，无法解决温饱问题。
 
-![flat7toA2](https://bb.njzjz.win/file/jinzhe/img/1HSSeJvMud4YLbXg3LC0FAETnaOA_Sh47)
+![flat7toA2](https://pic.njzjz.win/1HSSeJvMud4YLbXg3LC0FAETnaOA_Sh47)
 
 ## 本科生公寓7号楼往返图书馆
 

@@ -11,7 +11,7 @@ update: 2021-02-14
 {% source zhihu 286276757 2020 11 11 %}
 {% source wechat Uau66ZWkpyJ8iw9FijiW1Q 2020 11 11 %}
 
-![paper](https://bb.njzjz.win/file/jinzhe/img/1axn45xLHDJZ1EVWb3fokP-6AxJKcFb2S)
+![paper](https://pic.njzjz.win/1axn45xLHDJZ1EVWb3fokP-6AxJKcFb2S)
 
 今天，笔者的第二篇第一作者论文“Complex reaction processes in combustion unraveled by neural network-based molecular dynamics simulation”在Nature Communications正式发表。华东师范大学为论文的第一单位。
 
@@ -45,7 +45,7 @@ update: 2021-02-14
 
 ## 二、DP⊗燃烧
 
-![Fig 2](https://bb.njzjz.win/file/jinzhe/img/1zXvMLoHiSUPHojC2kkx-dM2oKrMVozZ8)
+![Fig 2](https://pic.njzjz.win/1zXvMLoHiSUPHojC2kkx-dM2oKrMVozZ8)
 
 **图2** 2018年6月7日，笔者第一次听取王涵老师关于DeePMD的报告
 
@@ -53,7 +53,7 @@ update: 2021-02-14
 
 2018年暑假，笔者参加北京大学物理学院举办的summer school时，再次和DP团队接触。这一次，笔者在DP团队提供的机器上成功训练了水的例子。Workshop结束后，笔者询问他们，DP是否支持训练不同原子数的结构？幸运的是，DP真的支持训练不同原子数的结构，笔者获知了多system的配置方法；不幸的是，在几天的安装和尝试后，笔者发现dp_train总是抛出Segmentation fault(core dumped)的错误，且调试数次均无法解决这一问题。使用DP的想法再次搁浅。
 
-![Fig 3](https://bb.njzjz.win/file/jinzhe/img/1W2taWF0ibl-EnavudDSIIS1Wcze1ftBZ)
+![Fig 3](https://pic.njzjz.win/1W2taWF0ibl-EnavudDSIIS1Wcze1ftBZ)
 
 **图3** 2018年8月5日，笔者在北京大学物理学院听取张林峰的报告
 

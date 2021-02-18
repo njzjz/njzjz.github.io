@@ -35,7 +35,7 @@ bot = CQHttp(api_root='http://219.228.63.56:5700/')
 bot.send_group_msg(group_id=599070209,message='hello world')
 ```
 
-![default](https://bb.njzjz.win/file/jinzhe/img/1M7D0SXpR8rpDOMPQs-KvtATEpPPGUhnA)
+![default](https://pic.njzjz.win/1M7D0SXpR8rpDOMPQs-KvtATEpPPGUhnA)
 
 第二行定义了一个机器人，第三行让这个机器人发一条hello world的消息。  
 
@@ -141,7 +141,7 @@ CQJobMonitor(command="qstat",cqroot='http://219.228.63.56:5700/',group_id=312676
 nohup python monitor.py >/dev/null &
 ```
 
-![image](https://bb.njzjz.win/file/jinzhe/img/12KxzikWXWoGD8pkKljRj-sUfACgH6UWZ)
+![image](https://pic.njzjz.win/12KxzikWXWoGD8pkKljRj-sUfACgH6UWZ)
 
   
 即可定时发送任务情况。

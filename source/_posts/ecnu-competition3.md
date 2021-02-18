@@ -13,7 +13,7 @@ tags:
 当我大一初涉数学建模竞赛时，我却没有想过，大四时能在这一类比赛中获得国家级一等奖。
 <!--more-->
 
-![国家一等奖](https://bb.njzjz.win/file/jinzhe/img/1sHVPmDrZZXIrNZGO8dXxMv6wuyp6t-G_)
+![国家一等奖](https://pic.njzjz.win/1sHVPmDrZZXIrNZGO8dXxMv6wuyp6t-G_)
 
 这一类比赛的特点是，会在指定时间公布一个题目，要求在3-4天内提交一份论文（及支撑材料），论文的内容即建模解决这一题目。
 
@@ -29,7 +29,7 @@ tags:
 
 国赛获奖，甚至应届毕业生落户上海都有加分，所以甚至有人在知乎上找我，说什么两万求省一……
 
-![两万求省一](https://bb.njzjz.win/file/jinzhe/img/1-XksQpssnw8QOt5ArZRDps-n1iwKMrFt)
+![两万求省一](https://pic.njzjz.win/1-XksQpssnw8QOt5ArZRDps-n1iwKMrFt)
 
 我曾说过“比赛前不需要准备”，因为在我看来，这一比赛对能力的考查，远大于对知识的考查。比赛中碰到自己熟悉的题目背景的可能性几乎没有，所以掌握资料搜集能力、文献阅读能力（尤其是英文文献）和自学能力，是非常必要的。同时，用数学思维分析问题的能力，用编程解决问题的能力，以及撰写论文的能力，也是必不可少的。
 
@@ -63,7 +63,7 @@ tags:
 
 10月8日被通知入围答辩，发现大家都是用这种最简单的调度策略emmmmmm，但是我们的数据是最高的，除了因为没有像某些组死抠题目外，另一个原因就是考虑了刀片问题。于是我跟我室友说“这是我三年来离国一最近的一次了”。
 
-![和室友的对话](https://bb.njzjz.win/file/jinzhe/img/12q_pTA9O6_tkyfjhA5FJjrMPHrNr_pcH)
+![和室友的对话](https://pic.njzjz.win/12q_pTA9O6_tkyfjhA5FJjrMPHrNr_pcH)
 
 第二天答辩后感觉仍然良好，心里隐隐有一种对国一的期待，不过还是谦虚地跟队友说国二肯定稳了……我们学校国一每队奖5000，国二每队奖3000。于是我们开始考虑奖金怎么花……
 

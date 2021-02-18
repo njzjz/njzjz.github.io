@@ -48,4 +48,4 @@ export DISPLAY=localhost:0.0
 
 运行gv：
 
-![](https://bb.njzjz.win/file/jinzhe/img/1s6ziIVUNXrNpvULaJ2V9fzN8ufkbi64K)
+![](https://pic.njzjz.win/1s6ziIVUNXrNpvULaJ2V9fzN8ufkbi64K)

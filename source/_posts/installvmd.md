@@ -67,4 +67,4 @@ export DISPLAY=localhost:0.0
 
 这时再输入`vmd`，即可打开VMD界面。
 
-![](https://bb.njzjz.win/file/jinzhe/img/1BkC5jEZYVo5KlmOonvQWbqDrgICWzVD9)
+![](https://pic.njzjz.win/1BkC5jEZYVo5KlmOonvQWbqDrgICWzVD9)

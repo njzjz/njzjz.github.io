@@ -14,17 +14,17 @@ _2017年3月8日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMjA
 大夏学堂有个很棒的功能，叫日程表，点进去就可以看到各作业的截止时间。
 <!--more-->
 
-![](https://bb.njzjz.win/file/jinzhe/img/1NqJekNBYorEDvHOgnWK9N1CFxaGju3ts)
+![](https://pic.njzjz.win/1NqJekNBYorEDvHOgnWK9N1CFxaGju3ts)
 
 日程表最下方有个“获取外部日程表链接”，点开后就可以看到一个地址(ics格式)。
 
-![](https://bb.njzjz.win/file/jinzhe/img/19bEe1BJ1vLoqfFL8y6mP1GomrYJKmYlM)
+![](https://pic.njzjz.win/19bEe1BJ1vLoqfFL8y6mP1GomrYJKmYlM)
 
 下面就是同步到日历了，下面以Outlook日历为例：（不知道其他邮箱有没有这功能，总之微软大法好）
 
 添加日历>>从Internet>>然后填写刚才生成的地址
 
-![](https://bb.njzjz.win/file/jinzhe/img/1lcPnNX5SARYTfubQBiqh0r8CmSoVpTw_)
+![](https://pic.njzjz.win/1lcPnNX5SARYTfubQBiqh0r8CmSoVpTw_)
 
 最后在手机上添加Exchange账号即可。
 
@@ -32,8 +32,8 @@ _2017年3月8日首发[微信公众号](https://mp.weixin.qq.com/s?__biz=MzIyMjA
 
 配位化学一个作业：
 
-![](https://bb.njzjz.win/file/jinzhe/img/1LirDsNYmdnY-z92rcwxpGXwhJs09sgpX)
+![](https://pic.njzjz.win/1LirDsNYmdnY-z92rcwxpGXwhJs09sgpX)
 
 一坨作业在本月末截止：
 
-![](https://bb.njzjz.win/file/jinzhe/img/1Hcikf-jl-IaygkKzIxKNl6mThx349gtC)
+![](https://pic.njzjz.win/1Hcikf-jl-IaygkKzIxKNl6mThx349gtC)

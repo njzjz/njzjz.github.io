@@ -12,11 +12,11 @@ tags:
 
 _图片由一位善良的妹纸提供_
 
-![1.jpg](https://bb.njzjz.win/file/jinzhe/img/1fpVjMHju0inmanFrbewUmW2cA2bBj_bZ)
+![1.jpg](https://pic.njzjz.win/1fpVjMHju0inmanFrbewUmW2cA2bBj_bZ)
 <!--more-->
 
-![2.jpg](https://bb.njzjz.win/file/jinzhe/img/1uw9Whtu5ajuP5aOK4B0N1ADGpkeq2GxB)
+![2.jpg](https://pic.njzjz.win/1uw9Whtu5ajuP5aOK4B0N1ADGpkeq2GxB)
 
-![3.jpg](https://bb.njzjz.win/file/jinzhe/img/1rwClFPaaKEeosYLUkwglBaBisujbPTzA)
+![3.jpg](https://pic.njzjz.win/1rwClFPaaKEeosYLUkwglBaBisujbPTzA)
 
-![4.jpg](https://bb.njzjz.win/file/jinzhe/img/184TXRPWq0QOuGZ2iwzOgxlTpStL7QD_L)
+![4.jpg](https://pic.njzjz.win/184TXRPWq0QOuGZ2iwzOgxlTpStL7QD_L)
