@@ -2685,12 +2685,12 @@ hexo-server@2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-hexo-source-tag@0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.10.tgz#f153820c090ed97d0899168e3ca386dde110efc1"
-  integrity sha512-nihtYKUn9Z81uT1q9pYcN/ONqPfAY2WnKn6UHMbHxsoCSVGplEZ307Da8iTKY/jUaSlIz+HOxlnRjTTm34uS2g==
+hexo-source-tag@0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.11.tgz#ef63d78f9c382c8abae17d1b854b109591432ba6"
+  integrity sha512-kwIpxtO80F18uCNuusya3Q/uohy9ezJMXD2b78MEGn1TuYzEM+zki370/2/7gxkg3PAHRci1g3d9pFfNr+Fzcg==
   dependencies:
-    hexo-tag-injector "^0.0.1"
+    hexo-tag-injector "^0.0.2"
     hexo-util "^2.4.0"
     jsdelivr_url "^0.0.1"
     string-format "^2.0.0"
@@ -2711,11 +2711,6 @@ hexo-tag-bilitube@0.1.8:
     hexo-tag-injector "^0.0.2"
     hexo-util "^2.4.0"
     jsdelivr_url "^0.0.1"
-
-hexo-tag-injector@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/hexo-tag-injector/-/hexo-tag-injector-0.0.1.tgz#35a677064ade6cb7917e13ff66280763dedbbd6f"
-  integrity sha512-XlNNvcgNK6V0UKIdk2poumxEPunzsweqf6H5lJE6WJyt2P7V8OlAbntwCYX/3SOPrboKWxLFDJb4isr85IHbxQ==
 
 hexo-tag-injector@^0.0.2:
   version "0.0.2"
