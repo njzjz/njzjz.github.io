@@ -1661,6 +1661,11 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+escape-string-regexp@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+  integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
+
 esprima@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
@@ -2685,12 +2690,12 @@ hexo-server@2.0.0:
     open "^7.0.0"
     serve-static "^1.14.1"
 
-hexo-source-tag@0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.11.tgz#ef63d78f9c382c8abae17d1b854b109591432ba6"
-  integrity sha512-kwIpxtO80F18uCNuusya3Q/uohy9ezJMXD2b78MEGn1TuYzEM+zki370/2/7gxkg3PAHRci1g3d9pFfNr+Fzcg==
+hexo-source-tag@0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/hexo-source-tag/-/hexo-source-tag-0.0.12.tgz#c91d03dcd7b8a6ed9dbd6c86c94e9a5b4a8e37f4"
+  integrity sha512-6t36kMtZuQUodC92Q+WbJiabpq7irqThFAVGnaoMRbasEs5sZvzEGWf8s6fmJqjokqIGa8Q+HbjHvPPImZV/zA==
   dependencies:
-    hexo-tag-injector "^0.0.2"
+    hexo-tag-injector "^0.0.3"
     hexo-util "^2.4.0"
     jsdelivr_url "^0.0.1"
     string-format "^2.0.0"
@@ -2716,6 +2721,13 @@ hexo-tag-injector@^0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/hexo-tag-injector/-/hexo-tag-injector-0.0.2.tgz#73f79af8a1625b69b3f579667ee225a5f1940bb7"
   integrity sha512-8fmPUA+Ufj03rrLmrILEOzrQscDG8/go9TQ/+ak0dcPkx7GqbUOlr6hS6D2ta7ntx5/F84ruDRw34JqTxwvvZA==
+
+hexo-tag-injector@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/hexo-tag-injector/-/hexo-tag-injector-0.0.3.tgz#3c12f03d457aa3739dd10d8d64a5d203477ce690"
+  integrity sha512-DmNrLGuxA1TrBbB947eNtDfYKq5jigK2734bPNTXuyZen5JZ9ukyUrxWsij5+ZeAKUhm3OZH0jc6eUOs1FxbCQ==
+  dependencies:
+    escape-string-regexp "^4.0.0"
 
 hexo-tag-publications@0.0.9:
   version "0.0.9"
