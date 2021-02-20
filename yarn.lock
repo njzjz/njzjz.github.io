@@ -2717,11 +2717,6 @@ hexo-tag-bilitube@0.1.9:
     hexo-util "^2.4.0"
     jsdelivr_url "^0.0.1"
 
-hexo-tag-injector@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/hexo-tag-injector/-/hexo-tag-injector-0.0.2.tgz#73f79af8a1625b69b3f579667ee225a5f1940bb7"
-  integrity sha512-8fmPUA+Ufj03rrLmrILEOzrQscDG8/go9TQ/+ak0dcPkx7GqbUOlr6hS6D2ta7ntx5/F84ruDRw34JqTxwvvZA==
-
 hexo-tag-injector@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/hexo-tag-injector/-/hexo-tag-injector-0.0.3.tgz#3c12f03d457aa3739dd10d8d64a5d203477ce690"
@@ -2729,14 +2724,14 @@ hexo-tag-injector@^0.0.3:
   dependencies:
     escape-string-regexp "^4.0.0"
 
-hexo-tag-publications@0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.0.9.tgz#823f78e1166eef1035d4c12989343eb983f1a0e7"
-  integrity sha512-W120ciALVxdL+YmCQ8i3t9l3xVpLlLm45kJBmoddyWcr9WziL83EbqtwkBlQRak81TQ/p0OUvd13y7+YtH3kxg==
+hexo-tag-publications@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.0.10.tgz#7d476f6e0df4135e3f3a1952979c44707d549b3d"
+  integrity sha512-mP6XD9RQG3pXxMIy0x3HyhVJR51+6KngnHJAlVvEjOuYve+Gr6X0/mGCf+K7GTLgCf/OL4kY8Ru7Y1YtnO3mVQ==
   dependencies:
     bibtex-parse "^2.1.0"
     hexo-fs "^3.1.0"
-    hexo-tag-injector "^0.0.2"
+    hexo-tag-injector "^0.0.3"
     hexo-util "^2.4.0"
     jsdelivr_url "^0.0.1"
 
