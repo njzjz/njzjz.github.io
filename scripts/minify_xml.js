@@ -1,5 +1,29 @@
 const { minify: compressXml } = require('minify-xml')
 
+const match = (paths = [], patterns = [], options = {}) => {
+    let input = paths
+    if (paths && patterns) {
+        if (paths.length && patterns.length) {
+            const output = []
+            if (typeof patterns === 'string') patterns = [patterns]
+            const exclude = patterns.filter((pattern) => pattern.startsWith('!'))
+            const include = patterns.filter((pattern) => !pattern.startsWith('!'))
+            if (exclude.length) input = micromatch(paths, exclude, options)
+            if (include.length) {
+                for (const pattern of include) {
+                    let { basename } = options
+                    basename = basename && !pattern.includes('/')
+                    const tmp = micromatch(input, pattern, { ...options, basename })
+                    if (tmp.length) output.push(...tmp)
+                }
+                return [...new Set(output)]
+            }
+            return input
+        }
+    }
+    return paths
+}
+
 function minifyXml() {
     /** https://github.com/curbengh/hexo-yam/blob/ef57b75638e89f5a8d8f3ae6ad822d2678ecfba3/lib/filter.js#L225-L253
      *  MIT License
