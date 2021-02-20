@@ -5,7 +5,7 @@ function minifyXml() {
      *  MIT License
      */
     const hexo = this
-    const options = hexo.config.minify.xml
+    const options = hexo.config.minifyXml
     if (options.enable === false) return
 
     const { route } = hexo
