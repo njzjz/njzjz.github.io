@@ -33,13 +33,13 @@ function minifyXml() {
     }))
 }
 
-hexo.config.minify.xml = Object.assign({
+hexo.config.minifyXml = Object.assign({
     enable: true,
     priority: 11,
     verbose: false,
     include: ['*.xml', '!*.min.xml'],
     removeComments: true,
     globOptions: { basename: true }
-}, hexo.config.minify.xml)
+}, hexo.config.minifyXml)
 
-hexo.extend.filter.register('after_generate', minifyXml, hexo.config.minify.xml.priority)
+hexo.extend.filter.register('after_generate', minifyXml, hexo.config.minifyXml.priority)
