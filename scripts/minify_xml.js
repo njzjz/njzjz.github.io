@@ -64,7 +64,8 @@ hexo.config.minifyXml = Object.assign({
     verbose: false,
     include: ['*.xml', '!*.min.xml'],
     removeComments: true,
-    globOptions: { basename: true }
+    globOptions: { basename: true },
+    ignoreCData: false
 }, hexo.config.minifyXml)
 
 hexo.extend.filter.register('after_generate', minifyXml, hexo.config.minifyXml.priority)
