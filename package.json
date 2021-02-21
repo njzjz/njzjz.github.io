@@ -41,12 +41,12 @@
     "hexo-tag-bilitube": "0.1.9",
     "hexo-tag-publications": "0.0.10",
     "hexo-theme-next": "8.2.1",
-    "micromatch": "^4.0.2"
+    "micromatch": "4.0.2"
   },
   "devDependencies": {
     "bundlesize": "0.18.1",
     "hexo-all-minifier": "0.5.5",
-    "minify-xml": "^2.5.0"
+    "minify-xml": "2.5.0"
   },
   "engines": {
     "node": ">=10.x"
