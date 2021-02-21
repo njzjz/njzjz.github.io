@@ -1,4 +1,5 @@
 const { minify: compressXml } = require('minify-xml')
+const micromatch = require('micromatch')
 
 const match = (paths = [], patterns = [], options = {}) => {
     let input = paths
