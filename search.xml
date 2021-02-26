@@ -1294,11 +1294,13 @@ ping google，延迟极小：
 9月至11月的专业实习虽然极其可恶，但是我因此拥有了大量空闲时间，又对程序进行了完善：首先，实现了conda编译和安装，大大简化了安装步骤。其次，读取坐标时实现了周期性边界条件。虽然OpenBabel本身不支持周期性边界条件，但是可以用奇技淫巧实现。第三，实现了命令行和GUI运行程序。最后，利用我的一点前端的知识，以及OpenBabel生成的图像，将结果展示到了网页上。
 12月，为了申请学校，初步修改后的论文被传到了preprint网站ChemRxiv上。这篇论文成为我申请时提供的论文之一。
 到了2019年的寒假，除了修bug外，我又做了几个方面的优化。第一，大大增快了计算速度。我发现，计算时的主要瓶颈是中间缓存文件的I/O。于是，我先用lz4+base64压缩数据后，再存入临时文件。另一方面，我用Cython重写了部分函数。第二，了解了前端的最新动向后，我将前端用到的library全部调用nodejs和yarn安装，可以很方便地更新library。之后，我还用前端实现了绘制network的功能，以及筛选物种的功能。另外，我还做了一个可视化的进度条，并且完善了软件的官网。
+
+
 7月底，那时已经毕业了，我借着这个软件获得了中国大学生计算机设计大赛一等奖。不过这篇文章因为种种原因仍然难产，直到9月中旬，来到Rutgers开始rotation后，这篇文章被投到PCCP。之后的事情平淡无奇：10月上旬审稿意见出来，大修，修回后，11月下旬被接受。
 最后，我的第一篇文章终于在新年第二天见刊了。虽然档次不算高，花费的时间和精力也不是很多，但作为第一篇文章，具有很大的纪念意义，我也因此大大提升了技术，为之后的课题奠定了基础。
 ReacNetGenerator: an automatic reaction network
               generator for reactive molecular dynamics
-              simulationsJinzhe Zeng, Liqun Cao, Chih-Hao Chin, Haisheng Ren, John Z. H. Zhang, Tong ZhuPhysical Chemistry Chemical Physics, 2020, 22, 683-691.DOI: 10.1039/C9CP05091D    
+              simulationsJinzhe Zeng, Liqun Cao, Chih-Hao Chin, Haisheng Ren, John Z. H. Zhang, Tong ZhuPhysical Chemistry Chemical Physics, 2020, 22 (2), 683-691.DOI: 10.1039/C9CP05091D    
 ]]></content><categories><category>Chemistry</category></categories><tags><tag>papers</tag></tags></entry><entry><title>我的第二篇论文</title><url>/2020/11/13/paper2/</url><content><![CDATA[本文于2020年11月11日发表于知乎专栏,查看原文
 本文于2020年11月11日发表于微信公众号,查看原文
 
