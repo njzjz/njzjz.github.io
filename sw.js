@@ -1,2 +1,19 @@
-if(!self.define){const e=e=>{"require"!==e&&(e+=".js");let r=Promise.resolve();return i[e]||(r=new Promise((async r=>{if("document"in self){const i=document.createElement("script");i.src=e,document.head.appendChild(i),i.onload=r}else importScripts(e),r()}))),r.then((()=>{if(!i[e])throw new Error(`Module ${e} didn’t register its module`);return i[e]}))},r=(r,i)=>{Promise.all(r.map(e)).then((e=>i(1===e.length?e[0]:e)))},i={require:Promise.resolve(r)};self.define=(r,a,s)=>{i[r]||(i[r]=Promise.resolve().then((()=>{let i={};const n={uri:location.origin+r.slice(1)};return Promise.all(a.map((r=>{switch(r){case"exports":return i;case"module":return n;default:return e(r)}}))).then((e=>{const r=s(...e);return i.default||(i.default=r),i}))})))}}define("./sw.js",["./workbox-6ae52730"],(function(e){"use strict";self.addEventListener("message",(e=>{e.data&&"SKIP_WAITING"===e.data.type&&self.skipWaiting()})),e.precacheAndRoute([{url:"2021/01/22/ecnu-research/",revision:"0c6e3da4f2874667f5dc3c9a92dc0033"},{url:"2021/01/12/libtensorflow_cc/",revision:"4644a947425886696d27ad0d5a8de478"},{url:"2021/01/12/zhihubackup/",revision:"51ae1008aed060d132f4ba40a403c45c"},{url:"2021/01/05/paper3/",revision:"0e3cc001e18a06f48cab84009303e537"},{url:"2020/12/11/fakenews/",revision:"f10c6eec893daf53e2740b3d73ee482a"},{url:"2020/11/26/combustion_news/",revision:"3026b66ae728d3442e700f8095554db9"},{url:"2020/11/20/conda-build-lammps-dp/",revision:"8e7d8e545cbaad29a38ad3fb32f55921"},{url:"2020/11/13/paper2/",revision:"a14b022724b590ed0eb0aa5b5473d0bb"},{url:"2020/11/08/westlakeuniversity/",revision:"1184401c9d36f10c290f2d3e9e815371"},{url:"2020/11/05/jobletter/",revision:"890ebc6a7ad079aab0041c5e25c8c5ea"},{url:"categories/index.html",revision:"4a02296fc353bb47e52332711dc30686"},{url:"cv/index.html",revision:"f11a77a23935ac4c69baeb1a6a6d504f"},{url:"navi/index.html",revision:"5090f49119bc6e876f6fad74438a1289"},{url:"proxy/index.html",revision:"62c23b48367a47a593db5a4e86944399"},{url:"softwares/index.html",revision:"6bc26ff632e68ca800f26649cdc7b497"},{url:"tags/index.html",revision:"4a02296fc353bb47e52332711dc30686"},{url:"zh-CN/categories/index.html",revision:"4a02296fc353bb47e52332711dc30686"},{url:"zh-CN/cv/index.html",revision:"a9a798f9cd57b5121f8a99a83c0bb490"},{url:"zh-CN/softwares/index.html",revision:"253389da49fea2ad5c7decbef543e720"},{url:"zh-CN/tags/index.html",revision:"4a02296fc353bb47e52332711dc30686"}],{}),e.registerRoute("/",new e.NetworkFirst({cacheName:"index",plugins:[]}),"GET"),e.registerRoute(/^https:\/\/cdn\.jsdelivr\.net\//,new e.StaleWhileRevalidate({cacheName:"jsdelivr",plugins:[]}),"GET"),e.registerRoute(/^https:\/\/images\.weserv\.nl\//,new e.CacheFirst({cacheName:"imagesweserv",plugins:[new e.ExpirationPlugin({maxEntries:60,maxAgeSeconds:2592e3,purgeOnQuotaError:!0})]}),"GET"),e.initialize({})}));
-//# sourceMappingURL=sw.js.map
+/* global importScripts, workbox */
+
+'use strict';
+
+importScripts('https://cdn.jsdelivr.net/npm/workbox-cdn/workbox/workbox-sw.js');
+
+const { NetworkFirst, StaleWhileRevalidate, CacheFirst } = workbox.strategies;
+const { registerRoute } = workbox.routing;
+const { ExpirationPlugin } = workbox.expiration;
+
+
+
+registerRoute('/', new NetworkFirst({"cacheName":"index","plugins":[]}), 'GET');
+registerRoute('regexp:^https:\/\/cdn\.jsdelivr\.net/', new StaleWhileRevalidate({"cacheName":"jsdelivr","plugins":[]}), 'GET');
+registerRoute('regexp:^https:\/\/images\.weserv\.nl/', new CacheFirst({"cacheName":"imagesweserv","plugins":[new ExpirationPlugin({"maxEntries":60,"maxAgeSeconds":2592000})]}), 'GET');
+
+workbox.googleAnalytics.initialize();
+
+
