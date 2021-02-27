@@ -2795,10 +2795,10 @@ hexo-tag-injector@^0.0.3:
   dependencies:
     escape-string-regexp "^4.0.0"
 
-hexo-tag-publications@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.1.1.tgz#598d5bd196305cbe407ce8ccaa30b21ae127a186"
-  integrity sha512-1Q/XsZSpWLqnOD9sBllyGc40GJeoPs8TYaSZqfXquNCAo+3Cxvrdf2ldFAUHVIIww32DaU05IqdGUM88iWPc8w==
+hexo-tag-publications@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.1.2.tgz#e3090c4a1867bb473e93e5a55f250c0362b88047"
+  integrity sha512-r06v0WlDcqLnx0qbLoGnSfs3Ii2wCFnyS3vrfnkQg/kRCHl8Kza4kTHEIt59ysNbG6VUTqOkj7jkMORULkUD7Q==
   dependencies:
     bibtex-parse "^2.1.0"
     hexo-fs "^3.1.0"
