@@ -3800,10 +3800,10 @@ hexo-tag-injector@^0.0.3:
   dependencies:
     escape-string-regexp "^4.0.0"
 
-hexo-tag-publications@0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.0.10.tgz#7d476f6e0df4135e3f3a1952979c44707d549b3d"
-  integrity sha512-mP6XD9RQG3pXxMIy0x3HyhVJR51+6KngnHJAlVvEjOuYve+Gr6X0/mGCf+K7GTLgCf/OL4kY8Ru7Y1YtnO3mVQ==
+hexo-tag-publications@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.1.0.tgz#86836de8856d8c5cf5ea8584ef575712c469e2dd"
+  integrity sha512-QzwBGU3gdG3la3qoj9b+zXLtx/BZ1EjzLu/9f8StAjW+uPn7lxL/egUC+I79KWju6I88Cvd8bTiYA16u04PVPg==
   dependencies:
     bibtex-parse "^2.1.0"
     hexo-fs "^3.1.0"
