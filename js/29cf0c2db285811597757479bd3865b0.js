@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{quicklink.listen({timeout:3e3,priority:!0,ignores:[i=>i.includes("#"),i=>"https://njzjz.win/2021/01/12/libtensorflow_cc/"===i]})})

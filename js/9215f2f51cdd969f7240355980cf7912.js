@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{quicklink.listen({timeout:3e3,priority:!0,ignores:[e=>e.includes("#"),e=>"https://njzjz.win/2021/01/22/ecnu-research/"===e]})})

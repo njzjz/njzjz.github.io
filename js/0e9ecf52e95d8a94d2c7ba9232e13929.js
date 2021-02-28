@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{quicklink.listen({timeout:3e3,priority:!0,ignores:[n=>n.includes("#"),n=>"https://njzjz.win/2020/02/04/openconnect/"===n]})})
