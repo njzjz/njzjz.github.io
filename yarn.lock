@@ -2811,10 +2811,10 @@ hexo-tag-publications@0.1.2:
     hexo-util "^2.4.0"
     jsdelivr_url "^0.0.1"
 
-hexo-theme-next@8.2.1:
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.2.1.tgz#5a408444e8635aa9e76c631c36f56bd8325aa4f5"
-  integrity sha512-0DQPdMFIGTM/kJnpBn1snmYR7qfwaW2VfG/UyKxxLRXDbQeyWMSCr19DqNAKoTdIA33wNqWBzcWk4cGvaQtVZg==
+hexo-theme-next@8.2.2:
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.2.2.tgz#cfe086b11012542b01eebde115319325c8eecc9b"
+  integrity sha512-goxkaV1mAjnTfJMd5VgVc7oGp3i6/D5q6GwhnFCJG+Hle8ifdQgHjkjsWS7GGUdCA+Zjx8IohOUOkAC8AdUFmg==
 
 hexo-util@1.9.0:
   version "1.9.0"
