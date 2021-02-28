@@ -27,3 +27,7 @@ hexo.extend.filter.register('after_render:html', function(str, data){
   str = use_min_js(str, 'nprogress', 'nprogress.css', 'nprogress.min.css');
   return str;
 });
+
+if(process.env.CSS_COMMIT){
+  hexo.config.assets_prefix = "https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@master";
+}
