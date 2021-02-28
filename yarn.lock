@@ -2564,10 +2564,10 @@ hexo-extend-injector2@^0.2.0:
     lodash "^4.17.15"
     terser "^5.0.0"
 
-hexo-extract-inline-scripts@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/hexo-extract-inline-scripts/-/hexo-extract-inline-scripts-0.0.1.tgz#315bdbdbcf4108f6fc38bfe56145899cda552e50"
-  integrity sha512-y0gniaBK/3sMUrV1ab4IXoh6Cy8Yh2Mt4aLdNLcgyt5fiGIxpU6bcqEBdxSxOvaypgAw6mpKACw/nC16p4GFsQ==
+hexo-extract-inline-scripts@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-extract-inline-scripts/-/hexo-extract-inline-scripts-0.0.2.tgz#60e422e16a63ac0ca651d89321ffcc4452fe3fc2"
+  integrity sha512-9yGpjqPCnarlKYwuzuQwNwJE78PQJzZnnajYDjyC9AlxVjti8vkdOxLXz83e7HL8NSwceCGpb+qIsRlwxxWsqA==
 
 hexo-front-matter@^2.0.0:
   version "2.0.0"
