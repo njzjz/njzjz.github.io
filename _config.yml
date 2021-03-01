@@ -89,7 +89,7 @@ deploy:
 minify:
   gzip:
     enable: false
-  brotil:
+  brotli:
     enable: false
   xml:
     enable: true
