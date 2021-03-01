@@ -2804,13 +2804,13 @@ hexo-symbols-count-time@0.7.1:
   dependencies:
     hexo-util "1.9.0"
 
-hexo-tag-bilitube@0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/hexo-tag-bilitube/-/hexo-tag-bilitube-0.1.9.tgz#b0877a1fe4e2a9d614b188c3c104ca3e0fade5c6"
-  integrity sha512-lJSQH+372bzbBpP1M7ESEtTWlg8lN9/vjE8T8xWu7YfHu1uF9vtLAQ1mLP4+lHtU/e5jFactRMx27D0FlnTlpw==
+hexo-tag-bilitube@0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/hexo-tag-bilitube/-/hexo-tag-bilitube-0.1.10.tgz#6f97cb35bfc63e568436956880bc6b9b10bcf8e3"
+  integrity sha512-HQsEMP8P/IiZtl6o4GYQL9Vv2Vw4OZSJ+0oxtekQIrVUIJvqhVu+/Yeycdr3jQN3FyOxbcsflW3bmQZ4Un9KPA==
   dependencies:
     bilitube "^0.0.2"
-    hexo-tag-injector "^0.0.3"
+    hexo-tag-injector "^0.1.0"
     hexo-util "^2.4.0"
     jsdelivr_url "^0.0.1"
 
