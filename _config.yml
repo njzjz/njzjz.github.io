@@ -30,7 +30,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - 404.html
-  - css/*
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -87,9 +86,11 @@ deploy:
   type: git
   repo: https://github.com/njzjz/njzjz.github.io
   branch: master
-all_minifier: true
-css_minifier:
-  level: 2
+minify:
+  xml:
+    enable: true
+  json:
+    enable: true
 
 sitemap:
   path: sitemap.xml
