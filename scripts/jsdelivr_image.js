@@ -2,7 +2,7 @@
 const { gh_url } = require("jsdelivr_url");
 hexo.on('generateBefore', function () {
   //hexo.theme.config.images = `https://cdn.jsdelivr.net/npm/hexo-theme-next@${version}/source/images`;
-  hexo.theme.config.images = hexo.theme.config.css = gh_url("njzjz", "njzjz.github.io", "6260d041079b671b933964297271cfecdcb905d6", "").slice(0, -1);
+  hexo.theme.config.images = gh_url("njzjz", "njzjz.github.io", "6260d041079b671b933964297271cfecdcb905d6", "").slice(0, -1);
 });
 
 hexo.extend.filter.register('after_generate', () => {	
