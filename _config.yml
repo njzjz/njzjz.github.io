@@ -87,6 +87,10 @@ deploy:
   repo: https://github.com/njzjz/njzjz.github.io
   branch: master
 minify:
+  gzip:
+    enable: false
+  broti:
+    enable: false
   xml:
     enable: true
   json:
