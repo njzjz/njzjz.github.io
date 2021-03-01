@@ -50,9 +50,6 @@
     "hexo-all-minifier": "0.5.5",
     "minify-xml": "2.5.0"
   },
-  "engines": {
-    "node": ">=10.x"
-  },
   "resolutions": {
     "gifsicle": "4.0.1"
   }
