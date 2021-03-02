@@ -2716,7 +2716,7 @@ hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.2.0, hexo-util@^2.4.0:
     strip-indent "^3.0.0"
     striptags "^3.1.1"
 
-hexo-yam@^4.2.0:
+hexo-yam@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/hexo-yam/-/hexo-yam-4.2.0.tgz#f460ac2a0c1749ad6b5ed9ee7ef0cad999721393"
   integrity sha512-qVZ0EA6yusks4/t0F49preZ6XrgaTE5TADU/ouDRiFCM6kADbpeeicuA0KvYwlYIaeU6mH76ofVtG3g8GmJ1zg==
@@ -3296,7 +3296,7 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
-jsdelivr_url@^0.0.1:
+jsdelivr_url@0.0.1, jsdelivr_url@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/jsdelivr_url/-/jsdelivr_url-0.0.1.tgz#3a9c0440575ec092d88b403091b8b68d2c0df755"
   integrity sha512-HjjyhWU8kG1Q1JsFf6D7wNF0REqUA8CMiBHHl0w5RW5uLVgdLK5UxzW5rwmorP8vxLNiNo3rjr+E4cpFb5gI/g==
