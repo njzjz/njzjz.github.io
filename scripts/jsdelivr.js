@@ -33,7 +33,7 @@ hexo.on('generateBefore', function () {
   hexo.theme.config.vendors.nprogress_js = npm_url('nprogress', '0.2.0', 'nprogress.min.js');
   hexo.theme.config.vendors.nprogress_css = npm_url('nprogress', '0.2.0', 'nprogress.min.css');
   if (process.env.CSS_COMMIT) {
-    hexo.config.assets_prefix = gh_url("njzjz", "njzjz.github.io",  process.env.CSS_COMMIT, "");
+    hexo.config.assets_prefix = gh_url("njzjz", "njzjz.github.io", process.env.CSS_COMMIT, "");
     hexo.theme.config.css = gh_url("njzjz", "njzjz.github.io", process.env.CSS_COMMIT, "css");
   }
 });
@@ -46,22 +46,22 @@ hexo.extend.filter.register('after_generate', function (data) {
   let cssContent = "";
   html.on('data', (chunk) => (cssContent += chunk));
   html.on('end', () => {
-      const css_hash = crypto.createHash('md5').update(cssContent).digest('hex');
-      const new_css_path = `css/${css_hash}.css`;
-      hexo.route.remove('css/main.css');
-      hexo.route.set(new_css_path, cssContent);
-  });
-  return Promise.all(hexo.route.list().filter(path => path.endsWith('.html')).map(path => {
+    const css_hash = crypto.createHash('md5').update(cssContent).digest('hex');
+    const new_css_path = `css/${css_hash}.css`;
+    hexo.route.remove('css/main.css');
+    hexo.route.set(new_css_path, cssContent);
+    return Promise.all(hexo.route.list().filter(path => path.endsWith('.html')).map(path => {
       return new Promise((resolve, reject) => {
-          const html = hexo.route.get(path);
-          let htmlContent = "";
-          html.on('data', (chunk) => (htmlContent += chunk));
-          html.on('end', () => {
-              hexo.route.set(path, htmlContent.replace(reg, function (str, p1, p2) {
-                  return str.replace("main.css", `${css_hash}.css`);
-              }));
-          });
-          resolve();
+        const html = hexo.route.get(path);
+        let htmlContent = "";
+        html.on('data', (chunk) => (htmlContent += chunk));
+        html.on('end', () => {
+          hexo.route.set(path, htmlContent.replace(reg, function (str, p1, p2) {
+            return str.replace("main.css", `${css_hash}.css`);
+          }));
+        });
+        resolve();
       });
-  }));
+    }));
+  });
 });
