@@ -51,20 +51,21 @@ hexo.extend.filter.register('after_generate', function (data) {
       const new_css_path = `css/${css_hash}.css`;
       hexo.route.remove('css/main.css');
       hexo.route.set(new_css_path, cssContent);
-      return Promise.all(hexo.route.list().filter(path => path.endsWith('.html')).map(path => {
-        return new Promise((resolve, reject) => {
-          const html = hexo.route.get(path);
-          let htmlContent = "";
-          html.on('data', (chunk) => (htmlContent += chunk));
-          html.on('end', () => {
-            hexo.route.set(path, htmlContent.replace(reg, function (str, p1, p2) {
-              return str.replace("main.css", `${css_hash}.css`);
-            }));
-          });
-          resolve();
-        });
-      }));
+      resolve(css_hash);
     });
-    resolve();
+  }).then((css_hash) => {
+    return Promise.all(hexo.route.list().filter(path => path.endsWith('.html')).map(path => {
+      return new Promise((resolve, reject) => {
+        const html = hexo.route.get(path);
+        let htmlContent = "";
+        html.on('data', (chunk) => (htmlContent += chunk));
+        html.on('end', () => {
+          hexo.route.set(path, htmlContent.replace(reg, function (str, p1, p2) {
+            return str.replace("main.css", `${css_hash}.css`);
+          }));
+        });
+        resolve();
+      });
+    }));
   });
 });
