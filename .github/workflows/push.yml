@@ -31,22 +31,8 @@ jobs:
     - run: yarn build && yarn bundlesize
       if: github.ref == 'refs/heads/hexo'
       env:
-        CSS_COMMIT: css
-        DO_NOT_REMOVE_CSS: TRUE
+        CSS_COMMIT: master
         BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN }}
-    - name: Deploy to GitHub Pages
-      id: csspush
-      uses: JamesIves/github-pages-deploy-action@releases/v4
-      if: github.ref == 'refs/heads/hexo'
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: css
-        FOLDER: public/css
-        BASE_BRANCH: hexo
-        CLEAN: true
-    - name: Purge jsdelivr cache
-      if: github.ref == 'refs/heads/hexo' && steps.csspush.outputs.deployment-status == 'success'
-      run: curl https://purge.jsdelivr.net/gh/njzjz/njzjz.github.io@css/main.css
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@releases/v4
       if: github.ref == 'refs/heads/hexo'
