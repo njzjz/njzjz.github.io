@@ -2,6 +2,7 @@
 title: 曾晋哲
 date: 2020-10-27
 update: 2020-12-05
+mathjax: true
 ---
 
 ## 教育经历

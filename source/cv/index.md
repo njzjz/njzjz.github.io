@@ -2,6 +2,7 @@
 title: Jinzhe Zeng
 date: 2020-10-27
 update: 2020-12-05
+mathjax: true
 ---
 
 ## Education
