@@ -1,1 +1,0 @@
-window.addEventListener("load",()=>{quicklink.listen({timeout:3e3,priority:!0,ignores:[i=>i.includes("#"),i=>"https://njzjz.win/2018/11/04/ipv6/"===i]})})
