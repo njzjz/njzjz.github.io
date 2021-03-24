@@ -17,7 +17,7 @@
   "dependencies": {
     "@jiangtj/hexo-next-pwa": "1.0.2",
     "@njzjz/hexo-sitemap": "0.0.2",
-    "@waline/hexo-next": "1.0.5",
+    "@waline/hexo-next": "https://gitpkg.now.sh/njzjz/waline/packages/hexo-next?dns-prefetch",
     "hexo": "5.4.0",
     "hexo-extract-inline-scripts": "0.0.2",
     "hexo-generator-archive": "1.0.0",

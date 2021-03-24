@@ -84,6 +84,12 @@
   dependencies:
     "@next-theme/utils" "^1.1.0"
 
+"@waline/hexo-next@https://gitpkg.now.sh/njzjz/waline/packages/hexo-next?dns-prefetch":
+  version "1.0.5"
+  resolved "https://gitpkg.now.sh/njzjz/waline/packages/hexo-next?dns-prefetch#82f23c5831b3f21c7124aad3f98520b42c62baef"
+  dependencies:
+    "@next-theme/utils" "^1.1.0"
+
 JSONStream@^1.0.7:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"
