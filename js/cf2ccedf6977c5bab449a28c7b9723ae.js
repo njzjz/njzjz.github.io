@@ -1,0 +1,1 @@
+CONFIG.page={sidebar:"",isHome:!1,isPost:!0,lang:"en"}

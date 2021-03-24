@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{quicklink.listen({timeout:3e3,priority:!0,ignores:[i=>i.includes("#"),i=>"https://njzjz.win/tags/%E5%9B%9E%E9%A6%96%E5%9B%9B%E5%B9%B4/"===i]})})
