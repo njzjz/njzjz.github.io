@@ -2423,6 +2423,16 @@ hexo-front-matter@^2.0.0:
   dependencies:
     js-yaml "^3.13.1"
 
+hexo-fs@3.1.0, hexo-fs@^3.0.1, hexo-fs@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-3.1.0.tgz#2052ff72c68cda2c577a87aa0ea7980ae503fa99"
+  integrity sha512-SfoDH7zlU9Iop+bAfEONXezbNIkpVX1QqjNCBYpapilZR+xVOCfTEdlNixanrKBbLGPb2fXqrdDBFgrKuiVGQQ==
+  dependencies:
+    bluebird "^3.5.1"
+    chokidar "^3.0.0"
+    graceful-fs "^4.1.11"
+    hexo-util "^2.0.0"
+
 hexo-fs@^0.2.2:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-0.2.3.tgz#c3a81b46e457dfafc56d87c78ef114104f4a3e41"
@@ -2432,16 +2442,6 @@ hexo-fs@^0.2.2:
     chokidar "^1.5.2"
     escape-string-regexp "^1.0.5"
     graceful-fs "^4.1.4"
-
-hexo-fs@^3.0.1, hexo-fs@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-3.1.0.tgz#2052ff72c68cda2c577a87aa0ea7980ae503fa99"
-  integrity sha512-SfoDH7zlU9Iop+bAfEONXezbNIkpVX1QqjNCBYpapilZR+xVOCfTEdlNixanrKBbLGPb2fXqrdDBFgrKuiVGQQ==
-  dependencies:
-    bluebird "^3.5.1"
-    chokidar "^3.0.0"
-    graceful-fs "^4.1.11"
-    hexo-util "^2.0.0"
 
 hexo-generator-archive@1.0.0:
   version "1.0.0"
@@ -5115,7 +5115,7 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-sticker-heo@^0.6.0:
+sticker-heo@0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/sticker-heo/-/sticker-heo-0.6.0.tgz#8d356e52a25f064da1ccb5c80de3c6145341dfc8"
   integrity sha512-nL5ePVTMQhbYNBlrI/0q0bDD2rmDNQLRZZr1E8yCQS/bRWfU+X7vpDkmJbpdbXEIaRque+bkMJ6b/pwRg2rrWA==
