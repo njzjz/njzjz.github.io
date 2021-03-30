@@ -20,7 +20,7 @@
     "@waline/hexo-next": "1.0.8",
     "hexo": "5.4.0",
     "hexo-extract-inline-scripts": "0.0.2",
-    "hexo-fs": "^3.1.0",
+    "hexo-fs": "3.1.0",
     "hexo-generator-archive": "1.0.0",
     "hexo-generator-basic-set": "0.1.1",
     "hexo-generator-category": "1.0.0",
@@ -44,7 +44,7 @@
     "hexo-tag-publications": "0.1.12",
     "hexo-theme-next": "8.2.2",
     "jsdelivr_url": "0.0.1",
-    "sticker-heo": "^0.6.0"
+    "sticker-heo": "0.6.0"
   },
   "devDependencies": {
     "bundlesize": "0.18.1",
