@@ -12,7 +12,7 @@ fs.listDirSync(dir).filter(fn => fn.endsWith(".png"))
 });
 
 hexo.on('generateBefore', function () {
-  hexo.config.waline.emojiCDN = npm_url(name, version, idr + '/');
+  hexo.config.waline.emojiCDN = npm_url(name, version, idir + '/');
   hexo.config.waline.emojiMaps = icons;
 });
 
