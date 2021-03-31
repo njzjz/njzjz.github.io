@@ -2658,10 +2658,10 @@ hexo-tag-publications@0.1.12:
     hexo-util "^2.4.0"
     jsdelivr_url "^0.0.1"
 
-hexo-theme-next@8.2.2:
-  version "8.2.2"
-  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.2.2.tgz#cfe086b11012542b01eebde115319325c8eecc9b"
-  integrity sha512-goxkaV1mAjnTfJMd5VgVc7oGp3i6/D5q6GwhnFCJG+Hle8ifdQgHjkjsWS7GGUdCA+Zjx8IohOUOkAC8AdUFmg==
+hexo-theme-next@8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.3.0.tgz#4078d4bbde9f300234f4bd6e2dcd30c4913a1a54"
+  integrity sha512-6JnAzQhnnqlDqA3FCinFJOl9Sp3+vRBG9BWeREq23L1vcI5OgkSNAeRDRwWaIULf4wesHF99HDtwBwFei6Mz+A==
 
 hexo-util@1.9.0:
   version "1.9.0"
