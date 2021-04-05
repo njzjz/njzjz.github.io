@@ -143,18 +143,29 @@ pwa:
       name: Jinzhe Zeng's Blog
       display: standalone
   serviceWorker:
-    cdn: https://cdn.jsdelivr.net/npm/workbox-cdn/workbox/workbox-sw.js
+    precache:
+      posts:
+        enable: false
+      pages: false
     options:
       runtimeCaching:
-        - urlPattern: /
+        - urlPattern: regexp:\/$
           handler: NetworkFirst
           options:
-            cacheName: index
-        - urlPattern: regexp:^https:\/\/cdn\.jsdelivr\.net/
+            cacheName: html
+        - urlPattern: regexp:\.html$
+          handler: NetworkFirst
+          options:
+            cacheName: html
+        - urlPattern: regexp:\.(?:js|css)$
+          handler: StaleWhileRevalidate
+          options:
+            cacheName: js-css
+        - urlPattern: regexp:^https:\/\/cdn\.jsdelivr\.net
           handler: StaleWhileRevalidate
           options:
             cacheName: jsdelivr
-        - urlPattern: regexp:^https:\/\/images\.weserv\.nl/
+        - urlPattern: regexp:^https:\/\/images\.weserv\.nl
           handler: CacheFirst
           options:
             cacheName: imagesweserv
