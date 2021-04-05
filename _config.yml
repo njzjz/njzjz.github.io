@@ -149,6 +149,10 @@ pwa:
           handler: NetworkFirst
           options:
             cacheName: html
+        - urlPattern: regexp:\.html$
+          handler: NetworkFirst
+          options:
+            cacheName: html
         - urlPattern: regexp:\.(?:js|css)$
           handler: StaleWhileRevalidate
           options:
