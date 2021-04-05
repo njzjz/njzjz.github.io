@@ -149,11 +149,15 @@ pwa:
           handler: NetworkFirst
           options:
             cacheName: html
-        - urlPattern: regexp:^https:\/\/cdn\.jsdelivr\.net/
+        - urlPattern: regexp:\.(?:js|css)$
+          handler: StaleWhileRevalidate
+          options:
+            cacheName: js-css
+        - urlPattern: regexp:^https:\/\/cdn\.jsdelivr\.net
           handler: StaleWhileRevalidate
           options:
             cacheName: jsdelivr
-        - urlPattern: regexp:^https:\/\/images\.weserv\.nl/
+        - urlPattern: regexp:^https:\/\/images\.weserv\.nl
           handler: CacheFirst
           options:
             cacheName: imagesweserv
