@@ -143,6 +143,10 @@ pwa:
       name: Jinzhe Zeng's Blog
       display: standalone
   serviceWorker:
+    precache:
+      posts:
+        enable: false
+      pages: false
     options:
       runtimeCaching:
         - urlPattern: regexp:\/$
