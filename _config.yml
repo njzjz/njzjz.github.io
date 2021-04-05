@@ -143,13 +143,12 @@ pwa:
       name: Jinzhe Zeng's Blog
       display: standalone
   serviceWorker:
-    cdn: https://cdn.jsdelivr.net/npm/workbox-cdn/workbox/workbox-sw.js
     options:
       runtimeCaching:
-        - urlPattern: /
+        - urlPattern: regexp:\/$
           handler: NetworkFirst
           options:
-            cacheName: index
+            cacheName: html
         - urlPattern: regexp:^https:\/\/cdn\.jsdelivr\.net/
           handler: StaleWhileRevalidate
           options:
