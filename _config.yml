@@ -146,15 +146,15 @@ pwa:
     cdn: https://cdn.jsdelivr.net/npm/workbox-cdn/workbox/workbox-sw.js
     options:
       runtimeCaching:
-        - urlPattern: /
+        - urlPattern: !!js/regexp /.*\//
           handler: NetworkFirst
           options:
-            cacheName: index
-        - urlPattern: regexp:^https:\/\/cdn\.jsdelivr\.net/
+            cacheName: html
+        - urlPattern: !!js/regexp /^https:\/\/cdn\.jsdelivr\.net/
           handler: StaleWhileRevalidate
           options:
             cacheName: jsdelivr
-        - urlPattern: regexp:^https:\/\/images\.weserv\.nl/
+        - urlPattern: !!js/regexp /^https:\/\/images\.weserv\.nl/
           handler: CacheFirst
           options:
             cacheName: imagesweserv
