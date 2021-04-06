@@ -6,16 +6,27 @@ id: 78
 categories:
   - Chemistry
 date: 2018-06-01 00:26:49
+updated: 2021-04-05 21:55:00
 tags:
 - Linux软件安装
 ---
 {% source zhihu 37553631 2018 5 31  %}
 {% source wechat LzO2OeJnxA4H6ijG1px_aA 2018 6 1 %}
 
+下载Anaconda：
 ```sh
-wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.2.0-Linux-x86_64.sh
-#清华大学镜像站可以显著提升下载速度，尤其是教育网网络环境
-bash Anaconda3-5.2.0-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+```
+
+如果你的机器在**国内**，可以从清华大学镜像站下载，可以显著提升下载速度，尤其是教育网网络环境：
+
+```sh
+wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-2020.11-Linux-x86_64.sh
+```
+
+运行sh文件：
+```
+bash Anaconda3-2020.11-Linux-x86_64.sh
 ```
 <!--more-->
 
@@ -41,7 +52,7 @@ yes
 
 no
 
-这样anaconda3就安装好了，接着启用清华大学镜像，提升下载速度：
+这样Anaconda3就安装好了。如果你在**国内**，可以启用清华大学镜像，提升下载速度：
 ```sh
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
