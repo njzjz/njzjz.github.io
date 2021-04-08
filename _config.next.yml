@@ -3,11 +3,6 @@ darkmode: true
 language_switcher: true
 cache:
   enable: false
-favicon:
-  small: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@9d4d517f7c008456c8f13320ed78d70c6742f623/avatar.png
-  medium: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@9d4d517f7c008456c8f13320ed78d70c6742f623/avatar.png
-  apple_touch_icon: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@9d4d517f7c008456c8f13320ed78d70c6742f623/avatar.png
-  safari_pinned_tab: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@9d4d517f7c008456c8f13320ed78d70c6742f623/avatar.png
 footer:
   since: 2016
   icon:
@@ -24,8 +19,6 @@ menu:
   archives: /archives/ || fa fa-archive
 menu_settings:
   badges: true
-avatar:
-  url: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@9d4d517f7c008456c8f13320ed78d70c6742f623/avatar.png
 social:
   GitHub: https://github.com/njzjz || fab fa-github
   E-Mail: mailto:jinzhe.zeng@rutgers.edu || fa fa-envelope
@@ -53,9 +46,6 @@ quicklink:
 motion:
   enable: false
   async: true
-reward:
-  wechatpay: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@5471f41503354e524e431315d03f44379260c2a0/wechatpay.png
-  alipay: https://cdn.jsdelivr.net/gh/njzjz/njzjz.github.io@5471f41503354e524e431315d03f44379260c2a0/alipay.png
 related_posts:
    enable: true
 post_edit:
@@ -105,5 +95,3 @@ vendors:
 nprogress:
   enable: true
 preconnect: true
-custom_file_path:
-  style: source/_data/styles.styl
