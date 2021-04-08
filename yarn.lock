@@ -897,6 +897,11 @@
     hexo-util "^2.4.0"
     jsdelivr_url "^0.0.1"
 
+"@njzjz/icons@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@njzjz/icons/-/icons-0.0.1.tgz#a93aec32d6d98d88c66193e20c56c2422caacb9d"
+  integrity sha512-YW1lHyJp9wIM9ifvBKLO6++RLDg1DPcZSdRyx6A5NyoZLotzm1uf6FxJJBNcLKhA36SLF4U7CZSAlPl/FLBObg==
+
 "@njzjz/sitemap@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@njzjz/sitemap/-/sitemap-0.0.3.tgz#460abd89794c25801580dcc607392eb1c4069eca"

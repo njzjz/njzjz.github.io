@@ -1,6 +1,7 @@
 const crypto = require('crypto');
 const { npm_url, gh_url } = require("jsdelivr_url");
-//const { version } = require("hexo-theme-next/package.json");
+const { name: next_name, version: next_version } = require("hexo-theme-next/package.json");
+const { name: icon_name, version: icon_version } = require("@njzjz/icons/package.json");
 
 hexo.extend.filter.register('after_generate', () => {
   // remove all scripts from js and all images
@@ -10,8 +11,7 @@ hexo.extend.filter.register('after_generate', () => {
 });
 
 hexo.on('generateBefore', function () {
-  //hexo.theme.config.images = `https://cdn.jsdelivr.net/npm/hexo-theme-next@${version}/source/images`;
-  hexo.theme.config.images = gh_url("njzjz", "njzjz.github.io", "6260d041079b671b933964297271cfecdcb905d6", "").slice(0, -1);
+  hexo.theme.config.images = npm_url(next_name, next_version, 'source/images');
 
   hexo.theme.config.vendors.nprogress_js = npm_url('nprogress', '0.2.0', 'nprogress.min.js');
   hexo.theme.config.vendors.nprogress_css = npm_url('nprogress', '0.2.0', 'nprogress.min.css');
@@ -19,6 +19,18 @@ hexo.on('generateBefore', function () {
     hexo.config.assets_prefix = gh_url("njzjz", "njzjz.github.io", process.env.CSS_COMMIT, "");
     hexo.theme.config.css = gh_url("njzjz", "njzjz.github.io", process.env.CSS_COMMIT, "css");
   }
+
+  // icons
+  const avatar_url = npm_url(icon_name, icon_version, "njzjz/avatar.jpg");
+  hexo.theme.config.avatar.url = avatar_url;
+  hexo.theme.config.favicon.small = avatar_url;
+  hexo.theme.config.favicon.medium = avatar_url;
+  hexo.theme.config.favicon.apple_touch_icon = avatar_url;
+  hexo.theme.config.favicon.safari_pinned_tab = avatar_url;
+  hexo.theme.config.reward = {
+    wechatpay: npm_url(icon_name, icon_version, "njzjz/wechatpay.svg"),
+    alipay: npm_url(icon_name, icon_version, "njzjz/alipay.svg"),
+  };
 });
 
 hexo.extend.filter.register('after_generate', function (data) {
