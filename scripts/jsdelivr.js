@@ -22,13 +22,13 @@ hexo.on('generateBefore', function () {
 
   // icons
   const avatar_url = npm_url(icon_name, icon_version, "njzjz/avatar.png");
-  hexo.theme.avatar.url = avatar_url;
-  hexo.theme.config.favicon = avatar_url;
-  hexo.theme.config.medium = avatar_url;
-  hexo.theme.config.apple_touch_icon = avatar_url;
-  hexo.theme.config.safari_pinned_tab = avatar_url;
-  hexo.theme.reward.wechatpay = npm_url(icon_name, icon_version, "njzjz/wechatpay.png");
-  hexo.theme.reward.alipay = npm_url(icon_name, icon_version, "njzjz/alipay.png");
+  hexo.theme.config.avatar.url = avatar_url;
+  hexo.theme.config.favicon.small = avatar_url;
+  hexo.theme.config.favicon.medium = avatar_url;
+  hexo.theme.config.favicon.apple_touch_icon = avatar_url;
+  hexo.theme.config.favicon.safari_pinned_tab = avatar_url;
+  hexo.theme.config.reward.wechatpay = npm_url(icon_name, icon_version, "njzjz/wechatpay.png");
+  hexo.theme.config.reward.alipay = npm_url(icon_name, icon_version, "njzjz/alipay.png");
 
 });
 
