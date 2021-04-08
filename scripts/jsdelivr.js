@@ -3,6 +3,16 @@ const { npm_url, gh_url } = require("jsdelivr_url");
 const { name: next_name, version: next_version } = require("hexo-theme-next/package.json");
 const { name: icon_name, version: icon_version } = require("@njzjz/package.json");
 
+// icons
+const avatar_url = npm_url(icon_name, icon_version, "njzjz/avatar.png");
+hexo.theme.config.avatar.url = avatar_url;
+hexo.theme.config.favicon.small = avatar_url;
+hexo.theme.config.favicon.medium = avatar_url;
+hexo.theme.config.favicon.apple_touch_icon = avatar_url;
+hexo.theme.config.favicon.safari_pinned_tab = avatar_url;
+hexo.theme.config.reward.wechatpay = npm_url(icon_name, icon_version, "njzjz/wechatpay.png");
+hexo.theme.config.reward.alipay = npm_url(icon_name, icon_version, "njzjz/alipay.png");
+
 hexo.extend.filter.register('after_generate', () => {
   // remove all scripts from js and all images
   hexo.route.list().filter(path => (path.startsWith("js/") && path.length != 38 ) || path.startsWith("images/")).forEach(path => {
@@ -19,17 +29,6 @@ hexo.on('generateBefore', function () {
     hexo.config.assets_prefix = gh_url("njzjz", "njzjz.github.io", process.env.CSS_COMMIT, "");
     hexo.theme.config.css = gh_url("njzjz", "njzjz.github.io", process.env.CSS_COMMIT, "css");
   }
-
-  // icons
-  const avatar_url = npm_url(icon_name, icon_version, "njzjz/avatar.png");
-  hexo.theme.config.avatar.url = avatar_url;
-  hexo.theme.config.favicon.small = avatar_url;
-  hexo.theme.config.favicon.medium = avatar_url;
-  hexo.theme.config.favicon.apple_touch_icon = avatar_url;
-  hexo.theme.config.favicon.safari_pinned_tab = avatar_url;
-  hexo.theme.config.reward.wechatpay = npm_url(icon_name, icon_version, "njzjz/wechatpay.png");
-  hexo.theme.config.reward.alipay = npm_url(icon_name, icon_version, "njzjz/alipay.png");
-
 });
 
 hexo.extend.filter.register('after_generate', function (data) {
