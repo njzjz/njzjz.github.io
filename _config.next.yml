@@ -46,6 +46,7 @@ quicklink:
 motion:
   enable: false
   async: true
+reward:
 related_posts:
    enable: true
 post_edit:
