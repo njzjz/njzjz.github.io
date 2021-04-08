@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 const { npm_url, gh_url } = require("jsdelivr_url");
 const { name: next_name, version: next_version } = require("hexo-theme-next/package.json");
-const { name: icon_name, version: icon_version } = require("@njzjz/package.json");
+const { name: icon_name, version: icon_version } = require("@njzjz/icons/package.json");
 
 hexo.extend.filter.register('after_generate', () => {
   // remove all scripts from js and all images
