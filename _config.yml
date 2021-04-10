@@ -102,9 +102,6 @@ index2_include_index: false
 index2_generator:
   - layout: "archive"
     path: "archives"
-    exclude:
-      - category ECNUChemistry
-      - category Internship
 hide_posts:
   public_generators:
     - tag
