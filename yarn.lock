@@ -3505,6 +3505,14 @@ hexo-generator-feed@3.0.0:
     hexo-util "^2.1.0"
     nunjucks "^3.0.0"
 
+hexo-generator-index2@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-index2/-/hexo-generator-index2-0.2.0.tgz#0aa46bf5aff125eb236f7168f66fa59c8ca8c326"
+  integrity sha1-CqRr9a/xJesjb3Fo9m+lnIyowyY=
+  dependencies:
+    hexo-pagination "0.0.2"
+    object-assign "^4.0.1"
+
 hexo-generator-index@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-2.0.0.tgz#15e71f4d28ee9d2172e2d77e8d1dba04882edc8f"

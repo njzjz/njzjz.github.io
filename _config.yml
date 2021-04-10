@@ -98,6 +98,10 @@ minify:
 
 sitemap:
   path: sitemap.xml
+
+index2_generator:
+  - layout: "archive"
+    path: "archives"
 hide_posts:
   public_generators:
     - tag
