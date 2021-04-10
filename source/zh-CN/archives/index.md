@@ -1,4 +1,4 @@
 title: 存档
-type: archive
+layout: archive
 date: 2021-04-10
 ---

@@ -1,4 +1,4 @@
 title: Archives
-type: archive
+layout: archive
 date: 2021-04-10
 ---
