@@ -3544,6 +3544,11 @@ hexo-generator-tag@1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
+hexo-hide-posts@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/hexo-hide-posts/-/hexo-hide-posts-0.1.1.tgz#ff930e82114b3134c4f1bbc8a61e0ce12c0ac044"
+  integrity sha512-6r6zoPUHrR1+0Yzgmwzl+kKlOIqMaqx87TLWOLFTVHlNDu+CxcBLXaeRbcvkH1bWF77vUVYmlX+n+bGiLE6t5A==
+
 hexo-i18n@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-i18n/-/hexo-i18n-1.0.0.tgz#7983fb3a313e90615b84dd8fa946a71c489ef5bd"
