@@ -129,6 +129,7 @@ cdn:
     - https://images.weserv.nl/
     - https://img.njzjz.win/
     - https://cdn.jsdelivr.net/
+    - https://pic.njzjz.win/
   max_width:
     - 828
     - 1656
