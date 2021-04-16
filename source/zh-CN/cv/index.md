@@ -17,7 +17,7 @@ mathjax: true
 {% linkgrid %}
 华东师范大学 | https://computchem.cn/people/ | 2017年9月-2019年7月：科研志愿者<br/>￥1000/月 | https://upload.wikimedia.org/wikipedia/en/2/2a/East_China_Normal_University_logo.svg
 上海巧坤化工科技有限公司 | http://www.shqkchem.com/?lang=zh | 2018年9月-2018年11月：6学分本科课程实习<br/>￥2200/月 | https://ae01.alicdn.com/kf/HTB1N4tNXsfrK1Rjy1Xd761emFXaD.png
-北京大数据研究院 | http://www.bibdr.org/en/ | 2019年6月-2019年7月：暑期科研实习<br/>￥6500/月 | http://7576700.s21i.faiusr.com/4/ABUIABAEGAAgirrKswUo5ebdxAEwgAg4gAY.png
+北京大数据研究院 | http://www.bibdr.org/ | 2019年6月-2019年7月：暑期科研实习<br/>￥6500/月 | http://7576700.s21i.faiusr.com/4/ABUIABAEGAAgirrKswUo5ebdxAEwgAg4gAY.png
 罗格斯大学 | https://chem.rutgers.edu | 2019年9月-2020年8月：奖学金<br/>2020年8月至今：研究助理<br/>￥20000/月 | https://upload.wikimedia.org/wikipedia/zh/f/f0/Rutgers_University_seal.svg
 {% endlinkgrid %}
 
