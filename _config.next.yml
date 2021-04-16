@@ -47,7 +47,7 @@ motion:
   enable: false
   async: true
 related_posts:
-   enable: true
+   enable: false
 post_edit:
   enable: true
   url: https://github.com/njzjz/njzjz.github.io/tree/hexo/source/ # Link for view source.

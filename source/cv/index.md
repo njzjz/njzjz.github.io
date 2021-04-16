@@ -7,16 +7,19 @@ mathjax: true
 
 ## Education
 
-- B.S. in Chemistry, East China Normal University, Sep 2015 - Jul 2019
-- PhD in Chemistry, Rutgers University, Aug 2019 - Present
+{% linkgrid %}
+East China Normal University | http://english.ecnu.edu.cn/00/33/c1703a262195/page.htm | B.S. in Chemistry (Sep 2015 - Jul 2019) | https://upload.wikimedia.org/wikipedia/en/2/2a/East_China_Normal_University_logo.svg
+Rutgers University | https://search.rutgers.edu/people.html?q=Jinzhe%20Zeng | PhD in Chemistry (Aug 2019 - Present) | https://upload.wikimedia.org/wikipedia/zh/f/f0/Rutgers_University_seal.svg
+{% endlinkgrid %}
 
 ## Work Experience
 
-- Paid Research Volunteer, East China Normal University, Sep 2017 - Jul 2019
-- Undergraduate Internship Course for 6 Credits, Shanghai Qiaokun Chemical Technology Co., LTD, Sep 2018 - Nov 2018
-- Summer Research Internship, Beijing Institute of Big Data Research, Jun 2019 - Jul 2019
-- Fellow, Rutgers University, Sep 2019 - Aug 2020
-- Graduate Assistant, Rutgers University, Aug 2020 - Present
+{% linkgrid %}
+East China Normal University | https://computchem.cn/people/ | Research Volunteer (Sep 2017 - Jul 2019)<br/>$150/month | https://upload.wikimedia.org/wikipedia/en/2/2a/East_China_Normal_University_logo.svg
+Shanghai Qiaokun Chemical Technology Co., LTD | http://www.shqkchem.com/?lang=en | Undergraduate Internship Course for 6 Credits (Sep 2018 - Nov 2018)<br/>$340/month | https://ae01.alicdn.com/kf/HTB1N4tNXsfrK1Rjy1Xd761emFXaD.png
+Beijing Institute of Big Data Research | http://www.bibdr.org/en/ | Summer Research Internship (Jun 2019 - Jul 2019)<br/>$1000/month | http://7576700.s21i.faiusr.com/4/ABUIABAEGAAgirrKswUo5ebdxAEwgAg4gAY.png
+Rutgers University | https://chem.rutgers.edu | Remained Follow (Sep 2019 - Aug 2020)<br/>Graduate Assistant (Aug 2020 - )<br/>$3000/month | https://upload.wikimedia.org/wikipedia/zh/f/f0/Rutgers_University_seal.svg
+{% endlinkgrid %}
 
 ## Research
 
