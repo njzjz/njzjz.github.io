@@ -18,13 +18,12 @@ Rutgers University | https://search.rutgers.edu/people.html?q=Jinzhe%20Zeng | Ph
 East China Normal University | https://computchem.cn/people/ | Research Volunteer (Sep 2017 - Jul 2019)<br/>$150/month | https://upload.wikimedia.org/wikipedia/en/2/2a/East_China_Normal_University_logo.svg
 Shanghai Qiaokun Chemical Technology Co., LTD | http://www.shqkchem.com/?lang=en | Undergraduate Internship Course for 6 Credits (Sep 2018 - Nov 2018)<br/>$340/month | https://ae01.alicdn.com/kf/HTB1N4tNXsfrK1Rjy1Xd761emFXaD.png
 Beijing Institute of Big Data Research | http://www.bibdr.org/en/ | Summer Research Internship (Jun 2019 - Jul 2019)<br/>$1000/month | http://7576700.s21i.faiusr.com/4/ABUIABAEGAAgirrKswUo5ebdxAEwgAg4gAY.png
-Rutgers University | https://chem.rutgers.edu | Remained Follow (Sep 2019 - Aug 2020)<br/>Graduate Assistant (Aug 2020 - )<br/>$3000/month | https://upload.wikimedia.org/wikipedia/zh/f/f0/Rutgers_University_seal.svg
+Rutgers University | https://chem.rutgers.edu | Remained Fellow (Sep 2019 - Aug 2020)<br/>Graduate Assistant (Aug 2020 - )<br/>$3000/month | https://upload.wikimedia.org/wikipedia/zh/f/f0/Rutgers_University_seal.svg
 {% endlinkgrid %}
 
 ## Research
 
-- Combustion Mechanisms of Hydrocarbon Fuel Based on Deep Learning
-- ML-Potential for Simulations of Biochemical Reactions and Drug Discovery
+Develop deep learning potentials for simulations of different applications, including combustion of hydrocarbon fuels, RNA catalysis reactions, drug discovery, and precision medicine.
 
 ## Publications
 
