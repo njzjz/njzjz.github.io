@@ -1,12 +1,12 @@
 ---
-title: 
+title: WSL GUI初体验
 date: 2021-04-22
 lang: zh-CN
 tags:
   - Linux软件安装
 ---
 
-{% source wechat  2021 4 22 %}
+{% source wechat QMc_MyvtaX-aIkSo06ynBg 2021 4 22 %}
 {% source zhihu_answer 1849794023 2021 4 22 %}
 
 惊闻微软终——于——[放出了WSL GUI](https://devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/)（WSLg），赶紧体验一把！
@@ -48,18 +48,18 @@ wsl --shutdown
 
 pymol，丝滑般流畅！
 
-!(pymol)[https://pic4.zhimg.com/80/v2-4a272f28f3ef500daf0ff6353618df3e.jpg]
+![pymol](https://pic4.zhimg.com/80/v2-4a272f28f3ef500daf0ff6353618df3e.jpg)
 
 VMD，也不逊色！拖曳旋转样样在行，甚至触屏体验也不错。
 
-!(VMD)[https://pic2.zhimg.com/80/v2-cf443ad0d524d8853e0fa77d914b3a60.jpg]
+![VMD](https://pic2.zhimg.com/80/v2-cf443ad0d524d8853e0fa77d914b3a60.jpg)
 
 {% bilitube oDdUxCOcgr4 BV1sy4y147JG %}
 WSL GUI运行VMD
 
 甚至自己用Python写的超级简陋版GUI也能愉快运行：
 
-!(ReacNetGeneratorGUI)[https://pic1.zhimg.com/80/v2-917e9c02ad914c0df3712b0103442fa8.jpg]
+![ReacNetGeneratorGUI](https://pic1.zhimg.com/80/v2-917e9c02ad914c0df3712b0103442fa8.jpg)
 
 # ssh运行远程程序
 
@@ -71,4 +71,4 @@ WSL GUI运行VMD
 
 再也不需要Xming了！
 
-![goodbye-xming](https://pic2.zhimg.com/v2-36d15b5191fe49c3ec469981ae5c2a54_r.jpg?source=1940ef5c)
+![goodbye-xming](https://pic2.zhimg.com/v2-36d15b5191fe49c3ec469981ae5c2a54.jpg)
