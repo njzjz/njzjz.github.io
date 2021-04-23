@@ -1853,7 +1853,39 @@ Online report on Nov 5 2020 at 9:50 p.m. EST, at Westlake University.
  知乎. 如何解决word中公式加编号之后变为内嵌格式？. https://www.zhihu.com/question/65751973/answer/365060085
  知乎. 你可能从未使用过的Word内嵌编号功能. https://zhuanlan.zhihu.com/p/22436463
 
-]]></content><categories><category>Chemistry</category></categories></entry><entry><title>学术而不严肃，专业融于兴趣</title><url>/2016/09/03/xueshubu/</url><content><![CDATA[本文于2016年9月4日发表于微信公众号,查看原文
+]]></content><categories><category>Chemistry</category></categories></entry><entry><title>WSL GUI初体验</title><url>/2021/04/21/wsl-gui/</url><content><![CDATA[本文于2021年4月22日发表于微信公众号,查看原文
+本文于2021年4月22日发表于知乎,查看原文
+
+惊闻微软终——于——放出了WSL GUI（WSLg），赶紧体验一把！
+
+
+升级系统和WSL首先系统要升到Insider Preview 21364！
+
+升级Win10
+
+升到21364的水印
+升级完毕之后，用管理员权限打开PowerShell，升级并重启WSL2：
+wsl --updatewsl --shutdown
+
+解决bug兴冲冲打开Windows Terminal，输入pymol，咦，怎么连不上？
+打开GitHub，果然已经有人提了issue，开发者表示，在设置里把第一屏放到第二屏的右边，可以临时解决这个bug……
+
+
+什么奇奇怪怪的bug
+然后再用wsl --shutdown重启，这次ok了！
+运行本地程序pymol，丝滑般流畅！
+
+VMD，也不逊色！拖曳旋转样样在行，甚至触屏体验也不错。
+
+
+WSL GUI运行VMD
+甚至自己用Python写的超级简陋版GUI也能愉快运行：
+
+ssh运行远程程序使用ssh -Y连接办公室的机子，仍然可以打开VMD！观看静态画面毫无问题，受限于Wi-Fi的网速，拖曳、旋转画面出现稍许延迟，但仍远远优于Xming的体验。
+
+Xming再见再也不需要Xming了！
+
+]]></content><tags><tag>Linux软件安装</tag></tags></entry><entry><title>学术而不严肃，专业融于兴趣</title><url>/2016/09/03/xueshubu/</url><content><![CDATA[本文于2016年9月4日发表于微信公众号,查看原文
 
 学术而不严肃，专业融于兴趣
 
