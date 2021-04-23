@@ -45,7 +45,7 @@ wsl --shutdown
 
 然后再用`wsl --shutdown`重启，这次ok了！
 
-#运行本地程序
+# 运行本地程序
 
 pymol，丝滑般流畅！
 
