@@ -10,6 +10,7 @@ tags:
 {% source zhihu_answer 1849794023 2021 4 22 %}
 
 惊闻微软终——于——[放出了WSL GUI](https://devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/)（WSLg），赶紧体验一把！
+<!--more-->
 
 # 升级系统和WSL
 
