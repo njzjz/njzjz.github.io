@@ -6,6 +6,8 @@
     "version": "5.4.0"
   },
   "scripts": {
+    "postinstall": "preview-cfpages preview",
+    "cfpages:build": "yarn build",
     "build": "hexo g",
     "clean": "hexo clean",
     "serve": "hexo serve",
@@ -48,6 +50,7 @@
     "sticker-heo": "0.7.0"
   },
   "devDependencies": {
+    "@njzjz/preview-cfpages": "0.0.3",
     "bundlesize": "0.18.1",
     "hexo-yam": "4.2.0"
   },

@@ -901,6 +901,14 @@
   resolved "https://registry.yarnpkg.com/@njzjz/icons/-/icons-0.0.1.tgz#a93aec32d6d98d88c66193e20c56c2422caacb9d"
   integrity sha512-YW1lHyJp9wIM9ifvBKLO6++RLDg1DPcZSdRyx6A5NyoZLotzm1uf6FxJJBNcLKhA36SLF4U7CZSAlPl/FLBObg==
 
+"@njzjz/preview-cfpages@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@njzjz/preview-cfpages/-/preview-cfpages-0.0.3.tgz#bd06f03e7799ce762bcca616c5c7a262adb55f5c"
+  integrity sha512-R87fAjthA+8O38iyHy+zEq0dBHBEQU8Yi1zE2mOirDnP8JOFRvwjKL3tvVsOj/P121+WaKAwtebW3vPPo6OLzg==
+  dependencies:
+    async "^3.2.0"
+    commander "^7.2.0"
+
 "@njzjz/sitemap@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@njzjz/sitemap/-/sitemap-0.0.3.tgz#460abd89794c25801580dcc607392eb1c4069eca"
@@ -1126,6 +1134,11 @@ asap@^2.0.3:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
+
+async@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.2.0.tgz#b3a2685c5ebb641d3de02d161002c60fc9f85720"
+  integrity sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==
 
 at-least-node@^1.0.0:
   version "1.0.0"
@@ -1623,6 +1636,11 @@ commander@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
   integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
+
+commander@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
+  integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
 
 common-tags@^1.8.0:
   version "1.8.0"
