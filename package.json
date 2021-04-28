@@ -50,7 +50,7 @@
     "sticker-heo": "0.7.0"
   },
   "devDependencies": {
-    "@njzjz/preview-cfpages": "0.0.3",
+    "@njzjz/preview-cfpages": "0.0.5",
     "bundlesize": "0.18.1",
     "hexo-yam": "4.2.0"
   },
