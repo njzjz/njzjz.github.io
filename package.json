@@ -22,7 +22,7 @@
     "@jiangtj/hexo-next-pwa": "2.0.1",
     "@njzjz/hexo-sitemap": "0.0.2",
     "@njzjz/icons": "0.0.1",
-    "@waline/hexo-next": "1.0.8",
+    "@waline/hexo-next": "2.0.0",
     "hexo": "5.4.0",
     "hexo-extract-inline-scripts": "0.0.3",
     "hexo-fs": "3.1.0",
