@@ -5,7 +5,7 @@ const { name: icon_name, version: icon_version } = require("@njzjz/icons/package
 
 hexo.extend.filter.register('after_generate', () => {
   // remove all images
-  hexo.route.list().filter(path.startsWith("images/")).forEach(path => {
+  hexo.route.list().filter(path => path.startsWith("images/")).forEach(path => {
     hexo.route.remove(path);
   });
 });
