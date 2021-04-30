@@ -1011,10 +1011,10 @@
   dependencies:
     "@types/node" "*"
 
-"@waline/hexo-next@1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@waline/hexo-next/-/hexo-next-1.0.8.tgz#444150b927fecdc29dcbfe201c796013b0d23c09"
-  integrity sha512-HmBVMjv52MyjGIsXPQlFFDrLK1DiF5ilmy70whgEsstkxFZCVmdlqlRSN42mH1X0a8GtHbMWWhF9+dccCaqofw==
+"@waline/hexo-next@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@waline/hexo-next/-/hexo-next-2.0.5.tgz#0b1db8d197645139d1b7c9e4919e1ce45f15e484"
+  integrity sha512-20/D4NEVB+pwIglPO9ZtxDQO9LV8wkOcMZrtqtelnS33BOaBFFhBqV/CFkT+s1VXAKBOs81jpmKKOBqe5Z4JMg==
   dependencies:
     "@next-theme/utils" "^1.1.0"
 
