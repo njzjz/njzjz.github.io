@@ -4,8 +4,8 @@ const { name: next_name, version: next_version } = require("hexo-theme-next/pack
 const { name: icon_name, version: icon_version } = require("@njzjz/icons/package.json");
 
 hexo.extend.filter.register('after_generate', () => {
-  // remove all scripts from js and all images
-  hexo.route.list().filter(path => (path.startsWith("js/") && path.length != 38 ) || path.startsWith("images/")).forEach(path => {
+  // remove all images
+  hexo.route.list().filter(path => path.startsWith("images/")).forEach(path => {
     hexo.route.remove(path);
   });
 });
