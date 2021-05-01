@@ -1,1 +1,0 @@
-window.addEventListener("load",()=>{quicklink.listen({timeout:3e3,priority:!0,ignores:[i=>i.includes("#"),i=>"https://njzjz.win/2018/09/03/internship/d3/"===i]})})
