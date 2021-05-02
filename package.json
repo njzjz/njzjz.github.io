@@ -52,7 +52,7 @@
   "devDependencies": {
     "@njzjz/preview-cfpages": "0.0.6",
     "bundlesize": "0.18.1",
-    "hexo-yam": "4.2.0"
+    "hexo-yam": "5.0.0"
   },
   "resolutions": {
     "gifsicle": "4.0.1"
