@@ -34,7 +34,7 @@
     "hexo-generator-sitemap": "2.1.0",
     "hexo-generator-tag": "1.0.0",
     "hexo-hide-posts": "0.1.1",
-    "hexo-image-cloudflare": "0.2.9",
+    "hexo-image-cloudflare": "0.2.10",
     "hexo-pdf": "1.1.1",
     "hexo-reference": "1.0.4",
     "hexo-renderer-ejs": "1.0.0",
