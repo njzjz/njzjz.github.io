@@ -2915,10 +2915,10 @@ hexo-tag-injector@^0.1.0:
   dependencies:
     escape-string-regexp "^4.0.0"
 
-hexo-tag-publications@0.1.18:
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.1.18.tgz#f6619b0e1d29df6db489545cce6271b0e7abe9f2"
-  integrity sha512-z33eM3P8p4Ze+pdRyVLR8ErQvNqlrfdHpc/o3OYH3zdH6TGEY4TaMqq6+k787HkXXio6l0qldvv7GpnSr1YtPA==
+hexo-tag-publications@0.1.19:
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/hexo-tag-publications/-/hexo-tag-publications-0.1.19.tgz#cf894ec5901aac213b84a34fced132ab23efc250"
+  integrity sha512-ayoa3nKuT4u+LkqF7C+peXCsJsJLDm7mRK70IHXuZRWMAKbDIUIRpe3c23jH64hrVHW6vb392nlpwggdkOfFQA==
   dependencies:
     bibtex-parse "^2.1.0"
     hexo-fs "^3.1.0"
