@@ -172,7 +172,6 @@ waline:
   enable: true
   serverURL: https://comment.njzjz.win
   visitor: true
-  avatarCDN: https://sdn.geekzu.org/avatar/
 pub_author:
   - Jinzhe Zeng
   - Jin-Zhe Zeng
