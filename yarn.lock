@@ -4790,10 +4790,10 @@ stable@^0.1.8:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-sticker-heo@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/sticker-heo/-/sticker-heo-0.7.0.tgz#80453a4b5362946bcb10792794f79d7c28efc973"
-  integrity sha512-k/iuCkK0g8QmEUhy0k8xqlIIQAyFxBTLpIGB3oF2uGq6rgI4L2xGtSpUv/73+7O0W2J30CdP0U586ZyuaR9t5Q==
+sticker-heo@0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/sticker-heo/-/sticker-heo-0.8.0.tgz#16932e17c527a41fb8eb0766f237da2e503a371f"
+  integrity sha512-72AweBM54uWr+sEqc9bXIaYF+qKuGBPgjX0ATZXJtJoNuvDHltubtE/bZ8uehJA6r79VxNn36OLD/uzRwvy+jA==
 
 strict-uri-encode@^1.0.0:
   version "1.1.0"
