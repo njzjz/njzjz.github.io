@@ -28,5 +28,12 @@ mathjax: true
 ## 发表文章
 
 {% publications %}
-Zeng_ChemRxiv_2021,Zeng_EnergyFuels_2021_v35_p762,Zeng_NatCommun_2020_v11_p5713,Zhang_ComputPhysCommun_2020_v253_p107206,Zeng_PhysChemChemPhys_2020_v22_p683,Cao_ChemRxiv_2019,Tian_PhysChemChemPhys_2019_v21_p22103,Han_ACSAppliedMatInterface_2018_v10_p31725
+Cao_ChemRxiv_2019,
+Zeng_ChemRxiv_2021,
+Zeng_EnergyFuels_2021_v35_p762,
+Zeng_NatCommun_2020_v11_p5713,
+Zhang_ComputPhysCommun_2020_v253_p107206,
+Zeng_PhysChemChemPhys_2020_v22_p683,
+Tian_PhysChemChemPhys_2019_v21_p22103,
+Han_ACSAppliedMatInterface_2018_v10_p31725
 {% endpublications %}
