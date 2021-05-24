@@ -1,3 +1,3 @@
-<link rel="stylesheet" href="https://gist.githubusercontent.com/njzjz/255507dd27c945e5f3d1eb4ce5634746/raw/b7b308fa084405c19aa3d40d27f09911fa94f7e9/280.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/njzjz/gist@next-280/280.min.css">
 <canvas></canvas> 
-<script src="https://gist.githubusercontent.com/njzjz/255507dd27c945e5f3d1eb4ce5634746/raw/b7b308fa084405c19aa3d40d27f09911fa94f7e9/280.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/njzjz/gist@next-280/280.min.js"></script>
