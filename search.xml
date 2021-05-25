@@ -38,7 +38,24 @@ I am also pleased to inform you that in addition to a full package including sti
 [5]和目前正在风口上的深度学习相比，写GPU代码显然发不了什么好文章，后来被我们默契地无视了。后来，我继续​做着深度学习相关的工作。
 [6]这个理由真是巧妙，我自己是绝对想不出来的。
 [7]中间遇到了一点波折，不过那并不重要。
-]]></content><categories><category>Life</category></categories><tags><tag>回首四年</tag></tags></entry><entry><title>【ECNU】bash登陆校园网</title><url>/2017/11/13/bashnetwork/</url><content><![CDATA[本文于2017年10月13日发表于知乎专栏,查看原文
+]]></content><categories><category>Life</category></categories><tags><tag>回首四年</tag></tags></entry><entry><title>用ChemDraw命名有机物</title><url>/2017/07/07/chemdraw/</url><content><![CDATA[本文于2017年7月8日发表于微信公众号,查看原文
+
+
+ 打开ChemDraw，这里以Chemdraw Professional 15.0为例。
+
+ 绘制结构式：
+
+
+
+
+ 选中结构式，按Ctrl+Alt+N：
+
+
+
+ 我们看到，其英文名已经出来了：4-(2,6-di-tert-butyl-3,5-bis(cyclopropylmethyl)phenyl)-1,2-dioxolane，我们拖到Google翻译中，即得中文为：4-2,6-二-叔丁基-3,5-双（环丙基甲基）苯基）-1,2-二氧戊环。
+
+
+]]></content><categories><category>Chemistry</category></categories></entry><entry><title>【ECNU】bash登陆校园网</title><url>/2017/11/13/bashnetwork/</url><content><![CDATA[本文于2017年10月13日发表于知乎专栏,查看原文
 
 本文于2017年10月14日发表于微信公众号,查看原文
 
@@ -80,41 +97,6 @@ vi .bashrc
 现在，我们即可输入network直接连接校园网了。
 参考文献
 “编写第一个 Shell 脚本”. https://billie66.github.io/TLCL/book/zh/chap25.html （2017/10/14）
-]]></content><categories><category>Chemistry</category></categories></entry><entry><title>用ChemDraw命名有机物</title><url>/2017/07/07/chemdraw/</url><content><![CDATA[本文于2017年7月8日发表于微信公众号,查看原文
-
-
- 打开ChemDraw，这里以Chemdraw Professional 15.0为例。
-
- 绘制结构式：
-
-
-
-
- 选中结构式，按Ctrl+Alt+N：
-
-
-
- 我们看到，其英文名已经出来了：4-(2,6-di-tert-butyl-3,5-bis(cyclopropylmethyl)phenyl)-1,2-dioxolane，我们拖到Google翻译中，即得中文为：4-2,6-二-叔丁基-3,5-双（环丙基甲基）苯基）-1,2-二氧戊环。
-
-
-]]></content><categories><category>Chemistry</category></categories></entry><entry><title>Chemical Principles 测评</title><url>/2016/07/02/chemical-principles/</url><content><![CDATA[众所周知，学院下学期要开一门《化学原理A》，教材是Chemical Principles: The Quest For Insight (International Edition, 5th) Macmillan Publishing House。我在学校图书馆找到了这本书，便把它借了下来。
-
-
-
-书很厚，接近1000页；很沉，竟然比《读者的选择》还要厚，天天带着上课要累死……
-
-反面一看，一本书竟然要518大洋！518！美帝的东西都这么贵吗……好吧确实没有surge贵（逃
-
-当然这是我从图书馆借来的，但是万一弄丢了就倾家荡产了……两位主编都来自逼格很高的大学。
-
-
-目录……可以看到先是学一点结构，再学一点物理（呃）……然后是热力学电化学动力学。可以看到最后出现了一些奇怪的东西，核化学和有机化学……不过这些并不在大纲内。 
-书后竟然自带答案，就这一点，完爆国内化学教材若干倍。最不爽的就是国内教材了，习题册竟然还要单独卖一本，还要单独搞个文件夹来看答案。
-
-
-插图好漂亮……国内教材根本没有彩色插图好不好！国内教材丑爆了好不好！王琛说他只认识这些插图了……
-
-有一节叫“方程式配平”，一本正经地告诉你氢气和氧气反应怎么配平……国外的中学不学化学吗？
 ]]></content><categories><category>Chemistry</category></categories></entry><entry><title>Chemical Tools 2.0.8 发布</title><url>/2016/03/05/chemicaltools0/</url><content><![CDATA[我一定有拖延症，3月10日就要上交的作品，拖啊拖啊拖，拖到昨天晚上才开始完善。
 刚才花了几个小时时间完善了我的作品，现在在此发布，看看大家有什么建议。
 
@@ -138,7 +120,25 @@ vi .bashrc
 
 
 党的十九大报告八次提到了互联网相关内容，指出要推动互联网、大数据、人工智能和实体经济深度融合。今后，化学e+团队将推动成果转化，利用成果进行创业，争取获得新的辉煌。
-]]></content><categories><category>Technology</category></categories></entry><entry><title>化学e+获第二十四届上海高校学生创造发明“科创杯”发明创新三等奖</title><url>/2019/01/02/chemicaltools2/</url><content><![CDATA[本文于2019年1月3日发表于微信公众号,查看原文
+]]></content><categories><category>Technology</category></categories></entry><entry><title>Chemical Principles 测评</title><url>/2016/07/02/chemical-principles/</url><content><![CDATA[众所周知，学院下学期要开一门《化学原理A》，教材是Chemical Principles: The Quest For Insight (International Edition, 5th) Macmillan Publishing House。我在学校图书馆找到了这本书，便把它借了下来。
+
+
+
+书很厚，接近1000页；很沉，竟然比《读者的选择》还要厚，天天带着上课要累死……
+
+反面一看，一本书竟然要518大洋！518！美帝的东西都这么贵吗……好吧确实没有surge贵（逃
+
+当然这是我从图书馆借来的，但是万一弄丢了就倾家荡产了……两位主编都来自逼格很高的大学。
+
+
+目录……可以看到先是学一点结构，再学一点物理（呃）……然后是热力学电化学动力学。可以看到最后出现了一些奇怪的东西，核化学和有机化学……不过这些并不在大纲内。 
+书后竟然自带答案，就这一点，完爆国内化学教材若干倍。最不爽的就是国内教材了，习题册竟然还要单独卖一本，还要单独搞个文件夹来看答案。
+
+
+插图好漂亮……国内教材根本没有彩色插图好不好！国内教材丑爆了好不好！王琛说他只认识这些插图了……
+
+有一节叫“方程式配平”，一本正经地告诉你氢气和氧气反应怎么配平……国外的中学不学化学吗？
+]]></content><categories><category>Chemistry</category></categories></entry><entry><title>化学e+获第二十四届上海高校学生创造发明“科创杯”发明创新三等奖</title><url>/2019/01/02/chemicaltools2/</url><content><![CDATA[本文于2019年1月3日发表于微信公众号,查看原文
 
 2018年12月22日上午，第二十四届上海高校学生创造发明“科创杯”颁奖大会于上海市科技创业中心举行。化学e+获上海发明协会颁发的发明创新三等奖（证书编号2018381），推荐单位为华东师范大学。
 
