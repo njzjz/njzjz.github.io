@@ -28,6 +28,9 @@ social:
   Twitter: https://twitter.com/njzjz || fab fa-twitter
   Zhihu: https://www.zhihu.com/people/zeng-jin-zhe || fab fa-zhihu
   Weibo: https://weibo.com/njzjz || fab fa-weibo
+social_icons:
+  icons_only: true
+  transition: true
 follow_me:
   Twitter: https://twitter.com/njzjz || twitter
   WeChat: https://open.weixin.qq.com/qr/code?username=gh_c3cec7062858 || wechat
