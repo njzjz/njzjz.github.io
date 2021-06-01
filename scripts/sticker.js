@@ -9,11 +9,11 @@ const icons = fs.listDirSync(dir).filter(fn => fn.endsWith(".png"))
   .map(fn => fn.slice(0, -4));
 
 hexo.on('generateBefore', function () {
-  hexo.config.waline.emoji = {
+  hexo.config.waline.emoji = [{
     name: "Heo",
     folder: npm_url(name, version, idir),
     type: "png",
     icon: "我看好你",
     items: icons,
-  };
+  }];
 });
