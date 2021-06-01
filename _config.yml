@@ -172,6 +172,7 @@ waline:
   enable: true
   serverURL: https://comment.njzjz.win
   visitor: true
+  dark: auto
 pub_author:
   - Jinzhe Zeng
   - Jin-Zhe Zeng
