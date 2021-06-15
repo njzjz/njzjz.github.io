@@ -1806,11 +1806,6 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-ejs@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-1.0.0.tgz#c9c60a48a46ee452fb32a71c317b95e5aa1fcb3d"
-  integrity sha1-ycYKSKRu5FL7MqccMXuV5aofyz0=
-
 ejs@^2.6.1:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
@@ -2285,13 +2280,6 @@ hexo-pagination@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-1.0.0.tgz#c9c0ca3665267b9e9d0a89fc3edcaf3276907dc1"
   integrity sha512-miEVFgxchPr2qNWxw0JWpJ9R/Yaf7HjHBZVjvCCcqfbsLyYtCvIfJDxcEwz1sDOC/fLzYPqNnhUI73uNxBHRSA==
-
-hexo-pdf@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/hexo-pdf/-/hexo-pdf-1.1.1.tgz#3839e980b49271149ac12c1ef9d2a017b4cb4f26"
-  integrity sha1-ODnpgLSScRSawSwe+dKgF7TLTyY=
-  dependencies:
-    ejs "^1.0.0"
 
 hexo-reference@1.0.4:
   version "1.0.4"
