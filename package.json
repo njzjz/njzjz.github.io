@@ -55,6 +55,7 @@
     "hexo-yam": "5.0.0"
   },
   "resolutions": {
-    "gifsicle": "4.0.1"
+    "hexo-util": "2.5.0",
+	"css-select": "4.1.3"
   }
 }
