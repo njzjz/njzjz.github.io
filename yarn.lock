@@ -2186,7 +2186,7 @@ hexo-front-matter@^2.0.0:
   dependencies:
     js-yaml "^3.13.1"
 
-hexo-fs@3.1.0, hexo-fs@^3.0.1, hexo-fs@^3.1.0:
+hexo-fs@^3.0.1, hexo-fs@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-3.1.0.tgz#2052ff72c68cda2c577a87aa0ea7980ae503fa99"
   integrity sha512-SfoDH7zlU9Iop+bAfEONXezbNIkpVX1QqjNCBYpapilZR+xVOCfTEdlNixanrKBbLGPb2fXqrdDBFgrKuiVGQQ==
