@@ -1401,28 +1401,7 @@ Complex reaction processes in combustion unraveled by neural network-based molec
 9月，Darrin York让我申请NVIDIA Graduate Fellowship（最后并未申到），为了完善简历，我赶紧把这篇文章发到ChemRxiv上，并投了出去。最后ACS旗下的Energy &amp; Fuels同意审稿。10月下旬，审稿意见返回，两个小修，一个大修。那时，刚好第二篇文章发表，于是我光顾着兴奋，11月下旬才把文章修回，一周后便顺利接受。
 至此，基于深度学习模拟燃烧反应的方法开发算是告一段落了，基于这一方法，可以完成进一步的应用，发几篇大文章。
 Exploring the Chemical Space of Linear Alkane Pyrolysis via Deep Potential GENeratorJinzhe Zeng, Linfeng Zhang, Han Wang, Tong ZhuEnergy & Fuels, 2021, 35 (1), 762–769.DOI: 10.1021/acs.energyfuels.0c03211
-]]></content><categories><category>Chemistry</category></categories><tags><tag>papers</tag></tags></entry><entry><title>【圆周率日】含圆周率的化学公式</title><url>/2017/03/13/pi/</url><content><![CDATA[本文于2017年3月14日发表于微信公众号,查看原文
-
-今天是圆周率日。很多化学公式都带有圆周率，例如：
-
-
-气体分子的能量分布：
-
-气体分子的速率分布：
-
-气体分子的平均速率：
-
-约化普朗克常数（及很多含约化普朗克常数的公式）：
-
-一维势箱的本征函数：
-
-一维谐振子的波函数：
-
-正态分布：
-
-最密堆积（面心立方最密堆积和六方最密堆积）的空间利用率：
-
-]]></content><categories><category>Chemistry</category></categories></entry><entry><title>用QQ监控PBS任务</title><url>/2018/08/06/qqpbs/</url><content><![CDATA[本文于2018年8月20日发表于知乎专栏,查看原文
+]]></content><categories><category>Chemistry</category></categories><tags><tag>papers</tag></tags></entry><entry><title>用QQ监控PBS任务</title><url>/2018/08/06/qqpbs/</url><content><![CDATA[本文于2018年8月20日发表于知乎专栏,查看原文
 本文于2018年8月7日发表于微信公众号,查看原文
 
 环境准备1.安装酷Q和HTTP API插件酷Q：https://cqp.cc/CoolQ HTTP API 插件：https://github.com/richardchien/coolq-http-api将HTTP API插件放置于app文件夹中，启动并登陆酷Q，在菜单中启用插件。HTTP API插件的默认地址为http://localhost:5700/
@@ -1455,6 +1434,27 @@ nohup python monitor.py &gt;/dev/null &amp;
 
 
 即可定时发送任务情况。
+]]></content><categories><category>Chemistry</category></categories></entry><entry><title>【圆周率日】含圆周率的化学公式</title><url>/2017/03/13/pi/</url><content><![CDATA[本文于2017年3月14日发表于微信公众号,查看原文
+
+今天是圆周率日。很多化学公式都带有圆周率，例如：
+
+
+气体分子的能量分布：
+
+气体分子的速率分布：
+
+气体分子的平均速率：
+
+约化普朗克常数（及很多含约化普朗克常数的公式）：
+
+一维势箱的本征函数：
+
+一维谐振子的波函数：
+
+正态分布：
+
+最密堆积（面心立方最密堆积和六方最密堆积）的空间利用率：
+
 ]]></content><categories><category>Chemistry</category></categories></entry><entry><title>Rutgers University软件资源整理</title><url>/2020/08/05/rutgerssoftware/</url><content><![CDATA[本文于2020年8月5日发表于知乎专栏,查看原文
 本文于2020年8月8日发表于微信公众号,查看原文
 
