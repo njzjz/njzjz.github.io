@@ -2343,10 +2343,10 @@ hexo-tag-publications@0.1.19:
     hexo-util "^2.4.0"
     jsdelivr_url "^0.0.1"
 
-hexo-theme-next@8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.6.0.tgz#b558fcb14ed413677d0ad5a8dd75604425ca1b97"
-  integrity sha512-XywdvastAU++W/XBJ4xGxm49LRH4+vIW9ZOENCzWc9oPXlL/xqw4BdPtZZhxIHa7Mr7R7wxAAO4S3+qPKCIPPg==
+hexo-theme-next@8.6.1:
+  version "8.6.1"
+  resolved "https://registry.yarnpkg.com/hexo-theme-next/-/hexo-theme-next-8.6.1.tgz#62953258cc7b23166636779c2ccd2982c91ecd4c"
+  integrity sha512-f/0zWR2dU4tNfuKWi9xIMpffVl8mc4FaA50zsY5OYuS52aaFeP8BOvWFH44mBB8GD2s11b/Pw9d9jWeEsCXx6w==
 
 hexo-util@2.4.0, hexo-util@2.5.0, hexo-util@^0.6.3, hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.2.0, hexo-util@^2.4.0:
   version "2.5.0"
