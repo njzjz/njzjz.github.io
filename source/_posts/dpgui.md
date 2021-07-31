@@ -79,7 +79,7 @@ json.dumps(some_arg, cls=ArgumentEncoder)
 ```
 
 得到了JSON文件后，这周一，我就把目光转向web-based App。2021年了，我们当然使用目前最流行的前端框架：Vue。恰好，这种动态的数据非常符合Vue的数据驱动视图的理念。在上面示例的JSON文件中，参数是个层层嵌套的形式，而我们很容易想到，Vue框架的组件（component）也可以层层嵌套，正好可以对应一个`Argument`或者`Variant`类。于是，一个`DargsItem.vue`的组件便诞生了：
-```vue
+```html
 <!-- 节选了重要的逻辑代码 -->
 <template>
   <!-- list -->
