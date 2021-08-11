@@ -28,7 +28,7 @@ jobs:
     - run: yarn install
     - run: yarn build
       if: github.ref != 'refs/heads/hexo'
-    - run: yarn build && yarn bundlesize
+    - run: yarn build
       if: github.ref == 'refs/heads/hexo'
       env:
         CSS_COMMIT: master
