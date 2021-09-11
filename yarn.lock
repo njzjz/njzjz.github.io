@@ -2358,10 +2358,10 @@ hexo-generator-index@2.0.0:
     hexo-pagination "1.0.0"
     timsort "^0.3.0"
 
-hexo-generator-searchdb@1.3.4:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.3.4.tgz#0b0679b7c0c6376fa8e139afb135cf84ae6af1ad"
-  integrity sha512-ygcycC64qVW7c10U6o5HDxLsK7gW8D/KMZD0LJG/ZDNkVT/vten0r0cLBro0sF3ea8ut7aSKjochSkC7jUgsQg==
+hexo-generator-searchdb@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.4.0.tgz#e6774378d841cbaa6ccbc8206ce14a492b3a115e"
+  integrity sha512-TkwxlqxptRIXHwYeI/V32O2TxXkfqWa37Rrmg347Q+YT1eqk7vQ31vR4zLudBAcSr85ST0VUedYd1/gLBSJl9Q==
   dependencies:
     nunjucks "^3.2.2"
 
