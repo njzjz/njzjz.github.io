@@ -122,6 +122,7 @@ search:
 
 cdn: 
   use_webp: true
+  native: true
   exclude_domains:
     - https://images.weserv.nl/
     - https://img.njzjz.win/
