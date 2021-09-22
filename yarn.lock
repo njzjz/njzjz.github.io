@@ -3988,10 +3988,10 @@ stable@^0.1.8:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-sticker-heo@0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/sticker-heo/-/sticker-heo-0.11.0.tgz#9eb7e2b30bcad796a9dde31a1972944dd824deef"
-  integrity sha512-kXy2wLVh26XdyhTn2mCCiEzlEQ5i4t3cG37qotQdoAR4c/qNXEcU+iLCAdphN7rBeSkJjYzA7wyGsnZ4jIQ0XA==
+sticker-heo@0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/sticker-heo/-/sticker-heo-0.12.0.tgz#bfe6d3fbbab805714a82ed3187f443a4bb54f2e4"
+  integrity sha512-9614ngCzwXPPh82nyEgI6gCnZu9USwugvaCLW0bDT2YM4OWK0aiiAmPubafIRpj7s1ejcSdbLKh/v+1PdVl0uw==
 
 string-format@^2.0.0:
   version "2.0.0"
