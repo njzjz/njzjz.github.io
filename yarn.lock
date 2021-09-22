@@ -2370,10 +2370,10 @@ hexo-i18n@^1.0.0:
   dependencies:
     sprintf-js "^1.0.3"
 
-hexo-image-cloudflare@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/hexo-image-cloudflare/-/hexo-image-cloudflare-0.3.1.tgz#7d16b8aafec560b1472e1ba72d5d11f63ab9b022"
-  integrity sha512-l/DFFHu4oL2lINcbM9MogD8VmdU62nJY8BD1nzPh8inxa461uCOzyp3CJkHh7AtzY6L3fdErV+ZBSED334SbrQ==
+hexo-image-cloudflare@0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/hexo-image-cloudflare/-/hexo-image-cloudflare-0.3.2.tgz#0d36bfdaaaaf75412ce50d54ce03aa9e1a551c87"
+  integrity sha512-8vehyrztvmbagsuNIMF9i45XJPMb6MLvRiwCNpvtUAcXabzlNaZwNaCg2NgQCObdYKMj8eW1DtC6skIKV2jpcg==
   dependencies:
     hexo-util "^2.2.0"
     html-tag "^2.0.0"
