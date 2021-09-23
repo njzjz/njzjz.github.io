@@ -96,3 +96,5 @@ vendors:
 nprogress:
   enable: true
 preconnect: true
+google_analytics:
+  tracking_id: G-E1TJFFMGRY
