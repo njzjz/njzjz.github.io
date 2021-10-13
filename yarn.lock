@@ -1225,9 +1225,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jiangtj/hexo-next-pwa@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@jiangtj/hexo-next-pwa@npm:3.0.1"
+"@jiangtj/hexo-next-pwa@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@jiangtj/hexo-next-pwa@npm:3.0.2"
   dependencies:
     chalk: ^4.1.2
     js-yaml: ^4.0.0
@@ -1235,7 +1235,7 @@ __metadata:
     lodash: ^4.17.20
     pretty-hrtime: ^1.0.3
     workbox-build: ^6.2.4
-  checksum: b1a8ec42d46404d5e9ff9dd250874c4e06294182b3bd537418c8bdd948c514e826492bc7daac5216f25d82a29516ddb84b57ae207cbf12134dae1fe79962d96f
+  checksum: 76790bbccedc65e95b8cbedaa4dd1c6a93c7052112ed444dcd26ea422b1d945d9ff9b8918f489a080f8fcf7612f7b5abc68355a50774edfbfb4c2e8e6f3095c1
   languageName: node
   linkType: hard
 
@@ -3429,7 +3429,7 @@ fsevents@~2.3.2:
   version: 0.0.0-use.local
   resolution: "hexo-site@workspace:."
   dependencies:
-    "@jiangtj/hexo-next-pwa": 3.0.1
+    "@jiangtj/hexo-next-pwa": 3.0.2
     "@njzjz/hexo-sitemap": 0.0.2
     "@njzjz/icons": 0.0.3
     "@njzjz/preview-cfpages": 0.0.6
