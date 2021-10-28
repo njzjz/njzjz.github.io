@@ -8,7 +8,7 @@ tags:
 ---
 两周前，经过一周的努力，我终于成功编译了TensorFlow 2.5。在TF 2.5中，我亲自参与的[#43951](https://github.com/tensorflow/tensorflow/pull/43951)得到了修复。但众所周知，TensorFlow每个新版本都会更新一些bug，TF2.5更新了6个新bug！<!--more-->
 
-* [#41926](https://github.com/tensorflow/tensorflow/issues/43951)：这是TF2.3就提出的issue，但是以无法复现为由直接close了。于是到了TF2.5，这个bug仍然存在。#41926被close后，有人在里面给出了patch，但是需要注意的是TF2.5将`com_google_absl_fix_mac_and_nvcc_build.patch`移动到了`tensorflow/third_party/absl`。
+* [#41926](https://github.com/tensorflow/tensorflow/issues/41926)：这是TF2.3就提出的issue，但是以无法复现为由直接close了。于是到了TF2.5，这个bug仍然存在。#41926被close后，有人在里面给出了patch，但是需要注意的是TF2.5将`com_google_absl_fix_mac_and_nvcc_build.patch`移动到了`tensorflow/third_party/absl`。
 * [#48652](https://github.com/tensorflow/tensorflow/issues/48652)：用CUDA 11.3编译时遇到的低级bug。可能过于低级，所以直接被[@c8e4f2a](https://github.com/tensorflow/tensorflow/commit/c8e4f2aa633c4f9b803fdeb5d8463f002387a2bf)解决掉了。TF 2.6已经包含了这个补丁。
 * [#48393](https://github.com/tensorflow/tensorflow/pull/48393)：用CUDA 10编译时可能遇到的低级bug。奇怪的是，这个PR过了几个月都没有人处理。
 * [#48588](https://github.com/tensorflow/tensorflow/pull/48588)：CUDA 10编译时的bug。已merge，已进入2.6分支。
