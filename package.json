@@ -50,7 +50,7 @@
   "devDependencies": {
     "@njzjz/preview-cfpages": "0.0.6",
     "bundlesize": "0.18.1",
-    "hexo-yam": "5.0.0"
+    "hexo-yam": "6.0.0"
   },
   "resolutions": {
     "hexo-util": "2.5.0",

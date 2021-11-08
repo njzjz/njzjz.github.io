@@ -2510,7 +2510,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"decamelize@npm:^1.1.0":
+"decamelize@npm:^1.1.0, decamelize@npm:^1.2.0":
   version: 1.2.0
   resolution: "decamelize@npm:1.2.0"
   checksum: ad8c51a7e7e0720c70ec2eeb1163b66da03e7616d7b98c9ef43cce2416395e84c1e9548dd94f5f6ffecfee9f8b94251fc57121a8b021f2ff2469b2bae247b8aa
@@ -2672,6 +2672,18 @@ __metadata:
   version: 0.1.2
   resolution: "duplexer@npm:0.1.2"
   checksum: 62ba61a830c56801db28ff6305c7d289b6dc9f859054e8c982abd8ee0b0a14d2e9a8e7d086ffee12e868d43e2bbe8a964be55ddbd8c8957714c87373c7a4f9b0
+  languageName: node
+  linkType: hard
+
+"duplexify@npm:^4.1.1":
+  version: 4.1.2
+  resolution: "duplexify@npm:4.1.2"
+  dependencies:
+    end-of-stream: ^1.4.1
+    inherits: ^2.0.3
+    readable-stream: ^3.1.1
+    stream-shift: ^1.0.0
+  checksum: 964376c61c0e92f6ed0694b3ba97c84f199413dc40ab8dfdaef80b7a7f4982fcabf796214e28ed614a5bc1ec45488a29b81e7d46fa3f5ddf65bcb118c20145ad
   languageName: node
   linkType: hard
 
@@ -2845,7 +2857,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"escape-string-regexp@npm:^1.0.5":
+"escape-string-regexp@npm:^1.0.3, escape-string-regexp@npm:^1.0.5":
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5"
   checksum: 6092fda75c63b110c706b6a9bfde8a612ad595b628f0bd2147eea1d3406723020810e591effc7db1da91d80a71a737a313567c5abb3813e8d9c71f4aa595b410
@@ -3562,7 +3574,7 @@ fsevents@~2.3.2:
     hexo-tag-publications: 0.2.2
     hexo-theme-next: 8.8.1
     hexo-word-counter: 0.0.3
-    hexo-yam: 5.0.0
+    hexo-yam: 6.0.0
     jsdelivr_url: 0.0.1
     sticker-heo: 0.13.0
   languageName: unknown
@@ -3646,17 +3658,17 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-yam@npm:5.0.0":
-  version: 5.0.0
-  resolution: "hexo-yam@npm:5.0.0"
+"hexo-yam@npm:6.0.0":
+  version: 6.0.0
+  resolution: "hexo-yam@npm:6.0.0"
   dependencies:
     clean-css: ^5.1.2
     html-minifier: ^4.0.0
     micromatch: ^4.0.2
-    minify-xml: ^2.1.1
-    svgo: ^2.3.0
+    minify-xml: ^3.2.0
+    svgo: ^2.4.0
     terser: ^5.3.0
-  checksum: c2b7a4e9e3dd02cf230fe861d75f2bf8261544574c0812d2c1ab2180dfe14952363c7cae433ecc88f48e690a8020db2634806a9419bea7e4524f69caa97bfe29
+  checksum: 62a8cc3bc0611a18b188bfbab0efbc419c56fa34d2d4716d1e21343dba4b3ac9f818bbb660fc18cc2332def8941cfa38cfcb32fddb854ab0e42c2fd43e0ad5a2
   languageName: node
   linkType: hard
 
@@ -4570,12 +4582,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"meow@npm:^8.1.0":
-  version: 8.1.2
-  resolution: "meow@npm:8.1.2"
+"meow@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "meow@npm:9.0.0"
   dependencies:
     "@types/minimist": ^1.2.0
     camelcase-keys: ^6.2.2
+    decamelize: ^1.2.0
     decamelize-keys: ^1.1.0
     hard-rejection: ^2.1.0
     minimist-options: 4.1.0
@@ -4585,7 +4598,7 @@ fsevents@~2.3.2:
     trim-newlines: ^3.0.0
     type-fest: ^0.18.0
     yargs-parser: ^20.2.3
-  checksum: bc23bf1b4423ef6a821dff9734406bce4b91ea257e7f10a8b7f896f45b59649f07adc0926e2917eacd8cf1df9e4cd89c77623cf63dfd0f8bf54de07a32ee5a85
+  checksum: 99799c47247f4daeee178e3124f6ef6f84bde2ba3f37652865d5d8f8b8adcf9eedfc551dd043e2455cd8206545fd848e269c0c5ab6b594680a0ad4d3617c9639
   languageName: node
   linkType: hard
 
@@ -4654,14 +4667,17 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"minify-xml@npm:^2.1.1":
-  version: 2.5.0
-  resolution: "minify-xml@npm:2.5.0"
+"minify-xml@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "minify-xml@npm:3.2.0"
   dependencies:
-    meow: ^8.1.0
+    meow: ^9.0.0
+    progress: ^2.0.3
+    pumpify: ^2.0.1
+    replacestream: ^4.0.3
   bin:
     minify-xml: cli.js
-  checksum: 46b04e836f80d135d9443d0b9169c2ff5699af9a856602c6b3859974174d14261b47ef912bc4bef93e1d1cfa7d80fd52a5f13c2764677b74eb0eb68f3d898519
+  checksum: 0b3bb6518bd8a20ff07828c147316822ece1493c8b02c58c951a679424869ba480f2163aec1b3168216f4928d689d4e2c870eeac44d34a3a88920a60c07baf22
   languageName: node
   linkType: hard
 
@@ -5065,7 +5081,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"object-assign@npm:^4.1.0":
+"object-assign@npm:^4.0.1, object-assign@npm:^4.1.0":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
   checksum: fcc6e4ea8c7fe48abfbb552578b1c53e0d194086e2e6bbbf59e0a536381a292f39943c6e9628af05b5528aa5e3318bb30d6b2e53cadaf5b8fe9e12c4b69af23f
@@ -5354,6 +5370,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"progress@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "progress@npm:2.0.3"
+  checksum: f67403fe7b34912148d9252cb7481266a354bd99ce82c835f79070643bb3c6583d10dbcfda4d41e04bbc1d8437e9af0fb1e1f2135727878f5308682a579429b7
+  languageName: node
+  linkType: hard
+
 "promise-inflight@npm:^1.0.1":
   version: 1.0.1
   resolution: "promise-inflight@npm:1.0.1"
@@ -5385,6 +5408,17 @@ fsevents@~2.3.2:
     end-of-stream: ^1.1.0
     once: ^1.3.1
   checksum: e42e9229fba14732593a718b04cb5e1cfef8254544870997e0ecd9732b189a48e1256e4e5478148ecb47c8511dca2b09eae56b4d0aad8009e6fac8072923cfc9
+  languageName: node
+  linkType: hard
+
+"pumpify@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "pumpify@npm:2.0.1"
+  dependencies:
+    duplexify: ^4.1.1
+    inherits: ^2.0.3
+    pump: ^3.0.0
+  checksum: cfc96f5307ee828ef8e6eca9fe9e1ae1de0a23ca55688bfe71ea376bc126418073dab870f02b433617f421c4545726b39e31295fce9a99b78bda5f0e527a7c11
   languageName: node
   linkType: hard
 
@@ -5455,7 +5489,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:^2.0.6":
+"readable-stream@npm:^2.0.2, readable-stream@npm:^2.0.6":
   version: 2.3.7
   resolution: "readable-stream@npm:2.3.7"
   dependencies:
@@ -5578,6 +5612,17 @@ fsevents@~2.3.2:
   version: 0.2.7
   resolution: "relateurl@npm:0.2.7"
   checksum: 5891e792eae1dfc3da91c6fda76d6c3de0333a60aa5ad848982ebb6dccaa06e86385fb1235a1582c680a3d445d31be01c6bfc0804ebbcab5aaf53fa856fde6b6
+  languageName: node
+  linkType: hard
+
+"replacestream@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "replacestream@npm:4.0.3"
+  dependencies:
+    escape-string-regexp: ^1.0.3
+    object-assign: ^4.0.1
+    readable-stream: ^2.0.2
+  checksum: ab9a48193eed4f30e24a659ed59235d96b0244b0b9e1dda0765483ea4d02f942172323ddb74395e82c1d03d2cbff983c6f72283d9d7184d0568943f8722411f1
   languageName: node
   linkType: hard
 
@@ -6065,6 +6110,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"stream-shift@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "stream-shift@npm:1.0.1"
+  checksum: 59b82b44b29ec3699b5519a49b3cedcc6db58c72fb40c04e005525dfdcab1c75c4e0c180b923c380f204bed78211b9bad8faecc7b93dece4d004c3f6ec75737b
+  languageName: node
+  linkType: hard
+
 "string-format@npm:^2.0.0":
   version: 2.0.0
   resolution: "string-format@npm:2.0.0"
@@ -6261,7 +6313,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"svgo@npm:^2.3.0":
+"svgo@npm:^2.4.0":
   version: 2.8.0
   resolution: "svgo@npm:2.8.0"
   dependencies:
