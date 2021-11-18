@@ -3564,7 +3564,7 @@ fsevents@~2.3.2:
     hexo-word-counter: 0.0.3
     hexo-yam: 5.0.0
     jsdelivr_url: 0.0.1
-    sticker-heo: 0.13.0
+    sticker-heo: 0.14.0
   languageName: unknown
   linkType: soft
 
@@ -6058,10 +6058,10 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"sticker-heo@npm:0.13.0":
-  version: 0.13.0
-  resolution: "sticker-heo@npm:0.13.0"
-  checksum: e98af61d3219f23884148467c7109bb1131eaa02adf11f877c756f56cef6d04ea2e91482b042ec4c9f2055d32ef8f880e4e05d720bf2f0638ce96d0839215055
+"sticker-heo@npm:0.14.0":
+  version: 0.14.0
+  resolution: "sticker-heo@npm:0.14.0"
+  checksum: c191bfac3eba6028cdaecf656978b67e1e8028b8f431af4fb8d001426d135f1b9a5797c7939cb982586f34e837a74308d262038edbc1e0ccd5f65902672b07de
   languageName: node
   linkType: hard
 
