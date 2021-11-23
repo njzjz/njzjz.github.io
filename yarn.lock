@@ -3432,10 +3432,12 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-hide-posts@npm:0.1.1":
-  version: 0.1.1
-  resolution: "hexo-hide-posts@npm:0.1.1"
-  checksum: 18e7d8fa2e65b6c14cf668a1efacbc54b2c9b0c6741f68ff0421732958fd37fa9eef1cb8212e2ae4ebcbe6899481d0f017fc6cc3432cad13b0cce5175e8d1c86
+"hexo-hide-posts@npm:0.2.0":
+  version: 0.2.0
+  resolution: "hexo-hide-posts@npm:0.2.0"
+  dependencies:
+    chalk: ^4.1.2
+  checksum: bc2985e956e642c23592cf54218cd3324f0736bc7907013dd0bf41e352f00cafc4c44372c941be6f194a5982b375a0c4ac2942c64a70e8898fb768bbbd04ee56
   languageName: node
   linkType: hard
 
@@ -3550,7 +3552,7 @@ fsevents@~2.3.2:
     hexo-generator-searchdb: 1.4.0
     hexo-generator-sitemap: 2.1.0
     hexo-generator-tag: 1.0.0
-    hexo-hide-posts: 0.1.1
+    hexo-hide-posts: 0.2.0
     hexo-image-cloudflare: 0.3.2
     hexo-reference: 1.0.4
     hexo-renderer-ejs: 1.0.0
