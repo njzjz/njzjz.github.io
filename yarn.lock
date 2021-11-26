@@ -2682,13 +2682,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ejs@npm:^2.6.1":
-  version: 2.7.4
-  resolution: "ejs@npm:2.7.4"
-  checksum: a1d2bfc7d1f0b39e99ae19b20c9469a25aeddba1ffc225db098110b18d566f73772fcdcc740b108cfda7452276f67d7b64eb359f90285414c942f4ae70713371
-  languageName: node
-  linkType: hard
-
 "ejs@npm:^3.1.6":
   version: 3.1.6
   resolution: "ejs@npm:3.1.6"
@@ -3486,12 +3479,12 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-renderer-ejs@npm:1.0.0":
-  version: 1.0.0
-  resolution: "hexo-renderer-ejs@npm:1.0.0"
+"hexo-renderer-ejs@npm:2.0.0":
+  version: 2.0.0
+  resolution: "hexo-renderer-ejs@npm:2.0.0"
   dependencies:
-    ejs: ^2.6.1
-  checksum: b2f1efc7f2b659a62442d045af3b337c291c4d52fc1ff35e4808f76401365b634fabd577b7bea423238eabab0a1d28392eb60489710904c5edc7d92c27f71cbf
+    ejs: ^3.1.6
+  checksum: 96194cbd5ad11ab2346ee0d8f64723934db80a927d8df4ee48d0c18f2b8171a405bafdebe292c37dff0455ddf27b93915a65e4711e47cca8aeab9d4947054ce2
   languageName: node
   linkType: hard
 
@@ -3555,7 +3548,7 @@ fsevents@~2.3.2:
     hexo-hide-posts: 0.2.0
     hexo-image-cloudflare: 0.3.2
     hexo-reference: 1.0.4
-    hexo-renderer-ejs: 1.0.0
+    hexo-renderer-ejs: 2.0.0
     hexo-renderer-marked: 4.1.0
     hexo-renderer-stylus: 2.0.1
     hexo-server: 2.0.0
