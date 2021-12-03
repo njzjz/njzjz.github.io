@@ -1272,10 +1272,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@njzjz/icons@npm:0.0.3":
-  version: 0.0.3
-  resolution: "@njzjz/icons@npm:0.0.3"
-  checksum: 9bf63eed4da9f16877b5a12aef00528b8c716c9e6a6dd2b77dfd1946c282fd810a0f36d7c022baf2a4e5d7f963533eeef5e154f93235037600579962ab6c089c
+"@njzjz/icons@npm:0.0.4":
+  version: 0.0.4
+  resolution: "@njzjz/icons@npm:0.0.4"
+  checksum: c88bf3edef05cb2ebc66c33c68377027dd158d6419c0a08821b261d2e397febaa8f914c0db47b61b51086a2141cd2e4b58844f826897dde3adbcb2ee67747922
   languageName: node
   linkType: hard
 
@@ -3575,7 +3575,7 @@ fsevents@~2.3.2:
   dependencies:
     "@jiangtj/hexo-next-pwa": 3.0.2
     "@njzjz/hexo-sitemap": 0.0.2
-    "@njzjz/icons": 0.0.3
+    "@njzjz/icons": 0.0.4
     "@njzjz/preview-cfpages": 0.0.6
     "@waline/hexo-next": 2.0.6
     bundlesize: 0.18.1
