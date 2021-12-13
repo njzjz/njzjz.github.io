@@ -1301,12 +1301,12 @@ __metadata:
   linkType: hard
 
 "@npmcli/fs@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@npmcli/fs@npm:1.0.0"
+  version: 1.1.0
+  resolution: "@npmcli/fs@npm:1.1.0"
   dependencies:
     "@gar/promisify": ^1.0.1
     semver: ^7.3.5
-  checksum: f2b4990107dd2a5b18794c89aaff6f62f3a67883d49a20602fdfc353cbc7f8c5fd50edeffdc769e454900e01b8b8e43d0b9eb524d00963d69f3c829be1a2e8ac
+  checksum: e435b883b4f8da8c95a820f458cabb7d86582406eed5ad79fc689000d3e2df17e1f475c4903627272c001357cabc70d8b4c62520cbdae8cfab1dfdd51949f408
   languageName: node
   linkType: hard
 
@@ -1436,9 +1436,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 16.11.11
-  resolution: "@types/node@npm:16.11.11"
-  checksum: 1c472bd63f23ca0e4effc96e6e0c693b83b027f613a1f41b6d1bd7791f65ce171a351e0a5c92575cb59e84ad0a930875397bfbbb91a7c925ddbbb558f7461af8
+  version: 16.11.12
+  resolution: "@types/node@npm:16.11.12"
+  checksum: a3feb346d61a56f5a137c29bb8c63cfa3cc02e184b9dffdc18ef1528dcce55596e570575215a2e39e6ce69343eeb2a5ba71c271938f1dc8db4cc393902855412
   languageName: node
   linkType: hard
 
@@ -2087,9 +2087,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001280":
-  version: 1.0.30001284
-  resolution: "caniuse-lite@npm:1.0.30001284"
-  checksum: 67196113186dc38dc579b8d28c660ab45465594d4bb55a4e263779525ed3c3ed208d369775469faf706e9f68ef7071b14e4890c197406d79c8b936f6fabac458
+  version: 1.0.30001286
+  resolution: "caniuse-lite@npm:1.0.30001286"
+  checksum: 04de4742552d4aeb713677b40693d9ac1fbd259573e0ff739565278bcecb6f398f3227546a4e930f4d5cf95b61458f4a53c9c1f90f5b0c4f6063b32e4c54b89e
   languageName: node
   linkType: hard
 
@@ -2342,12 +2342,12 @@ __metadata:
   linkType: hard
 
 "core-js-compat@npm:^3.18.0, core-js-compat@npm:^3.19.1":
-  version: 3.19.2
-  resolution: "core-js-compat@npm:3.19.2"
+  version: 3.19.3
+  resolution: "core-js-compat@npm:3.19.3"
   dependencies:
     browserslist: ^4.18.1
     semver: 7.0.0
-  checksum: 6b9cca0dc341512c3494955ab87cf7e091dd98503af2b432979c6467385804d03cec9598691c0560c5ede992c0b8ee2ce3fc1af4062c31f5731da70211b61544
+  checksum: 4f00f734d8745bcd111e41c79d6195939f6b29951c83cc83f4d50a7d352329367d164b0985b947f83313d7dd31d6ee7b1e20a1d3d8ae7566df744ad914fc4e16
   languageName: node
   linkType: hard
 
@@ -2677,9 +2677,9 @@ __metadata:
   linkType: hard
 
 "dompurify@npm:^2.3.0":
-  version: 2.3.3
-  resolution: "dompurify@npm:2.3.3"
-  checksum: 947e3661681bd183aae1cd08f991b14c6aa41fd188f6c801c5e916c2dc4575bbefbaa121ed06dbe0cb0f595545527d588a44b53bfc35d1cbb898c214dc0d7930
+  version: 2.3.4
+  resolution: "dompurify@npm:2.3.4"
+  checksum: 65d50e62b7c5da611b3562d71a1fbcf0a951ea47844daf17c097acb209ea4d039a602ee0be37c314b998102e4ab09223b0fe3f4575eeda7240b01aeabf212415
   languageName: node
   linkType: hard
 
@@ -2732,9 +2732,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.896":
-  version: 1.4.11
-  resolution: "electron-to-chromium@npm:1.4.11"
-  checksum: 5dc6dafa8afd73ec451aced78570c75bd39abca6c7bb464664b886566db0a532f182a86aa3ec53948b5f4d15e3ed0dbeed7d7ddeb6fb18e73875f114aa1c9847
+  version: 1.4.16
+  resolution: "electron-to-chromium@npm:1.4.16"
+  checksum: 97ec768ba33e41af661a7cf42234ddbaa39d75284f960309c079614b85af758e047360e5c4488a407982cfd050c7221ec77bf686e4372b2629c70b8869ffbf3f
   languageName: node
   linkType: hard
 
@@ -3019,12 +3019,12 @@ __metadata:
   linkType: hard
 
 "follow-redirects@npm:^1.14.0":
-  version: 1.14.5
-  resolution: "follow-redirects@npm:1.14.5"
+  version: 1.14.6
+  resolution: "follow-redirects@npm:1.14.6"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: f004a76b2ee3a849772c2816e30928253bf47537b0f00184d89f4966413add96a228a4d96ca8c702bc045a683c52c2ba41545c915cc1a5e33bf8fd9d07b59aee
+  checksum: 7fcdb089a733d2aa39041880790e9f772df009fcd0b243fee7e10acf0e14a8dab5208cf79eb1de35b9cc6033d4dde7f95becadfaa360c50d460b4c730b375e80
   languageName: node
   linkType: hard
 
@@ -4105,9 +4105,9 @@ fsevents@~2.3.2:
   linkType: hard
 
 "is-negative-zero@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "is-negative-zero@npm:2.0.1"
-  checksum: a46f2e0cb5e16fdb8f2011ed488979386d7e68d381966682e3f4c98fc126efe47f26827912baca2d06a02a644aee458b9cba307fb389f6b161e759125db7a3b8
+  version: 2.0.2
+  resolution: "is-negative-zero@npm:2.0.2"
+  checksum: f3232194c47a549da60c3d509c9a09be442507616b69454716692e37ae9f37c4dea264fb208ad0c9f3efd15a796a46b79df07c7e53c6227c32170608b809149a
   languageName: node
   linkType: hard
 
@@ -4214,11 +4214,11 @@ fsevents@~2.3.2:
   linkType: hard
 
 "is-weakref@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "is-weakref@npm:1.0.1"
+  version: 1.0.2
+  resolution: "is-weakref@npm:1.0.2"
   dependencies:
-    call-bind: ^1.0.0
-  checksum: fdafb7b955671dd2f9658ff47c86e4025c0650fc68a3542a40e5a75898a763b1abd6b1e1f9f13207eed49541cdd76af67d73c44989ea358b201b70274cf8f6c1
+    call-bind: ^1.0.2
+  checksum: 95bd9a57cdcb58c63b1c401c60a474b0f45b94719c30f548c891860f051bc2231575c290a6b420c6bc6e7ed99459d424c652bd5bf9a1d5259505dc35b4bf83de
   languageName: node
   linkType: hard
 
@@ -4798,11 +4798,11 @@ fsevents@~2.3.2:
   linkType: hard
 
 "minipass@npm:^3.0.0, minipass@npm:^3.1.0, minipass@npm:^3.1.1, minipass@npm:^3.1.3":
-  version: 3.1.5
-  resolution: "minipass@npm:3.1.5"
+  version: 3.1.6
+  resolution: "minipass@npm:3.1.6"
   dependencies:
     yallist: ^4.0.0
-  checksum: 8b410b9a5bd99ceb9d63c895891d1c30511791fdc7b717da4cf9403ca2419bc57af63b8485ffdaa421ef6cff56f63ae0b2f5135f8df502d21296e8c91460ebf9
+  checksum: 57a04041413a3531a65062452cb5175f93383ef245d6f4a2961d34386eb9aa8ac11ac7f16f791f5e8bbaf1dfb1ef01596870c88e8822215db57aa591a5bb0a77
   languageName: node
   linkType: hard
 
@@ -5139,9 +5139,9 @@ fsevents@~2.3.2:
   linkType: hard
 
 "object-inspect@npm:^1.11.0, object-inspect@npm:^1.9.0":
-  version: 1.11.0
-  resolution: "object-inspect@npm:1.11.0"
-  checksum: 8c64f89ce3a7b96b6925879ad5f6af71d498abc217e136660efecd97452991216f375a7eb47cb1cb50643df939bf0c7cc391567b7abc6a924d04679705e58e27
+  version: 1.11.1
+  resolution: "object-inspect@npm:1.11.1"
+  checksum: 98bc8e1e108b193cfb5d9bfb71b79f0e19d187aca4f9a3f28ea0e946c0011a74f9fc2ada83ecf2216b3e69fe6bf697fda8230ed84a6ca5680887e7bb73cf34ad
   languageName: node
   linkType: hard
 
@@ -5768,8 +5768,8 @@ fsevents@~2.3.2:
   linkType: hard
 
 "rollup@npm:^2.43.1":
-  version: 2.60.2
-  resolution: "rollup@npm:2.60.2"
+  version: 2.61.1
+  resolution: "rollup@npm:2.61.1"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -5777,7 +5777,7 @@ fsevents@~2.3.2:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: bcd41dfe8afb7e0d97ce2237752165bdda689bcce6321d96821d565de3e0c865a49b544923f315985be2bfde086f72b54aae4ae7c87f798b3cb9558a5bec4e65
+  checksum: a41bd821c1d9f296e71e867828150080fb05d08cbdff9b6b5c0e3642da4d0723f7a847189f197c2a695a8a353d968ad89ebd54a4228dc3e92765c00e6bbadf87
   languageName: node
   linkType: hard
 
@@ -6620,11 +6620,11 @@ fsevents@~2.3.2:
   linkType: hard
 
 "uglify-js@npm:^3.5.1":
-  version: 3.14.4
-  resolution: "uglify-js@npm:3.14.4"
+  version: 3.14.5
+  resolution: "uglify-js@npm:3.14.5"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: 13217db5212a201de2ad89873a4e31b26a140c21c0239cefea4ee1c2861c71a5c133538312ce08c92bf97e5b00c8e170d0ef90213026c17ffa689d2e2cdbce73
+  checksum: 0330eb11a36f4181b6d9a00336355989bfad9dd2203049fc63a59454b0d12337612272ad011bc571b9a382bf74d829ca20409ebfe089e38edb26cfc06bfa2cc9
   languageName: node
   linkType: hard
 
