@@ -10,7 +10,7 @@ sticky: 100
 ---
 {% source wechat isnIdWAveDUhlfK_oQaOug 2021 12 18 %}
 
-![Journal of Chemical Theory and Computation, 2021, 17 (11), 6993-7009.](https://sm.ms/image/7cmL5sM3wjry9O2)
+![Journal of Chemical Theory and Computation, 2021, 17 (11), 6993-7009.](https://pic.njzjz.win/p0.png)
 
 前置论文：
 - {% post_link paper1 我的第一篇论文 %}
@@ -28,7 +28,7 @@ sticky: 100
 
 转眼间到了冬天，在我的强烈要求下，我们开始讨论“真正的课题”。考虑到我之前的背景，Darrin提出想让我用机器学习方法改进QM/MM计算，从半经验的势能矫正到更高级别的势能，从而加速ab initio精度的动力学模拟（图1）。
 
-![图1](https://sm.ms/image/vGip7Sy26LxnjUQ)
+![图1](https://pic.njzjz.win/p1.jpg)
 
 图1：讨论记录
 
@@ -44,19 +44,19 @@ sticky: 100
 
 然而，初版得到的模型预测真空中的原子能量时，虽然接近于0，却并不等于0。疑惑之下，我把embedding matrix打出来仔细研究，发现原来coordinate matrix（坐标矩阵）初始化不为0，从而导致最终的能量也不为0！2020年2月1日，正值农历初八，修复了这一问题后，对DeePMD-kit的改动就算完工了。
 
-![图2](https://sm.ms/image/GOEU93uMKiAsfPN)
+![图2](https://pic.njzjz.win/p2.png)
 
 图2：从低水平的QM/MM模型校正到高水平的QM/MM模型
 
 另一方面，组里之前一直用AmberTools进行模拟。AmberTools使用古老的Fortran 90语言，而DeePMD-kit使用C++ 11，将它们直接链接起来（而非用文件或者socket转换）似乎有些难度。组里的TimothyJ. Giese经验丰富，提出了如图3所示的链接方案。Fortran 不能和C++直接链接，但是Fortran和C++都有C接口，便可以通过C来实现转换。
 
-![图3](https://sm.ms/image/uM4CB6VKnfskxRy)
+![图3](https://pic.njzjz.win/p3.png)
 
 图3：AmberTools与DeePMD-kit对接
 
 相比之下，将AmberTools与DP-GEN和dpdata结合则显得没有什么难度，我们的最后流程就如图4所示。当然，更没难度的部分就是跑一个例子了，我们选取了一个简单的例子和两个最简单的半经验方法来测试模型，接下来等着收数据就行了。
 
-![图4](https://sm.ms/image/lE3JYsFW7cdhTpO)
+![图4](https://pic.njzjz.win/p4.png)
 
 图4：整体的workflow
 
