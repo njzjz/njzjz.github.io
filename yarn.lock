@@ -2974,6 +2974,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fast-equals@npm:^2.0.1":
+  version: 2.0.4
+  resolution: "fast-equals@npm:2.0.4"
+  checksum: 1aac8a2e16b33e5e402bb5cd46be65f1ca331903c2c44e3bd75324e8472ee04f0acdbc6889e45fc28f9707ca3964f2a86789b32305d4d8b85dc97f61e446ef4b
+  languageName: node
+  linkType: hard
+
 "fast-json-stable-stringify@npm:^2.1.0":
   version: 2.1.0
   resolution: "fast-json-stable-stringify@npm:2.1.0"
@@ -3530,6 +3537,15 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"hexo-log@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "hexo-log@npm:3.0.0"
+  dependencies:
+    nanocolors: ^0.2.12
+  checksum: 6e0072b508b1b2c19bccbee27c2edc9d71e5e9d8e73e24a8572cab91ffcfa9a0c08886495206eb9735865d9f2c96663cf0f40ca5a113e9bdfc77b87fbb7d0a2a
+  languageName: node
+  linkType: hard
+
 "hexo-pagination@npm:1.0.0":
   version: 1.0.0
   resolution: "hexo-pagination@npm:1.0.0"
@@ -3604,7 +3620,7 @@ fsevents@~2.3.2:
     "@njzjz/preview-cfpages": 0.0.6
     "@waline/hexo-next": 2.0.6
     bundlesize: 0.18.1
-    hexo: 5.4.0
+    hexo: 6.0.0
     hexo-extract-inline-scripts: 0.0.3
     hexo-generator-archive: 1.0.0
     hexo-generator-category: 1.0.0
@@ -3723,25 +3739,26 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo@npm:5.4.0":
-  version: 5.4.0
-  resolution: "hexo@npm:5.4.0"
+"hexo@npm:6.0.0":
+  version: 6.0.0
+  resolution: "hexo@npm:6.0.0"
   dependencies:
     abbrev: ^1.1.1
     archy: ^1.0.0
     bluebird: ^3.5.2
-    chalk: ^4.0.0
     hexo-cli: ^4.0.0
     hexo-front-matter: ^2.0.0
     hexo-fs: ^3.1.0
     hexo-i18n: ^1.0.0
-    hexo-log: ^2.0.0
+    hexo-log: ^3.0.0
     hexo-util: ^2.4.0
     js-yaml: ^4.0.0
     micromatch: ^4.0.2
+    moize: ^6.1.0
     moment: ^2.22.2
     moment-timezone: ^0.5.21
     nunjucks: ^3.2.1
+    picocolors: ^1.0.0
     pretty-hrtime: ^1.0.3
     resolve: ^1.8.1
     strip-ansi: ^6.0.0
@@ -3751,7 +3768,7 @@ fsevents@~2.3.2:
     warehouse: ^4.0.0
   bin:
     hexo: bin/hexo
-  checksum: 27e66af28dc996c53afff72aafe5b5b6c983604c86436c3a4e8115052412a8138ce540842a812cf68ee39dc3f3dcde6a3c7397cd68221d5d18bfd6f7eced210c
+  checksum: da39eeca840a1ecb2e96ebe64a095b57081716e977de14727a3b252b5140b4598ae453d9bf3cccb783f2af61fc4816077c2d720b0f178696f645f8ed1c80d156
   languageName: node
   linkType: hard
 
@@ -4660,6 +4677,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"micro-memoize@npm:^4.0.9":
+  version: 4.0.9
+  resolution: "micro-memoize@npm:4.0.9"
+  checksum: c755539864caaa232b948e1b351f371df91ceaa78e16b18abe64dd488de93dde253456c3a6c4f93b48e05aa3e2e012891f7c21e5ba876d7850f4e4ea33a0f944
+  languageName: node
+  linkType: hard
+
 "micromatch@npm:^4.0.2":
   version: 4.0.4
   resolution: "micromatch@npm:4.0.4"
@@ -4856,6 +4880,16 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"moize@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "moize@npm:6.1.0"
+  dependencies:
+    fast-equals: ^2.0.1
+    micro-memoize: ^4.0.9
+  checksum: 95769f7860c293468890c30e1c812487f2f5e462d5069375ebcca133149458aacfd51cd53f9b894112db8973d216f767544c724e1a959939c80addffa88eb100
+  languageName: node
+  linkType: hard
+
 "moment-timezone@npm:^0.5.21":
   version: 0.5.34
   resolution: "moment-timezone@npm:0.5.34"
@@ -4923,6 +4957,13 @@ fsevents@~2.3.2:
   dependencies:
     node-gyp: latest
   checksum: 33e1bb4dfca447fe37d4bb5889be55de154828632c8d38646db67293a21afd61ed9909cdf1b886214a64707d935926c4e60e2b09de9edfc2ad58de31d6ce8f39
+  languageName: node
+  linkType: hard
+
+"nanocolors@npm:^0.2.12":
+  version: 0.2.13
+  resolution: "nanocolors@npm:0.2.13"
+  checksum: 01ac5aab77295c66cef83ea5f595e22f5f91518f19fae12f93ca2cba98703f971e32611fea2983f333eb7e60604043005690f61d9759e7c0a32314942fe6ddb8
   languageName: node
   linkType: hard
 
