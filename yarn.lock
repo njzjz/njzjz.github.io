@@ -2417,16 +2417,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-select@npm:4.2.0":
-  version: 4.2.0
-  resolution: "css-select@npm:4.2.0"
+"css-select@npm:4.2.1":
+  version: 4.2.1
+  resolution: "css-select@npm:4.2.1"
   dependencies:
     boolbase: ^1.0.0
     css-what: ^5.1.0
     domhandler: ^4.3.0
     domutils: ^2.8.0
     nth-check: ^2.0.1
-  checksum: 3847b251ca9f2722dd90c0b464b899a5a3b78b0324936a493d7b837a42120764871ad7c01e5bde6280f97710283b0b01e573e43e3076e61cc3e3a2437e0db415
+  checksum: 6617193ec7c332217204c4ea371d332c6845603fda415e36032e7e9e18206d7c368a14e3c57532082314d2689955b01122aa1097c1c52b6c1cab7ad90970d3c6
   languageName: node
   linkType: hard
 
