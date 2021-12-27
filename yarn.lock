@@ -6,15 +6,15 @@ __metadata:
   cacheKey: 8
 
 "@apideck/better-ajv-errors@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "@apideck/better-ajv-errors@npm:0.3.1"
+  version: 0.3.2
+  resolution: "@apideck/better-ajv-errors@npm:0.3.2"
   dependencies:
     json-schema: ^0.4.0
     jsonpointer: ^5.0.0
     leven: ^3.1.0
   peerDependencies:
     ajv: ">=8"
-  checksum: e3debe385495a1212ad00a95a6b83ac5013c4f80786e2cad2096b15dd61ee977500f3dea5f16a8d98b00dc9d708a68664f7b3b5e7a348d233fa399cf3a96e311
+  checksum: 714e4f89d55d6c48fed0cf68b6a1cf313ee2cdf600908766b6f469d76523f71ad8b55d649cfde776002f6242db44d552176bae2565a3fa2404ebf7030e0b76da
   languageName: node
   linkType: hard
 
@@ -1449,9 +1449,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 17.0.1
-  resolution: "@types/node@npm:17.0.1"
-  checksum: 16a5aa2778e1e49443d272f0da20af66c143337ddb14d9f36d5e7eb1e11ebbf195769d3d495ec5456ec94fe3d0e703c5df1ac279a05c7dc2a1220474467c1103
+  version: 17.0.5
+  resolution: "@types/node@npm:17.0.5"
+  checksum: 105535e78722515c26cfdc1b0cbf1b19f55fe53b814e2e90d8b1e653bc63136d4760c7efc102eca111c6d124a291e37d60d761d569a3f4afb3fba05bad5d9ade
   languageName: node
   linkType: hard
 
@@ -2100,9 +2100,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001286":
-  version: 1.0.30001291
-  resolution: "caniuse-lite@npm:1.0.30001291"
-  checksum: ae24be79227036564ccd2ab8a0be8793a2e650941607a9f3e68a967db08d90cf17ded0382c2ce87063051b7200e618ec83bdb12f423ed60665922dc4d8eb8f78
+  version: 1.0.30001292
+  resolution: "caniuse-lite@npm:1.0.30001292"
+  checksum: 930d02514769243f26033919f56536a307db83bba933374e6955c6678878fe8a8105051796868947d230f31d237b782fa2cf7390b84b69b555077add12469966
   languageName: node
   linkType: hard
 
@@ -2355,12 +2355,12 @@ __metadata:
   linkType: hard
 
 "core-js-compat@npm:^3.18.0, core-js-compat@npm:^3.19.1":
-  version: 3.20.0
-  resolution: "core-js-compat@npm:3.20.0"
+  version: 3.20.1
+  resolution: "core-js-compat@npm:3.20.1"
   dependencies:
     browserslist: ^4.19.1
     semver: 7.0.0
-  checksum: d2887ab75f8d65b8b8f0ba218c191bd69a1a58db2583671e9656da5915920fe47a92f933d4552225a4c8979d81ea294758fe71b23580fa6c7e5c89da542cfe2d
+  checksum: 6f7101fe7d56d6f0e53779ce5d9ba4a8039cb58e4a89b13e56fa9c6825f07aa870acc727260e1ec8fc452f8fd5f5eecd877c0a0788c7b58ceeb3ab65a1dd5905
   languageName: node
   linkType: hard
 
@@ -2745,9 +2745,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.17":
-  version: 1.4.24
-  resolution: "electron-to-chromium@npm:1.4.24"
-  checksum: 71c065ae9cb74bc7e44abeea20c1639a2057bee4927f09ccc2a6d492fa5c7a31da63ad5d5d8659f7d04db680225543aae54579793f269c9d2ecc1c1541018688
+  version: 1.4.28
+  resolution: "electron-to-chromium@npm:1.4.28"
+  checksum: ac3dcd1de0de39fc3ad4df2ca7603a4dce683be7c52896c5bf094157fb0452f261639d3b2984aea783d4467ae05ee5af08435be7a35ff80323bdf521c3eb50db
   languageName: node
   linkType: hard
 
@@ -5815,8 +5815,8 @@ fsevents@~2.3.2:
   linkType: hard
 
 "rollup@npm:^2.43.1":
-  version: 2.61.1
-  resolution: "rollup@npm:2.61.1"
+  version: 2.62.0
+  resolution: "rollup@npm:2.62.0"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -5824,7 +5824,7 @@ fsevents@~2.3.2:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: a41bd821c1d9f296e71e867828150080fb05d08cbdff9b6b5c0e3642da4d0723f7a847189f197c2a695a8a353d968ad89ebd54a4228dc3e92765c00e6bbadf87
+  checksum: 9dfa089a232346bc548bf5110e79e0cf5a2dac6fb9bf3f737a645e72795b4b4a1165d1bf86938f90805c4391e8dd571557afb901aaf81dcb82690c57737ab128
   languageName: node
   linkType: hard
 
