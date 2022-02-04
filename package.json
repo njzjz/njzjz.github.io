@@ -53,7 +53,7 @@
     "hexo-yam": "6.0.0"
   },
   "resolutions": {
-    "hexo-util": "2.5.0",
+    "hexo-util": "2.6.0",
     "css-select": "4.2.1"
   }
 }
