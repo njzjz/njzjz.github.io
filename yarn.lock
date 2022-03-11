@@ -1909,7 +1909,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bluebird@npm:^3.2.2, bluebird@npm:^3.5.1, bluebird@npm:^3.5.2, bluebird@npm:^3.5.5":
+"bluebird@npm:^3.2.2, bluebird@npm:^3.5.1, bluebird@npm:^3.5.2, bluebird@npm:^3.5.5, bluebird@npm:^3.7.2":
   version: 3.7.2
   resolution: "bluebird@npm:3.7.2"
   checksum: 869417503c722e7dc54ca46715f70e15f4d9c602a423a02c825570862d12935be59ed9c7ba34a9b31f186c017c23cac6b54e35446f8353059c101da73eac22ef
@@ -3431,7 +3431,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-cli@npm:^4.0.0":
+"hexo-cli@npm:^4.3.0":
   version: 4.3.0
   resolution: "hexo-cli@npm:4.3.0"
   dependencies:
@@ -3460,12 +3460,12 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-front-matter@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "hexo-front-matter@npm:2.0.0"
+"hexo-front-matter@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "hexo-front-matter@npm:3.0.0"
   dependencies:
-    js-yaml: ^3.13.1
-  checksum: 8d9a47dc5b6471c9f219371bbee5beec2cc9b8c69637da28467382c7fbdc1eb8e9fc2c681aa0b66e53931de3bbcb5b3fafe4027cd1d21211868d744f4f2fa952
+    js-yaml: ^4.1.0
+  checksum: 517e5caed96542b0ca7be8822cdc6d49abd1d6925a417eaee66d4ef976d32d105720a8bd0db73118c1d8a95f762fbf4f65206b3ccbfaae46228902edd1ab156a
   languageName: node
   linkType: hard
 
@@ -3668,7 +3668,7 @@ fsevents@~2.3.2:
     "@njzjz/preview-cfpages": 0.0.6
     "@waline/hexo-next": 2.0.6
     bundlesize: 0.18.1
-    hexo: 6.0.0
+    hexo: 6.1.0
     hexo-extract-inline-scripts: 0.0.3
     hexo-generator-archive: 1.0.0
     hexo-generator-category: 1.0.0
@@ -3787,36 +3787,37 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo@npm:6.0.0":
-  version: 6.0.0
-  resolution: "hexo@npm:6.0.0"
+"hexo@npm:6.1.0":
+  version: 6.1.0
+  resolution: "hexo@npm:6.1.0"
   dependencies:
     abbrev: ^1.1.1
     archy: ^1.0.0
-    bluebird: ^3.5.2
-    hexo-cli: ^4.0.0
-    hexo-front-matter: ^2.0.0
+    bluebird: ^3.7.2
+    hexo-cli: ^4.3.0
+    hexo-front-matter: ^3.0.0
     hexo-fs: ^3.1.0
     hexo-i18n: ^1.0.0
     hexo-log: ^3.0.0
-    hexo-util: ^2.4.0
-    js-yaml: ^4.0.0
-    micromatch: ^4.0.2
+    hexo-util: ^2.6.0
+    js-yaml: ^4.1.0
+    js-yaml-js-types: ^1.0.0
+    micromatch: ^4.0.4
     moize: ^6.1.0
-    moment: ^2.22.2
-    moment-timezone: ^0.5.21
-    nunjucks: ^3.2.1
+    moment: ^2.29.1
+    moment-timezone: ^0.5.34
+    nunjucks: ^3.2.3
     picocolors: ^1.0.0
     pretty-hrtime: ^1.0.3
-    resolve: ^1.8.1
+    resolve: ^1.22.0
     strip-ansi: ^6.0.0
     text-table: ^0.2.0
     tildify: ^2.0.0
-    titlecase: ^1.1.2
+    titlecase: ^1.1.3
     warehouse: ^4.0.0
   bin:
     hexo: bin/hexo
-  checksum: da39eeca840a1ecb2e96ebe64a095b57081716e977de14727a3b252b5140b4598ae453d9bf3cccb783f2af61fc4816077c2d720b0f178696f645f8ed1c80d156
+  checksum: 9437e38cc1766a143172714bd4013c7b65f0b09cc8bb04533ffeb6da571ba2adf47a0113e7999e5ad7322f424561f4c4e4f5be2fdc6bd79572cf6b854ad97085
   languageName: node
   linkType: hard
 
@@ -4355,7 +4356,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:4.1.0, js-yaml@npm:^4.0.0":
+"js-yaml@npm:4.1.0, js-yaml@npm:^4.0.0, js-yaml@npm:^4.1.0":
   version: 4.1.0
   resolution: "js-yaml@npm:4.1.0"
   dependencies:
@@ -4730,7 +4731,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.2":
+"micromatch@npm:^4.0.2, micromatch@npm:^4.0.4":
   version: 4.0.4
   resolution: "micromatch@npm:4.0.4"
   dependencies:
@@ -4943,7 +4944,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"moment-timezone@npm:^0.5.21":
+"moment-timezone@npm:^0.5.34":
   version: 0.5.34
   resolution: "moment-timezone@npm:0.5.34"
   dependencies:
@@ -4952,7 +4953,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"moment@npm:>= 2.9.0, moment@npm:^2.22.2":
+"moment@npm:>= 2.9.0, moment@npm:^2.29.1":
   version: 2.29.1
   resolution: "moment@npm:2.29.1"
   checksum: 1e14d5f422a2687996be11dd2d50c8de3bd577c4a4ca79ba5d02c397242a933e5b941655de6c8cb90ac18f01cc4127e55b4a12ae3c527a6c0a274e455979345e
@@ -5206,7 +5207,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"nunjucks@npm:^3.0.0, nunjucks@npm:^3.1.6, nunjucks@npm:^3.2.1, nunjucks@npm:^3.2.2":
+"nunjucks@npm:^3.0.0, nunjucks@npm:^3.1.6, nunjucks@npm:^3.2.2, nunjucks@npm:^3.2.3":
   version: 3.2.3
   resolution: "nunjucks@npm:3.2.3"
   dependencies:
@@ -5798,7 +5799,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"resolve@^1.10.0, resolve@^1.11.0, resolve@^1.14.2, resolve@^1.19.0, resolve@^1.8.1":
+"resolve@^1.10.0, resolve@^1.11.0, resolve@^1.14.2, resolve@^1.19.0, resolve@^1.22.0":
   version: 1.22.0
   resolution: "resolve@npm:1.22.0"
   dependencies:
@@ -5811,7 +5812,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.11.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.8.1#~builtin<compat/resolve>":
+"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.11.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>":
   version: 1.22.0
   resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=00b1ff"
   dependencies:
@@ -6601,7 +6602,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"titlecase@npm:^1.1.2":
+"titlecase@npm:^1.1.3":
   version: 1.1.3
   resolution: "titlecase@npm:1.1.3"
   bin:
