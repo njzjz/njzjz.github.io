@@ -3528,14 +3528,14 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-generator-sitemap@npm:2.2.0":
-  version: 2.2.0
-  resolution: "hexo-generator-sitemap@npm:2.2.0"
+"hexo-generator-sitemap@npm:3.0.1":
+  version: 3.0.1
+  resolution: "hexo-generator-sitemap@npm:3.0.1"
   dependencies:
     hexo-util: ^2.1.0
     micromatch: ^4.0.2
     nunjucks: ^3.1.6
-  checksum: da1ad69490115174c18ac13ff2188e5bb6e968e31f985bb5a0712396f13fa8538d346186ab2ac37d5e67e7056636f6e0e84c68261fbbdeeb1839e6ea1cc9a8b7
+  checksum: 999c808c077aa8138f5fed53446dc455d3646c14b47ea6015ea551bcfa91dad46b5c3c16dce4600dff2ccdfd85fcb1c62b77f9044bc4b620e9892c456054e8a8
   languageName: node
   linkType: hard
 
@@ -3675,7 +3675,7 @@ fsevents@~2.3.2:
     hexo-generator-feed: 3.0.0
     hexo-generator-index: 2.0.0
     hexo-generator-searchdb: 1.4.0
-    hexo-generator-sitemap: 2.2.0
+    hexo-generator-sitemap: 3.0.1
     hexo-generator-tag: 1.0.0
     hexo-hide-posts: 0.2.0
     hexo-image-cloudflare: 0.3.2
