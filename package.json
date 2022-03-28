@@ -54,6 +54,6 @@
   },
   "resolutions": {
     "hexo-util": "2.6.0",
-    "css-select": "4.2.1"
+    "css-select": "4.3.0"
   }
 }
