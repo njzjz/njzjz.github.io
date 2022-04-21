@@ -28,6 +28,7 @@ mathjax: true
 ## 发表文章
 
 {% publications %}
+Cao_PhysChemChemPhys_2022,
 Zeng_ChemRxiv_2021,
 Cao_ChemRxiv_2019,
 Zeng_EnergyFuels_2021_v35_p762,
