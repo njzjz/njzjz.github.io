@@ -3716,7 +3716,7 @@ fsevents@~2.3.2:
     hexo-source-tag: 0.0.13
     hexo-tag-bilitube: 0.1.10
     hexo-tag-publications: 0.2.2
-    hexo-theme-next: 8.11.0
+    hexo-theme-next: 8.11.1
     hexo-word-counter: 0.0.3
     hexo-yam: 6.0.0
     jsdelivr_url: 0.0.1
@@ -3770,10 +3770,10 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-theme-next@npm:8.11.0":
-  version: 8.11.0
-  resolution: "hexo-theme-next@npm:8.11.0"
-  checksum: cb0858642f51868bca9c823498e26403298498ca003b9bc1d2887a339be4988c58423b85bff613baadc54bed1f8a46f060e0a1f86b4d674eab67e0e37dfc429e
+"hexo-theme-next@npm:8.11.1":
+  version: 8.11.1
+  resolution: "hexo-theme-next@npm:8.11.1"
+  checksum: baa54572af03a32d9c44e69a4b64ad5f41bc814d023fc3ac567e4ff291cdf9e7cc0eac1cd6d46be68f8a76cf9cdd7c88de420b8e594001dc9726a94b4d30b644
   languageName: node
   linkType: hard
 
