@@ -3795,9 +3795,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-util@npm:2.6.0":
-  version: 2.6.0
-  resolution: "hexo-util@npm:2.6.0"
+"hexo-util@npm:2.6.1":
+  version: 2.6.1
+  resolution: "hexo-util@npm:2.6.1"
   dependencies:
     bluebird: ^3.5.2
     camel-case: ^4.0.0
@@ -3807,7 +3807,7 @@ fsevents@~2.3.2:
     htmlparser2: ^7.0.0
     prismjs: ^1.17.1
     strip-indent: ^3.0.0
-  checksum: 0cb176354942ec141ff79cce9f68b10fdcc1bd3e612ca8cc32e165bd0d4b2ac45f64a4f2d160011c213b6fa2301bea4b9226010a0cfaaebab88caf8057504d5f
+  checksum: d8f6ad18cacf1a82b8cf134e74e89e62c445d697735745691350a68ed8b382d6f00327c8f071f6d88ad747c7014b24ccb1cdda98fb9fe2636eaa09fc5eb15b31
   languageName: node
   linkType: hard
 
