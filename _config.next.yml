@@ -98,3 +98,5 @@ nprogress:
 preconnect: true
 #google_analytics:
 #  tracking_id: G-E1TJFFMGRY
+custom_file_path:
+  style: source/_data/styles.styl
