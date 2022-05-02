@@ -3733,7 +3733,7 @@ fsevents@~2.3.2:
     hexo-server: 3.0.0
     hexo-source-tag: 0.0.13
     hexo-tag-bilitube: 0.1.10
-    hexo-tag-publications: 0.2.5
+    hexo-tag-publications: 0.2.6
     hexo-theme-next: 8.11.1
     hexo-word-counter: 0.0.3
     hexo-yam: 6.0.0
@@ -3775,16 +3775,16 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-tag-publications@npm:0.2.5":
-  version: 0.2.5
-  resolution: "hexo-tag-publications@npm:0.2.5"
+"hexo-tag-publications@npm:0.2.6":
+  version: 0.2.6
+  resolution: "hexo-tag-publications@npm:0.2.6"
   dependencies:
     bibtex-parse: ^2.1.0
     hexo-fs: ^3.1.0
     hexo-tag-injector: ^0.1.0
     hexo-util: ^2.4.0
     jsdelivr_url: ^0.0.1
-  checksum: 20d554fb26936e580d9eb99e3e3679d666ab1bf09d5b19722dc9d4c3fe261b2431f259a7edd2942dfb38ef138624d83d81ce7fe142943007d4ba873fc7131aa0
+  checksum: a7f1a70e85a9487f73b35ac823aca5df314d94aef1f88d5b831c7359f828f4175927945bc52b45e83f598e49573f3a504b370d3c86dfe95e725ba53049f46120
   languageName: node
   linkType: hard
 
