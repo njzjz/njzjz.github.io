@@ -1306,7 +1306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next-theme/utils@npm:^1.2.0":
+"@next-theme/utils@npm:^1.3.0":
   version: 1.3.0
   resolution: "@next-theme/utils@npm:1.3.0"
   dependencies:
@@ -1520,12 +1520,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@waline/hexo-next@npm:2.0.6":
-  version: 2.0.6
-  resolution: "@waline/hexo-next@npm:2.0.6"
+"@waline/hexo-next@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@waline/hexo-next@npm:3.0.1"
   dependencies:
-    "@next-theme/utils": ^1.2.0
-  checksum: 3fee2d7a0dd39d95ea8b56ac30b6c1c39deb0cc6f0c30cffb3db471ec2f132da668b54d2b64e036fee7dd8870993c757e7ba808fa0c551b402098eea845c1926
+    "@next-theme/utils": ^1.3.0
+  checksum: 3315474004c7bd4bb3b2c464df2c861769d81704b313e5dcb3cb2cc4527c78dc0c40ff64437bd8cc9f3f0ce3a05a5a637211d59ea3d7c71c4d4724c25430b089
   languageName: node
   linkType: hard
 
@@ -3728,7 +3728,7 @@ fsevents@~2.3.2:
     "@njzjz/hexo-sitemap": 0.0.2
     "@njzjz/icons": 0.0.4
     "@njzjz/preview-cfpages": 0.0.6
-    "@waline/hexo-next": 2.0.6
+    "@waline/hexo-next": 3.0.1
     bundlesize: 0.18.1
     hexo: 6.2.0
     hexo-extract-inline-scripts: 0.0.3
