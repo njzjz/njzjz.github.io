@@ -3750,7 +3750,7 @@ fsevents@~2.3.2:
     hexo-tag-publications: 0.2.6
     hexo-theme-next: 8.11.1
     hexo-word-counter: 0.0.3
-    hexo-yam: 6.0.0
+    hexo-yam: 7.0.0
     jsdelivr_url: 0.0.1
     sticker-heo: 0.17.2
   languageName: unknown
@@ -3834,9 +3834,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-yam@npm:6.0.0":
-  version: 6.0.0
-  resolution: "hexo-yam@npm:6.0.0"
+"hexo-yam@npm:7.0.0":
+  version: 7.0.0
+  resolution: "hexo-yam@npm:7.0.0"
   dependencies:
     clean-css: ^5.1.2
     html-minifier: ^4.0.0
@@ -3844,7 +3844,7 @@ fsevents@~2.3.2:
     minify-xml: ^3.2.0
     svgo: ^2.4.0
     terser: ^5.3.0
-  checksum: 62a8cc3bc0611a18b188bfbab0efbc419c56fa34d2d4716d1e21343dba4b3ac9f818bbb660fc18cc2332def8941cfa38cfcb32fddb854ab0e42c2fd43e0ad5a2
+  checksum: b44f215f9952820d6e132523aa910fbadba3c44882b7d763edc20637a0c694557b1bd2d62e69c6cf35e835b5c317e1a9502d150279822e710ae53ee708abc162
   languageName: node
   linkType: hard
 
