@@ -1,4 +1,4 @@
-const { npm_url } = require("jsdelivr_url");
+const { npm_url } = require("unpkg_url");
 const { name, version } = require("sticker-heo/package.json");
 
 const idir = "Sticker-100";
