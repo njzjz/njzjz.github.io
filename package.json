@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "@jiangtj/hexo-next-pwa": "3.0.2",
-    "@njzjz/hexo-sitemap": "0.0.2",
+    "@njzjz/hexo-sitemap": "0.0.3",
     "@njzjz/icons": "0.0.4",
     "@waline/hexo-next": "3.0.1",
     "hexo": "6.2.0",

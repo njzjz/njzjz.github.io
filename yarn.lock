@@ -1316,14 +1316,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@njzjz/hexo-sitemap@npm:0.0.2":
-  version: 0.0.2
-  resolution: "@njzjz/hexo-sitemap@npm:0.0.2"
+"@njzjz/hexo-sitemap@npm:0.0.3":
+  version: 0.0.3
+  resolution: "@njzjz/hexo-sitemap@npm:0.0.3"
   dependencies:
     "@njzjz/sitemap": ^0.0.3
     hexo-util: ^2.4.0
-    jsdelivr_url: ^0.0.1
-  checksum: 6574e6385f27648fdda9ef31fae59e4ade4825ebbe4f7c1d905b3389bfcfae67d28949f0a10b957940653f133e29a19c44e28085bdc750f5df224438aabed062
+    unpkg_url: ^0.0.1
+  checksum: 7c38fd09b4f7e9d21ccb9792c6b4473e2d447503c01a5031d20af50ae88346de69b606ea760d999e2862e7da5d2b2ca82c20f652efd857592e1dc79a8922f5d3
   languageName: node
   linkType: hard
 
@@ -3762,7 +3762,7 @@ fsevents@~2.3.2:
   resolution: "hexo-site@workspace:."
   dependencies:
     "@jiangtj/hexo-next-pwa": 3.0.2
-    "@njzjz/hexo-sitemap": 0.0.2
+    "@njzjz/hexo-sitemap": 0.0.3
     "@njzjz/icons": 0.0.4
     "@njzjz/preview-cfpages": 0.0.6
     "@waline/hexo-next": 3.0.1
