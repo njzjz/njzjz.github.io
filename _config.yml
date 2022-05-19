@@ -120,7 +120,7 @@ search:
   content: true
   format: striptags
 
-cdn: 
+cdn:
   use_webp: true
   native: true
   exclude_domains:
