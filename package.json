@@ -45,7 +45,7 @@
     "hexo-theme-next": "8.11.1",
     "hexo-word-counter": "0.0.3",
     "sticker-heo": "0.17.2",
-    "unpkg_url": "0.0.1"
+    "unpkg_url": "^0.0.1"
   },
   "devDependencies": {
     "@njzjz/preview-cfpages": "0.0.6",
