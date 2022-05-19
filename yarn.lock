@@ -3783,7 +3783,7 @@ fsevents@~2.3.2:
     hexo-renderer-marked: 5.0.0
     hexo-renderer-stylus: 2.0.1
     hexo-server: 3.0.0
-    hexo-source-tag: 0.0.13
+    hexo-source-tag: 0.0.14
     hexo-tag-bilitube: 0.1.10
     hexo-tag-publications: 0.2.6
     hexo-theme-next: 8.11.1
@@ -3794,15 +3794,15 @@ fsevents@~2.3.2:
   languageName: unknown
   linkType: soft
 
-"hexo-source-tag@npm:0.0.13":
-  version: 0.0.13
-  resolution: "hexo-source-tag@npm:0.0.13"
+"hexo-source-tag@npm:0.0.14":
+  version: 0.0.14
+  resolution: "hexo-source-tag@npm:0.0.14"
   dependencies:
     hexo-tag-injector: ^0.1.0
     hexo-util: ^2.4.0
-    jsdelivr_url: ^0.0.1
     string-format: ^2.0.0
-  checksum: 874bf7922d6e3fe1c8874d542e06cf27456c59d6ccb6cf2a98173b78d3f4d78f6ecea86969092ecd465c592275039534c3e271d966f5365ba8a7c03234ef36b8
+    unpkg_url: ^0.0.1
+  checksum: e4fe9a1f509ee0e1c811797a57b573edc919f13e42242a6f449ea42c77c2d0397b58944eae9a17e101b98192981d2ed2a61fe08da02659e9fe3212cc391e1e93
   languageName: node
   linkType: hard
 
