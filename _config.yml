@@ -120,13 +120,13 @@ search:
   content: true
   format: striptags
 
-cdn: 
+cdn:
   use_webp: true
   native: true
   exclude_domains:
     - https://images.weserv.nl/
     - https://img.njzjz.win/
-    - https://cdn.jsdelivr.net/
+    - https://unpkg.com/
   max_width:
     - 828
     - 1656
@@ -157,10 +157,10 @@ pwa:
           handler: StaleWhileRevalidate
           options:
             cacheName: js-css
-        - urlPattern: regexp:^https:\/\/cdn\.jsdelivr\.net
+        - urlPattern: regexp:^https:\/\/unpkg\.com
           handler: StaleWhileRevalidate
           options:
-            cacheName: jsdelivr
+            cacheName: unpkg
         - urlPattern: regexp:^https:\/\/images\.weserv\.nl
           handler: CacheFirst
           options:

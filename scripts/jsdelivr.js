@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const { npm_url, gh_url } = require("jsdelivr_url");
+const { npm_url } = require("unpkg_url");
 const { name: next_name, version: next_version } = require("hexo-theme-next/package.json");
 const { name: icon_name, version: icon_version } = require("@njzjz/icons/package.json");
 
@@ -15,9 +15,6 @@ hexo.on('generateBefore', function () {
 
   hexo.theme.config.vendors.nprogress_js = npm_url('nprogress', '0.2.0', 'nprogress.min.js');
   hexo.theme.config.vendors.nprogress_css = npm_url('nprogress', '0.2.0', 'nprogress.min.css');
-  if (process.env.CSS_COMMIT) {
-    hexo.config.assets_prefix = gh_url("njzjz", "njzjz.github.io", process.env.CSS_COMMIT, "");
-  }
 
   // icons
   const avatar_url = npm_url(icon_name, icon_version, "njzjz/avatar.jpg");

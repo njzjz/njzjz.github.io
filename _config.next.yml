@@ -92,8 +92,8 @@ links:
   "DeepModeling": https://deepmodeling.com
   "hexi blog": https://hexi519.github.io
 vendors:
-  internal: jsdelivr
-  plugins: jsdelivr
+  internal: cdnjs
+  plugins: cdnjs
 nprogress:
   enable: true
 preconnect: true
