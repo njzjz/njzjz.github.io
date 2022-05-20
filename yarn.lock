@@ -3784,7 +3784,7 @@ fsevents@~2.3.2:
     hexo-renderer-stylus: 2.0.1
     hexo-server: 3.0.0
     hexo-source-tag: 0.0.14
-    hexo-tag-bilitube: 0.1.10
+    hexo-tag-bilitube: 0.1.11
     hexo-tag-publications: 0.2.6
     hexo-theme-next: 8.11.1
     hexo-word-counter: 0.0.3
@@ -3806,15 +3806,15 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-tag-bilitube@npm:0.1.10":
-  version: 0.1.10
-  resolution: "hexo-tag-bilitube@npm:0.1.10"
+"hexo-tag-bilitube@npm:0.1.11":
+  version: 0.1.11
+  resolution: "hexo-tag-bilitube@npm:0.1.11"
   dependencies:
     bilitube: ^0.0.2
     hexo-tag-injector: ^0.1.0
     hexo-util: ^2.4.0
-    jsdelivr_url: ^0.0.1
-  checksum: be7394e5582964db4ac8a615869f10aa95eb84845c438e8049430d40d7226e7ea07f4400f2d88e84c5c645304237e255767f8d304f005f999e651fbc9d22ea55
+    unpkg_url: ^0.0.1
+  checksum: 82b6db6b82d24fa2831aa7f0656266babb00f1b0a96ee25e3f6e350ccdbca0f873de96a210afecf1b66149a4422f87cde4ce54fe3545114e0a1f74818954d123
   languageName: node
   linkType: hard
 
