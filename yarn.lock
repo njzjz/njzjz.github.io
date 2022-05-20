@@ -3785,7 +3785,7 @@ fsevents@~2.3.2:
     hexo-server: 3.0.0
     hexo-source-tag: 0.0.14
     hexo-tag-bilitube: 0.1.11
-    hexo-tag-publications: 0.2.6
+    hexo-tag-publications: 0.2.7
     hexo-theme-next: 8.11.1
     hexo-word-counter: 0.0.3
     hexo-yam: 7.0.0
@@ -3827,16 +3827,16 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"hexo-tag-publications@npm:0.2.6":
-  version: 0.2.6
-  resolution: "hexo-tag-publications@npm:0.2.6"
+"hexo-tag-publications@npm:0.2.7":
+  version: 0.2.7
+  resolution: "hexo-tag-publications@npm:0.2.7"
   dependencies:
     bibtex-parse: ^2.1.0
     hexo-fs: ^3.1.0
     hexo-tag-injector: ^0.1.0
     hexo-util: ^2.4.0
-    jsdelivr_url: ^0.0.1
-  checksum: a7f1a70e85a9487f73b35ac823aca5df314d94aef1f88d5b831c7359f828f4175927945bc52b45e83f598e49573f3a504b370d3c86dfe95e725ba53049f46120
+    unpkg_url: ^0.0.1
+  checksum: 4aa9bb2271fa2a597ddbc5cf1eca908df6c5630ffb7bafbf697ec235a37a2fcce7703c5ef916110f800c159b43e8196d930a0857c7e0a3455546320ea89b4865
   languageName: node
   linkType: hard
 
@@ -4477,13 +4477,6 @@ fsevents@~2.3.2:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: bef146085f472d44dee30ec34e5cf36bf89164f5d585435a3d3da89e52622dff0b188a580e4ad091c3341889e14cb88cac6e4deb16dc5b1e9623bb0601fc255c
-  languageName: node
-  linkType: hard
-
-"jsdelivr_url@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "jsdelivr_url@npm:0.0.1"
-  checksum: 50bba5d49da878f24293f90012382616f7c9345f863f13af0c244e8defb7438c0f67f0e191a4c4e3c65557b9dd89cfbb88d61d80fcde2e7b776b441cbd275bad
   languageName: node
   linkType: hard
 
