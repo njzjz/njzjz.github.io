@@ -13,9 +13,6 @@ hexo.extend.filter.register('after_generate', () => {
 hexo.on('generateBefore', function () {
   hexo.theme.config.images = npm_url(next_name, next_version, 'source/images');
 
-  hexo.theme.config.vendors.nprogress_js = npm_url('nprogress', '0.2.0', 'nprogress.min.js');
-  hexo.theme.config.vendors.nprogress_css = npm_url('nprogress', '0.2.0', 'nprogress.min.css');
-
   // icons
   const avatar_url = npm_url(icon_name, icon_version, "njzjz/avatar.jpg");
   hexo.theme.config.avatar.url = avatar_url;
