@@ -3782,7 +3782,7 @@ fsevents@~2.3.2:
     hexo-theme-next: 8.12.1
     hexo-word-counter: 0.0.3
     hexo-yam: 7.0.0
-    sticker-heo: 0.17.2
+    sticker-heo: 0.18.0
     unpkg_url: ^0.0.1
   languageName: unknown
   linkType: soft
@@ -6326,10 +6326,10 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"sticker-heo@npm:0.17.2":
-  version: 0.17.2
-  resolution: "sticker-heo@npm:0.17.2"
-  checksum: 65d03579df4da68034b564ebe6e9701304e26f359822aed6297fd8641d7e622ce23da5706eb12286b83573e966ee76ac2cf2c07fb0031a78c17b972ff8cb3bd8
+"sticker-heo@npm:0.18.0":
+  version: 0.18.0
+  resolution: "sticker-heo@npm:0.18.0"
+  checksum: a0e02d657db862df8d76f567a82ec483d358ca9c75b1a7616c40bfef7f4da5d584203adaf2aa5a56994700ca1abe559511f679b62d9dc23493996cc3e06522ae
   languageName: node
   linkType: hard
 
