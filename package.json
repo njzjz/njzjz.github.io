@@ -44,7 +44,7 @@
     "hexo-tag-publications": "0.3.1",
     "hexo-theme-next": "8.12.1",
     "hexo-word-counter": "0.0.3",
-    "sticker-heo": "0.17.2",
+    "sticker-heo": "0.18.0",
     "unpkg_url": "^0.0.1"
   },
   "devDependencies": {
