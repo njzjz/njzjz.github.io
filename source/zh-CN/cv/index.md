@@ -28,6 +28,7 @@ mathjax: true
 ## 发表文章
 
 {% publications %}
+Giese_2022_JChemTheoryComput,
 Cao_PhysChemChemPhys_2022,
 Zeng_ChemRxiv_2021,
 Cao_ChemRxiv_2019,
