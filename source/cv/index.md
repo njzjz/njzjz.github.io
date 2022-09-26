@@ -28,6 +28,7 @@ Develop deep learning potentials for simulations of different applications, incl
 ## Publications
 
 {% publications %}
+Zeng_2022_Chapter,
 Giese_2022_JChemTheoryComput,
 Cao_PhysChemChemPhys_2022,
 Zeng_ChemRxiv_2021,
