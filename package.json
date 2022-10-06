@@ -55,5 +55,6 @@
   "resolutions": {
     "hexo-util": "2.7.0",
     "css-select": "5.1.0"
-  }
+  },
+  "packageManager": "yarn@3.2.4"
 }
