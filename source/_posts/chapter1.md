@@ -16,9 +16,14 @@ tags:
 
 书章的主体部分在去年就完成了，后来经过数轮审稿和修改，最终定稿。章节主要分为两部分，前半部分介绍了一些不同类型的neural network potentials，<del>可以在论文的introduction部分引用</del>，后半部分是之前甲烷燃烧工作的介绍和tutorial，从[仓库](https://github.com/tongzhugroup/Chapter13-tutorial)下载输入文件后，可以在没有看过书的情况下快速体验。
 
+<!--more-->
 5分钟教学教程也已上线哔哩哔哩，甚至可以“云体验”：
 
 <iframe src="//player.bilibili.com/player.html?aid=603406787&bvid=BV1hB4y1J7Dh&cid=844637465&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<iframe src="//player.bilibili.com/player.html?aid=603406787&bvid=BV1hB4y1J7Dh&cid=844637465&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<iframe src="//player.bilibili.com/player.html?aid=603406787&bvid=BV1hB4y1J7Dh&cid=844637465&page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 邀稿的主编Pavlo O. Darl，曾于2004年代表乌克兰参加第36届国际奥林匹克化学竞赛（IChO），以第21名的成绩获得金牌，目前在厦门大学任副教授一职。
 
