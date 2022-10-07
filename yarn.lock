@@ -1918,9 +1918,9 @@ __metadata:
   linkType: hard
 
 "bilitube@npm:^0.0.2":
-  version: 0.0.2
-  resolution: "bilitube@npm:0.0.2"
-  checksum: b11be8f2003fedff129d569bbeb07b2f80488f1779945cef1bcc34e7c121689267cecc0658d5748acc164a617d41837da54f1801b7e01ea32a4d3ec9cc85df9d
+  version: 0.0.3
+  resolution: "bilitube@npm:0.0.3"
+  checksum: 66aa14e72e1f336e9048e1df6a96a98adace82b119625d5893ebc52e12bac528190b21895d33948aa616d8cbe2a94f044bfda5731d3cee751a34332d0a4a16ac
   languageName: node
   linkType: hard
 
