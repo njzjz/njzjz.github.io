@@ -3565,12 +3565,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-generator-category@npm:1.0.0":
-  version: 1.0.0
-  resolution: "hexo-generator-category@npm:1.0.0"
+"hexo-generator-category@npm:2.0.0":
+  version: 2.0.0
+  resolution: "hexo-generator-category@npm:2.0.0"
   dependencies:
-    hexo-pagination: 1.0.0
-  checksum: ef4564b33f00ef72bbc2fdc98104c67d1fb44184e7f2d9c5b434772840d60efb9542eb8db41448d6d6b87e5a1878c5d433907df2f8e55dda8372bd05d6e3338f
+    hexo-pagination: 3.0.0
+  checksum: 54a0c21e7beca00e67adda08a7317547919e746af58be79144d3b2cb81df02b45fca966bcda8f4b7563ae4a6e0fbcfce6a3d82ae5205d64e2bc3b787773c6813
   languageName: node
   linkType: hard
 
@@ -3676,6 +3676,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hexo-pagination@npm:3.0.0":
+  version: 3.0.0
+  resolution: "hexo-pagination@npm:3.0.0"
+  checksum: c7d5edd79a204c6ba531dcdc322e63c13f3c83c969fae735d441d2adba5c34e8c41b868d081a565d19c418d5e6659e529caf93dd361a0353e99aaa0e47292976
+  languageName: node
+  linkType: hard
+
 "hexo-reference@npm:1.0.4":
   version: 1.0.4
   resolution: "hexo-reference@npm:1.0.4"
@@ -3746,7 +3753,7 @@ __metadata:
     hexo: 6.3.0
     hexo-extract-inline-scripts: 0.0.3
     hexo-generator-archive: 1.0.0
-    hexo-generator-category: 1.0.0
+    hexo-generator-category: 2.0.0
     hexo-generator-feed: 3.0.0
     hexo-generator-index: 2.0.0
     hexo-generator-searchdb: 1.4.0
