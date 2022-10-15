@@ -21,7 +21,7 @@
   "dependencies": {
     "@njzjz/hexo-sitemap": "0.0.3",
     "@njzjz/icons": "0.0.4",
-    "@waline/client": "^2.13.0",
+    "@waline/client": "2.13.0",
     "@waline/hexo-next": "3.0.1",
     "hexo": "6.3.0",
     "hexo-extract-inline-scripts": "0.0.3",
@@ -45,7 +45,7 @@
     "hexo-theme-next": "8.13.1",
     "hexo-word-counter": "0.0.3",
     "sticker-heo": "2022.7.5",
-    "unpkg_url": "^0.0.1"
+    "unpkg_url": "0.0.1"
   },
   "devDependencies": {
     "@njzjz/preview-cfpages": "0.0.6",
