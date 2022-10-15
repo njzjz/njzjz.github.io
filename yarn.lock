@@ -2004,13 +2004,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-reference@npm:1.0.4":
+"hexo-reference@github:kchen0x/hexo-reference":
   version: 1.0.4
-  resolution: "hexo-reference@npm:1.0.4"
+  resolution: "hexo-reference@https://github.com/kchen0x/hexo-reference.git#commit=bcce895b5fd438374caa86dbec912e11129fc8d4"
   dependencies:
     hexo-util: ^0.6.3
     markdown-it: ^8.4.2
-  checksum: 68e9f1f1531b3444f8ded163203b8f53d0465514d4f7c2227153cd1557eddec9d8c550ba644869b9d9673222131dd4daeaf8b59b2d9ee39b4c0557caf2ca5c27
+  checksum: a4d6ef54b4d79e54ecc717b802fc38e8b7a77c94b311d0c38f99f9bf6f1ea1170fff328662f76ebb845f6f8616f9eb2afa959f288e25ae74750256a5f4ac2adc
   languageName: node
   linkType: hard
 
@@ -2081,7 +2081,7 @@ __metadata:
     hexo-generator-tag: 1.0.0
     hexo-hide-posts: 0.2.0
     hexo-image-cloudflare: 0.3.2
-    hexo-reference: 1.0.4
+    hexo-reference: "github:kchen0x/hexo-reference"
     hexo-renderer-ejs: 2.0.0
     hexo-renderer-marked: 6.0.0
     hexo-renderer-stylus: 2.1.0
