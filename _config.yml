@@ -172,7 +172,7 @@ pwa:
 waline:
   enable: true
   serverURL: https://comment.njzjz.win
-  visitor: true
+  pageview: true
   dark: auto
   login: force
 pub_author:
