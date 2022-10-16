@@ -2112,12 +2112,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-generator-index@npm:3.0.0":
-  version: 3.0.0
-  resolution: "hexo-generator-index@npm:3.0.0"
+"hexo-generator-index@npm:2.0.0":
+  version: 2.0.0
+  resolution: "hexo-generator-index@npm:2.0.0"
   dependencies:
-    hexo-pagination: 3.0.0
-  checksum: fcfbeb09022cdf7a608825604f098f01c75682125f9b875a776f3b89f9743522c58fab071c6a75c4185a6cd61896eead5058e600a0898de3a01781883fa1741f
+    hexo-pagination: 1.0.0
+    timsort: ^0.3.0
+  checksum: 7f0572f88ae8e26b03216d67e0ebde3795d56a64548db49a38db90705849c5c250ddf90b1fd4dbb893c329c68aa26d132d324a8187a129e58a94bc4616a3286d
   languageName: node
   linkType: hard
 
@@ -2282,7 +2283,7 @@ __metadata:
     hexo-generator-archive: 2.0.0
     hexo-generator-category: 2.0.0
     hexo-generator-feed: 3.0.0
-    hexo-generator-index: 3.0.0
+    hexo-generator-index: 2.0.0
     hexo-generator-searchdb: 1.4.0
     hexo-generator-sitemap: 3.0.1
     hexo-generator-tag: 2.0.0
@@ -4664,6 +4665,13 @@ __metadata:
   version: 2.0.0
   resolution: "tildify@npm:2.0.0"
   checksum: 0f5fee93624c4afdf75ee224c3b65aece4817ba5317fd70f49eaf084ea720d73556a6ef3f50079425a773ba3b93805b4524d14057841d4e4336516fdbe80635b
+  languageName: node
+  linkType: hard
+
+"timsort@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "timsort@npm:0.3.0"
+  checksum: 1a66cb897dacabd7dd7c91b7e2301498ca9e224de2edb9e42d19f5b17c4b6dc62a8d4cbc64f28be82aaf1541cb5a78ab49aa818f42a2989ebe049a64af731e2a
   languageName: node
   linkType: hard
 
