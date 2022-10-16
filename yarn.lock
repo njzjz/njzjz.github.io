@@ -2142,12 +2142,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-generator-tag@npm:1.0.0":
-  version: 1.0.0
-  resolution: "hexo-generator-tag@npm:1.0.0"
+"hexo-generator-tag@npm:2.0.0":
+  version: 2.0.0
+  resolution: "hexo-generator-tag@npm:2.0.0"
   dependencies:
-    hexo-pagination: 1.0.0
-  checksum: 7f4402261e9bad45ab6cd20959dec89b059a19c077ddb727278057d626f29bda7fba270dfd28729cdbb937ab84a8472382bb323d1dfda1d3440943ad7009870f
+    hexo-pagination: 3.0.0
+  checksum: a9d6c6aae2b61eabb6dfdf4620087d49de2587037eec1d678e9fecb0a020841b5d0a2a8d1f4c5c871aee5c30b5606de8ec56b3ea24bb60cc4e8cf9adb7f6bff4
   languageName: node
   linkType: hard
 
@@ -2286,7 +2286,7 @@ __metadata:
     hexo-generator-index: 2.0.0
     hexo-generator-searchdb: 1.4.0
     hexo-generator-sitemap: 3.0.1
-    hexo-generator-tag: 1.0.0
+    hexo-generator-tag: 2.0.0
     hexo-hide-posts: 0.2.0
     hexo-image-cloudflare: 0.3.2
     hexo-reference: "github:kchen0x/hexo-reference"
