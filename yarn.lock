@@ -2084,12 +2084,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-generator-archive@npm:1.0.0":
-  version: 1.0.0
-  resolution: "hexo-generator-archive@npm:1.0.0"
+"hexo-generator-archive@npm:2.0.0":
+  version: 2.0.0
+  resolution: "hexo-generator-archive@npm:2.0.0"
   dependencies:
-    hexo-pagination: 1.0.0
-  checksum: f36b2465d3a3227b37e7d7fa19cb354a1465ab98c604ff0478131404e3fd64e3e365d45c9fc90b97f487780f80736cf0eb25eb1ad8717d7e46925a587b0872f6
+    hexo-pagination: 3.0.0
+  checksum: dd2e4ace5aad04dd390a08b04be9eb546f3e705736f0e665317575e3a256df93d772465a6369a49c4a6ea4ad5da158108c97d6ac5b691e235f6e556774566c78
   languageName: node
   linkType: hard
 
@@ -2280,7 +2280,7 @@ __metadata:
     bundlesize: 0.18.1
     hexo: 6.3.0
     hexo-extract-inline-scripts: 0.0.3
-    hexo-generator-archive: 1.0.0
+    hexo-generator-archive: 2.0.0
     hexo-generator-category: 2.0.0
     hexo-generator-feed: 3.0.0
     hexo-generator-index: 2.0.0
