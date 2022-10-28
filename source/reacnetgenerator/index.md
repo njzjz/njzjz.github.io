@@ -29,7 +29,7 @@ Batuer_ChemicalEngineeringJournal_2021_v405_p126633,
 Ponnuchamy_Processes_2021_v9_p714,
 Lei_JPhysChemLett_2021_v12_p9413,
 Li_InternationalJournalofHydrogenEnergy_2021_v46_p38854,
-Bai_ChemCommun(Camb)_2021_v57_p11633,
+Bai_ChemCommun_2021_v57_p11633,
 Cao_ChemRxiv_2019,
 Zeng_EnergyFuels_2021_v35_p762,
 {% endpublications %}
