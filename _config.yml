@@ -128,6 +128,7 @@ cdn:
     - https://img.njzjz.win/
     - https://unpkg.com/
     - https://pubs.acs.org/
+    - https://www.mdpi.com/
   max_width:
     - 828
     - 1656
