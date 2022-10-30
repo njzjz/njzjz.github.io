@@ -261,6 +261,7 @@ pages={4304--4317},
     note ={PMID: 35709391},
     abstract = { We present a fast, accurate, and robust approach for determination of free energy profiles and kinetic isotope effects for RNA 2′-O-transphosphorylation reactions with inclusion of nuclear quantum effects. We apply a deep potential range correction (DPRc) for combined quantum mechanical/molecular mechanical (QM/MM) simulations of reactions in the condensed phase. The method uses the second-order density-functional tight-binding method (DFTB2) as a fast, approximate base QM model. The DPRc model modifies the DFTB2 QM interactions and applies short-range corrections to the QM/MM interactions to reproduce ab initio DFT (PBE0/6-31G*) QM/MM energies and forces. The DPRc thus enables both QM and QM/MM interactions to be tuned to high accuracy, and the QM/MM corrections are designed to smoothly vanish at a specified cutoff boundary (6 Å in the present work). The computational speed-up afforded by the QM/MM+DPRc model enables free energy profiles to be calculated that include rigorous long-range QM/MM interactions under periodic boundary conditions and nuclear quantum effects through a path integral approach using a new interface between the AMBER and i-PI software. The approach is demonstrated through the calculation of free energy profiles of a native RNA cleavage model reaction and reactions involving thio-substitutions, which are important experimental probes of the mechanism. The DFTB2+DPRc QM/MM free energy surfaces agree very closely with the PBE0/6-31G* QM/MM results, and it is vastly superior to the DFTB2 QM/MM surfaces with and without weighted thermodynamic perturbation corrections. 18O and 34S primary kinetic isotope effects are compared, and the influence of nuclear quantum effects on the free energy profiles is examined. },
   image={https://pubs.acs.org/cms/10.1021/acs.jctc.2c00151/asset/images/medium/ct2c00151_0006.gif},
+  researchgate=361379553,
 }
 
 @incollection{Zeng_2022_Chapter,
@@ -277,4 +278,47 @@ pages={4304--4317},
   abstract = {Recently, artificial neural network-based methods for the construction of potential energy surfaces and molecular dynamics (MD) simulations based on them have been increasingly used in the field of theoretical chemistry. The neural network potentials (NNP) strike a good balance between accuracy and computational efficiency relative to quantum chemical calculations and MD simulations based on classical force fields. Thus, NNP is becoming a powerful tool for studying the structure and function of molecules. In this chapter, we introduce the basic theory of NNP. The construction steps and the usage of NNP are also introduced in detail with the MD simulation of methane combustion as an example. We hope that this chapter can help those readers who are new but interested in entering this field.},
   image = {https://ars.els-cdn.com/content/image/3-s2.0-B9780323900492000019-f12-01-9780323900492.sml},
   github = {tongzhugroup/Chapter13-tutorial},
+  researchgate = 363856260,
 }
+
+@Article{Giese_JPhysChemA_2022_vNone_pNone,
+    author =   {Timothy J Giese and Jinzhe Zeng and Darrin M York},
+    title =    {{Multireference Generalization of the Weighted Thermodynamic
+             Perturbation Method}},
+    journal =  {J. Phys. Chem. A},
+    year =     2022,
+    annote =   {We describe the generalized weighted thermodynamic perturbation (gwTP)
+             method for estimating the free energy surface of an expensive "high-
+             level" potential energy function from the umbrella sampling performed
+             with multiple inexpensive "low-level" reference potentials. The gwTP
+             method is a generalization of the weighted thermodynamic perturbation
+             (wTP) method developed by Li and co-workers [J. Chem. Theory Comput.
+             2018, 14, 5583-5596] that uses a single "low-level" reference
+             potential. The gwTP method offers new possibilities in model design
+             whereby the sampling generated from several low-level potentials may
+             be combined (e.g., specific reaction parameter models that might have
+             variable accuracy at different stages of a multistep reaction). The
+             gwTP method is especially well suited for use with machine learning
+             potentials (MLPs) that are trained against computationally expensive
+             ab initio quantum mechanical/molecular mechanical (QM/MM) energies and
+             forces using active learning procedures that naturally produce
+             multiple distinct neural network potentials. Simulations can be
+             performed with greater sampling using the fast MLPs and then corrected
+             to the ab initio level using gwTP. The capabilities of the gwTP method
+             are demonstrated by creating reference potentials based on the MNDO/d
+             and DFTB2/MIO semiempirical models supplemented with the "range-
+             corrected deep potential" (DPRc). The DPRc parameters are trained to
+             ab initio QM/MM data, and the potentials are used to calculate the
+             free energy surface of stepwise mechanisms for nonenzymatic RNA
+             2'-O-transesterification model reactions. The extended sampling made
+             possible by the reference potentials allows one to identify
+             unequilibrated portions of the simulations that are not always evident
+             from the short time scale commonly used with ab initio QM/MM
+             potentials. We show that the reference potential approach can yield
+             more accurate ab initio free energy predictions than the wTP method or
+             what can be reasonably afforded from explicit ab initio QM/MM
+             sampling.},
+    doi =      {10.1021/acs.jpca.2c06201},
+	researchgate = 364824210,
+}
+
