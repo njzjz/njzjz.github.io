@@ -127,6 +127,7 @@ cdn:
     - https://images.weserv.nl/
     - https://img.njzjz.win/
     - https://unpkg.com/
+    - https://pubs.acs.org/
   max_width:
     - 828
     - 1656
