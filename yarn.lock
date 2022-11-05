@@ -911,15 +911,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cargo-cp-artifact@npm:^0.1":
-  version: 0.1.6
-  resolution: "cargo-cp-artifact@npm:0.1.6"
-  bin:
-    cargo-cp-artifact: bin/cargo-cp-artifact.js
-  checksum: 2f5d2f3e73372c9d398746372e8d1f7b171f27c8d4e4e9f7de898ead93b29631d62ea26c1ae352fa2c1542e124c2c77ac8a60acc5634bb433133ee2c7c6f1e09
-  languageName: node
-  linkType: hard
-
 "chalk@npm:2.1.0":
   version: 2.1.0
   resolution: "chalk@npm:2.1.0"
@@ -2307,7 +2298,7 @@ __metadata:
     hexo-tag-bilitube: 0.1.11
     hexo-tag-publications: 0.3.2
     hexo-theme-next: 8.13.2
-    hexo-word-counter: 0.1.0
+    hexo-word-counter: 0.0.3
     hexo-yam: 7.0.0
     sticker-heo: 2022.7.5
     unpkg_url: 0.0.1
@@ -2383,13 +2374,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-word-counter@npm:0.1.0":
-  version: 0.1.0
-  resolution: "hexo-word-counter@npm:0.1.0"
+"hexo-word-counter@npm:0.0.3":
+  version: 0.0.3
+  resolution: "hexo-word-counter@npm:0.0.3"
   dependencies:
-    cargo-cp-artifact: ^0.1
-    hexo-util: 2.7.0
-  checksum: 86635d8d9105fe6e92038bd28e9b234b9ad2e1e59ef8128b3391e2863df1e821dffd369607ccc20d9791b318c7dec47fd4633a22f3c5b56734dc4a9ff8157599
+    hexo-util: 2.4.0
+  checksum: efe4083851f6a019847a46815a6480d1a7139bcbce82d5a1e88bcbcdc46cb5755d33f191930ce423a5279ef94c73b08d654d861165556700f59ea564d7f0870b
   languageName: node
   linkType: hard
 
