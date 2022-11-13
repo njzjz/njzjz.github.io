@@ -139,10 +139,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@njzjz/icons@npm:0.0.4":
-  version: 0.0.4
-  resolution: "@njzjz/icons@npm:0.0.4"
-  checksum: c88bf3edef05cb2ebc66c33c68377027dd158d6419c0a08821b261d2e397febaa8f914c0db47b61b51086a2141cd2e4b58844f826897dde3adbcb2ee67747922
+"@njzjz/icons@npm:0.0.5":
+  version: 0.0.5
+  resolution: "@njzjz/icons@npm:0.0.5"
+  checksum: 0ed5432736855ca50b7f1dcaca1b67aa49719c98a57ad3a8212df4c5779e0649ec38e0ef840d60cc5d82d36181787a86d10b53ad57285c02778e19957ccf2039
   languageName: node
   linkType: hard
 
@@ -2274,7 +2274,7 @@ __metadata:
   resolution: "hexo-site@workspace:."
   dependencies:
     "@njzjz/hexo-sitemap": 0.0.3
-    "@njzjz/icons": 0.0.4
+    "@njzjz/icons": 0.0.5
     "@njzjz/preview-cfpages": 0.0.6
     "@waline/client": 2.13.0
     "@waline/hexo-next": 3.0.1
