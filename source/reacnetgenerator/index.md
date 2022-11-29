@@ -14,6 +14,8 @@ Chen_ChemicalEngineeringJournal_2023_v451_p138644,
 
 ## 2022
 {% publications %}
+She_Molecules_2022_v27_p8255,
+Zhu_Processes_2022_v10_p2378,
 Liu_InternationalJournalofHydrogenEnergy_2022_vNone_pNone,
 Wang_JACSAu_2022_v2_p2081,
 Wang_MaterialsTodayCommunications_2022_v33_p104379,
