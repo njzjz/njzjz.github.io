@@ -386,7 +386,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^9.7.0":
+"@vueuse/core@npm:^9.8.2":
   version: 9.8.2
   resolution: "@vueuse/core@npm:9.8.2"
   dependencies:
@@ -414,15 +414,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@waline/client@npm:2.14.2":
-  version: 2.14.2
-  resolution: "@waline/client@npm:2.14.2"
+"@waline/client@npm:2.14.3":
+  version: 2.14.3
+  resolution: "@waline/client@npm:2.14.3"
   dependencies:
-    "@vueuse/core": ^9.7.0
+    "@vueuse/core": ^9.8.2
     autosize: ^5.0.2
-    marked: ^4.2.4
+    marked: ^4.2.5
     vue: ^3.2.45
-  checksum: e63725d4addd6a19e8f51513bc98eea66b83056c4c196fab1f1a75271fa6c2344b27648b8ae90bc42e689c8f602bd836accf6b2f62efa14aee6914079669b1ed
+  checksum: 1eca5690ce053f98bd7ef4f0818e07c8f2bb6330c846c6365d7127460dee693810399dc0cdcc13681a249e9fd19573b84fbdca0d1e8b17b21ea46f92493afee1
   languageName: node
   linkType: hard
 
@@ -3289,7 +3289,7 @@ __metadata:
     "@njzjz/hexo-sitemap": 0.0.3
     "@njzjz/icons": 0.0.5
     "@njzjz/preview-cfpages": 0.0.6
-    "@waline/client": 2.14.2
+    "@waline/client": 2.14.3
     "@waline/hexo-next": 3.0.1
     bundlesize: 0.18.1
     hexo: 6.3.0
@@ -4750,12 +4750,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^4.1.1, marked@npm:^4.2.4":
+"marked@npm:^4.1.1":
   version: 4.2.4
   resolution: "marked@npm:4.2.4"
   bin:
     marked: bin/marked.js
   checksum: 5eb5bfa6ee4cf85712a3ccbe2a549c397e8886f5d18312a02696c7e3817625a6b91a8ad27a6ed43b06ddbdfb812f471b1270517c4b8fb068a6a9e5b4d555a5aa
+  languageName: node
+  linkType: hard
+
+"marked@npm:^4.2.5":
+  version: 4.2.5
+  resolution: "marked@npm:4.2.5"
+  bin:
+    marked: bin/marked.js
+  checksum: dd7da20a3983c66b516463fad5dc8d15dc70e137d20b6dc491e134f671e84bd2ed5f859e2c35f21e56830a122e4356b9e574bcde49b72b7ad6bc121a215a1a98
   languageName: node
   linkType: hard
 
