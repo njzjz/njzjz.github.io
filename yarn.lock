@@ -1460,9 +1460,9 @@ __metadata:
   linkType: hard
 
 "dompurify@npm:^2.4.0":
-  version: 2.4.1
-  resolution: "dompurify@npm:2.4.1"
-  checksum: 1169177465b3cbb25a44322937fba549f6c4e1a91b83245d144471be26619c835cccf0f8e20aa78c25ac11a06efd17cc1b9db9cacadceb78a4c08a1029eafee5
+  version: 2.4.3
+  resolution: "dompurify@npm:2.4.3"
+  checksum: b440981f2a38cada2085759cc3d1e2f94571afc34343d011a8a6aa1ad91ae6abf651adbfa4994b0e2283f0ce81f7891cdb04b67d0b234c8d190cb70e9691f026
   languageName: node
   linkType: hard
 
@@ -1888,13 +1888,13 @@ __metadata:
   linkType: hard
 
 "glob-promise@npm:*":
-  version: 6.0.0
-  resolution: "glob-promise@npm:6.0.0"
+  version: 6.0.1
+  resolution: "glob-promise@npm:6.0.1"
   dependencies:
     "@types/glob": ^8.0.0
   peerDependencies:
     glob: ^8.0.3
-  checksum: 04f872c510dfe6b05696594b29be516cd6a93b891a1222ffb465701c6842846e2be6bb6662b435b98bcafb457791a0fc2358d169d25056ff07dfcb9f2e41c042
+  checksum: b33df60d9881d124412a9c51d3096743d441265ca4bfe845f861c13c738cfd3333ac2cc64754fb8eb9eccf5e99a4bb7b3abf916e748f14b842a0cc5fdc890e9a
   languageName: node
   linkType: hard
 
@@ -3275,12 +3275,12 @@ __metadata:
   linkType: hard
 
 "moize@npm:^6.1.0":
-  version: 6.1.4
-  resolution: "moize@npm:6.1.4"
+  version: 6.1.5
+  resolution: "moize@npm:6.1.5"
   dependencies:
     fast-equals: ^3.0.1
     micro-memoize: ^4.0.11
-  checksum: 2f37abed0f882493c943ea728046f3a67ce7c55106cd6befdbf241519317ecf811674d6e53eb3f55087850cc11bc94ac62eae00477e9acbb00a39503c721d0a9
+  checksum: 62fa868b2b2b29d01b2831aebd009071afd88f2d682f342915952f5ac88ec9919839fddd79fc4c13b5eb1b2f63b444885358dec1f26ed9d9734a7b4577a4b9a4
   languageName: node
   linkType: hard
 
@@ -3774,13 +3774,13 @@ __metadata:
   linkType: hard
 
 "postcss@npm:^8.1.10":
-  version: 8.4.20
-  resolution: "postcss@npm:8.4.20"
+  version: 8.4.21
+  resolution: "postcss@npm:8.4.21"
   dependencies:
     nanoid: ^3.3.4
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 1a5609ea1c1b204f9c2974a0019ae9eef2d99bf645c2c9aac675166c4cb1005be7b5e2ba196160bc771f5d9ac896ed883f236f888c891e835e59d28fff6651aa
+  checksum: e39ac60ccd1542d4f9d93d894048aac0d686b3bb38e927d8386005718e6793dbbb46930f0a523fe382f1bbd843c6d980aaea791252bf5e176180e5a4336d9679
   languageName: node
   linkType: hard
 
@@ -4983,17 +4983,17 @@ __metadata:
   linkType: hard
 
 "ws@npm:^8.11.0":
-  version: 8.11.0
-  resolution: "ws@npm:8.11.0"
+  version: 8.12.0
+  resolution: "ws@npm:8.12.0"
   peerDependencies:
     bufferutil: ^4.0.1
-    utf-8-validate: ^5.0.2
+    utf-8-validate: ">=5.0.2"
   peerDependenciesMeta:
     bufferutil:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 316b33aba32f317cd217df66dbfc5b281a2f09ff36815de222bc859e3424d83766d9eb2bd4d667de658b6ab7be151f258318fb1da812416b30be13103e5b5c67
+  checksum: 818ff3f8749c172a95a114cceb8b89cedd27e43a82d65c7ad0f7882b1e96a2ee6709e3746a903c3fa88beec0c8bae9a9fcd75f20858b32a166dfb7519316a5d7
   languageName: node
   linkType: hard
 
