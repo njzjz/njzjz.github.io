@@ -386,15 +386,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@waline/client@npm:2.14.6":
-  version: 2.14.6
-  resolution: "@waline/client@npm:2.14.6"
+"@waline/client@npm:2.14.7":
+  version: 2.14.7
+  resolution: "@waline/client@npm:2.14.7"
   dependencies:
     "@vueuse/core": ^9.10.0
     autosize: ^5.0.2
     marked: ^4.2.5
     vue: ^3.2.45
-  checksum: af64671a306cef0ca6989809253cfdd475a4ecaa36dae910c0e0a78974183367fe11c1c13000e36ffeac06b0c753234248a66dd309ab9e74fe1869ae4261712d
+  checksum: a1836d1b26d015143ba978eaa9bf576677ddde0a0d95fb7b302dc9a6380a4d073f3bee686d6f5f59f1404b1db579457a0711cba2a0e580e0a9c0941edbafa763
   languageName: node
   linkType: hard
 
@@ -2241,7 +2241,7 @@ __metadata:
     "@njzjz/hexo-sitemap": 0.0.3
     "@njzjz/icons": 0.0.5
     "@njzjz/preview-cfpages": 0.0.6
-    "@waline/client": 2.14.6
+    "@waline/client": 2.14.7
     "@waline/hexo-next": 3.0.1
     bundlesize: 0.18.1
     hexo: 6.3.0
