@@ -40,11 +40,11 @@ __metadata:
   linkType: hard
 
 "@babel/parser@npm:^7.16.4":
-  version: 7.20.7
-  resolution: "@babel/parser@npm:7.20.7"
+  version: 7.20.13
+  resolution: "@babel/parser@npm:7.20.13"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 25b5266e3bd4be837092685f6b7ef886f1308ff72659a24342eb646ae5014f61ed1771ce8fc20636c890fcae19304fc72c069564ca6075207b7fbf3f75367275
+  checksum: 7eb2e3d9d9ad5e24b087c88d137f5701d94f049e28b9dce9f3f5c6d4d9b06a0d7c43b9106f1c02df8a204226200e0517de4bc81a339768a4ebd4c59107ea93a4
   languageName: node
   linkType: hard
 
@@ -202,16 +202,16 @@ __metadata:
   linkType: hard
 
 "@types/glob@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "@types/glob@npm:8.0.0"
+  version: 8.0.1
+  resolution: "@types/glob@npm:8.0.1"
   dependencies:
-    "@types/minimatch": "*"
+    "@types/minimatch": ^5.1.2
     "@types/node": "*"
-  checksum: 1817b05f5a8aed851d102a65b5e926d5c777bef927ea62b36d635860eef5364f2046bb5a692d135b6f2b28f34e4a9d44ade9396122c0845bcc7636d35f624747
+  checksum: 98f3d0403c09638348a2f3b30aac2a3d6bdc306bce3ceb868f4794fef4f02727ccdf0dab0c7b7d65fd38a1afa1e48f02de56d29d2babe94ee9b204ca54acb31f
   languageName: node
   linkType: hard
 
-"@types/minimatch@npm:*":
+"@types/minimatch@npm:^5.1.2":
   version: 5.1.2
   resolution: "@types/minimatch@npm:5.1.2"
   checksum: 0391a282860c7cb6fe262c12b99564732401bdaa5e395bee9ca323c312c1a0f45efbf34dce974682036e857db59a5c9b1da522f3d6055aeead7097264c8705a8
@@ -359,30 +359,30 @@ __metadata:
   linkType: hard
 
 "@vueuse/core@npm:^9.10.0":
-  version: 9.10.0
-  resolution: "@vueuse/core@npm:9.10.0"
+  version: 9.11.1
+  resolution: "@vueuse/core@npm:9.11.1"
   dependencies:
     "@types/web-bluetooth": ^0.0.16
-    "@vueuse/metadata": 9.10.0
-    "@vueuse/shared": 9.10.0
+    "@vueuse/metadata": 9.11.1
+    "@vueuse/shared": 9.11.1
     vue-demi: "*"
-  checksum: 9e3b0c0baa1e3daf3ae508f76acf4e73ec80a2089d420f5de7c203e9fecd8cd4596a5e4635bbf09a762e0bba022f26806ee23b69d5d01a5d0e4b76e2ad2878a4
+  checksum: c9b4d65d50441d19d452dfebe4e13c8b56a8ea296b31b9cd93b5a52ee1b461c40ebc530415d3869083852eb874c99d5742311fd8bf750d405f4d52a768aebaa3
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:9.10.0":
-  version: 9.10.0
-  resolution: "@vueuse/metadata@npm:9.10.0"
-  checksum: ef9b4970cc1795e197279b59cfd82c7475323c17ae02701e5a6be26df1258330d4fafb7c05d005dfa7af97277509a8589d62467925319e1c5c17715805554bb7
+"@vueuse/metadata@npm:9.11.1":
+  version: 9.11.1
+  resolution: "@vueuse/metadata@npm:9.11.1"
+  checksum: d4025257dc891b4ae3712a68b881409e7a58517f7b96f8949a74a99cec5e46f202fc2c326765eed9bffc8fbde6417ee737d3c2ac650799dd9e99fa5a7f9c2363
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:9.10.0":
-  version: 9.10.0
-  resolution: "@vueuse/shared@npm:9.10.0"
+"@vueuse/shared@npm:9.11.1":
+  version: 9.11.1
+  resolution: "@vueuse/shared@npm:9.11.1"
   dependencies:
     vue-demi: "*"
-  checksum: 1481ad7273eb8835a42fd49805d32ae97465188d260ddb28fdffebda7bedea5943bf49c3bd128121b32719307eaf1cb69b37b60fa1195c10a555e7aec3d78c22
+  checksum: 373a725ba87dd84eec3882cef4dc92706f28b53256f1c23a800444c12de675c71c1773c254def5d9c3096e54b9830154d13540264c1f017770395f04b07d789f
   languageName: node
   linkType: hard
 
@@ -1002,11 +1002,11 @@ __metadata:
   linkType: hard
 
 "clean-css@npm:^5.1.2":
-  version: 5.3.1
-  resolution: "clean-css@npm:5.3.1"
+  version: 5.3.2
+  resolution: "clean-css@npm:5.3.2"
   dependencies:
     source-map: ~0.6.0
-  checksum: 860696c60503cbfec480b5f92f62729246304b55950571af7292f2687b57f86b277f2b9fefe6f64643d409008018b78383972b55c2cc859792dcc8658988fb16
+  checksum: 8787b281acc9878f309b5f835d410085deedfd4e126472666773040a6a8a72f472a1d24185947d23b87b1c419bf2c5ed429395d5c5ff8279c98b05d8011e9758
   languageName: node
   linkType: hard
 
@@ -1888,13 +1888,13 @@ __metadata:
   linkType: hard
 
 "glob-promise@npm:*":
-  version: 6.0.1
-  resolution: "glob-promise@npm:6.0.1"
+  version: 6.0.2
+  resolution: "glob-promise@npm:6.0.2"
   dependencies:
     "@types/glob": ^8.0.0
   peerDependencies:
     glob: ^8.0.3
-  checksum: b33df60d9881d124412a9c51d3096743d441265ca4bfe845f861c13c738cfd3333ac2cc64754fb8eb9eccf5e99a4bb7b3abf916e748f14b842a0cc5fdc890e9a
+  checksum: 3caa63b052ddcf28d3498a0c93ef623bc43d0fa57487844782b77175c32db1602fd63e4e26091075125083b21eb3e81b4318d5d24139b9b033a764e64b6b3bc3
   languageName: node
   linkType: hard
 
@@ -3142,11 +3142,11 @@ __metadata:
   linkType: hard
 
 "minimatch@npm:^5.0.1":
-  version: 5.1.4
-  resolution: "minimatch@npm:5.1.4"
+  version: 5.1.6
+  resolution: "minimatch@npm:5.1.6"
   dependencies:
     brace-expansion: ^2.0.1
-  checksum: 0de6d7d154e70d12487b30a7bfcb74bd15fd1f1ec007a2516699ba76e63f78ca2e5016c200b242ed75123aff8dcccf49947f71b629fb1b1f221c8e76a13ed8de
+  checksum: 7564208ef81d7065a370f788d337cd80a689e981042cb9a1d0e6580b6c6a8c9279eba80010516e258835a988363f99f54a6f711a315089b8b42694f5da9d0d77
   languageName: node
   linkType: hard
 
@@ -3899,9 +3899,9 @@ __metadata:
   linkType: hard
 
 "punycode@npm:^2.1.1":
-  version: 2.2.0
-  resolution: "punycode@npm:2.2.0"
-  checksum: 32f291c1b1e8bef8a7d351a369579565bc17530ee5224d2f2b5c37b2647aa0ec7f1972294e2de1b632812f90c8080a7c0c5645c14758aadc0f27b35dd4906d89
+  version: 2.3.0
+  resolution: "punycode@npm:2.3.0"
+  checksum: 39f760e09a2a3bbfe8f5287cf733ecdad69d6af2fe6f97ca95f24b8921858b91e9ea3c9eeec6e08cede96181b3bb33f95c6ffd8c77e63986508aa2e8159fa200
   languageName: node
   linkType: hard
 
