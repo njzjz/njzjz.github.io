@@ -9,6 +9,7 @@ The following publications have used the ReacNetGenerator software. Publications
 ## 2023
 
 {% publications %}
+Xu_PolymerDegradationandStability_2023_v208_p110249,
 Chen_ChemicalEngineeringJournal_2023_v451_p138644,
 {% endpublications %}
 

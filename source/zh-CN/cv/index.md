@@ -28,6 +28,8 @@ mathjax: true
 ## 发表文章
 
 {% publications %}
+Liang_BookCharp_MultiscaleModeling_2023_p6-1,
+Zeng_JChemTheoryComput_2023_vNone_pNone,
 Giese_JPhysChemA_2022_vNone_pNone,
 Zeng_2022_Chapter,
 Giese_2022_JChemTheoryComput,
