@@ -2275,7 +2275,7 @@ __metadata:
     hexo-source-tag: 0.0.14
     hexo-tag-bilitube: 0.1.11
     hexo-tag-publications: 0.3.3
-    hexo-theme-next: 8.14.1
+    hexo-theme-next: 8.14.2
     hexo-word-counter: 0.1.0
     hexo-yam: 8.0.0
     sticker-heo: 2022.7.5
@@ -2329,10 +2329,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-theme-next@npm:8.14.1":
-  version: 8.14.1
-  resolution: "hexo-theme-next@npm:8.14.1"
-  checksum: c084bc50e78403890d1ecdf75e2a846048f4ee18c0830ba7df6cacb51f2395a225856426708bda6aa560503e04623c873d0605af32cf7c5d1539776334763876
+"hexo-theme-next@npm:8.14.2":
+  version: 8.14.2
+  resolution: "hexo-theme-next@npm:8.14.2"
+  checksum: 234d4735a0b9de2153047edd5bb1148a16b55e27dd6583f91355dd1a9e3c9b2a0e77e11d9e603faf56cb91d354f9582088616c970c57932e881c8f0a76f257b0
   languageName: node
   linkType: hard
 
