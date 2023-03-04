@@ -358,7 +358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^9.10.0":
+"@vueuse/core@npm:^9.13.0":
   version: 9.13.0
   resolution: "@vueuse/core@npm:9.13.0"
   dependencies:
@@ -386,15 +386,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@waline/client@npm:2.14.7":
-  version: 2.14.7
-  resolution: "@waline/client@npm:2.14.7"
+"@waline/client@npm:2.14.8":
+  version: 2.14.8
+  resolution: "@waline/client@npm:2.14.8"
   dependencies:
-    "@vueuse/core": ^9.10.0
-    autosize: ^5.0.2
-    marked: ^4.2.5
-    vue: ^3.2.45
-  checksum: a1836d1b26d015143ba978eaa9bf576677ddde0a0d95fb7b302dc9a6380a4d073f3bee686d6f5f59f1404b1db579457a0711cba2a0e580e0a9c0941edbafa763
+    "@vueuse/core": ^9.13.0
+    autosize: ^6.0.1
+    marked: ^4.2.12
+    user-agent-data-types: ^0.3.1
+    vue: ^3.2.47
+  checksum: 0e6d8f0813f75f4a4ae40b288a3874b39e1c8e6b079b32d861a77749f9e8005c8ee11227eb063d08fa82d461f088c62f220291858876df738f221ca6bf62a687
   languageName: node
   linkType: hard
 
@@ -630,10 +631,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autosize@npm:^5.0.2":
-  version: 5.0.2
-  resolution: "autosize@npm:5.0.2"
-  checksum: 211d1de1b1793bddd47ae7deec19e47a832988d9e4ec9943b8d0d99cddd49bfad2c4a54a377cf162da420e645a44c6a572fdbbf7a7982043ad3d22ff2efe4d3f
+"autosize@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "autosize@npm:6.0.1"
+  checksum: 116635be9479baee6dd9c4f0545fbd07318e83bcdb198f9c41c0594af82ca52a1e0cce38797dcbda9d321467805293e66a3b2f3e01a82952ff879c50e2c813e8
   languageName: node
   linkType: hard
 
@@ -2253,7 +2254,7 @@ __metadata:
     "@njzjz/hexo-sitemap": 0.0.3
     "@njzjz/icons": 0.0.5
     "@njzjz/preview-cfpages": 0.0.6
-    "@waline/client": 2.14.7
+    "@waline/client": 2.14.8
     "@waline/hexo-next": 3.0.1
     bundlesize: 0.18.1
     hexo: 6.3.0
@@ -3014,7 +3015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^4.1.1, marked@npm:^4.2.5":
+"marked@npm:^4.1.1, marked@npm:^4.2.12":
   version: 4.2.12
   resolution: "marked@npm:4.2.12"
   bin:
@@ -4833,6 +4834,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"user-agent-data-types@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "user-agent-data-types@npm:0.3.1"
+  checksum: b1e00d85fe1471d1adb203c371a99c4eba8b478d648611f2fcdad4fba31428fdc5f777739c14d58b8995e5ab54bccd6b92e169e9594ca7a07294846fd70c3d4b
+  languageName: node
+  linkType: hard
+
 "util-deprecate@npm:^1.0.1, util-deprecate@npm:~1.0.1":
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
@@ -4880,7 +4888,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.2.45":
+"vue@npm:^3.2.47":
   version: 3.2.47
   resolution: "vue@npm:3.2.47"
   dependencies:
