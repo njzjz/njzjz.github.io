@@ -5,7 +5,7 @@ categories:
   - Technology
 date: 2021-01-13
 ---
-# Install TensorFlow's C++ interface 
+## Install TensorFlow's C++ interface 
 The tensorflow's C++ interface will be compiled from the source code. Firstly one installs bazel. The bazel version 3.1.0 should be used. A full instruction of bazel installation can be found [here](https://docs.bazel.build/versions/master/install.html).
 ```bash
 cd /some/workspace
@@ -111,7 +111,7 @@ rsync -avzh --include '*/' --include '*.h' --include '*.inc' --exclude '*' bazel
 rsync -avzh --include '*/' --include '*.h' --include '*.inc' --exclude '*' bazel-tensorflow/external/com_google_absl/absl/ $tensorflow_root/include/absl/
 ```
 
-# Troubleshooting
+## Troubleshooting
 ```bash
 git: unknown command -C ...
 ```
