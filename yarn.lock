@@ -2233,15 +2233,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-renderer-marked@npm:6.1.0":
-  version: 6.1.0
-  resolution: "hexo-renderer-marked@npm:6.1.0"
+"hexo-renderer-marked@npm:6.1.1":
+  version: 6.1.1
+  resolution: "hexo-renderer-marked@npm:6.1.1"
   dependencies:
     dompurify: ^3.0.3
-    hexo-util: ^3.0.1
+    hexo-util: ^3.1.0
     jsdom: ^20.0.1
     marked: ^4.3.0
-  checksum: 61562c99e2f12556e4959c7bde768575b8c005fb06aacac6b76731f6d9324a73e200cf497c30b69b280aee831fa2086c05f119d6d7adce76f4e99d023b238471
+  checksum: 1941511f7c7355788333910d413b7a27c344a58fbdbefb0229e7655f96946056c3538bc24b0089a8b532af6ef3bb3c6ce95e202ade2496330ff4d61b8eb6cf74
   languageName: node
   linkType: hard
 
@@ -2294,7 +2294,7 @@ __metadata:
     hexo-image-cloudflare: 0.3.2
     hexo-reference: 1.0.4
     hexo-renderer-ejs: 2.0.0
-    hexo-renderer-marked: 6.1.0
+    hexo-renderer-marked: 6.1.1
     hexo-renderer-stylus: 2.1.0
     hexo-server: 3.0.0
     hexo-source-tag: 0.0.14
