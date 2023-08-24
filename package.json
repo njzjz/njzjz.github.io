@@ -56,5 +56,5 @@
     "hexo-util": "3.1.0",
     "css-select": "5.1.0"
   },
-  "packageManager": "yarn@3.6.2"
+  "packageManager": "yarn@3.6.3"
 }
