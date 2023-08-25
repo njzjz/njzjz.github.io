@@ -2173,12 +2173,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-hide-posts@npm:0.3.1":
-  version: 0.3.1
-  resolution: "hexo-hide-posts@npm:0.3.1"
+"hexo-hide-posts@npm:0.4.0":
+  version: 0.4.0
+  resolution: "hexo-hide-posts@npm:0.4.0"
   dependencies:
     chalk: ^4
-  checksum: 27187425e751b4f5b1ecaa02e089b059970773de1c96b43fa2e10f4761af026c57ebdd8fe0ebd4b494a6511197bbacf2d2cffb4153447235bfbbdf8a67f9644d
+  checksum: 33e4259449eb58ffdeb29a44cfc513f6267760e4a123edbc473b8f7a95f72e3b7e5027ecb4196bfe5dde8a8c49708fd5d30a80c9dcabdee77c2425445cecb9a4
   languageName: node
   linkType: hard
 
@@ -2302,7 +2302,7 @@ __metadata:
     hexo-generator-searchdb: 1.4.1
     hexo-generator-sitemap: 3.0.1
     hexo-generator-tag: 2.0.0
-    hexo-hide-posts: 0.3.1
+    hexo-hide-posts: 0.4.0
     hexo-image-cloudflare: 0.3.2
     hexo-reference: 1.0.4
     hexo-renderer-ejs: 2.0.0
