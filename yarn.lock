@@ -362,43 +362,43 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^10.1.2":
-  version: 10.4.0
-  resolution: "@vueuse/core@npm:10.4.0"
+"@vueuse/core@npm:^10.4.1":
+  version: 10.4.1
+  resolution: "@vueuse/core@npm:10.4.1"
   dependencies:
     "@types/web-bluetooth": ^0.0.17
-    "@vueuse/metadata": 10.4.0
-    "@vueuse/shared": 10.4.0
+    "@vueuse/metadata": 10.4.1
+    "@vueuse/shared": 10.4.1
     vue-demi: ">=0.14.5"
-  checksum: facfc2d4f4007b5c272b4a16be4ece9115c3791c561e645713aae45400115b8e8595db0760d782b44df92413f4f373f1dc19a4f9511af05075517669dcfc049b
+  checksum: 2232ad6dd3af89aee80d38ffcbe6a3386d1f55f66ac212baac10c3a506f43ee58a4fffabaa7ec483e62dbf6f231ee7ce1fb82ab91f9312e2d9f8c554810d2773
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:10.4.0":
-  version: 10.4.0
-  resolution: "@vueuse/metadata@npm:10.4.0"
-  checksum: a846479f9574aa8ab413002c32aa5cce391c2e22ef8b635045e75b6d92196a0e2645e74708656472b7e0f4df956c3ad30f954b3f74932d9275f3385fcf3b8513
+"@vueuse/metadata@npm:10.4.1":
+  version: 10.4.1
+  resolution: "@vueuse/metadata@npm:10.4.1"
+  checksum: d9c584f4581eed4e7e81423916077dada73b22ee3f1e798682aac1ee640a91b0287088f26dc7e72d7b6ad2e6c8d630fd7ee8ba02ca5987c033ed8391e92b5542
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:10.4.0":
-  version: 10.4.0
-  resolution: "@vueuse/shared@npm:10.4.0"
+"@vueuse/shared@npm:10.4.1":
+  version: 10.4.1
+  resolution: "@vueuse/shared@npm:10.4.1"
   dependencies:
     vue-demi: ">=0.14.5"
-  checksum: e1ea5069ab209381dd6380da5c695b67b3ad20c303b80113a8c718d1d09f1cac64a417ddfc0d474edd43d637e6dad932cc8e522f7c45d63d2d141341799e3d20
+  checksum: e1cc0b970e0ce06c8bc2cbed3ce37a9ee7ff0667fc3f354398b4201259db1848da428d62c9ea19c3124f5eb80ce0b3f97328f537e3238ec68cdbb726ff3e3fe8
   languageName: node
   linkType: hard
 
-"@waline/client@npm:2.15.6":
-  version: 2.15.6
-  resolution: "@waline/client@npm:2.15.6"
+"@waline/client@npm:2.15.7":
+  version: 2.15.7
+  resolution: "@waline/client@npm:2.15.7"
   dependencies:
-    "@vueuse/core": ^10.1.2
+    "@vueuse/core": ^10.4.1
     autosize: ^6.0.1
     marked: ^4.3.0
     vue: ^3.3.4
-  checksum: 7b48d60ef6de773d04edbb63108168b07d4a4e117fc4f454ccf28bfb272a4d23e56437ad2da5c567ae771df96866ac6b5dc195bd77e8120cc21d5b2525c28d37
+  checksum: 72f863895430422008790dabd525d9977adeb4ce6e72af08b271f8876df7eee144ac4e2b57a9f7aaa3111e771dcd3847c1726cbddd04eb97876bcb0a7bf1522a
   languageName: node
   linkType: hard
 
@@ -2290,7 +2290,7 @@ __metadata:
     "@njzjz/hexo-sitemap": 0.0.3
     "@njzjz/icons": 0.0.5
     "@njzjz/preview-cfpages": 0.0.6
-    "@waline/client": 2.15.6
+    "@waline/client": 2.15.7
     "@waline/hexo-next": 3.0.1
     bundlesize: 0.18.1
     hexo: 6.3.0
