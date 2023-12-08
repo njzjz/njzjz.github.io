@@ -37,7 +37,7 @@
     "hexo-reference": "1.0.4",
     "hexo-renderer-ejs": "2.0.0",
     "hexo-renderer-marked": "6.2.0",
-    "hexo-renderer-stylus": "2.1.0",
+    "hexo-renderer-stylus": "3.0.0",
     "hexo-server": "3.0.0",
     "hexo-source-tag": "0.0.14",
     "hexo-tag-bilitube": "0.1.11",
