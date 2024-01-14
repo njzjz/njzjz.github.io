@@ -2287,9 +2287,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-util@npm:3.1.0":
-  version: 3.1.0
-  resolution: "hexo-util@npm:3.1.0"
+"hexo-util@npm:3.2.0":
+  version: 3.2.0
+  resolution: "hexo-util@npm:3.2.0"
   dependencies:
     camel-case: ^4.1.2
     cross-spawn: ^7.0.3
@@ -2298,7 +2298,7 @@ __metadata:
     htmlparser2: ^9.0.0
     prismjs: ^1.29.0
     strip-indent: ^3.0.0
-  checksum: a077b78bea886047ffd4cd311c09ed1b4eef5feb8a89103ca554b0ae7d7e35d26c3d7de3ed41ad934de5caadeeb01903573f904e627fef00abb8a2886eaeff3f
+  checksum: 189831ac382e66f416bfe9fa652effd7000bc3d5f56ff871668c14d07a113ccbf87ba0e4656788ee41ec034741cc50f3a49f8ad4d65e8219c9c208b2cc45d207
   languageName: node
   linkType: hard
 
