@@ -2207,7 +2207,7 @@ __metadata:
     "@waline/client": 2.15.8
     "@waline/hexo-next": 3.0.1
     bundlesize: 0.18.1
-    hexo: 7.1.0
+    hexo: 7.1.1
     hexo-extract-inline-scripts: 0.0.3
     hexo-generator-archive: 2.0.0
     hexo-generator-category: 2.0.0
@@ -2326,9 +2326,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo@npm:7.1.0":
-  version: 7.1.0
-  resolution: "hexo@npm:7.1.0"
+"hexo@npm:7.1.1":
+  version: 7.1.1
+  resolution: "hexo@npm:7.1.1"
   dependencies:
     abbrev: ^2.0.0
     archy: ^1.0.0
@@ -2356,7 +2356,7 @@ __metadata:
     warehouse: ^5.0.0
   bin:
     hexo: bin/hexo
-  checksum: 1d5f20538439bddfddd669fec1b8cde045a00bc9e2c97d7a3e2e0e900ad31fdc72b8c95016359aad7eb9f1c24209705de46fec0aeec911b85073ea4ee9249d24
+  checksum: d54b48a39351355590790f61b00e5ad8ec9fb6d4e3cf74908508be14ae7afc02c5ad5c18e4a66663036484b2b64df2f4b40852e277de7b40277cf02b9939ea9d
   languageName: node
   linkType: hard
 

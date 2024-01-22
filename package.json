@@ -23,7 +23,7 @@
     "@njzjz/icons": "0.0.5",
     "@waline/client": "2.15.8",
     "@waline/hexo-next": "3.0.1",
-    "hexo": "7.1.0",
+    "hexo": "7.1.1",
     "hexo-extract-inline-scripts": "0.0.3",
     "hexo-generator-archive": "2.0.0",
     "hexo-generator-category": "2.0.0",
