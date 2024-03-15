@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@njzjz/preview-cfpages": "0.0.6",
-    "bundlesize": "0.18.1",
+    "bundlesize": "0.18.2",
     "hexo-yam": "8.0.0"
   },
   "resolutions": {
