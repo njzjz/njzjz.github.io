@@ -14,10 +14,10 @@ pdf: true
 * [2014-2015学年第一学期](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/期中试卷-2014-2015学年第一学期.pdf)
 
 # 课件
-* [1 总论](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-1%20总论%20%5D兼容模式%5B.pdf)
-* [2-2 分析数据](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-2-2%20第二章%20分析数据的处理和质量保证%20%5D兼容模式%5B.pdf)
-* [2-3 分析数据](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-2-3%20第二章%20分析数据的处理和质量保证%20%5D兼容模式%5B.pdf)
-* [2-4 分析数据](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-2-4%20第二章%20分析数据的处理和质量保证%20%5D兼容模式%5B.pdf)
+* [1 总论](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-1%20总论%20%5B兼容模式%5D.pdf)
+* [2-2 分析数据](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-2-2%20第二章%20分析数据的处理和质量保证%20%5B兼容模式%5D.pdf)
+* [2-3 分析数据](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-2-3%20第二章%20分析数据的处理和质量保证%20%5B兼容模式%5D.pdf)
+* [2-4 分析数据](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-2-4%20第二章%20分析数据的处理和质量保证%20%5B兼容模式%5D.pdf)
 * [3-1 酸碱](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-3-1%20化学分析%20酸碱平衡.pdf)
 * [3-2 配位](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-3-2%20化学分析%20配位平衡.pdf)
 * [3-3 氧化还原](https://bf.njzjz.win/ecnuchemistry/分析化学与分析技术(I)/课件-3-3%20化学分析%20氧化还原平衡.pdf)
