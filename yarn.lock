@@ -2240,7 +2240,7 @@ __metadata:
     hexo-tag-bilitube: "npm:0.1.11"
     hexo-tag-publications: "npm:0.3.5"
     hexo-theme-next: "npm:8.19.2"
-    hexo-word-counter: "npm:0.1.0"
+    hexo-word-counter: "npm:0.2.0"
     hexo-yam: "npm:8.0.0"
     sticker-heo: "npm:2022.7.5"
     unpkg_url: "npm:0.0.1"
@@ -2315,13 +2315,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-word-counter@npm:0.1.0":
-  version: 0.1.0
-  resolution: "hexo-word-counter@npm:0.1.0"
+"hexo-word-counter@npm:0.2.0":
+  version: 0.2.0
+  resolution: "hexo-word-counter@npm:0.2.0"
   dependencies:
     cargo-cp-artifact: "npm:^0.1"
-    hexo-util: "npm:2.7.0"
-  checksum: 10c0/fd5a833b6e946408f2a7495edfb2ac9d41ede0bdfb2a145a56166de2f9ded859fdf9c6a1a3bdf47c12277bb8102c3cf463fc70021c4265f4454a859877189ff9
+  checksum: 10c0/0299d2cec35122d3d832c9b6b71a5d6a709cbe1aafb00614085d1540ee5843e1e648f63c3fff7cd3fef67e5acd43d7874359bdc47789d5e3e8721a88cc9cba5d
   languageName: node
   linkType: hard
 
