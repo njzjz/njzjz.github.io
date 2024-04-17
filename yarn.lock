@@ -1993,23 +1993,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-cli@npm:^4.3.0":
-  version: 4.3.1
-  resolution: "hexo-cli@npm:4.3.1"
+"hexo-cli@npm:^4.3.2":
+  version: 4.3.2
+  resolution: "hexo-cli@npm:4.3.2"
   dependencies:
     abbrev: "npm:^2.0.0"
     bluebird: "npm:^3.7.2"
     command-exists: "npm:^1.2.9"
     hexo-fs: "npm:^4.1.1"
     hexo-log: "npm:^4.0.1"
-    hexo-util: "npm:^2.5.0"
+    hexo-util: "npm:^3.3.0"
     minimist: "npm:^1.2.5"
     picocolors: "npm:^1.0.0"
     resolve: "npm:^1.20.0"
     tildify: "npm:^2.0.0"
   bin:
     hexo: bin/hexo
-  checksum: 10c0/d63a9584bd6d7191718ddd5add9a08fe89e79754b16ca866d46937aa1c9ec70fd68b692fe60561befbe061770751ac78adc8420c01ea7a7d12147aaa0e66af4b
+  checksum: 10c0/8e8d4451a32e106495c16173c40ef49c3bbf1cd7403a304f1529a4c848e64edb606447aab9d03381a282e78995c2fa1d602b2d9699e9481ad4749380cb83b9a9
   languageName: node
   linkType: hard
 
@@ -2031,7 +2031,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-fs@npm:^4.0.0, hexo-fs@npm:^4.1.1":
+"hexo-fs@npm:^4.0.0, hexo-fs@npm:^4.1.1, hexo-fs@npm:^4.1.3":
   version: 4.1.3
   resolution: "hexo-fs@npm:4.1.3"
   dependencies:
@@ -2220,7 +2220,7 @@ __metadata:
     "@waline/client": "npm:3.1.3"
     "@waline/hexo-next": "npm:3.0.1"
     bundlesize: "npm:0.18.2"
-    hexo: "npm:7.1.1"
+    hexo: "npm:7.2.0"
     hexo-extract-inline-scripts: "npm:0.0.3"
     hexo-generator-archive: "npm:2.0.0"
     hexo-generator-category: "npm:2.0.0"
@@ -2338,19 +2338,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo@npm:7.1.1":
-  version: 7.1.1
-  resolution: "hexo@npm:7.1.1"
+"hexo@npm:7.2.0":
+  version: 7.2.0
+  resolution: "hexo@npm:7.2.0"
   dependencies:
     abbrev: "npm:^2.0.0"
     archy: "npm:^1.0.0"
     bluebird: "npm:^3.7.2"
-    hexo-cli: "npm:^4.3.0"
+    hexo-cli: "npm:^4.3.2"
     hexo-front-matter: "npm:^4.2.1"
-    hexo-fs: "npm:^4.1.1"
+    hexo-fs: "npm:^4.1.3"
     hexo-i18n: "npm:^2.0.0"
     hexo-log: "npm:^4.0.1"
-    hexo-util: "npm:^3.0.1"
+    hexo-util: "npm:^3.3.0"
     js-yaml: "npm:^4.1.0"
     js-yaml-js-types: "npm:^1.0.0"
     micromatch: "npm:^4.0.4"
@@ -2365,10 +2365,10 @@ __metadata:
     text-table: "npm:^0.2.0"
     tildify: "npm:^2.0.0"
     titlecase: "npm:^1.1.3"
-    warehouse: "npm:^5.0.0"
+    warehouse: "npm:^5.0.1"
   bin:
     hexo: bin/hexo
-  checksum: 10c0/ef6627d61b010e8a42a947afda3426af6732d70ab29df99e2d8238876899a4ca0fe91d20f8397b7fd248879f39267b7d58ddea4d15b49ead822659836bc1a377
+  checksum: 10c0/acd78f79c7047dcfc29afc9bcfa00521e56b67cda778c5ebd1929435c276df3d94ffdc784742781bab89f9c712f04d737b1238ae29ce3e912cd75d02ef36b1b0
   languageName: node
   linkType: hard
 
@@ -4910,7 +4910,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"warehouse@npm:^5.0.0":
+"warehouse@npm:^5.0.1":
   version: 5.0.1
   resolution: "warehouse@npm:5.0.1"
   dependencies:
