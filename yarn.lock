@@ -2238,7 +2238,7 @@ __metadata:
     hexo-server: "npm:3.0.0"
     hexo-source-tag: "npm:0.0.14"
     hexo-tag-bilitube: "npm:0.1.11"
-    hexo-tag-publications: "npm:0.3.5"
+    hexo-tag-publications: "npm:0.3.6"
     hexo-theme-next: "npm:8.20.0"
     hexo-word-counter: "npm:0.2.0"
     hexo-yam: "npm:8.0.0"
@@ -2280,16 +2280,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-tag-publications@npm:0.3.5":
-  version: 0.3.5
-  resolution: "hexo-tag-publications@npm:0.3.5"
+"hexo-tag-publications@npm:0.3.6":
+  version: 0.3.6
+  resolution: "hexo-tag-publications@npm:0.3.6"
   dependencies:
     bibtex-parse: "npm:^2.1.0"
     hexo-fs: "npm:^4.0.0"
     hexo-tag-injector: "npm:^0.1.0"
     hexo-util: "npm:^3.0.0"
     unpkg_url: "npm:^0.0.1"
-  checksum: 10c0/1de7dc91d1d0a3ed78f513eaabc37610b67f50e3c77f64b035ed7264043bfbc0e72c4eee5f4b5a5b1e691c42f4f794218f1f9f77a4f55724adfa15f93dd72804
+  checksum: 10c0/0356021efaf538bbab3a2fe0eebe1160df48cec351ba027df2811ea6ceb75fe5ffd06c98dd8e1974ca59fc222fc3725e0e5de59c17b00d38dae27fc8f2b9c289
   languageName: node
   linkType: hard
 
