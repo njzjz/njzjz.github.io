@@ -28,6 +28,7 @@ Develop deep learning potentials for simulations of different applications, incl
 ## Publications
 
 {% publications %}
+Tao_JChemPhys_2024_v160_p224104,
 Zeng_2023_deepmdkit,
 Zeng_JChemPhys_2023_v158_p124110,
 Liang_BookCharp_MultiscaleModeling_2023_p6-1,

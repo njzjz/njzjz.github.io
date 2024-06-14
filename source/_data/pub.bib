@@ -1018,3 +1018,44 @@ doi = http://www.cjcu.jlu.edu.cn/CN/10.7503/cjcu20210834
     doi =      {10.1016/j.fuel.2023.129909},
 }
 
+@Article{Tao_JChemPhys_2024_v160_p224104,
+    author =   {Yujun Tao and Timothy J. Giese and {\c{S}}{\"o}len Ekesan and Jinzhe
+             Zeng and B{\'a}lint Aradi and Ben Hourahine and Hasan Metin Aktulga
+             and Andreas W. G{\"o}tz and Kenneth M. {Merz Jr} and Darrin M. York},
+    title =    {{Amber free energy tools: Interoperable software for free energy
+             simulations using generalized quantum mechanical/molecular mechanical
+             and machine learning potentials}},
+    journal =  {J. Chem. Phys.},
+    year =     2024,
+    volume =   160,
+    number =   22,
+    pages =    224104,
+    doi =      {10.1063/5.0211276},
+    abstract = {We report the development and testing of new integrated
+             cyberinfrastructure for performing free energy simulations with
+             generalized hybrid quantum mechanical/molecular mechanical (QM/MM) and
+             machine learning potentials (MLPs) in Amber. The Sander molecular
+             dynamics program has been extended to leverage fast, density-
+             functional tight-binding models implemented in the DFTB+ and xTB
+             packages, and an interface to the DeePMD-kit software enables the use
+             of MLPs. The software is integrated through application program
+             interfaces that circumvent the need to perform "system calls" and
+             enable the incorporation of long-range Ewald electrostatics into the
+             external software's self-consistent field procedure. The
+             infrastructure provides access to QM/MM models that may serve as the
+             foundation for QM/MM-{\ensuremath{\Delta}}MLP potentials, which
+             supplement the semiempirical QM/MM model with a MLP correction trained
+             to reproduce ab{~}initio QM/MM energies and forces. Efficient
+             optimization of minimum free energy pathways is enabled through a new
+             surface-accelerated finite-temperature string method implemented in
+             the FE-ToolKit package. Furthermore, we interfaced Sander with the
+             i-PI software by implementing the socket communication protocol used
+             in the i-PI client-server model. The new interface with i-PI allows
+             for the treatment of nuclear quantum effects with semiempirical
+             QM/MM-{\ensuremath{\Delta}}MLP models. The modular interoperable
+             software is demonstrated on proton transfer reactions in guanine-
+             thymine mispairs in a B-form deoxyribonucleic acid helix. The current
+             work represents a considerable advance in the development of modular
+             software for performing free energy simulations of chemical reactions
+             that are important in a wide range of applications.},
+}
