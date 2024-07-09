@@ -2047,12 +2047,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-generator-index@npm:3.0.0":
-  version: 3.0.0
-  resolution: "hexo-generator-index@npm:3.0.0"
+"hexo-generator-index@npm:4.0.0":
+  version: 4.0.0
+  resolution: "hexo-generator-index@npm:4.0.0"
   dependencies:
     hexo-pagination: "npm:3.0.0"
-  checksum: 10c0/e0eadf32d44ad12e3a58706df866b32131d22a2e412f57f8b57a98b1d465fa6996485ecbf55be9111b8bda6a7c21d909595f1464f687e6b86df670e9390f664a
+  checksum: 10c0/e8108d85d4e7912170862a5d13a1341ae6f1bb2f67586835a5eba6722f3e0e064cd445b0fe2e6126a2deb196f3b19ef20dc84dc53717868b7eb1bf3675833952
   languageName: node
   linkType: hard
 
@@ -2201,7 +2201,7 @@ __metadata:
     hexo-generator-archive: "npm:2.0.0"
     hexo-generator-category: "npm:2.0.0"
     hexo-generator-feed: "npm:3.0.0"
-    hexo-generator-index: "npm:3.0.0"
+    hexo-generator-index: "npm:4.0.0"
     hexo-generator-searchdb: "npm:1.4.1"
     hexo-generator-sitemap: "npm:3.0.1"
     hexo-generator-tag: "npm:2.0.0"
