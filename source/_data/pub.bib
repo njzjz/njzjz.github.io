@@ -1059,3 +1059,39 @@ doi = http://www.cjcu.jlu.edu.cn/CN/10.7503/cjcu20210834
              software for performing free energy simulations of chemical reactions
              that are important in a wide range of applications.},
 }
+
+@Article{Giese_JPhysChemB_2024_v128_p6257,
+    author =   {Timothy J. Giese and Jinzhe Zeng and Lauren Lerew and Erika McCarthy
+             and Yujun Tao and {\c{S}}{\"o}len Ekesan and Darrin M. York},
+    title =    {{Software Infrastructure for Next-Generation
+             QM/MM-$\Delta$MLP Force Fields}},
+    journal =  {J. Phys. Chem., B},
+    year =     2024,
+    volume =   128,
+    number =   26,
+    pages =    {6257--6271},
+    doi =      {10.1021/acs.jpcb.4c01466},
+    abstract = {We present software infrastructure for the design and testing of new
+             quantum mechanical/molecular mechanical and machine-learning potential
+             (QM/MM-{\ensuremath{\Delta}}MLP) force fields for a wide range of
+             applications. The software integrates Amber's molecular dynamics
+             simulation capabilities with fast, approximate quantum models in the
+             xtb package and machine-learning potential corrections in DeePMD-kit.
+             The xtb package implements the recently developed density-functional
+             tight-binding QM models with multipolar electrostatics and density-
+             dependent dispersion (GFN2-xTB), and the interface with Amber enables
+             their use in periodic boundary QM/MM simulations with linear-scaling
+             QM/MM particle-mesh Ewald electrostatics. The accuracy of the
+             semiempirical models is enhanced by including machine-learning
+             correction potentials ({\ensuremath{\Delta}}MLPs) enabled through an
+             interface with the DeePMD-kit software. The goal of this paper is to
+             present and validate the implementation of this software
+             infrastructure in molecular dynamics and free energy simulations. The
+             utility of the new infrastructure is demonstrated in proof-of-concept
+             example applications. The software elements presented here are open
+             source and freely available. Their interface provides a powerful
+             enabling technology for the design of new
+             QM/MM-{\ensuremath{\Delta}}MLP models for studying a wide range of
+             problems, including biomolecular reactivity and protein-ligand
+             binding.},
+}
