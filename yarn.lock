@@ -2381,8 +2381,8 @@ __metadata:
     hexo-theme-next: "npm:8.22.0"
     hexo-word-counter: "npm:0.2.0"
     hexo-yam: "npm:9.0.0"
+    jsdelivr_url: "npm:0.0.1"
     sticker-heo: "npm:2022.7.5"
-    unpkg_url: "npm:0.0.1"
   languageName: unknown
   linkType: soft
 
@@ -2953,6 +2953,13 @@ __metadata:
   version: 1.1.0
   resolution: "jsbn@npm:1.1.0"
   checksum: 10c0/4f907fb78d7b712e11dea8c165fe0921f81a657d3443dde75359ed52eb2b5d33ce6773d97985a089f09a65edd80b11cb75c767b57ba47391fee4c969f7215c96
+  languageName: node
+  linkType: hard
+
+"jsdelivr_url@npm:0.0.1":
+  version: 0.0.1
+  resolution: "jsdelivr_url@npm:0.0.1"
+  checksum: 10c0/40b61f412dcd16d35fb97191d372bc04f4062ebf1f4b141e24d2941c8a48cfb825e35f8e0101442bd7cd406f0bc6330be2b45a46b7071b411e2a444e105e1353
   languageName: node
   linkType: hard
 
@@ -4956,7 +4963,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unpkg_url@npm:0.0.1, unpkg_url@npm:^0.0.1":
+"unpkg_url@npm:^0.0.1":
   version: 0.0.1
   resolution: "unpkg_url@npm:0.0.1"
   checksum: 10c0/2d6702b6d43b79df103bb0da4b83586e73182167ef770623ae077e6651182d9ec293be36019c7f1794b93ec521b85412aaf6176472e3f67a5e0eea1c2af1d166

@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const { npm_url } = require("unpkg_url");
+const { npm_url } = require("jsdelivr_url");
 const { name: next_name, version: next_version } = require("hexo-theme-next/package.json");
 const { name: icon_name, version: icon_version } = require("@njzjz/icons/package.json");
 
