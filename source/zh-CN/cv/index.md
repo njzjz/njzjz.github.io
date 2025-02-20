@@ -28,6 +28,7 @@ mathjax: true
 ## 发表文章
 
 {% publications %}
+Zhang_npjComputMater_2024_v10_p293,
 Giese_JPhysChemB_2024_v128_p6257,
 Tao_JChemPhys_2024_v160_p224104,
 Zeng_2023_deepmdkit,
