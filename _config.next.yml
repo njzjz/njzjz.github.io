@@ -92,8 +92,8 @@ links:
   "hexi blog": https://hexi519.github.io
   "求闻百科": https://www.qiuwenbaike.cn
 vendors:
-  internal: cdnjs
-  plugins: cdnjs
+  internal: jsdelivr
+  plugins: jsdelivr
 nprogress:
   enable: true
 preconnect: true

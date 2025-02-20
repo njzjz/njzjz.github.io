@@ -127,6 +127,7 @@ cdn:
     - https://images.weserv.nl/
     - https://img.njzjz.win/
     - https://unpkg.com/
+    - https://jsdelivr.net/
     - https://pubs.acs.org/
     - https://www.mdpi.com/
   max_width:
@@ -159,10 +160,10 @@ pwa:
           handler: StaleWhileRevalidate
           options:
             cacheName: js-css
-        - urlPattern: regexp:^https:\/\/unpkg\.com
+        - urlPattern: regexp:^https:\/\/cdn\.jsdelivr\.net
           handler: StaleWhileRevalidate
           options:
-            cacheName: unpkg
+            cacheName: jsdelivr
         - urlPattern: regexp:^https:\/\/images\.weserv\.nl
           handler: CacheFirst
           options:
