@@ -460,25 +460,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@waline/api@npm:^1.0.0":
+"@waline/api@npm:1.0.0":
   version: 1.0.0
   resolution: "@waline/api@npm:1.0.0"
   checksum: 10c0/7064dcb49717e4da669cc86a2c43aa0b50d9e8b7afa6d767ed217d5dd365cb8c1ed94018cba699e97eb910b58e00b9fa94a6d761743d97cccb00f5dcef33f873
   languageName: node
   linkType: hard
 
-"@waline/client@npm:3.5.2":
-  version: 3.5.2
-  resolution: "@waline/client@npm:3.5.2"
+"@waline/client@npm:3.5.4":
+  version: 3.5.4
+  resolution: "@waline/client@npm:3.5.4"
   dependencies:
     "@vueuse/core": "npm:^12.7.0"
-    "@waline/api": "npm:^1.0.0"
+    "@waline/api": "npm:1.0.0"
     autosize: "npm:^6.0.1"
     marked: "npm:^15.0.7"
     marked-highlight: "npm:^2.2.1"
     recaptcha-v3: "npm:^1.11.3"
     vue: "npm:^3.5.13"
-  checksum: 10c0/8f324fe4574e80670d7d233e01092f806d7eff0252aaa6782909a3c501898ff1729f4bb7ea90030dc0472aa4b3737dbb912dd666d5250a3b6527f1685b338043
+  checksum: 10c0/eb4411ac4ed477c04e1ed5793558181648793b916b7e7c52442dfbb4c9b75ab8eeb7e9a452fab6996cc05c4480c3b1d0db75f0af68f8029baa76939923017231
   languageName: node
   linkType: hard
 
@@ -2356,7 +2356,7 @@ __metadata:
     "@njzjz/hexo-sitemap": "npm:0.1.0"
     "@njzjz/icons": "npm:0.0.5"
     "@njzjz/preview-cfpages": "npm:0.0.6"
-    "@waline/client": "npm:3.5.2"
+    "@waline/client": "npm:3.5.4"
     "@waline/hexo-next": "npm:3.0.1"
     bundlesize: "npm:0.18.2"
     hexo: "npm:7.3.0"
