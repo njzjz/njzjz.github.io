@@ -2220,12 +2220,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-generator-searchdb@npm:1.4.1":
-  version: 1.4.1
-  resolution: "hexo-generator-searchdb@npm:1.4.1"
+"hexo-generator-searchdb@npm:1.5.0":
+  version: 1.5.0
+  resolution: "hexo-generator-searchdb@npm:1.5.0"
   dependencies:
     nunjucks: "npm:^3.2.2"
-  checksum: 10c0/13292548fd583eb743abe826e33bfa93538dbac992f708be0250cc5e22d96401bc12f833e2b337622238e02d3b8da595f47fea7d5bf0d1b5a45784468ceb67a2
+  checksum: 10c0/0848ce1bc15a28c4d0e14d8daa386ad28534a17ea15981d72b5ade0e02f6ab6aaeb7d5251e8aef9bf80d761bce34ee4eb78f1797811d4212f859cfb352185ac5
   languageName: node
   linkType: hard
 
@@ -2366,7 +2366,7 @@ __metadata:
     hexo-generator-category: "npm:2.0.0"
     hexo-generator-feed: "npm:3.0.0"
     hexo-generator-index: "npm:4.0.0"
-    hexo-generator-searchdb: "npm:1.4.1"
+    hexo-generator-searchdb: "npm:1.5.0"
     hexo-generator-sitemap: "npm:3.0.1"
     hexo-generator-tag: "npm:2.0.0"
     hexo-hide-posts: "npm:0.4.3"
