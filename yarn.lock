@@ -432,7 +432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^13.0.0":
+"@vueuse/core@npm:^13.1.0":
   version: 13.1.0
   resolution: "@vueuse/core@npm:13.1.0"
   dependencies:
@@ -468,18 +468,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@waline/client@npm:3.5.6":
-  version: 3.5.6
-  resolution: "@waline/client@npm:3.5.6"
+"@waline/client@npm:3.5.7":
+  version: 3.5.7
+  resolution: "@waline/client@npm:3.5.7"
   dependencies:
-    "@vueuse/core": "npm:^13.0.0"
+    "@vueuse/core": "npm:^13.1.0"
     "@waline/api": "npm:1.0.0"
     autosize: "npm:^6.0.1"
-    marked: "npm:^15.0.7"
+    marked: "npm:^15.0.11"
     marked-highlight: "npm:^2.2.1"
     recaptcha-v3: "npm:^1.11.3"
     vue: "npm:^3.5.13"
-  checksum: 10c0/643cb14af8deb8ae8028b6e39e18e12f18e9b79e3dde6292694ac257212ab78de3c78ff9ea22253e5c2961ef21b8522e521c1bd0b414d69cdad7dccf53db6709
+  checksum: 10c0/8922862a4438644c49a73bb7c701f30593a39f40d81bd95028fb889ac47ac195cb19c5d6f890a1f0be8d3a56049f35006a3686f06b0e42bedfcceffab4119195
   languageName: node
   linkType: hard
 
@@ -2376,7 +2376,7 @@ __metadata:
     "@njzjz/hexo-sitemap": "npm:0.1.0"
     "@njzjz/icons": "npm:0.0.5"
     "@njzjz/preview-cfpages": "npm:0.0.6"
-    "@waline/client": "npm:3.5.6"
+    "@waline/client": "npm:3.5.7"
     "@waline/hexo-next": "npm:3.0.1"
     bundlesize: "npm:0.18.2"
     hexo: "npm:7.3.0"
@@ -3173,7 +3173,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^15.0.7":
+"marked@npm:^15.0.11":
   version: 15.0.11
   resolution: "marked@npm:15.0.11"
   bin:
