@@ -8,7 +8,7 @@ A blog powered by [Hexo](https://github.com/hexojs/hexo) and [Next Theme](https:
 
 Author: Jinzhe Zeng
 
-Email: jzzeng@stu.ecnu.edu.cn
+Email: jinzhe.zeng@ustc.edu.cn
 
 ## Merged
 
