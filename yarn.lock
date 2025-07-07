@@ -38,23 +38,23 @@ __metadata:
   linkType: hard
 
 "@babel/parser@npm:^7.27.5":
-  version: 7.27.7
-  resolution: "@babel/parser@npm:7.27.7"
+  version: 7.28.0
+  resolution: "@babel/parser@npm:7.28.0"
   dependencies:
-    "@babel/types": "npm:^7.27.7"
+    "@babel/types": "npm:^7.28.0"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 10c0/f6202faeb873f0b3083022e50a5046fe07266d337c0a3bd80a491f8435ba6d9e383d49725e3dcd666b3b52c0dccb4e0f1f1004915762345f7eeed5ba54ea9fd2
+  checksum: 10c0/c2ef81d598990fa949d1d388429df327420357cb5200271d0d0a2784f1e6d54afc8301eb8bdf96d8f6c77781e402da93c7dc07980fcc136ac5b9d5f1fce701b5
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.27.7":
-  version: 7.27.7
-  resolution: "@babel/types@npm:7.27.7"
+"@babel/types@npm:^7.28.0":
+  version: 7.28.0
+  resolution: "@babel/types@npm:7.28.0"
   dependencies:
     "@babel/helper-string-parser": "npm:^7.27.1"
     "@babel/helper-validator-identifier": "npm:^7.27.1"
-  checksum: 10c0/1d1dcb5fa7cfba2b4034a3ab99ba17049bfc4af9e170935575246cdb1cee68b04329a0111506d9ae83fb917c47dbd4394a6db5e32fbd041b7834ffbb17ca086b
+  checksum: 10c0/7ca8521bf5e2d2ed4db31176efaaf94463a6b7a4d16dcc60e34e963b3596c2ecadb85457bebed13a9ee9a5829ef5f515d05b55a991b6a8f3b835451843482e39
   languageName: node
   linkType: hard
 
@@ -98,12 +98,12 @@ __metadata:
   linkType: hard
 
 "@jridgewell/gen-mapping@npm:^0.3.5":
-  version: 0.3.9
-  resolution: "@jridgewell/gen-mapping@npm:0.3.9"
+  version: 0.3.12
+  resolution: "@jridgewell/gen-mapping@npm:0.3.12"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
     "@jridgewell/trace-mapping": "npm:^0.3.24"
-  checksum: 10c0/94d89ac50bbeacf118b3b98ce300c068e4754d2dea9abc43340a80885c94160236e322722a89aa761257f1232a91ed2da77ee6d0636c29ea94a794d2d9f9243e
+  checksum: 10c0/32f771ae2467e4d440be609581f7338d786d3d621bac3469e943b9d6d116c23c4becb36f84898a92bbf2f3c0511365c54a945a3b86a83141547a2a360a5ec0c7
   languageName: node
   linkType: hard
 
@@ -115,29 +115,29 @@ __metadata:
   linkType: hard
 
 "@jridgewell/source-map@npm:^0.3.3":
-  version: 0.3.7
-  resolution: "@jridgewell/source-map@npm:0.3.7"
+  version: 0.3.10
+  resolution: "@jridgewell/source-map@npm:0.3.10"
   dependencies:
     "@jridgewell/gen-mapping": "npm:^0.3.5"
     "@jridgewell/trace-mapping": "npm:^0.3.25"
-  checksum: 10c0/5c7e055093c4b6758e0691f363278047c925c36e7970eea7d3e916d29aa1cacc2be3c72df4e88b3026bf04bce2d2da0732329c8e831ec7f75e39726d56998f97
+  checksum: 10c0/cf6a51808bc710eb91a9e6c5e250c1af5714299c8de3db2b74e273a27ba7313f37c198ba332a512b7657fa23fed125c0147bfb1b925cadc9697a89cebecad0d8
   languageName: node
   linkType: hard
 
 "@jridgewell/sourcemap-codec@npm:^1.4.14, @jridgewell/sourcemap-codec@npm:^1.5.0":
-  version: 1.5.1
-  resolution: "@jridgewell/sourcemap-codec@npm:1.5.1"
-  checksum: 10c0/e06b12ef3d58e988635511199da1e4f4870ea6561727b1265f3cd0e91e4b1d0efbfa12670bc83e00412da132b69ce943f292f1295246c099763646ba549cd957
+  version: 1.5.4
+  resolution: "@jridgewell/sourcemap-codec@npm:1.5.4"
+  checksum: 10c0/c5aab3e6362a8dd94ad80ab90845730c825fc4c8d9cf07ebca7a2eb8a832d155d62558800fc41d42785f989ddbb21db6df004d1786e8ecb65e428ab8dff71309
   languageName: node
   linkType: hard
 
 "@jridgewell/trace-mapping@npm:^0.3.24, @jridgewell/trace-mapping@npm:^0.3.25":
-  version: 0.3.26
-  resolution: "@jridgewell/trace-mapping@npm:0.3.26"
+  version: 0.3.29
+  resolution: "@jridgewell/trace-mapping@npm:0.3.29"
   dependencies:
     "@jridgewell/resolve-uri": "npm:^3.1.0"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
-  checksum: 10c0/06cfa517ce67c40812281bcafb205adbe509e3c4a178dc733dc04542ed166e6ffbcaf7784888d6152969fed80845b8d5e17daa7b5047f6d44980edf33fb0f4da
+  checksum: 10c0/fb547ba31658c4d74eb17e7389f4908bf7c44cef47acb4c5baa57289daf68e6fe53c639f41f751b3923aca67010501264f70e7b49978ad1f040294b22c37b333
   languageName: node
   linkType: hard
 
@@ -441,31 +441,31 @@ __metadata:
   linkType: hard
 
 "@vueuse/core@npm:^13.1.0":
-  version: 13.4.0
-  resolution: "@vueuse/core@npm:13.4.0"
+  version: 13.5.0
+  resolution: "@vueuse/core@npm:13.5.0"
   dependencies:
     "@types/web-bluetooth": "npm:^0.0.21"
-    "@vueuse/metadata": "npm:13.4.0"
-    "@vueuse/shared": "npm:13.4.0"
+    "@vueuse/metadata": "npm:13.5.0"
+    "@vueuse/shared": "npm:13.5.0"
   peerDependencies:
     vue: ^3.5.0
-  checksum: 10c0/a4ec26881cba3cefb8cb7eddb2148d80508c10c3d3efb07069c39119cec3f99a0dee578d776c4f440d57e4a23b07b0b65e66de0a66fecced28191ec4c6380805
+  checksum: 10c0/82382a8cffd75fced2a07cf06d0bb774d2f56e1b7fac5a017493588f9a7d80457b214c25c4addbc7bbd425214a1f3b1137621d740d0506ea276c4fc7f189f92a
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:13.4.0":
-  version: 13.4.0
-  resolution: "@vueuse/metadata@npm:13.4.0"
-  checksum: 10c0/223b3ec56c9b82586e3940a79f9f3d350986a3ee9f39b3b3bed74055e44fd1d947528c8b78574f2b0afcc4f8d48f6f56abccf1b5919782fc4aee858c0a12f3bb
+"@vueuse/metadata@npm:13.5.0":
+  version: 13.5.0
+  resolution: "@vueuse/metadata@npm:13.5.0"
+  checksum: 10c0/0f5adbe460db9c8ead754b981a28f6adeda4208820a75c61cabd99fa6f6cc785eb263bc634374b82f439bd88bfd94ea8e8c83766c9a46f9a87469d1afb062d37
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:13.4.0":
-  version: 13.4.0
-  resolution: "@vueuse/shared@npm:13.4.0"
+"@vueuse/shared@npm:13.5.0":
+  version: 13.5.0
+  resolution: "@vueuse/shared@npm:13.5.0"
   peerDependencies:
     vue: ^3.5.0
-  checksum: 10c0/6a32f8bf1f655b42374f3f07efd370e1f5b2f2ab9ff7d67f544f8660a48dbf4cb21f206991be6b12fc20a0983e3c82117676583c636f435e369a91dfd5455d78
+  checksum: 10c0/6d6e67a929636ae66fa090729e319713610f22b3ffe6f7bdb459bcde170d2f111b5b11a12412814139a4cfb08d8f3f0d47ba70fcd0a21e806f6108109606e275
   languageName: node
   linkType: hard
 
@@ -1346,9 +1346,9 @@ __metadata:
   linkType: hard
 
 "decimal.js@npm:^10.4.2":
-  version: 10.5.0
-  resolution: "decimal.js@npm:10.5.0"
-  checksum: 10c0/785c35279df32762143914668df35948920b6c1c259b933e0519a69b7003fc0a5ed2a766b1e1dda02574450c566b21738a45f15e274b47c2ac02072c0d1f3ac3
+  version: 10.6.0
+  resolution: "decimal.js@npm:10.6.0"
+  checksum: 10c0/07d69fbcc54167a340d2d97de95f546f9ff1f69d2b45a02fd7a5292412df3cd9eb7e23065e532a318f5474a2e1bccf8392fdf0443ef467f97f3bf8cb0477e5aa
   languageName: node
   linkType: hard
 
