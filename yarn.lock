@@ -2407,7 +2407,7 @@ __metadata:
     hexo-source-tag: "npm:0.0.14"
     hexo-tag-bilitube: "npm:0.1.11"
     hexo-tag-publications: "npm:0.3.8"
-    hexo-theme-next: "npm:8.24.0"
+    hexo-theme-next: "npm:8.24.1"
     hexo-word-counter: "npm:0.2.1"
     hexo-yam: "npm:9.0.0"
     jsdelivr_url: "npm:0.0.1"
@@ -2461,10 +2461,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-theme-next@npm:8.24.0":
-  version: 8.24.0
-  resolution: "hexo-theme-next@npm:8.24.0"
-  checksum: 10c0/7c32360b8e44529a5ddd0d0b1eaaf39ed26f0ba2a388342f1eaf941481ee09c60f331006ef6331fe3753ce3f899f029e2e7ed52dd3fa3e24f228e95d72b741b5
+"hexo-theme-next@npm:8.24.1":
+  version: 8.24.1
+  resolution: "hexo-theme-next@npm:8.24.1"
+  checksum: 10c0/c8b144031f958ab42e870566046d7f03e71ef47aa421aeb2294da5d80c7e6ba0dd102b701f6fd9ed51d6bb462544c624189434c0f292739e3d19e151a7cf2dd6
   languageName: node
   linkType: hard
 
