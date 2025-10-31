@@ -492,32 +492,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^13.9.0":
-  version: 13.9.0
-  resolution: "@vueuse/core@npm:13.9.0"
+"@vueuse/core@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "@vueuse/core@npm:14.0.0"
   dependencies:
     "@types/web-bluetooth": "npm:^0.0.21"
-    "@vueuse/metadata": "npm:13.9.0"
-    "@vueuse/shared": "npm:13.9.0"
+    "@vueuse/metadata": "npm:14.0.0"
+    "@vueuse/shared": "npm:14.0.0"
   peerDependencies:
     vue: ^3.5.0
-  checksum: 10c0/f1e6c5e02584e018e53e0e5f93844afbcd33742c5a2454e57aaa3433e9068efbe84b7b423f34628738e28e3ba4bfe7d648f2edaae39706a236ae48bc1a22709b
+  checksum: 10c0/f82c8c7f8fcf62881982a98090bc4790eb0b781d8dec9f060b56759f0c252c681ad0e52aaebe59d82a97d54f180c3586524e905a92a2ab0a21d2d07a42af9299
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:13.9.0":
-  version: 13.9.0
-  resolution: "@vueuse/metadata@npm:13.9.0"
-  checksum: 10c0/7e4620c6e5acbf8f2e5eba0db80a8de887f4816221b383e5d829ee833139d262b8a89e9709d58d7aacb263927ce2c55e262eb29372f784aa9138c8fa7a86506a
+"@vueuse/metadata@npm:14.0.0":
+  version: 14.0.0
+  resolution: "@vueuse/metadata@npm:14.0.0"
+  checksum: 10c0/04868a4b366e096f59edac78b95f743a80bea16a14966323f6b6bdb017333871598a7e9c68089a01fa439fe850e50fd3f8eddcbc87a820583629652e307bc4d8
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:13.9.0":
-  version: 13.9.0
-  resolution: "@vueuse/shared@npm:13.9.0"
+"@vueuse/shared@npm:14.0.0":
+  version: 14.0.0
+  resolution: "@vueuse/shared@npm:14.0.0"
   peerDependencies:
     vue: ^3.5.0
-  checksum: 10c0/4820f71caab3c94bc88343270bb4408d8818baa9c0223e6f7499aeb05f9227a87724c15b792f2aaf308137ac996cccd93c0cbe338f7cf3ae50045981abc223a3
+  checksum: 10c0/4d3e017782965fc9e317ac3574af6af8140a7f618980d7d207f4b92fe6665a34bccd2d8fcfa654833af5c051a832f0670d510eb9c3cf09d2b9989def742e76a8
   languageName: node
   linkType: hard
 
@@ -528,18 +528,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@waline/client@npm:3.7.0":
-  version: 3.7.0
-  resolution: "@waline/client@npm:3.7.0"
+"@waline/client@npm:3.7.1":
+  version: 3.7.1
+  resolution: "@waline/client@npm:3.7.1"
   dependencies:
-    "@vueuse/core": "npm:^13.9.0"
+    "@vueuse/core": "npm:^14.0.0"
     "@waline/api": "npm:1.0.0"
     autosize: "npm:^6.0.1"
-    marked: "npm:^16.4.0"
+    marked: "npm:^16.4.1"
     marked-highlight: "npm:^2.2.2"
     recaptcha-v3: "npm:^1.11.3"
     vue: "npm:^3.5.22"
-  checksum: 10c0/83d74e7c8e8592f42b96cd2f69357ca20669c2ce6da3c4d8e9fd98dfa31e3336f40766b5f8380e4337608233dad2f70b99438fe3400e116b066db8f82003dfbc
+  checksum: 10c0/ed0ed216602bf26c1470e97c5331577ffc82be5532f7ae994c37500d098c8c47483e2bd88879370e21bb130aac20a0d5439e894d23b707b452788aecfed58e07
   languageName: node
   linkType: hard
 
@@ -2371,7 +2371,7 @@ __metadata:
     "@njzjz/hexo-sitemap": "npm:0.1.0"
     "@njzjz/icons": "npm:0.0.5"
     "@njzjz/preview-cfpages": "npm:0.0.6"
-    "@waline/client": "npm:3.7.0"
+    "@waline/client": "npm:3.7.1"
     "@waline/hexo-next": "npm:3.0.1"
     bundlesize: "npm:0.18.2"
     hexo: "npm:7.3.0"
@@ -3140,7 +3140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^16.4.0":
+"marked@npm:^16.4.1":
   version: 16.4.1
   resolution: "marked@npm:16.4.1"
   bin:
