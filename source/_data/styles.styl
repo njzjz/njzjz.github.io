@@ -2,3 +2,72 @@
     /* one column per row */
     grid-template-columns: 1fr;
 }
+
+.experience {
+    display: grid;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    margin-bottom: 20px;
+    padding: 0;
+    grid-template-columns: 1fr;
+}
+
+.experience .experience-container {
+    min-height: 5rem;
+    min-width: 0;
+    position: relative;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.experience .experience-container:hover {
+    background: var(--card-bg-color);
+}
+
+.experience .experience-container .experience-image {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 5rem;
+    padding: 3px;
+    width: 5rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 1rem;
+    position: unset;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+}
+
+.experience .experience-container p {
+    line-height: 1.7rem;
+    margin: 0 1rem 0 7rem;
+    font-size: 0.9em;
+}
+
+.experience .experience-container p:first-of-type {
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.experience .experience-container p:last-of-type {
+    font-size: 0.75em;
+    line-height: 1.3rem;
+}
+
+.experience .experience-container a {
+    border: 0;
+    height: auto;
+    width: auto;
+    top: auto;
+    left: auto;
+    position: unset;
+}
+
+.experience .experience-container {
+    box-shadow: none;
+}
+
+.experience .experience-container:hover {
+    animation: none;
+}
