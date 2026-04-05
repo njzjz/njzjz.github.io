@@ -30,5 +30,5 @@ tags:
 书太贵了，自费是买不起正版的。后来我灵机一动，向学校图书馆建议购买，被采纳了。<del>但是好像有些学校本来就买了Elsevier的权限。</del>
 
 {% publications %}
-Zeng_2022_Chapter
+Zeng_BookChap_QuantChemML_2022_p279
 {% endpublications %}

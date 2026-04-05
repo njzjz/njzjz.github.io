@@ -47,7 +47,7 @@ tags:
 除此以外，文章的二作还创作了期刊封面，这一封面在修回时一起提交，并于文章接受两天后，顺利接受。
 
 {% publications %}
-Zeng_JChemTheoryComput_2023_vNone_pNone
+Zeng_JChemTheoryComput_2023_v19_p1261
 {% endpublications %}
 
 至此，总算在数量上凑齐五篇代表作。接下来希望能用更好的成果“替换”以前的成果。
