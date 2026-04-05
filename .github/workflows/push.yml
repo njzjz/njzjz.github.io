@@ -19,6 +19,5 @@ jobs:
     - run: npm install -g yarn
     - run: yarn install
     - run: yarn build
-      if: github.ref != 'refs/heads/hexo'
       env:
         GH_TOKEN: ${{ secrets.ZENGLIB_TOKEN }}
