@@ -1949,6 +1949,7 @@ __metadata:
     hexo-yam: "npm:9.0.0"
     jsdelivr_url: "npm:0.0.1"
     sticker-heo: "npm:2022.7.5"
+    tar: "npm:^7.5.13"
   languageName: unknown
   linkType: soft
 
@@ -3862,7 +3863,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tar@npm:^7.5.4":
+"tar@npm:^7.5.13, tar@npm:^7.5.4":
   version: 7.5.13
   resolution: "tar@npm:7.5.13"
   dependencies:
