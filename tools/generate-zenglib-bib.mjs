@@ -36,44 +36,10 @@ async function walk(dir, acc = []) {
   return acc;
 }
 
-function splitBibEntries(text) {
-  const lines = text.split(/\r?\n/);
-  const entries = [];
-  let cur = [];
-  for (const line of lines) {
-    if (line.startsWith('@') && cur.length) {
-      entries.push(cur.join('\n').trim());
-      cur = [line];
-    } else {
-      cur.push(line);
-    }
-  }
-  if (cur.join('').trim()) entries.push(cur.join('\n').trim());
-  return entries.filter(Boolean);
-}
-
-function entryKey(entry) {
-  const m = entry.match(/^@\w+\{\s*([^,]+),/s);
-  return m ? m[1].trim() : null;
-}
-
 const files = (await walk(extractDir)).sort((a, b) => relative(extractDir, a).localeCompare(relative(extractDir, b), 'en'));
-const parts = [];
-for (const file of files) parts.push(await readFile(file, 'utf8'));
-parts.push(await readFile('tools/legacy-publications.bib', 'utf8'));
-
-const seen = new Set();
-const mergedEntries = [];
-for (const part of parts) {
-  for (const entry of splitBibEntries(part)) {
-    const key = entryKey(entry);
-    if (!key || seen.has(key)) continue;
-    seen.add(key);
-    mergedEntries.push(entry);
-  }
-}
-
+const merged = [];
+for (const file of files) merged.push(await readFile(file, 'utf8'));
 await mkdir('source/_data', { recursive: true });
-await writeFile('source/_data/pub.bib', mergedEntries.join('\n\n') + '\n', 'utf8');
+await writeFile('source/_data/pub.bib', merged.join(''), 'utf8');
 await rm(tmp, { recursive: true, force: true });
-console.log(`Generated source/_data/pub.bib from private ${owner}/${repo} with ${mergedEntries.length} deduplicated entries.`);
+console.log(`Generated source/_data/pub.bib from ${files.length} BibTeX files in private ${owner}/${repo}.`);
