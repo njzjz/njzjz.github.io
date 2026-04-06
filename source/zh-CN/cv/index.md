@@ -1,25 +1,30 @@
 ---
 title: 曾晋哲
-update: 2025-03-04
+date: 2020-10-27
+update: 2026-04-06
 mathjax: true
 ---
 
-{% experience %}
-预聘副教授 | 人工智能与数据科学学院<br/>中国科学技术大学 | <a href="mailto:jinzhe.zeng@ustc.edu.cn"><i class="fa fa-envelope"></i></a> <a href="https://scholar.google.com/citations?user=P7gRtg4AAAAJ&hl=en"><i class="fa-brands fa-google-scholar"></i></a> <a href="https://orcid.org/0000-0002-1515-8172"><i class="fa-brands fa-orcid"></i></a> <a href="https://www.researchgate.net/profile/Jinzhe-Zeng-2"><i class="fa-brands fa-researchgate"></i></a> <a href="https://github.com/njzjz"><i class="fa-brands fa-github"></i></a> | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.5/njzjz/avatar.jpg
-{% endexperience %}
-
 ## 教育经历
 
-{% experience %}
-华东师范大学 | 化学学士 | 2015年9月 - 2019年7月 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/ecnu.svg
-罗格斯大学 | 化学与化学生物学博士 | 2019年8月 - 2025年1月 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/rutgers.svg
-{% endexperience %}
+{% linkgrid %}
+华东师范大学 | https://news.ecnu.edu.cn/ff/5e/c1837a261982/page.htm | 2015年9月-2019年7月：化学学士 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/ecnu.svg
+罗格斯大学 | https://search.rutgers.edu/people/n6Ps3hFvSCd8EQ9QcNIyQw | 2019年8月-2025年1月：化学博士 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/rutgers.svg
+{% endlinkgrid %}
 
 ## 工作经历
 
-{% experience %}
-预聘副教授 | 人工智能与数据科学学院<br/>中国科学技术大学 | 2025年2月 - 至今 | https://s2.loli.net/2025/03/04/ZvdX4aO5b82Lf63.png
-{% endexperience %}
+{% linkgrid %}
+中国科学技术大学 | https://faculty.ustc.edu.cn/jinzhezeng | 2025年2月-至今：预聘副教授<br/>人工智能与数据科学学院 | https://s2.loli.net/2025/03/04/ZvdX4aO5b82Lf63.png
+华东师范大学 | https://computchem.cn/people/ | 2017年9月-2019年7月：科研志愿者<br/>￥1000/月 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/ecnu.svg
+上海巧坤化工科技有限公司 | http://www.shqkchem.com/?lang=zh | 2018年9月-2018年11月：6学分本科课程实习<br/>￥2200/月 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/qk.png
+北京大数据研究院 | http://www.bibdr.org/ | 2019年6月-2019年7月：暑期科研实习<br/>￥6500/月 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/bibdr.png
+罗格斯大学 | https://chem.rutgers.edu | 2019年9月-2020年8月：奖学金<br/>2020年8月-2024年12月：研究助理<br/>￥20000/月 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/rutgers.svg
+{% endlinkgrid %}
+
+## 研究
+
+为各种模拟体系开发基于深度学习方法的势能，包括碳氢燃料燃烧、RNA催化反应、药物发现和精密医学。
 
 ## 发表文章
 
