@@ -15,11 +15,11 @@ Rutgers University | https://search.rutgers.edu/people/n6Ps3hFvSCd8EQ9QcNIyQw | 
 ## Work Experience
 
 {% linkgrid %}
-University of Science and Technology of China | https://faculty.ustc.edu.cn/jinzhezeng | Tenure-track Assistant Professor<br/>School of Artifical Intelligence and Data Science (Feb 2025 - Present) | https://s2.loli.net/2025/03/04/ZvdX4aO5b82Lf63.png
 East China Normal University | https://computchem.cn/people/ | Research Volunteer (Sep 2017 - Jul 2019)<br/>$150/month | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/ecnu.svg
 Shanghai Qiaokun Chem. Tech. Co., LTD | http://www.shqkchem.com/?lang=en | Undergraduate Internship Course for 6 Credits (Sep 2018 - Nov 2018)<br/>$340/month | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/qk.png
 Beijing Institute of Big Data Research | http://www.bibdr.org/en/ | Summer Research Internship (Jun 2019 - Jul 2019)<br/>$1000/month | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/bibdr.png
 Rutgers University | https://chem.rutgers.edu | Remained Fellow (Sep 2019 - Aug 2020)<br/>Graduate Assistant (Aug 2020 - Dec 2024)<br/>$3000/month | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/rutgers.svg
+University of Science and Technology of China | https://faculty.ustc.edu.cn/jinzhezeng | Tenure-track Assistant Professor<br/>School of Artifical Intelligence and Data Science (Feb 2025 - Present) | https://s2.loli.net/2025/03/04/ZvdX4aO5b82Lf63.png
 {% endlinkgrid %}
 
 ## Research

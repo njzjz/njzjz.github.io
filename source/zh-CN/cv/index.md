@@ -15,11 +15,11 @@ mathjax: true
 ## 工作经历
 
 {% linkgrid %}
-中国科学技术大学 | https://faculty.ustc.edu.cn/jinzhezeng | 2025年2月-至今：预聘副教授<br/>人工智能与数据科学学院 | https://s2.loli.net/2025/03/04/ZvdX4aO5b82Lf63.png
 华东师范大学 | https://computchem.cn/people/ | 2017年9月-2019年7月：科研志愿者<br/>￥1000/月 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/ecnu.svg
 上海巧坤化工科技有限公司 | http://www.shqkchem.com/?lang=zh | 2018年9月-2018年11月：6学分本科课程实习<br/>￥2200/月 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/qk.png
 北京大数据研究院 | http://www.bibdr.org/ | 2019年6月-2019年7月：暑期科研实习<br/>￥6500/月 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/bibdr.png
 罗格斯大学 | https://chem.rutgers.edu | 2019年9月-2020年8月：奖学金<br/>2020年8月-2024年12月：研究助理<br/>￥20000/月 | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.3/logos/rutgers.svg
+中国科学技术大学 | https://faculty.ustc.edu.cn/jinzhezeng | 2025年2月-至今：预聘副教授<br/>人工智能与数据科学学院 | https://s2.loli.net/2025/03/04/ZvdX4aO5b82Lf63.png
 {% endlinkgrid %}
 
 ## 研究
