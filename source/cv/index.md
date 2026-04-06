@@ -5,7 +5,7 @@ mathjax: true
 ---
 
 {% experience %}
-Assistant Professor | School of Artifical Intelligence and Data Science<br/>University of Science and Technology of China | <a href="mailto:jinzhe.zeng@ustc.edu.cn"><i class="fa fa-envelope"></i></a> <a href="https://scholar.google.com/citations?user=P7gRtg4AAAAJ&hl=en"><i class="fa-brands fa-google-scholar"></i></a> <a href="https://orcid.org/0000-0002-1515-8172"><i class="fa-brands fa-orcid"></i></a> <a href="https://www.researchgate.net/profile/Jinzhe-Zeng-2"><i class="fa-brands fa-researchgate"></i></a> <a href="https://github.com/njzjz"><i class="fa-brands fa-github"></i></a> | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.5/njzjz/avatar.jpg
+Tenure-track Assistant Professor | School of Artifical Intelligence and Data Science<br/>University of Science and Technology of China | <a href="mailto:jinzhe.zeng@ustc.edu.cn"><i class="fa fa-envelope"></i></a> <a href="https://scholar.google.com/citations?user=P7gRtg4AAAAJ&hl=en"><i class="fa-brands fa-google-scholar"></i></a> <a href="https://orcid.org/0000-0002-1515-8172"><i class="fa-brands fa-orcid"></i></a> <a href="https://www.researchgate.net/profile/Jinzhe-Zeng-2"><i class="fa-brands fa-researchgate"></i></a> <a href="https://github.com/njzjz"><i class="fa-brands fa-github"></i></a> | https://cdn.jsdelivr.net/npm/@njzjz/icons@0.0.5/njzjz/avatar.jpg
 {% endexperience %}
 
 ## Education
@@ -18,7 +18,7 @@ Rutgers University | PhD in Chemistry and Chemical Biology | Aug 2019 - Jan 2025
 ## Work Experience
 
 {% experience %}
-Assistant Professor | School of Artifical Intelligence and Data Science<br/>University of Science and Technology of China | Feb 2025 - Present | https://s2.loli.net/2025/03/04/ZvdX4aO5b82Lf63.png
+Tenure-track Assistant Professor | School of Artifical Intelligence and Data Science<br/>University of Science and Technology of China | Feb 2025 - Present | https://s2.loli.net/2025/03/04/ZvdX4aO5b82Lf63.png
 {% endexperience %}
 
 ## Publications
