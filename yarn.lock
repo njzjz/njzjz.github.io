@@ -2730,7 +2730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.17":
+"nanoid@npm:^3.3.18":
   version: 3.3.18
   resolution: "nanoid@npm:3.3.18"
   bin:
@@ -2865,9 +2865,9 @@ __metadata:
   linkType: hard
 
 "nwsapi@npm:^2.2.12":
-  version: 2.2.26
-  resolution: "nwsapi@npm:2.2.26"
-  checksum: 10c0/34576d87d2d7a833fcb88db82ed8857f85e5afeba94000f71e2ca6dc9c448d1050024f7a63a76ade49dd5db3707f68ad648af1992705d6224a7928e974d48bdd
+  version: 2.2.27
+  resolution: "nwsapi@npm:2.2.27"
+  checksum: 10c0/14c1f6055dbe97b7564605ec7f39954f65ca47910345cf1e2aef7e6366276b9b12a0bad2d6090b418f78f9791a4f8d9ac098f94d85fd3acd7e3f491d75677476
   languageName: node
   linkType: hard
 
@@ -3053,13 +3053,13 @@ __metadata:
   linkType: hard
 
 "postcss@npm:^8.5.19":
-  version: 8.5.26
-  resolution: "postcss@npm:8.5.26"
+  version: 8.5.28
+  resolution: "postcss@npm:8.5.28"
   dependencies:
-    nanoid: "npm:^3.3.17"
+    nanoid: "npm:^3.3.18"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10c0/2bdafc00d96bd57b6649a52e458864a4bf58ee56cfdbe4aea1472b5cccc127e6c1ad653bd0bec50d211e650eb0b9270c80e1e72aff2e2fa40d9e7363234d6e43
+  checksum: 10c0/9fe44215a6628d89c8a75184b92f5b2f77e16f9e5b13b39b9009bb7e8e6eccddf82c8854bae922db1f17ace6ef3445073fe38abff513caeb03e5285b1b55620a
   languageName: node
   linkType: hard
 
@@ -3785,9 +3785,9 @@ __metadata:
   linkType: hard
 
 "undici@npm:^8.4.1":
-  version: 8.10.0
-  resolution: "undici@npm:8.10.0"
-  checksum: 10c0/37ae2b1db8f65c3a003504e2040e96887b99f9db16ba07dcf49c37ed8b7f8c72f4452f2d46f52f7c9e49518fe8325e3b5e7e02ac3a2424886bd67d4b62a0ecab
+  version: 8.10.2
+  resolution: "undici@npm:8.10.2"
+  checksum: 10c0/66d7fc69149207cab570d6abbc9e965b6afe1ae889a7d46945b431165c973d6a56f3dd8b70a856e7ae1e550b6366a1cde6f06e68640587f0dadca38de72995ee
   languageName: node
   linkType: hard
 
