@@ -420,7 +420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^14.3.0":
+"@vueuse/core@npm:^14.4.0":
   version: 14.4.0
   resolution: "@vueuse/core@npm:14.4.0"
   dependencies:
@@ -456,18 +456,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@waline/client@npm:3.15.2":
-  version: 3.15.2
-  resolution: "@waline/client@npm:3.15.2"
+"@waline/client@npm:3.16.0":
+  version: 3.16.0
+  resolution: "@waline/client@npm:3.16.0"
   dependencies:
-    "@vueuse/core": "npm:^14.3.0"
+    "@vueuse/core": "npm:^14.4.0"
     "@waline/api": "npm:1.1.2"
+    "@webc.site/math": "npm:^0.1.34"
     autosize: "npm:^6.0.1"
-    marked: "npm:^18.0.4"
+    marked: "npm:^18.0.11"
     marked-highlight: "npm:^2.2.4"
     recaptcha-v3: "npm:^1.11.3"
-    vue: "npm:^3.5.35"
-  checksum: 10c0/7abdf3c152ed91870a206f053595f6eec904e89f08755d805e65b268647d356a737cd21b81587b723f9ea9908bdfc964961415e8fa50fe016e406748fb0b25f6
+    vue: "npm:^3.5.42"
+  checksum: 10c0/e01d95206105fc067565a68f6790dfbef2dcc22134306974e5648da5e77d5baac8b0d36f3f157c5333e24ac000437d9a2d0d7ef59979df477c9a756b539a7f9d
   languageName: node
   linkType: hard
 
@@ -477,6 +478,13 @@ __metadata:
   dependencies:
     "@next-theme/utils": "npm:^1.3.0"
   checksum: 10c0/446e06d97c3b05e88f3e23b8d20a4daf8a10591a33d59a5b8b878bccbbaf9b66fdff1d04c656d9ba518b4ea5d20b255e81054d2a6eca7e769a1f928c20e3402a
+  languageName: node
+  linkType: hard
+
+"@webc.site/math@npm:^0.1.34":
+  version: 0.1.41
+  resolution: "@webc.site/math@npm:0.1.41"
+  checksum: 10c0/a04b2ba06ffd6cfac85b15a0801ed88ee2ba033ab04dde1a060b3f28664fa1f2def9d8f77996fc290dfd91956b7063bb9cdce9b10daa98940da74a9fb82da099
   languageName: node
   linkType: hard
 
@@ -1851,7 +1859,7 @@ __metadata:
   dependencies:
     "@njzjz/hexo-sitemap": "npm:0.1.0"
     "@njzjz/icons": "npm:0.0.7"
-    "@waline/client": "npm:3.15.2"
+    "@waline/client": "npm:3.16.0"
     "@waline/hexo-next": "npm:3.0.1"
     hexo: "npm:7.3.0"
     hexo-extract-inline-scripts: "npm:0.0.3"
@@ -2489,7 +2497,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^18.0.4":
+"marked@npm:^18.0.11":
   version: 18.0.14
   resolution: "marked@npm:18.0.14"
   bin:
@@ -3837,7 +3845,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.5.35":
+"vue@npm:^3.5.42":
   version: 3.5.43
   resolution: "vue@npm:3.5.43"
   dependencies:
