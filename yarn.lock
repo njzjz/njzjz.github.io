@@ -456,19 +456,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@waline/client@npm:3.16.1":
-  version: 3.16.1
-  resolution: "@waline/client@npm:3.16.1"
+"@waline/client@npm:3.16.2":
+  version: 3.16.2
+  resolution: "@waline/client@npm:3.16.2"
   dependencies:
     "@vueuse/core": "npm:^15.0.0"
     "@waline/api": "npm:1.1.2"
     "@webc.site/math": "npm:^0.1.41"
     autosize: "npm:^6.0.1"
-    marked: "npm:^18.0.14"
+    marked: "npm:^18.1.2"
     marked-highlight: "npm:^2.2.4"
     recaptcha-v3: "npm:^1.11.3"
-    vue: "npm:^3.5.43"
-  checksum: 10c0/012bf5c94bdbfd01ee07da48e442de52a35f1e8cdb791290619e516be1b4b66c67b4a2ecea92fa7577ffdfdca5eadfa4ee9b58acdcea2333b387046affced4e7
+    vue: "npm:^3.5.44"
+  checksum: 10c0/6920b11babd230148cb6bd40ec5f3a8bb4f2b633241ad350988dd05a14c8f4c2b8eb0356944031c755adacef278c451c28ff372f4f73b31145e3453049a99dac
   languageName: node
   linkType: hard
 
@@ -1859,7 +1859,7 @@ __metadata:
   dependencies:
     "@njzjz/hexo-sitemap": "npm:0.1.0"
     "@njzjz/icons": "npm:0.0.7"
-    "@waline/client": "npm:3.16.1"
+    "@waline/client": "npm:3.16.2"
     "@waline/hexo-next": "npm:3.0.1"
     hexo: "npm:7.3.0"
     hexo-extract-inline-scripts: "npm:0.0.3"
@@ -2497,12 +2497,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^18.0.14":
-  version: 18.1.2
-  resolution: "marked@npm:18.1.2"
+"marked@npm:^18.1.2":
+  version: 18.1.3
+  resolution: "marked@npm:18.1.3"
   bin:
     marked: bin/marked.js
-  checksum: 10c0/0e7312138d6cf866f59a28d2d97ab332ef1b6d1d09263306375a8e9c0e5a4ee892ff1e6ecb668a4959fab0c5f1008c3ddec16c861396fe7cce8f7810521484c9
+  checksum: 10c0/13e72a88c479f388f8c476f8fd50498740097f239091fcfc57d477ac1732c72c70261170029ef6f5029f48cda68663a4d2cd892041f588d95daf52caca02e1a2
   languageName: node
   linkType: hard
 
@@ -3845,7 +3845,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.5.43":
+"vue@npm:^3.5.44":
   version: 3.5.44
   resolution: "vue@npm:3.5.44"
   dependencies:
